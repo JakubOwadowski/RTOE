@@ -1,3 +1,3 @@
-# Rome: Twilight of the mpire
+# Rome: Twilight of the empire
 An alt-hist EU4 mod
  
