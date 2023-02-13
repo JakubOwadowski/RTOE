@@ -1,0 +1,29 @@
+government = monarchy
+add_government_reform = feudalism_reform
+government_rank = 1
+primary_culture = ligurian
+religion = orthodox
+religious_school = see_of_rome
+technology_group = western
+capital = 1 	# Monaco
+fixed_capital = 1  # Cannot move capital away from this province & no power cost to move to it
+
+1436.1.1 = {
+	monarch = {
+		name = "Jean I"
+		dynasty = "Grimaldi"
+		birth_date = 1382.1.1
+		adm = 2
+		dip = 3
+		mil = 3
+	}
+	heir = {
+		name = "Catalano"
+		monarch_name = "Catalano I"
+		dynasty = "Grimaldi"
+		birth_date = 1415.1.1
+		adm = 5
+		dip = 4
+		mil = 4
+	}
+}

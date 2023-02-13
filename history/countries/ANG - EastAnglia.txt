@@ -1,0 +1,30 @@
+government = monarchy
+add_government_reform = feudalism_reform
+technology_group = western
+primary_culture = english
+religion = orthodox
+religious_school = see_of_rome
+capital = 1860	# Norfolk
+
+1444.1.1 = {
+	monarch = {
+		name = "Henry I"
+		dynasty = "Wessex"
+		birth_date = 1388.9.22
+		death_date = 1448.5.20
+		adm = 4
+		dip = 4
+		mil = 3
+	}
+	heir = {
+		name = "Thomas"
+		monarch_name = "Thomas I"
+		dynasty = "Wessex"
+		birth_date = 1415.11.14
+		death_date = 1495.8.26
+		claim = 70
+		adm = 6
+		dip = 6
+		mil = 3
+	}
+}

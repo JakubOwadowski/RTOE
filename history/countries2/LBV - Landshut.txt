@@ -1,0 +1,9 @@
+#For the record, LBV = Lower Bavaria
+
+government = monarchy
+add_government_reform = feudalism_reform
+government_rank = 1
+technology_group = western
+primary_culture = bavarian
+religion = orthodox
+capital = 64	# Landshut

@@ -1,0 +1,150 @@
+#Irish fiefdom (similiar to a daimyo)
+irish_fiefdom_reform = {
+	icon = "irish_fiefdom_reform"
+	allow_normal_conversion = no
+	potential = {
+		NOT = { has_country_flag = formed_ireland_flag }
+		overlord = { has_reform = high_kingdom_reform }
+		has_reform = irish_fiefdom_reform
+	}
+	fixed_rank = 1
+	valid_for_nation_designer = no
+	nation_designer_cost = 0
+	lock_level_when_selected = yes
+	nation_designer_trigger = {
+		culture = irish
+		capital_scope = { 
+			OR = {
+				area = munster_area
+				area = connacht_area
+				area = leinster_area
+				area = ulster_area
+			}
+		}
+	}
+	modifiers = {
+		global_tax_modifier = 0.1
+		global_sailors_modifier = 0.25
+		naval_forcelimit_modifier = 0.1
+		global_trade_power = 0.05
+	}
+	custom_attributes = {
+		locked_government_type = yes
+	}
+}
+
+#High Kingship of Ireland
+high_kingdom_reform = {
+	icon = "high_kingdom_reform"
+	allow_normal_conversion = no
+	potential = {
+		has_reform = high_kingdom_reform
+	}
+	valid_for_nation_designer = yes
+	nation_designer_cost = 20
+	lock_level_when_selected = yes
+	nation_designer_trigger = {
+		culture = irish
+		capital_scope = { 
+			OR = {
+				area = munster_area
+				area = connacht_area
+				area = leinster_area
+				area = ulster_area
+			}
+		}
+	}
+	modifiers = {
+		global_tax_modifier = 0.15
+		global_sailors_modifier = 0.30
+		naval_forcelimit_modifier = 0.15
+		global_trade_power = 0.10
+		diplomats = 1
+		governing_capacity_modifier = -0.5
+		reduced_liberty_desire_on_same_continent = 10
+	}
+	custom_attributes = {
+		locked_government_type = yes
+	}
+}
+
+#Provincial oligarchic republic - for Egypt and P-S
+roman_provincial_goverment_reform = {
+	icon = "roman_provincial_goverment_reform"
+	allow_normal_conversion = no
+	potential = {
+		#overlord = { has_reform = roman_empire_reform }
+		has_reform = roman_provincial_goverment_reform
+	}
+	factions = {
+		aristocrats_faction
+		loyalists_faction
+		beaurocrats_faction
+	}
+	modifiers = {
+		production_efficiency = 0.05
+	}
+	valid_for_nation_designer = no
+	custom_attributes = {
+		election_on_death = yes
+	}
+	has_term_election = no
+}
+
+#Imperial Bishopric-Metropolies (some overlap with free cities)
+imperial_bishopric_reform = {
+	allow_normal_conversion = no
+	potential = {
+		has_reform = imperial_bishopric_reform
+	}
+	icon = "religious_leader"
+	valid_for_nation_designer = yes
+	nation_designer_cost = 40
+	modifiers = {
+		devotion = 1
+		yearly_patriarch_authority = 0.1
+	}
+	nation_designer_trigger = {
+		capital_scope = { is_part_of_hre = yes }
+		NOT = { num_custom_nation_provinces = 2 }
+	}
+	free_city = yes
+}
+
+#Cossacks
+cossack_host = {
+	icon = "cossack_host"
+	potential = {
+		or = {
+			has_reform = cossack_host
+			culture = cossack
+		}
+	}
+	
+	nomad = yes
+	raze_province = yes
+	valid_for_nation_designer = yes
+	nation_designer_cost = 0
+	lock_level_when_selected = yes
+	start_territory_to_estates = 0.5
+	
+	modifiers = {
+		governing_capacity_modifier = -0.25
+		cavalry_cost = -0.05
+		cavalry_shock = 1
+		general_cost = -0.25
+		leader_land_manuever = 1
+		movement_speed = 0.1
+		loot_amount = 0.25
+	}
+	nation_designer_trigger = {
+		culture = cossack
+	}
+	custom_attributes = {
+		enables_horde_idea_group = yes
+		enables_aristocratic_idea_group = no
+	}
+	ai = {
+		factor = 1000
+	}
+}

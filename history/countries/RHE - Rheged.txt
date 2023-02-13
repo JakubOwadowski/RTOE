@@ -1,0 +1,30 @@
+government = monarchy
+add_government_reform = feudalism_reform
+government_rank = 1
+technology_group = western
+primary_culture = cumbrian
+religion = ofbrit
+capital = 247
+
+1444.1.1 = {
+	monarch = {
+		name = "Calum I"
+		dynasty = "Gutraidh"
+		birth_date = 1408.4.13
+		death_date = 1468.3.12
+		adm = 3
+		dip = 2
+		mil = 5
+	}
+	heir = {
+		name = "Seumas"
+		monarch_name = "Seumas I"
+		dynasty = "Gutraidh"
+		birth_date = 1433.4.1
+		death_date = 1454.6.2
+		claim = 90
+		adm = 3
+		dip = 6
+		mil = 3
+	}
+}

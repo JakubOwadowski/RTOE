@@ -1,0 +1,10 @@
+government = monarchy
+add_government_reform = feudalism_reform
+technology_group = western
+religion = orthodox
+religious_school = see_of_rome
+primary_culture = umbrian
+capital = 114 # Ravenna
+set_country_flag = italy_province
+
+elector = yes #At least what remains of it

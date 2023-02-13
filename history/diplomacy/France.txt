@@ -1,0 +1,28 @@
+#France
+
+dependency = {
+	subject_type = "feudal_vassal"
+	first = FRA
+	second = GUY
+	start_date = 1444.1.1
+}
+
+dependency = {
+	subject_type = "feudal_vassal"
+	first = FRA
+	second = POI
+	start_date = 1444.1.1
+}
+
+dependency = {
+	subject_type = "feudal_vassal"
+	first = FRA
+	second = ANJ
+	start_date = 1444.1.1
+}
+
+alliance = {
+	first = FRA
+	second = PRO
+	start_date = 1444.1.1
+}

@@ -1,0 +1,7 @@
+government = monarchy
+add_government_reform = feudalism_reform
+primary_culture = slovak
+religion = orthodox
+religious_school = see_of_rome
+capital = 1772 # Bratislava
+technology_group = eastern

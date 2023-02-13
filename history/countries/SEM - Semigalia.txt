@@ -1,0 +1,7 @@
+government = tribal
+add_government_reform = tribal_kingdom
+government_rank = 1
+primary_culture = semigallian
+religion = baltic_pagan_reformed
+technology_group = eastern
+capital = 1935

@@ -1,0 +1,36 @@
+#Normandy
+
+dependency = {
+	subject_type = "feudal_vassal"
+	first = NRM
+	second = ANG
+	start_date = 1444.1.1
+}
+
+dependency = {
+	subject_type = "feudal_vassal"
+	first = NRM
+	second = MRC
+	start_date = 1444.1.1
+}
+
+dependency = {
+	subject_type = "feudal_vassal"
+	first = NRM
+	second = YRK
+	start_date = 1444.1.1
+}
+
+dependency = {
+	subject_type = "feudal_vassal"
+	first = NRM
+	second = DRH
+	start_date = 1444.1.1
+}
+
+dependency = {
+	subject_type = "feudal_vassal"
+	first = NRM
+	second = CHP
+	start_date = 1444.1.1
+}

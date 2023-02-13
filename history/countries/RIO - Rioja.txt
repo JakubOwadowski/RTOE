@@ -1,0 +1,17 @@
+government = monarchy
+add_government_reform = feudalism_reform
+primary_culture = tarraconese
+religion = orthodox
+religious_school = see_of_rome
+technology_group = western
+capital = 2989 #Rioja
+
+1429.1.1 = {
+	monarch = {
+		name = "Ramiro III"
+		dynasty = "Mantio"
+		adm = 4
+		dip = 4
+		mil = 6
+	}
+}

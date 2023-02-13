@@ -1,0 +1,22 @@
+#Black Douglases
+
+government = monarchy
+add_government_reform = feudalism_reform
+government_rank = 1
+technology_group = western 
+primary_culture = scottish
+add_accepted_culture = highland_scottish
+religion = ofbrit
+capital = 4709
+
+1444.1.1 = {
+        monarch = {
+                name = "William VIII"
+                dynasty = "Douglas"
+                birth_date = 1425.1.1
+                death_date = 1452.2.22
+                adm = 2
+                dip = 4
+                mil = 5
+        }
+}

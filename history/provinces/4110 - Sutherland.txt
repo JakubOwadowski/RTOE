@@ -1,0 +1,19 @@
+#4110 - Sutherland
+
+owner = CBH
+controller = CBH
+culture = highland_scottish
+religion = ofbrit
+hre = no
+base_tax = 1
+base_production = 2
+trade_goods = grain
+base_manpower = 1
+capital = "Dornach"
+is_city = yes
+add_core = CBH
+discovered_by = western
+discovered_by = muslim
+discovered_by = ottoman
+discovered_by = eastern
+discovered_by = western

@@ -1,0 +1,21 @@
+﻿l_english:
+ FEUDAL_ANNEX: "To annex feudal vassals you first need to unlock administrative technology 12."
+ EMPEROR_CANT_CLAIM: "All land in the Roman Empire already belongs de jure to the Emperor. There's nothing to claim."
+ PROVINCES_ONLY_VIA_EVENTS: "Provinces can be established only via events."
+ 
+ see_of_rome: "See of Rome"
+ see_of_constantinople: "See of Constantinople"
+ see_of_alexandria: "See of Alexandria"
+ see_of_antioch: "See of Antioch"
+ see_of_jerusalem: "See of Jerusalem"
+ 
+ white_palace_title: "White Palace"
+ white_palace: "White Palace"
+ great_project_white_palace: "White Palace"
+ 
+ holy_apostoles_title: "Church of the Holy Apostoles"
+ holy_apostoles: "Church of the Holy Apostoles"
+ great_project_holy_apostoles: "Church of the Holy Apostoles"
+ 
+ roman_provincial_goverment_reform: "Province"
+ roman_provincial_goverment_reform_desc: "Province"

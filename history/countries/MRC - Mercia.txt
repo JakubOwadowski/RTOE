@@ -1,0 +1,30 @@
+government = monarchy
+add_government_reform = feudalism_reform
+technology_group = western
+primary_culture = english
+religion = orthodox
+religious_school = see_of_rome
+capital = 4372	# Coventry
+
+1444.1.1 = {
+	monarch = {
+		name = "Alan III"
+		dynasty = "Godwine"
+		birth_date = 1396.2.23
+		death_date = 1456.6.8
+		adm = 6
+		dip = 5
+		mil = 6
+	}
+	heir = {
+		name = "Gabriel"
+		monarch_name = "Gabriel II"
+		dynasty = "Godwine"
+		birth_date = 1430.11.28
+		death_date = 1496.3.18
+		claim = 95
+		adm = 6
+		dip = 6
+		mil = 6
+	}
+}

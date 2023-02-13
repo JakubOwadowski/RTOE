@@ -1,0 +1,18 @@
+government = monarchy
+add_government_reform = irish_fiefdom_reform
+government_rank = 1
+technology_group = western
+primary_culture = irish
+religion = ofbrit
+capital = 4943
+
+1443.1.1 = {
+	monarch = {
+		name = "Mathghamhain"
+		dynasty = "Mag Uidhir"
+		adm = 2
+		dip = 2
+		mil = 4
+	}
+}
+

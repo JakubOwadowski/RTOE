@@ -1,0 +1,22 @@
+government = monarchy
+add_government_reform = feudalism_reform
+government_rank = 1
+primary_culture = anglo_irish
+add_accepted_culture = irish
+religion = orthodox
+religious_school = see_of_rome
+technology_group = western
+capital = 373 	# Dublin
+fixed_capital = 373  # Cannot move capital away from this province & no power cost to move to it
+
+1444.1.1 = {
+        monarch = {
+                name = "Robert I"
+                dynasty = "Mortimer"
+                birth_date = 1433.1.10
+                death_date = 1477.7.6
+                adm = 1
+                dip = 2
+                mil = 3
+        }
+}

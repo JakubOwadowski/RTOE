@@ -1,0 +1,11 @@
+government = republic
+add_government_reform = roman_provincial_goverment_reform
+technology_group = muslim
+religion = orthodox
+religious_school = see_of_alexandria
+primary_culture = hellenoafrican
+add_accepted_culture = lower_egyptian
+add_accepted_culture = upper_egyptian
+capital = 358		# Alexandria
+
+elector = yes #The Imperial Province of Egypt

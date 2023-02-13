@@ -1,0 +1,42 @@
+government = monarchy
+add_government_reform = feudalism_reform
+government_rank = 2
+technology_group = western
+primary_culture = normand
+add_accepted_culture = english
+religion = orthodox
+religious_school = see_of_rome
+capital = 236	# London
+historical_rival = FRA
+historical_rival = ANG #
+historical_rival = MRC # The English hate their overlords
+historical_rival = YRK #
+historical_rival = SCO
+historical_rival = CNN
+historical_rival = IRE
+historical_friend = BRI
+historical_friend = NOR
+historical_friend = DAN
+add_truce_with = SCO
+
+1440.1.1 = {
+	monarch = {
+		name = "Robert I"
+		dynasty = "Barthon" #Blessed ASOIAF reference
+		birth_date = 1411.1.1
+		adm = 5
+		dip = 6
+		mil = 2
+	}
+	heir = {
+		name = "Geoffrey"
+		monarch_name = "Geoffrey II"
+		dynasty = "Barthon"
+		birth_date = 1439.1.1
+		death_date = 1520.1.1
+		claim = 95
+		adm = 0
+		dip = 0
+		mil = 0
+	}
+}

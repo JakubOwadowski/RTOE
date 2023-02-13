@@ -1,0 +1,22 @@
+name = "War of the Defenestration of Narbonne"
+war_goal = {
+	type = take_core
+	casus_belli = cb_core
+	province = 4695 # Carcasonne
+}
+
+1440.1.1 = {
+	add_attacker = NAR
+	add_defender = FRA
+	add_defender = POI
+	add_defender = GUY
+	add_defender = ANJ
+}
+
+1446.1.1 = {
+	rem_attacker = NAR
+	rem_defender = FRA
+	rem_defender = POI
+	rem_defender = GUY
+	rem_defender = ANJ
+}

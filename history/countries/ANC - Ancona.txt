@@ -1,0 +1,11 @@
+government = republic
+add_government_reform = free_city
+mercantilism = 25
+primary_culture = umbrian
+religion = orthodox
+religious_school = see_of_rome
+technology_group = western
+capital = 119 # Ancona
+fixed_capital = 119 # Cannot move capital away from this province & no power cost to move to it
+national_focus = DIP
+government_rank = 1

@@ -1,0 +1,10 @@
+government = republic
+add_government_reform = roman_provincial_goverment_reform
+technology_group = muslim
+primary_culture = syriac			
+add_accepted_culture = cilician_greek
+religion = orthodox
+religious_school = see_of_antioch
+capital = 382 #Damascus
+
+elector = yes #The Unfied Imperial Provinces of Syria and Palestine

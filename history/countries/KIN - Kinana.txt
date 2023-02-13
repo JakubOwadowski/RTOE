@@ -1,0 +1,17 @@
+government = monarchy
+add_government_reform = iqta
+government_rank = 1
+technology_group = muslim
+religion = sunni
+primary_culture = hejazi_culture
+capital = 4278
+
+1442.1.1 = {
+	monarch = {
+		name = "Muhammad IV"
+		dynasty = "al-Nadr"
+		adm = 0
+		dip = 1
+		mil = 0
+	}
+}

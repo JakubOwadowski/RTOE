@@ -1,0 +1,20 @@
+government = republic
+add_government_reform = oligarchy_reform
+technology_group = western
+religion = orthodox
+religious_school = see_of_rome
+primary_culture = umbrian
+capital = 1 # Cospaia
+fixed_capital = 1 # Cannot move capital away from this province & no power cost to move to it
+government_rank = 1
+
+1399.1.1 = {
+	monarch = {
+		name = "Consiglio Comunale"
+		adm = 3
+		dip = 3
+		mil = 3
+		regent = yes
+	}
+}
+

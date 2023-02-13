@@ -1,0 +1,29 @@
+government = monarchy
+add_government_reform = autocracy_reform
+government_rank = 3
+primary_culture = persian
+religion = zoroastrian
+technology_group = muslim
+capital = 410 	# Ctesiphon
+fixed_capital = 410  # Cannot move capital away from this province & no power cost to move to it
+
+1389.1.1 = {
+	monarch = {
+		name = "Hormizd VIII"
+		dynasty = "Sasanaan"
+		adm = 4
+		dip = 2
+		mil = 3
+	}
+}
+
+1434.7.3 = {
+	heir = {
+		name = "Khosru"
+		monarch_name = "Khosru IX"
+		dynasty = "Sasanaan"
+		claim = 95
+		adm = 6
+		dip = 6
+		mil = 6
+}

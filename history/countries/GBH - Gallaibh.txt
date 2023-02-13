@@ -1,0 +1,19 @@
+government = monarchy
+add_government_reform = feudalism_reform
+government_rank = 1
+technology_group = western
+primary_culture = highland_scottish
+religion = ofbrit
+capital = 4382
+
+1444.1.1 = {
+        monarch = {
+                name = "Uilleam I"
+                dynasty = "Sinclair"
+                birth_date = 1410.5.15
+                death_date = 1480.10.10
+                adm = 2
+                dip = 6
+                mil = 2
+        }
+}

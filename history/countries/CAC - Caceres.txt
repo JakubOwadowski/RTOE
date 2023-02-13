@@ -1,0 +1,8 @@
+government = monarchy
+add_government_reform = feudalism_reform
+primary_culture = visigo
+religion = orthodox
+technology_group = western
+government_rank = 1
+capital = 1747 #Caceres
+fixed_capital = 1747

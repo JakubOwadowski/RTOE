@@ -1,0 +1,17 @@
+government = monarchy
+add_government_reform = feudalism_reform
+primary_culture = leonese
+religion = orthodox
+religious_school = see_of_rome
+technology_group = western
+capital = 232 #Braganca
+
+1443.1.1 = {
+	monarch = {
+		name = "Henrico II"
+		dynasty = "de Llión"
+		adm = 0
+		dip = 1
+		mil = 1
+	}
+}

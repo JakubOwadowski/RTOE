@@ -1,0 +1,19 @@
+government = theocracy
+add_government_reform = imperial_bishopric_reform
+government_rank = 1
+primary_culture = leonese
+religion = orthodox
+religious_school = see_of_rome
+technology_group = western
+capital = 216 #Salamanca
+
+1434.1.1 = {
+	monarch = {
+		name = "Alfonso I"
+		adm = 1
+		dip = 4
+		mil = 1
+	}
+	clear_scripted_personalities = yes
+	add_ruler_personality = cruel_personality
+}

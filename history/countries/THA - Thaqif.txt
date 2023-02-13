@@ -1,0 +1,17 @@
+government = monarchy
+add_government_reform = iqta
+government_rank = 1
+technology_group = muslim
+religion = sunni
+primary_culture = hejazi_culture
+capital = 2330
+
+1438.1.1 = {
+	monarch = {
+		name = "'Abul Muhsin I"
+		dynasty = "al-'As"
+		adm = 5
+		dip = 1
+		mil = 3
+	}
+}

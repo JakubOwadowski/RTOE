@@ -1,0 +1,17 @@
+#Roscommon
+add_core = CNN
+owner = CNN
+controller = CNN
+culture = irish
+religion = ofbrit
+hre = no
+base_tax = 1
+base_production = 2
+trade_goods = wool
+base_manpower = 1
+capital = "Ros Comain"
+is_city = yes
+discovered_by = western
+discovered_by = muslim
+discovered_by = ottoman
+discovered_by = eastern

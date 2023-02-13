@@ -1,0 +1,18 @@
+government = tribal
+add_government_reform = tribal_kingdom
+government_rank = 1
+primary_culture = berber
+religion = orthodox
+technology_group = muslim
+capital = 2449	# Jufra
+religious_school = see_of_alexandria
+
+1437.1.1 = {
+	monarch = {
+		name = "Akawel III"
+		dynasty = "Isamid"
+		adm = 1
+		dip = 0
+		mil = 0
+	}
+}

@@ -1,0 +1,18 @@
+government = monarchy
+add_government_reform = feudalism_reform
+government_rank = 1
+technology_group = eastern
+primary_culture = polish
+religion = orthodox
+religious_school = see_of_constantinople
+capital = 1
+
+1438.1.1 = {
+	monarch = {
+		name = "Jerzy Ernest I"
+		dynasty = "Piast"
+		adm = 4
+		dip = 3
+		mil = 3
+	}
+}

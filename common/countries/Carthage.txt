@@ -1,0 +1,77 @@
+#Country Name: Please see filename.
+
+graphical_culture = muslimgfx
+
+color = { 154 168 121 } 
+revolutionary_colors = { 0  13  0 }
+
+historical_idea_groups = {
+	trade_ideas
+	defensive_ideas
+	religious_ideas
+	naval_ideas	
+	administrative_ideas
+	offensive_ideas
+	economic_ideas
+	expansion_ideas
+}
+
+historical_units = {
+	mamluk_archer
+	muslim_cavalry_archers
+	mamluk_duel
+	mamluk_musket_charge
+	muslim_mass_infantry
+	muslim_dragoon
+	ali_bey_reformed_infantry
+}
+
+monarch_names = {
+	"Julianù #1" = 5
+	"Aratù #3" = 30
+	"Markù #4" = 50
+	"Othù #6" = 40
+	"Apantera #3" = 30
+	"Giorgi #2" = 25
+	"Ignatiù #2" = 25
+	"Filip #6" = 25
+	"Adamasù #1" = 10
+	"Adonatù #2" = 10
+	"Ablaxiù #1" = 10
+	"Barrù #0" = 0
+	"Ignakiù #0" = 0
+	"Maximù #0" = 0
+	"Zenù #0" = 0
+	
+	
+	"Gaiserico #1" = 0
+	"Huneric #3" = 0
+	"Gunthamundo #1" = 0
+	"Thrasamund #1" = 0
+	"Hilderico #3" = 0
+	"Gelimer #2" = 0
+	
+	"Anna #0" = -1
+	"Marta #0" = -1
+	"Maria #0" = -1
+}
+
+leader_names = {
+	Albanù Arber Ardian Apli Apludù Aplù Apliù Aeliù Andabiù Armatù Apurù
+	Baezù Abardyli Abarù Abepù Abeusa Abeuza Abatona Abassegli Abobali
+	Kamdù Kaboga Kurbania Kursulabia
+	Daore Adae Adez Adalmat Adardan Adelminium
+	Histrù Herakle
+	Epulù Aghetaldi Agiorgi Agondola Agozze Agradi
+	Iatù Ibka Ibrika Ignakiù
+	Labinkia Ledrù Libere
+	Messore Madekù
+	Naren
+	Paiiù Apane Apania Apaniù Apanentiù Apanthia Apane Apantù Apinsù Apladomenù Aplatinù
+	Samuntiù Seiiù Silbanù Stataniù Statikù Statù Statù Sestù Sextù Sextù
+	Taulant Ateuta Atitù Athana Atiziù Atritù Atitù
+}
+
+ship_names = {
+	Karthagù Hippona Athapsù Acirta Bullaregia Douga Justinianopoli Maktar Kaesar Imperator Dominant 
+}

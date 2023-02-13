@@ -1,0 +1,36 @@
+#Scotland
+
+dependency = {
+	subject_type = "feudal_vassal"
+	first = SCO
+	second = GBH
+	start_date = 1444.1.1
+}
+
+dependency = {
+	subject_type = "feudal_vassal"
+	first = SCO
+	second = CBH
+	start_date = 1444.1.1
+}
+
+dependency = {
+	subject_type = "feudal_vassal"
+	first = SCO
+	second = LOI
+	start_date = 1444.1.1
+}
+
+dependency = {
+	subject_type = "feudal_vassal"
+	first = SCO
+	second = GLW
+	start_date = 1444.1.1
+}
+
+dependency = {
+	subject_type = "feudal_vassal"
+	first = SCO
+	second = AGU
+	start_date = 1444.1.1
+}

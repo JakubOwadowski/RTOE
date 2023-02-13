@@ -1,0 +1,8 @@
+government = tribal
+add_government_reform = tribal_kingdom
+government_rank = 1
+primary_culture = atlas
+religion = arian
+technology_group = sub_saharan
+capital = 346	# Tafilalt
+fixed_capital = 346 # Cannot move capital away from this province & no power cost to move to it

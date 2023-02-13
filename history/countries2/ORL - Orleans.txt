@@ -1,0 +1,9 @@
+government = monarchy
+add_government_reform = feudalism_reform
+government_rank = 1
+primary_culture = wallonian
+religion = orthodox
+religious_school = see_of_rome
+technology_group = western
+add_accepted_culture = cosmopolitan_french
+capital = 182	# Valois

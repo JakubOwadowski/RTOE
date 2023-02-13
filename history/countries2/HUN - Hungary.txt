@@ -1,0 +1,34 @@
+government = monarchy
+add_government_reform = feudalism_reform
+primary_culture = hungarian
+add_accepted_culture = slovak
+add_accepted_culture = transylvanian
+religion = orthodox
+religious_school = see_of_rome
+technology_group = eastern
+capital = 153 # Buda
+
+change_estate_land_share = {
+	estate = estate_church
+	share = 10
+}
+
+change_estate_land_share = {
+	estate = estate_nobility
+	share = -5
+}
+
+change_estate_land_share = {
+	estate = estate_burgers
+	share = -5
+}
+
+1439.1.1 = {
+	monarch = {
+		name = "Béla V"
+		dynasty = "Árpadok"		
+		adm = 4
+		dip = 5
+		mil = 6
+	}
+}

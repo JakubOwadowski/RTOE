@@ -1,0 +1,18 @@
+bookmark =
+{
+	name = "TWILIGHT_OF_THE_EMPIRE"
+	desc = "TWILIGHT_OF_THE_EMPIRE_DESC"
+	date = 1444.11.11
+	
+	center = 151
+	default = yes
+	
+	country = ROM
+	country = NRM
+	country = FRA
+	country = SAX
+	country = POL
+	country = MOS
+	
+	#easy_country = ROM
+}

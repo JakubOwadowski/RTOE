@@ -1,0 +1,17 @@
+government = native
+add_government_reform = native_hereditary_reform
+government_rank = 1
+primary_culture = karelian
+religion = finnish_pagan_reformed
+technology_group = eastern
+capital = 30
+
+1444.1.1 = {
+	monarch = {
+		name = "Tribal Council"
+		adm = 3
+		dip = 3
+		mil = 3
+		regent = yes
+	}
+}

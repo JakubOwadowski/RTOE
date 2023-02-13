@@ -1,0 +1,17 @@
+government = tribal
+add_government_reform = tribal_kingdom
+government_rank = 1
+primary_culture = berber
+religion = coptic
+technology_group = muslim
+capital = 2472	# Ouargla
+
+1437.1.1 = {
+	monarch = {
+		name = "Massin I"
+		dynasty = "Anirid"
+		adm = 3
+		dip = 2
+		mil = 3
+	}
+}

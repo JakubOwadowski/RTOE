@@ -1,0 +1,40 @@
+government = monarchy
+add_government_reform = feudalism_reform
+government_rank = 1
+technology_group = western
+primary_culture = welsh
+religion = ofbrit
+capital = 4369
+
+1444.1.1 = {
+        monarch = {
+                name = "Rhys V"
+                dynasty = "Dinefwr"
+                birth_date = 1405.11.22
+                death_date = 1465.7.15
+                adm = 2
+                dip = 0
+                mil = 2
+        }
+        heir = {
+                name = "Llewelyn"
+                monarch_name = "Llewelyn IV"
+                dynasty = "Dinefwr"
+                birth_date = 1436.3.19
+                death_date = 1480.7.1
+                claim = 90
+                adm = 0
+                dip = 0
+                mil = 0
+        }
+        queen = {
+                name = "Gwenyth"
+                dynasty = "Mathrafal"
+                birth_date = 1420.6.15
+                death_date = 1465.12.4
+                female = yes
+                adm = 1
+                dip = 3
+                mil = 1
+        }
+}

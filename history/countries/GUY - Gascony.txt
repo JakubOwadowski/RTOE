@@ -1,0 +1,19 @@
+government = monarchy
+add_government_reform = feudalism_reform
+government_rank = 1
+technology_group = western
+primary_culture = gascon
+add_accepted_culture = cosmopolitan_french
+religion = orthodox
+religious_school = see_of_rome
+capital = 174 	# Bordeaux
+
+1436.1.1 = {
+	monarch = {
+		name = "Guillaume X"
+		dynasty = "de Gasconha"
+		dip = 4
+		adm = 4
+		mil = 3
+	}
+}

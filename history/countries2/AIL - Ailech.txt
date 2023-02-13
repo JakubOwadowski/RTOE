@@ -1,0 +1,17 @@
+government = monarchy
+add_government_reform = irish_fiefdom_reform
+government_rank = 1
+technology_group = western
+primary_culture = irish
+religion = ofbrit
+capital = 4380
+
+1428.1.1 = {
+	monarch = {
+		name = "Brian"
+		dynasty = "Ui Neil"
+		adm = 4
+		dip = 2
+		mil = 3
+	}
+}

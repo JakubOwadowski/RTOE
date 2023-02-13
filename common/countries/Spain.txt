@@ -1,0 +1,121 @@
+#Country Name: Please see filename.
+
+graphical_culture = westerngfx
+
+color = { 231  181  12 }
+
+historical_council = harsh
+
+revolutionary_colors = { 5  8  5 }
+
+historical_score = 7400
+
+historical_idea_groups = {
+	exploration_ideas
+	religious_ideas
+	offensive_ideas
+	expansion_ideas
+	influence_ideas
+	maritime_ideas
+	quality_ideas
+	defensive_ideas
+}
+
+historical_units = {
+	western_medieval_infantry
+	western_medieval_knights
+	western_men_at_arms
+	spanish_tercio
+	austrian_tercio
+	austrian_grenzer
+	austrian_hussar
+	austrian_white_coat
+	austrian_jaeger
+	mixed_order_infantry
+	open_order_cavalry
+	napoleonic_square
+	napoleonic_lancers
+}
+
+monarch_names = {
+	"Alphonso #2" = 20
+	"Fardnando #3" = 30
+	"Sanctio #4" = 20
+	"Ramiro #2" = 10
+	"Iovanno #1" = 10
+	"Filipo #0" = 10
+	"Carol #0" = 10
+	"Henrico #2" = 20
+	"Petro #1" = 10
+	"Isabela #0" = -10
+	"Iovanna #0" = -10
+	"Maria #0" = -5
+	"Urraca #0" = -5
+	"Alvaro #0" = 0
+	"Baltasar #3" = 30
+	"Bernardo #0" = 0
+	"Bertran #0" = 0
+	"Cristophro #0" = 0
+	"Iacobo #0" = 0
+	"Dominico #0" = 0
+	"Stephano #5" = 0
+	"Federico #0" = 0
+	"Francisco #0" = 0
+	"Hartcia #0" = 0
+	"Gomas #0" = 0
+	"Gunsalbo #0" = 0
+	"Gutierre #0" = 0
+	"Hermenegildo #0" = 0
+	"Hernando #0" = 0
+	"Ignacio #0" = 0
+	"Lain #0" = 0
+	"Lupe #0" = 0
+	"Micael #0" = 0
+	"Nonno #0" = 0
+	"Otton #2" = 20
+	"Ramondo #0" = 0
+	"Rodrigo #0" = 0
+	"Tomas #0" = 0
+	"Valeriano #0" = 0
+}
+
+leader_names = {
+	"de Aguirre" "de Alarcon" "de Toleto" "de Andrade" "de Ayala"
+	"de Basan" "de Benavides" Campomanes "de Castra" "de la Cerda" Cienfuegos Colon Coronado Cortes
+	"de Toleto" "de Corduba" "de Cueva" "de Figueroa" Fonseca
+	Galves Gomas "de Gusman" "Imenes de Cisneros"
+	"de Leiva" "Lopes de Haro" "de Luna"
+	"de Lara" "de Velasco" "de Villena" "de Mendotta"
+	Narvas "de Nebria" "Nunes de Balboa" "de Oda" Orerana Osorio 
+	Pimentel Pinson Pisato "Ponce de Leion" Portocarrero
+	"de Roias" Teres-Giron "de la Vega" "de Zuniga"
+}
+
+ship_names = {
+	Leion Argonauta Asturias Asuntion Atrevido Azor
+	Cartagonova Castra Castor
+	Doncera Dragon 
+	"Grin Manho" "Retiro" Eneas Eolo Esperanza "Spirito Sancto" Extremadura
+	Furor Galicia "Grifon Manho" Halcon Hercule Isabela Jupiter
+	"Conception" "Magdalena" "Manuela" Ligera "Lopo Marino"
+	Marte Mercurio Neptuno Nina Orion
+	"Paloma Blanca" Pegaso "Perro Marino" Pinta Pluton Pollux "Princepo de Asturias"
+	Rayo "Regino Alphonso" "Regino Henrico" "Regino Iovanno" "Rex Pelaio" "Rex Rodrigo"
+	"Sancto Andreas" "Sancto Antonio" "Sancto Bartolomeo" "Sancto Bernabeo" "Sancto Cristophro" "Sancto Henrico"
+	"Sancto Stephano" "Sancto Fardnando" "Sancto Francisco" "Sancto Gabrielo" "Sancto Isidoro" "Sancto Hieronimo"
+	"Sancto Iosepho" "Sancto Iovanno" "Sancto Iovanno Baptisto" "Sancto Leonadro" "Sancto Micael" "Sancto Petro"
+	"Sancto Rafaelo" "Sancto Salvadoro" "Sancto Sebastiano" "Sancta Anna" "Sancta Barbara" "Sancta Beatrix"
+	"Sancta Carolina" "Sancta Crux" "Sancta Fide" "Sancta Isabela" "Sancta Justa" "Sancta Maria"
+	"Sancta Marta" "Sancta Rita" "Sancta Teresa" "Sancto Iacobo" "Sanctisima Trinidad" "Sancto Dominico" Sirena
+	Terror Toleto Trinidad Triton Unicornio
+	Vencedora Ventura Victoria Vigilante Vizcaya Vulcano Suniga
+}
+
+
+army_names = {
+	"Exertito de $PROVINCE$"
+}
+
+fleet_names = {
+	"Clasi de $PROVINCE$"
+}

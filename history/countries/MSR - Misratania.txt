@@ -1,0 +1,18 @@
+government = tribal
+add_government_reform = tribal_kingdom
+government_rank = 2
+primary_culture = berber
+religion = orthodox
+technology_group = muslim
+capital = 2451	# Thubaqt
+religious_school = see_of_alexandria
+
+1437.1.1 = {
+	monarch = {
+		name = "Yufitri I"
+		dynasty = "Danisid"
+		adm = 4
+		dip = 4
+		mil = 6
+	}
+}

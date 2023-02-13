@@ -1,0 +1,10 @@
+government = monarchy
+add_government_reform = feudalism_reform
+government_rank = 1
+primary_culture = cisalpine
+add_accepted_culture = burgundian
+religion = orthodox
+religious_school = see_of_rome
+technology_group = western
+capital = 103 # Torino
+fixed_capital = 103

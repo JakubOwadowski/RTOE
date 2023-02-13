@@ -1,0 +1,20 @@
+#4119 - Sligo
+
+owner = CNN
+controller = CNN
+culture = irish
+religion = ofbrit
+hre = no
+base_tax = 1
+base_production = 1
+trade_goods = naval_supplies
+base_manpower = 1
+capital = "Sligo"
+is_city = yes
+add_core = CNN
+add_core = SLN
+discovered_by = western
+discovered_by = muslim
+discovered_by = ottoman
+discovered_by = eastern
+discovered_by = western
