@@ -1405,6 +1405,9 @@ latin = {
 	umbrian = {
 		primary = URB
 	}
+	friulian = {
+
+	}
 	sicilian = {
 		primary = SIC
 	}
@@ -1499,7 +1502,7 @@ latin = {
 
 iberian	= {
 	graphical_culture = westerngfx
-
+	tarraconese = { }
 	castillian = {
 		primary = CAS
 		dynasty_names = {
@@ -1816,13 +1819,10 @@ french	= {
 	cosmopolitan_french = {
 		primary = FRA
 		dynasty_names = {
-			"de Valois" "de Bourbon" Bonaparte "de la Tour" "d'Anjou" 
+			"de Valois" "de Bourbon" "de la Tour" "d'Anjou" 
 			"de Lorraine" "de Montfort" "de Blois" "de Penthievre" "de Dreux"
 			"de Rohan" "de Bar" "d'Albert" "d'Escoubleau" "de Neufville" 
 		}
-	}
-	aquitaine = {
-		primary = TOU
 	}
 	burgundian = {
 		primary = BUR
@@ -1841,12 +1841,6 @@ french	= {
 	}
 	poitevin = {
 		primary = POI
-	}
-	avegnin = {
-		primary = ANJ
-	}
-	auvergnian = {
-		primary = AUV
 	}
 	austrasien = {
 		primary = AUT
@@ -10103,9 +10097,6 @@ oghuz = {
 
 occitain_group = {
 	graphical_culture = westerngfx
-	provancal = {
-		primary = PRO
-	}
 	gascon = {
 		primary = GUY
 	}
@@ -10115,7 +10106,6 @@ occitain_group = {
 	occitain = {
 		primary = NAR
 	}
-	tarraconese = { }
 	balearese = { }
 	male_names = {
 		Aimeric Arnaut Bertrand Carles Estève Fabièn Guilhem Joan Loís Manel Marceau Naudi 

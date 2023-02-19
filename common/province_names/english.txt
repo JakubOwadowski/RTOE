@@ -178,7 +178,6 @@
 
 #Italy
 104 = { "Milan" "Milan" }
-4729 = { "Padua" "Padua" }
 
 #Germany
 134 = { "Vienna" "Vienna" }

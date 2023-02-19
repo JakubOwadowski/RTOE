@@ -1,8 +1,9 @@
 #Pays de Retz
 add_core = BRI
+add_core = POI
 owner = BRI
 controller = BRI
-culture = avegnin
+culture = poitevin
 religion = orthodox
 hre = no
 base_tax = 1

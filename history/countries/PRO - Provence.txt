@@ -1,7 +1,7 @@
 government = monarchy
 add_government_reform = feudalism_reform
 government_rank = 1
-primary_culture = provancal
+primary_culture = occitain
 religion = orthodox
 religious_school = see_of_rome
 technology_group = western

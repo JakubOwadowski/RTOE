@@ -42,7 +42,6 @@
 1875 = "Cúneo"
 2986 = "Cáller"
 4728 = "Pavía"
-4729 = "Padua"
 4730 = "Bolonia"
 
 173 = "Labort"

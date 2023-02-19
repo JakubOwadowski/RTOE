@@ -13,7 +13,7 @@
  sorbian: "Lusitan"
  turko_semitic: "Arabic"
  caucasian: "Circassian"
- armenian: "Yerevanian"
+ armenian: "East Armenian"
  circassian: "Adyghean"
  afghani: "Pashtun"
  dagestani: "Avar"
@@ -23,8 +23,13 @@
  algerian: "Moorish"
  moroccan: "Amazigh"
  berber: "Fezzani"
- occitain: "Narbonnese"
  swabian: "Alemannic"
+ french: "Langues d'oïl"
+ latin: "Italian"
+ umbrian: "Central Italian" 
+ cosmopolitan_french: "French"
+ leonese: "Asturleonese"
+ romagnan: "Emilianoromagnol"
  
  
  #Religions
@@ -115,6 +120,7 @@
  bahari_area: "East Bank"
  said_area: "Upper Egypt"
  al_wahat_area: "The Oases"
+ normandy_area: "Continental Normandy"
  
  english_channel: "Norman Channel"
  lubeck: "Ljubice" 
@@ -609,6 +615,10 @@
  PROV_ADJ1865: "Drouais"
  PROV90: "Flanders"
  PROV_ADJ90: "Flemish"
+ PROV1879: "Allencoun"
+ PROV4729: "Rovigo"
+ PROV_ADJ4729: "Rovigiano"
+ 
  
  PROV174: "Bordèu"
  

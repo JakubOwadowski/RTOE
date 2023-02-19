@@ -123,7 +123,6 @@
 4696 = "Telon"
 4727 = "Salutz"
 4728 = "Pawei"
-4729 = "Padua"
 4738 = "Triest"
 4739 = "Davos"
 4740 = "Chum"

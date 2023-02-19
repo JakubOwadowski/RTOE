@@ -2,7 +2,7 @@
 add_core = FRA
 owner = FRA
 controller = FRA
-culture = gascon
+culture = occitain
 religion = orthodox
 hre = no
 base_tax = 2

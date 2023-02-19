@@ -2,7 +2,7 @@
 add_core = ANJ
 owner = ANJ
 controller = ANJ
-culture = avegnin
+culture = cosmopolitan_french
 religion = orthodox
 hre = no
 base_tax = 2

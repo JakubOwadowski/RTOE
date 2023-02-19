@@ -52,38 +52,32 @@
  
  ###Latin Megagroup###
  
- ###Central Romance###
- 
- ###Italo-Romance###
- #Umbrian -> Latin
+ ###Italian###
+ #Umbrian -> Central Italian
  #Neapolitan
  #Tuscan
- #Ligurian
  #Venetian
+ cisalpine: "Cisalpine"
  romansh: "Romansh"
+ friulian: "Friulian"
  corsican: "Corsican"
  sicilian: "Sicilian"
- 
- ###Illyro-Romance###
  #Dalmatian
- istrian: "Istrian"
+ istrian: "Istriot"
  
- ###Gallo-Romance###
- cisalpine: "Cisalpine"
- occitain_group: "Occitain"
- provancal: "Provencal"
- tarraconese: "Tarragonese"
+ ###Occitain###
+ occitain_group: "Langues d'oc"
  balearese: "Balearese"
- #Occitain -> Narbonnese
+ #Occitain
  gascon: "Gascon"
  pyrenean: "Pyrenean"
   
- ###Hispano-Romance###
+ ###Hispanic###
  #Leonese
  #Galician
  visigo: "Visigian"
- asturian: "Asturian"
  betic: "Betic"
+ tarragonese: "Tarragonese"
  
  ###African Romance###
  african_romance: "African Romance"
@@ -92,12 +86,10 @@
  sardinian: "Sardinian"
  maltese: "Maltese"
  
- ###Franco-Romance###
- #Francien
+ ###French###
+ #Francien -> French
  poitevin: "Poitevin"
  lieunnois: "Lieunnois"
- avegnin: "Avegnin"
- auvergnian: "Auvergnian"
  austrasien: "Austrasien"
  gallo: "Gallo"
  #Wallon
@@ -106,8 +98,6 @@
  ###Daco-Romance###
  dacish: "Daco-Romance"
  dacian: "Dacian"
- vlach: "Vlach"
- moldavian: "Moldavian"
  transylvanian: "Transylvanian" #Transylvanian Romanians
  thessalian: "Thessalian"
  
@@ -122,15 +112,27 @@
  palestinian: "Palestinian"	
  jewish: "Jewish"
  
- ###Caucasus###
- armenian_group: "Armenian"
- west_armenian: "Karin"
+ ###Armenian group###
+ armenian_group: "Hajastani"
+ west_armenian: "West Armenian"
+ hemshin: "Hemshin"
+ 
+ ###Georgian group###
  georgian_group: "Georgian"
+ #Georgian
+ laz: "Laz"
+ mingrelian: "Mingrelian"
+ 
+ ###Dagestani group###
  dagestani_group: "Dagestani"
  lakian: "Lak"
+ 
+ ###Veinakh group###
  veinakh_group: "Veinakh"
  chechen: "Chechen"
  ingush: "Ingush"
+ 
+ 
  abazgi: "Abazgian"
  ubykh: "Ubykh"
  ossetian: "Ossetian"

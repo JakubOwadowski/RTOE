@@ -201,7 +201,6 @@
 2992 = "Albengue"
 4727 = "Saluces"
 4728 = "Pavie"
-4729 = "Padoue"
 4730 = "Bologne"
 4731 = "Spolète"
 4732 = "Terracine"
@@ -360,5 +359,6 @@
 168 = "Houen"
 167 = "Rouen"
 89 = "Umbien"
+1879 = "Alençon"
 
 174 = "Bordeaux"

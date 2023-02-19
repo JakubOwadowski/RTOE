@@ -2,9 +2,9 @@
 
 owner = NRM
 controller = NRM
-capital = "Alençon"
+capital = "Allencoun"
 is_city = yes
-culture = avegnin
+culture = normand
 religion = orthodox
 hre = no
 base_tax = 4
