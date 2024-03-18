@@ -1377,7 +1377,7 @@ christian = {
 	}
 
 	anabaptist = {
-		color = { 76 76 229 }
+		color = { 88 138 237 }
 		icon = 3
 		allowed_conversion = {
 			orthodox reformed iconoclast calvinist
