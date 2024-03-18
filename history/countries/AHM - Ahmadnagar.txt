@@ -1,13 +1,12 @@
 government = monarchy
 add_government_reform = indian_sultanate_reform
 technology_group = indian
-religion = sunni
+religion = hinduism
 primary_culture = marathi
-capital = 544	# Ahmadnagar
-fixed_capital = 544 # Cannot move capital away from this province & no power cost to move to it
-
-1490.1.1 = {
-	monarch = {
+capital = 544# Ahmadnagar
+fixed_capital = 544# Cannot move capital away from this province & no power cost to move to it
+1490.1.1 = { 
+	monarch = { 
 		name = "Ahmad Shah I"
 		dynasty = "Nizam Shahi"
 		ADM = 4
@@ -15,9 +14,8 @@ fixed_capital = 544 # Cannot move capital away from this province & no power cos
 		MIL = 4
 	}
 }
-
-1501.1.1 = {
-	heir = {
+1501.1.1 = { 
+	heir = { 
 		name = "Burhan"
 		monarch_name = "Burhan I Shah"
 		dynasty = "Nizam Shahi"
@@ -30,9 +28,8 @@ fixed_capital = 544 # Cannot move capital away from this province & no power cos
 		religion = shiite
 	}
 }
-
-1508.1.1 = {
-	monarch = {
+1508.1.1 = { 
+	monarch = { 
 		name = "Burhan Shah I"
 		dynasty = "Nizam Shahi"
 		ADM = 2
@@ -41,9 +38,8 @@ fixed_capital = 544 # Cannot move capital away from this province & no power cos
 		religion = shiite
 	}
 }
-
-1530.1.1 = {
-	heir = {
+1530.1.1 = { 
+	heir = { 
 		name = "Husayn"
 		monarch_name = "Husayn Shah I"
 		dynasty = "Nizam Shahi"
@@ -55,10 +51,8 @@ fixed_capital = 544 # Cannot move capital away from this province & no power cos
 		MIL = 5
 	}
 }
-
-
-1554.1.1 = {
-	heir = {
+1554.1.1 = { 
+	heir = { 
 		name = "Murtaza"
 		monarch_name = "Murtaza Shah I"
 		dynasty = "Nizam Shahi"
@@ -70,9 +64,8 @@ fixed_capital = 544 # Cannot move capital away from this province & no power cos
 		MIL = 2
 	}
 }
-
-1565.6.6 = {
-	monarch = {
+1565.6.6 = { 
+	monarch = { 
 		name = "Murtaza Shah I"
 		dynasty = "Nizam Shahi"
 		ADM = 2
@@ -80,9 +73,8 @@ fixed_capital = 544 # Cannot move capital away from this province & no power cos
 		MIL = 2
 	}
 }
-
-1565.6.6 = {
-	heir = {
+1565.6.6 = { 
+	heir = { 
 		name = "Maran Husayn"
 		monarch_name = "Maran Husayn Shah II"
 		dynasty = "Nizam Shahi"
@@ -94,9 +86,8 @@ fixed_capital = 544 # Cannot move capital away from this province & no power cos
 		MIL = 1
 	}
 }
-
-1588.6.11 = {
-	monarch = {
+1588.6.11 = { 
+	monarch = { 
 		name = "Maran Husayn Shah II"
 		dynasty = "Nizam Shahi"
 		ADM = 3
@@ -104,9 +95,8 @@ fixed_capital = 544 # Cannot move capital away from this province & no power cos
 		MIL = 1
 	}
 }
-
-1588.6.11 = {
-	heir = {
+1588.6.11 = { 
+	heir = { 
 		name = "Isma'il"
 		monarch_name = "Isma'il"
 		dynasty = "Nizam Shahi"
@@ -118,9 +108,8 @@ fixed_capital = 544 # Cannot move capital away from this province & no power cos
 		MIL = 3
 	}
 }
-
-1589.3.8 = {
-	monarch = {
+1589.3.8 = { 
+	monarch = { 
 		name = "Isma'il Shah"
 		dynasty = "Nizam Shahi"
 		ADM = 2
@@ -128,9 +117,8 @@ fixed_capital = 544 # Cannot move capital away from this province & no power cos
 		MIL = 3
 	}
 }
-
-1589.3.8 = {
-	heir = {
+1589.3.8 = { 
+	heir = { 
 		name = "Burhan"
 		monarch_name = "Burhan Shah II"
 		dynasty = "Nizam Shahi"
@@ -142,9 +130,8 @@ fixed_capital = 544 # Cannot move capital away from this province & no power cos
 		MIL = 2
 	}
 }
-
-1591.4.27 = {
-	monarch = {
+1591.4.27 = { 
+	monarch = { 
 		name = "Burhan Shah II"
 		dynasty = "Nizam Shahi"
 		ADM = 1
@@ -152,9 +139,8 @@ fixed_capital = 544 # Cannot move capital away from this province & no power cos
 		MIL = 2
 	}
 }
-
-1591.4.27 = {
-	heir = {
+1591.4.27 = { 
+	heir = { 
 		name = "Ibrahim"
 		monarch_name = "Ibrahim Shah"
 		dynasty = "Nizam Shahi"
@@ -166,9 +152,8 @@ fixed_capital = 544 # Cannot move capital away from this province & no power cos
 		MIL = 0
 	}
 }
-
-1595.4.18 = {
-	monarch = {
+1595.4.18 = { 
+	monarch = { 
 		name = "Ibrahim Shah"
 		dynasty = "Nizam Shahi"
 		ADM = 2
@@ -176,9 +161,8 @@ fixed_capital = 544 # Cannot move capital away from this province & no power cos
 		MIL = 0
 	}
 }
-
-1595.4.18 = {
-	heir = {
+1595.4.18 = { 
+	heir = { 
 		name = "Ahmad"
 		monarch_name = "Ahmad Shah"
 		dynasty = "Nizam Shahi"
@@ -190,9 +174,8 @@ fixed_capital = 544 # Cannot move capital away from this province & no power cos
 		MIL = 1
 	}
 }
-
-1595.7.25 = {
-	monarch = {
+1595.7.25 = { 
+	monarch = { 
 		name = "Ahmad Shah"
 		dynasty = "Nizam Shahi"
 		ADM = 0
@@ -200,9 +183,8 @@ fixed_capital = 544 # Cannot move capital away from this province & no power cos
 		MIL = 1
 	}
 }
-
-1595.7.25 = {
-	heir = {
+1595.7.25 = { 
+	heir = { 
 		name = "Bahadur"
 		monarch_name = "Bahadur Shah"
 		dynasty = "Nizam Shahi"
@@ -214,9 +196,8 @@ fixed_capital = 544 # Cannot move capital away from this province & no power cos
 		MIL = 0
 	}
 }
-
-1596.2.1 = {
-	monarch = {
+1596.2.1 = { 
+	monarch = { 
 		name = "Bahadur Shah"
 		dynasty = "Nizam Shahi"
 		ADM = 3
@@ -224,9 +205,8 @@ fixed_capital = 544 # Cannot move capital away from this province & no power cos
 		MIL = 0
 	}
 }
-
-1596.2.1 = {
-	heir = {
+1596.2.1 = { 
+	heir = { 
 		name = "Murtaza"
 		monarch_name = "Murtaza Shah II"
 		dynasty = "Nizam Shahi"
@@ -238,21 +218,19 @@ fixed_capital = 544 # Cannot move capital away from this province & no power cos
 		MIL = 3
 	}
 }
-
-1600.8.10 = {
-	monarch = {
+1600.8.10 = { 
+	monarch = { 
 		name = "Murtaza Shah II"
 		dynasty = "Nizam Shahi"
 		ADM = 3
 		DIP = 1
 		MIL = 3
 	}
-	leader = {	name = "Malik Ambar"	type = general	fire = 3	shock = 5	manuever = 3	siege = 1 death_date = 1626.1.1 }
+	leader = { name = "Malik Ambar" type = general fire = 3 shock = 5 manuever = 3 siege = 1 death_date = 1626.1.1 }
 	set_legacy_government = administrative_monarchy
 }
-
-1600.8.10 = {
-	heir = {
+1600.8.10 = { 
+	heir = { 
 		name = "Burhan"
 		monarch_name = "Burhan Shah III"
 		dynasty = "Nizam Shahi"
@@ -264,9 +242,8 @@ fixed_capital = 544 # Cannot move capital away from this province & no power cos
 		MIL = 1
 	}
 }
-
-1610.1.1 = {
-	monarch = {
+1610.1.1 = { 
+	monarch = { 
 		name = "Burhan Shah III"
 		dynasty = "Nizam Shahi"
 		ADM = 3
@@ -274,9 +251,8 @@ fixed_capital = 544 # Cannot move capital away from this province & no power cos
 		MIL = 1
 	}
 }
-
-1615.1.1 = {
-	heir = {
+1615.1.1 = { 
+	heir = { 
 		name = "Husayn"
 		monarch_name = "Husayn Shah II"
 		dynasty = "Nizam Shahi"
@@ -288,9 +264,8 @@ fixed_capital = 544 # Cannot move capital away from this province & no power cos
 		MIL = 0
 	}
 }
-
-1631.1.1 = {
-	monarch = {
+1631.1.1 = { 
+	monarch = { 
 		name = "Husayn Shah II"
 		dynasty = "Nizam Shahi"
 		ADM = 1
@@ -298,5 +273,4 @@ fixed_capital = 544 # Cannot move capital away from this province & no power cos
 		MIL = 0
 	}
 }
-
-#Annexed by the Mughals 27 July 1633
+government_rank = 1

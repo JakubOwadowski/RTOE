@@ -1,7 +1,8 @@
-government = monarchy
-add_government_reform = iqta
+government = tribal
+add_government_reform = tribal_kingdom
 primary_culture = moroccan
-religion = sunni
+religion = orthodox
 technology_group = muslim
 capital = 4561
-fixed_capital = 4561 # Cannot move capital away from this province & no power cost to move to it
+fixed_capital = 4561
+government_rank = 1

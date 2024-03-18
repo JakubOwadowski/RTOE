@@ -1,21 +1,19 @@
 government = monarchy
-add_government_reform = indian_sultanate_reform
+add_government_reform = nayankara_reform
 primary_culture = bengali
-religion = sunni
+religion = buddhism
 technology_group = indian
-capital = 563	# Pandua
-
-change_estate_land_share = {
+capital = 4474# Pandua
+change_estate_land_share = { 
 	estate = estate_church
 	share = 12
 }
-change_brahmins_or_church_land_share_effect = {
+change_brahmins_or_church_land_share_effect = { 
 	share = -5
 }
-
 #Sultans of Bengal
-1390.1.1 = {
-	monarch = {
+1390.1.1 = { 
+	monarch = { 
 		name = "Ghiyasuddin Azam"
 		dynasty = "Ilyas Shahi"
 		ADM = 1
@@ -23,9 +21,8 @@ change_brahmins_or_church_land_share_effect = {
 		MIL = 2
 	}
 }
-
-1390.1.1 = {
-	heir = {
+1390.1.1 = { 
+	heir = { 
 		name = "Hamza"
 		monarch_name = "Sayf-ud-Din Hamza"
 		dynasty = "Ilya Shahi"
@@ -37,12 +34,8 @@ change_brahmins_or_church_land_share_effect = {
 		MIL = 1
 	}
 }
-
- 
- 
-
-1410.1.1 = {
-	monarch = {
+1410.1.1 = { 
+	monarch = { 
 		name = "Sayf-ud-Din Hamza"
 		dynasty = "Ilya Shahi"
 		ADM = 3
@@ -50,9 +43,8 @@ change_brahmins_or_church_land_share_effect = {
 		MIL = 1
 	}
 }
-
-1410.1.1 = {
-	heir = {
+1410.1.1 = { 
+	heir = { 
 		name = "Bayazid"
 		monarch_name = "Shihab-ud-Din Bayazid"
 		dynasty = "Ilyas Shahi"
@@ -64,9 +56,8 @@ change_brahmins_or_church_land_share_effect = {
 		MIL = 1
 	}
 }
-
-1412.1.1 = {
-	monarch = {
+1412.1.1 = { 
+	monarch = { 
 		name = "Shihab-ud-Din Bayazid"
 		dynasty = "Ilyas Shahi"
 		ADM = 1
@@ -74,9 +65,8 @@ change_brahmins_or_church_land_share_effect = {
 		MIL = 1
 	}
 }
-
-1412.1.1 = {
-	heir = {
+1412.1.1 = { 
+	heir = { 
 		name = "Firuz"
 		monarch_name = "Ala-ud-Din Firuz"
 		dynasty = "Ilyas Shahi"
@@ -88,9 +78,8 @@ change_brahmins_or_church_land_share_effect = {
 		MIL = 0
 	}
 }
-
-1414.1.1 = {
-	monarch = {
+1414.1.1 = { 
+	monarch = { 
 		name = "Ala-ud-Din Firuz"
 		dynasty = "Ilyas Shahi"
 		ADM = 2
@@ -98,9 +87,8 @@ change_brahmins_or_church_land_share_effect = {
 		MIL = 0
 	}
 }
-
-1415.1.1 = {
-	monarch = {
+1415.1.1 = { 
+	monarch = { 
 		name = "Raja Ganesh"
 		dynasty = "Ganesha"
 		ADM = 1
@@ -108,9 +96,8 @@ change_brahmins_or_church_land_share_effect = {
 		MIL = 3
 	}
 }
-
-1415.1.1 = {
-	heir = {
+1415.1.1 = { 
+	heir = { 
 		name = "Mohammed"
 		monarch_name = "Jalaluddin Mohammed"
 		dynasty = "Ganesha"
@@ -122,9 +109,8 @@ change_brahmins_or_church_land_share_effect = {
 		MIL = 1
 	}
 }
-
-1418.1.1 = {
-	monarch = {
+1418.1.1 = { 
+	monarch = { 
 		name = "Jalaluddin Mohammed"
 		dynasty = "Ganesha"
 		ADM = 3
@@ -132,9 +118,8 @@ change_brahmins_or_church_land_share_effect = {
 		MIL = 1
 	}
 }
-
-1418.1.1 = {
-	heir = {
+1418.1.1 = { 
+	heir = { 
 		name = "Ahmad"
 		monarch_name = "Shamsuddin Ahmad"
 		dynasty = "Ganesha"
@@ -146,9 +131,8 @@ change_brahmins_or_church_land_share_effect = {
 		MIL = 1
 	}
 }
-
-1433.1.1 = {
-	monarch = {
+1433.1.1 = { 
+	monarch = { 
 		name = "Shamsuddin Ahmad"
 		dynasty = "Ganesha"
 		ADM = 2
@@ -156,9 +140,8 @@ change_brahmins_or_church_land_share_effect = {
 		MIL = 1
 	}
 }
-
-1435.1.1 = {
-	monarch = {
+1435.1.1 = { 
+	monarch = { 
 		name = "Nasir-ud-Din Mahmud"
 		dynasty = "Ilyas Shahi"
 		ADM = 4
@@ -168,7 +151,7 @@ change_brahmins_or_church_land_share_effect = {
 	clear_scripted_personalities = yes
 	add_ruler_personality = architectural_visionary_personality
 	add_heir_personality = bold_fighter_personality
-	heir = {
+	heir = { 
 		name = "Barbak"
 		monarch_name = "Rukun-ud-Din Barbak"
 		dynasty = "Ilyas Shahi"
@@ -180,9 +163,8 @@ change_brahmins_or_church_land_share_effect = {
 		MIL = 5
 	}
 }
-
-1459.1.1 = {
-	monarch = {
+1459.1.1 = { 
+	monarch = { 
 		name = "Rukun-ud-Din Barbak"
 		dynasty = "Ilyas Shahi"
 		ADM = 4
@@ -194,9 +176,8 @@ change_brahmins_or_church_land_share_effect = {
 	add_ruler_personality = well_connected_personality
 	add_ruler_personality = tolerant_personality
 }
-
-1459.1.1 = {
-	heir = {
+1459.1.1 = { 
+	heir = { 
 		name = "Yusuf"
 		monarch_name = "Shams-ud-Din Yusuf"
 		dynasty = "Ilyas Shahi"
@@ -208,9 +189,8 @@ change_brahmins_or_church_land_share_effect = {
 		MIL = 2
 	}
 }
-
-1474.1.1 = {
-	monarch = {
+1474.1.1 = { 
+	monarch = { 
 		name = "Shams-ud-Din Yusuf"
 		dynasty = "Ilyas Shahi"
 		ADM = 2
@@ -220,7 +200,7 @@ change_brahmins_or_church_land_share_effect = {
 	clear_scripted_personalities = yes
 	add_ruler_personality = zealot_personality
 	add_heir_personality = babbling_buffoon_personality
-	heir = {
+	heir = { 
 		name = "Sikandar"
 		monarch_name = "Sikandar II"
 		dynasty = "Ilyas Shahi"
@@ -232,9 +212,8 @@ change_brahmins_or_church_land_share_effect = {
 		MIL = 1
 	}
 }
-
-1481.1.1 = {
-	monarch = {
+1481.1.1 = { 
+	monarch = { 
 		name = "Sikandar II"
 		dynasty = "Ilyas Shahi"
 		ADM = 1
@@ -244,7 +223,7 @@ change_brahmins_or_church_land_share_effect = {
 	clear_scripted_personalities = yes
 	add_ruler_personality = babbling_buffoon_personality
 	add_heir_personality = tolerant_personality
-	heir = {
+	heir = { 
 		name = "Jalal ad-Din Fateh"
 		monarch_name = "Jalal ad-Din Fateh"
 		dynasty = "Ilyas Shahi"
@@ -256,9 +235,8 @@ change_brahmins_or_church_land_share_effect = {
 		MIL = 3
 	}
 }
-
-1482.1.1 = {
-	monarch = {
+1482.1.1 = { 
+	monarch = { 
 		name = "Jalal ad-Din Fateh"
 		dynasty = "Ilyas Shahi"
 		ADM = 3
@@ -269,9 +247,8 @@ change_brahmins_or_church_land_share_effect = {
 	add_ruler_personality = scholar_personality
 	add_ruler_personality = tolerant_personality
 }
-
-1487.1.1 = {
-	monarch = {
+1487.1.1 = { 
+	monarch = { 
 		name = "Shahzada Barbak"
 		dynasty = "Abyssinid"
 		ADM = 0
@@ -281,9 +258,8 @@ change_brahmins_or_church_land_share_effect = {
 	clear_scripted_personalities = yes
 	add_ruler_personality = cruel_personality
 }
-
-1487.1.1 = {
-	heir = {
+1487.1.1 = { 
+	heir = { 
 		name = "Sayf-ud-Din Firuz"
 		monarch_name = "Sayf ad-Din Firuz"
 		dynasty = "Abyssinid"
@@ -295,9 +271,8 @@ change_brahmins_or_church_land_share_effect = {
 		MIL = 1
 	}
 }
-
-1488.1.1 = {
-	monarch = {
+1488.1.1 = { 
+	monarch = { 
 		name = "Sayf-ud-Din Firuz"
 		dynasty = "Abyssinid"
 		ADM = 0
@@ -307,9 +282,8 @@ change_brahmins_or_church_land_share_effect = {
 	clear_scripted_personalities = yes
 	add_ruler_personality = just_personality
 }
-
-1488.1.1 = {
-	heir = {
+1488.1.1 = { 
+	heir = { 
 		name = "Nasir-ud-Din Mahmud"
 		monarch_name = "Nasir-ud-Din Mahmud II"
 		dynasty = "Abyssinid"
@@ -321,9 +295,8 @@ change_brahmins_or_church_land_share_effect = {
 		MIL = 0
 	}
 }
-
-1490.1.1 = {
-	monarch = {
+1490.1.1 = { 
+	monarch = { 
 		name = "Nasir-ud-Din Mahmud II"
 		dynasty = "Abyssinid"
 		ADM = 0
@@ -331,9 +304,8 @@ change_brahmins_or_church_land_share_effect = {
 		MIL = 0
 	}
 }
-
-1490.1.1 = {
-	heir = {
+1490.1.1 = { 
+	heir = { 
 		name = "Shams ad-Din Muzaffar"
 		monarch_name = "Shams ad-Din Muzaffar"
 		dynasty = "Abyssinid"
@@ -345,9 +317,8 @@ change_brahmins_or_church_land_share_effect = {
 		MIL = 1
 	}
 }
-
-1491.1.1 = {
-	monarch = {
+1491.1.1 = { 
+	monarch = { 
 		name = "Shams ad-Din Muzaffar"
 		dynasty = "Abyssinid"
 		ADM = 0
@@ -358,11 +329,9 @@ change_brahmins_or_church_land_share_effect = {
 	add_ruler_personality = cruel_personality
 	add_ruler_personality = malevolent_personality
 }
-
 #Coup by Wazir of Shams-ud-Din Muzaffar Shah
-
-1493.1.1 = {
-	monarch = {
+1493.1.1 = { 
+	monarch = { 
 		name = "Ala-ud-din Husain"
 		dynasty = "Hussein Shahi"
 		ADM = 3
@@ -374,9 +343,8 @@ change_brahmins_or_church_land_share_effect = {
 	add_ruler_personality = scholar_personality
 	add_ruler_personality = tolerant_personality
 }
-
-1500.1.1 = {
-	heir = {
+1500.1.1 = { 
+	heir = { 
 		name = "Nasir ad-Din Nasrat"
 		monarch_name = "Nasir ad-Din Nasrat"
 		dynasty = "Hussein Shahi"
@@ -388,9 +356,8 @@ change_brahmins_or_church_land_share_effect = {
 		MIL = 2
 	}
 }
-
-1519.1.1 = {
-	monarch = {
+1519.1.1 = { 
+	monarch = { 
 		name = "Nasir ad-Din Nasrat"
 		dynasty = "Hussein Shahi"
 		ADM = 2
@@ -400,9 +367,8 @@ change_brahmins_or_church_land_share_effect = {
 	clear_scripted_personalities = yes
 	add_ruler_personality = silver_tongue_personality
 }
-
-1519.1.1 = {
-	heir = {
+1519.1.1 = { 
+	heir = { 
 		name = "Ala-ud-din Firuz"
 		monarch_name = "'Ala' ad-Din Firuz III"
 		dynasty = "Hussein Shahi"
@@ -414,9 +380,8 @@ change_brahmins_or_church_land_share_effect = {
 		MIL = 0
 	}
 }
-
-1533.1.1 = {
-	monarch = {
+1533.1.1 = { 
+	monarch = { 
 		name = "Ala-ud-din Firuz III"
 		dynasty = "Hussein Shahi"
 		ADM = 0
@@ -424,9 +389,8 @@ change_brahmins_or_church_land_share_effect = {
 		MIL = 0
 	}
 }
-
-1533.1.1 = {
-	heir = {
+1533.1.1 = { 
+	heir = { 
 		name = "Ghiyasuddin Mahmud"
 		monarch_name = "Ghiyasuddin Mahmud"
 		dynasty = "Hussein Shahi"
@@ -438,9 +402,8 @@ change_brahmins_or_church_land_share_effect = {
 		MIL = 3
 	}
 }
-
-1533.3.1 = {
-	monarch = {
+1533.3.1 = { 
+	monarch = { 
 		name = "Ghiyasuddin Mahmud"
 		dynasty = "Hussein Shahi"
 		ADM = 1
@@ -450,18 +413,16 @@ change_brahmins_or_church_land_share_effect = {
 	clear_scripted_personalities = yes
 	add_ruler_personality = craven_personality
 }
-
 #Suri Dynasty
-
-1538.1.1 = {
-	monarch = {
+1538.1.1 = { 
+	monarch = { 
 		name = "Sher Shah"
 		dynasty = "Suri"
 		culture = afghani
 		ADM = 6
 		DIP = 4
 		MIL = 6
-	leader = {	name = "Sher Shah"	type = general	fire = 2	shock = 5	manuever = 5	siege = 2}
+		leader = { name = "Sher Shah" type = general fire = 2 shock = 5 manuever = 5 siege = 2 }
 	}
 	clear_scripted_personalities = yes
 	add_ruler_personality = conqueror_personality
@@ -469,9 +430,8 @@ change_brahmins_or_church_land_share_effect = {
 	add_ruler_personality = strict_personality
 	add_accepted_culture = avadhi
 }
-
-1538.4.1 = {
-	heir = {
+1538.4.1 = { 
+	heir = { 
 		name = "Islam Shah"
 		monarch_name = "Islam Shah"
 		culture = afghani
@@ -484,17 +444,14 @@ change_brahmins_or_church_land_share_effect = {
 		MIL = 3
 	}
 }
-
-1540.1.1 = {
+1540.1.1 = { 
 	add_accepted_culture = kanauji
 }
-
-1544.1.1 = {
+1544.1.1 = { 
 	add_accepted_culture = panjabi
 }
-
-1545.5.22 = {
-	monarch = {
+1545.5.22 = { 
+	monarch = { 
 		name = "Islam Shah"
 		dynasty = "Suri"
 		ADM = 2
@@ -502,9 +459,8 @@ change_brahmins_or_church_land_share_effect = {
 		MIL = 3
 	}
 }
-
-1545.5.23 = {
-	heir = {
+1545.5.23 = { 
+	heir = { 
 		name = "Shams ud-Din Muhammad"
 		monarch_name = "Shams ud-Din Muhammad"
 		dynasty = "Suri"
@@ -516,9 +472,8 @@ change_brahmins_or_church_land_share_effect = {
 		MIL = 1
 	}
 }
-
-1553.1.1 = {
-	monarch = {
+1553.1.1 = { 
+	monarch = { 
 		name = "Shams ud-Din Muhammad"
 		dynasty = "Suri"
 		ADM = 3
@@ -529,12 +484,11 @@ change_brahmins_or_church_land_share_effect = {
 	remove_accepted_culture = avadhi
 	remove_accepted_culture = kanauji
 }
-
-1553.1.1 = {
-	capital = 563 # Gauda
-	heir = {
+1553.1.1 = { 
+	capital = 563# Gauda
+	heir = { 
 		name = "Ghiyat ad-Din Bahadur"
-		monarch_name =  "Ghiyat ad-Din Bahadur"
+		monarch_name = "Ghiyat ad-Din Bahadur"
 		dynasty = "Suri"
 		birth_date = 1530.1.1
 		death_Date = 1561.1.1
@@ -544,9 +498,8 @@ change_brahmins_or_church_land_share_effect = {
 		MIL = 4
 	}
 }
-
-1555.1.1 = {
-	monarch = {
+1555.1.1 = { 
+	monarch = { 
 		name = "Ghiyat ad-Din Bahadur"
 		dynasty = "Suri"
 		ADM = 4
@@ -554,9 +507,8 @@ change_brahmins_or_church_land_share_effect = {
 		MIL = 4
 	}
 }
-
-1555.1.1 = {
-	heir = {
+1555.1.1 = { 
+	heir = { 
 		name = "Ghiyat ad-Din Jalal"
 		monarch_name = "Ghiyat ad-Din Jalal"
 		dynasty = "Suri"
@@ -568,9 +520,8 @@ change_brahmins_or_church_land_share_effect = {
 		MIL = 3
 	}
 }
-
-1561.1.1 = {
-	monarch = {
+1561.1.1 = { 
+	monarch = { 
 		name = "Ghiyat ad-Din Jalal"
 		dynasty = "Suri"
 		ADM = 2
@@ -578,11 +529,9 @@ change_brahmins_or_church_land_share_effect = {
 		MIL = 3
 	}
 }
-
 #Sultans of Bengal
-
-1564.1.1 = {
-	monarch = {
+1564.1.1 = { 
+	monarch = { 
 		name = "Sulayman Khan"
 		dynasty = "Karrani"
 		ADM = 1
@@ -590,9 +539,8 @@ change_brahmins_or_church_land_share_effect = {
 		MIL = 1
 	}
 }
-
-1564.1.1 = {
-	heir = {
+1564.1.1 = { 
+	heir = { 
 		name = "Da'ud"
 		monarch_name = "Da'ud"
 		dynasty = "Karrani"
@@ -604,9 +552,8 @@ change_brahmins_or_church_land_share_effect = {
 		MIL = 3
 	}
 }
-
-1572.1.1 = {
-	monarch = {
+1572.1.1 = { 
+	monarch = { 
 		name = "Da'ud"
 		dynasty = "Karrani"
 		ADM = 2
@@ -614,9 +561,8 @@ change_brahmins_or_church_land_share_effect = {
 		MIL = 3
 	}
 }
-
-1576.7.12 = {
-	capital = 563 # Gauda
+1576.7.12 = { 
+	capital = 563# Gauda
 }
 #Mughal occupation
 #1575.1.1 = {
@@ -629,11 +575,9 @@ change_brahmins_or_church_land_share_effect = {
 #		}
 #	capital = 563	# Dacca
 #}
-
 #Nawabs of Bengal
-
-1707.3.15 = {
-	monarch = {
+1707.3.15 = { 
+	monarch = { 
 		name = "Murshid Quli"
 		dynasty = "Nasiri"
 		ADM = 5
@@ -642,9 +586,8 @@ change_brahmins_or_church_land_share_effect = {
 	}
 	government_rank = 1
 }
-
-1707.3.15 = {
-	heir = {
+1707.3.15 = { 
+	heir = { 
 		name = "Shuja' ad-Din Muhammad"
 		monarch_name = "Shuja' ad-Din Muhammad"
 		dynasty = "Nasiri"
@@ -656,9 +599,8 @@ change_brahmins_or_church_land_share_effect = {
 		MIL = 1
 	}
 }
-
-1726.1.1 = {
-	monarch = {
+1726.1.1 = { 
+	monarch = { 
 		name = "Shuja' ad-Din Muhammad"
 		dynasty = "Nasiri"
 		ADM = 4
@@ -666,9 +608,8 @@ change_brahmins_or_church_land_share_effect = {
 		MIL = 1
 	}
 }
-
-1726.1.1 = {
-	heir = {
+1726.1.1 = { 
+	heir = { 
 		name = "'Ala' ad-Daula Sarafaraz"
 		monarch_name = "'Ala' ad-Daula Sarafaraz"
 		dynasty = "Nasiri"
@@ -680,9 +621,8 @@ change_brahmins_or_church_land_share_effect = {
 		MIL = 0
 	}
 }
-
-1739.3.24 = {
-	monarch = {
+1739.3.24 = { 
+	monarch = { 
 		name = "'Ala' ad-Daula Sarfaraz"
 		dynasty = "Nasiri"
 		ADM = 0
@@ -690,9 +630,8 @@ change_brahmins_or_church_land_share_effect = {
 		MIL = 0
 	}
 }
-
-1739.3.24 = {
-	heir = {
+1739.3.24 = { 
+	heir = { 
 		name = "Ali-Vardi Khan"
 		monarch_name = "Ali-Vardi Khan"
 		dynasty = "Afshar"
@@ -704,9 +643,8 @@ change_brahmins_or_church_land_share_effect = {
 		MIL = 2
 	}
 }
-
-1740.5.13 = {
-	monarch = {
+1740.5.13 = { 
+	monarch = { 
 		name = "Ali-Vardi Khan"
 		dynasty = "Afshar"
 		ADM = 4
@@ -714,9 +652,8 @@ change_brahmins_or_church_land_share_effect = {
 		MIL = 2
 	}
 }
-
-1740.5.13 = {
-	heir = {
+1740.5.13 = { 
+	heir = { 
 		name = "Mirza Mahmud Siraj"
 		monarch_name = "Mirza Mahmud Siraj"
 		dynasty = "Afshar"
@@ -728,9 +665,8 @@ change_brahmins_or_church_land_share_effect = {
 		MIL = 2
 	}
 }
-
-1756.4.10 = {
-	monarch = {
+1756.4.10 = { 
+	monarch = { 
 		name = "Mirza Mahmud Siraj"
 		dynasty = "Afshar"
 		ADM = 0
@@ -738,9 +674,8 @@ change_brahmins_or_church_land_share_effect = {
 		MIL = 2
 	}
 }
-
-1756.4.10 = {
-	heir = {
+1756.4.10 = { 
+	heir = { 
 		name = "Mir Muhammad Ja'far"
 		monarch_name = "Mir Muhammad Ja'far"
 		dynasty = "Afshar"
@@ -752,9 +687,8 @@ change_brahmins_or_church_land_share_effect = {
 		MIL = 2
 	}
 }
-
-1757.6.24 = {
-	monarch = {
+1757.6.24 = { 
+	monarch = { 
 		name = "Mir Muhammad Ja'far"
 		dynasty = "Afshar"
 		ADM = 1
@@ -762,9 +696,8 @@ change_brahmins_or_church_land_share_effect = {
 		MIL = 2
 	}
 }
-
-1757.6.24 = {
-	heir = {
+1757.6.24 = { 
+	heir = { 
 		name = "Mir Qasim 'Ali"
 		monarch_name = "Mir Qasim 'Ali"
 		dynasty = "Afshar"
@@ -776,9 +709,8 @@ change_brahmins_or_church_land_share_effect = {
 		MIL = 3
 	}
 }
-
-1760.10.21 = {
-	monarch = {
+1760.10.21 = { 
+	monarch = { 
 		name = "Mir Qasim 'Ali"
 		dynasty = "Afshar"
 		ADM = 3
@@ -786,9 +718,8 @@ change_brahmins_or_church_land_share_effect = {
 		MIL = 3
 	}
 }
-
-1760.10.21 = {
-	heir = {
+1760.10.21 = { 
+	heir = { 
 		name = "Mir Muhammad Ja'far"
 		monarch_name = "Mir Muhammad Ja'far"
 		dynasty = "Najafi"
@@ -800,9 +731,8 @@ change_brahmins_or_church_land_share_effect = {
 		MIL = 2
 	}
 }
-
-1763.7.8 = {
-	monarch = {
+1763.7.8 = { 
+	monarch = { 
 		name = "Mir Muhammad Ja'far"
 		dynasty = "Najafi"
 		ADM = 1
@@ -810,9 +740,8 @@ change_brahmins_or_church_land_share_effect = {
 		MIL = 2
 	}
 }
-
-1763.7.8 = {
-	heir = {
+1763.7.8 = { 
+	heir = { 
 		name = "Mir Phulwari Najm"
 		monarch_name = "Mir Phulwari Najm"
 		dynasty = "Najafi"
@@ -824,9 +753,8 @@ change_brahmins_or_church_land_share_effect = {
 		MIL = 0
 	}
 }
-
-1765.2.5 = {
-	monarch = {
+1765.2.5 = { 
+	monarch = { 
 		name = "Mir Phulwari Najm"
 		dynasty = "Najafi"
 		ADM = 0
@@ -834,9 +762,8 @@ change_brahmins_or_church_land_share_effect = {
 		MIL = 0
 	}
 }
-
-1765.2.5 = {
-	heir = {
+1765.2.5 = { 
+	heir = { 
 		name = "Sayf ad-Daula"
 		monarch_name = "Sayf ad-Daula"
 		dynasty = "Najafi"
@@ -848,9 +775,8 @@ change_brahmins_or_church_land_share_effect = {
 		MIL = 1
 	}
 }
-
-1766.5.9 = {
-	monarch = {
+1766.5.9 = { 
+	monarch = { 
 		name = "Sayf ad-Daula"
 		dynasty = "Najafi"
 		ADM = 1
@@ -858,9 +784,8 @@ change_brahmins_or_church_land_share_effect = {
 		MIL = 1
 	}
 }
-
-1766.5.9 = {
-	heir = {
+1766.5.9 = { 
+	heir = { 
 		name = "Mubarak ad-Daula"
 		monarch_name = "Mubarak ad-Daula"
 		dynasty = "Najafi"
@@ -872,9 +797,8 @@ change_brahmins_or_church_land_share_effect = {
 		MIL = 0
 	}
 }
-
-1770.3.11 = {
-	monarch = {
+1770.3.11 = { 
+	monarch = { 
 		name = "Mubarak ad-Daula"
 		dynasty = "Najafi"
 		ADM = 0
@@ -882,3 +806,4 @@ change_brahmins_or_church_land_share_effect = {
 		MIL = 0
 	}
 }
+government_rank = 1

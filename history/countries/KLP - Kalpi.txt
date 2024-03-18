@@ -4,11 +4,10 @@ government_rank = 1
 technology_group = indian
 religion = sunni
 primary_culture = vindhyan
-capital = 2059	# Kalpi
-
+capital = 2059# Kalpi
 #Malikzadas of Kalpi
-1399.1.1 = {
-	monarch = {
+1399.1.1 = { 
+	monarch = { 
 		name = "Nasir al-Din Mahmud Shah"
 		dynasty = "Malikzada"
 		adm = 5
@@ -16,9 +15,8 @@ capital = 2059	# Kalpi
 		mil = 3
 	}
 }
-
-1399.1.1 = {
-	heir = {
+1399.1.1 = { 
+	heir = { 
 		name = "Qadir"
 		monarch_name = "Qadir Shah"
 		dynasty = "Malikzada"
@@ -30,9 +28,8 @@ capital = 2059	# Kalpi
 		mil = 3
 	}
 }
-
-1411.1.1 = {
-	monarch = {
+1411.1.1 = { 
+	monarch = { 
 		name = "Qadir Shah"
 		dynasty = "Malikzada"
 		adm = 4
@@ -40,9 +37,8 @@ capital = 2059	# Kalpi
 		mil = 3
 	}
 }
-
-1411.1.1 = {
-	heir = {
+1411.1.1 = { 
+	heir = { 
 		name = "Fath al-Din Jalal"
 		monarch_name = "Fath al-Din Jalal Shah"
 		dynasty = "Malikzada"
@@ -54,9 +50,8 @@ capital = 2059	# Kalpi
 		mil = 1
 	}
 }
-
-1432.1.1 = {
-	monarch = {
+1432.1.1 = { 
+	monarch = { 
 		name = "Fath al-Din Jalal Shah"
 		dynasty = "Malikzada"
 		adm = 5
@@ -64,9 +59,8 @@ capital = 2059	# Kalpi
 		mil = 1
 	}
 }
-
-1432.1.1 = {
-	heir = {
+1432.1.1 = { 
+	heir = { 
 		name = "Nasir"
 		monarch_name = "Nasir Khan"
 		dynasty = "Malikzada"
@@ -78,9 +72,8 @@ capital = 2059	# Kalpi
 		mil = 3
 	}
 }
-
-1439.1.1 = {
-	monarch = {
+1439.1.1 = { 
+	monarch = { 
 		name = "Nasir Khan"
 		dynasty = "Malikzada"
 		adm = 6

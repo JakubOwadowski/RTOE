@@ -1,0 +1,15 @@
+#East Karelia
+capital = "Kem"
+culture = karelian
+religion = finnish_pagan_reformed
+add_core = KRL
+is_city = no
+base_tax = 1
+base_production = 1
+trade_goods = salt
+base_manpower = 1
+discovered_by = western
+discovered_by = eastern
+native_hostileness = 1
+native_size = 3
+native_ferocity = 2

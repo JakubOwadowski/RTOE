@@ -4,17 +4,15 @@ government_rank = 1
 technology_group = western
 religion = orthodox
 religious_school = see_of_rome
-primary_culture = romansh
+primary_culture = swabian
 add_accepted_culture = swabian
-capital = 1
+capital = 4739
 fixed_capital = 1
-
 historical_friend = ILA
 historical_friend = SCH
 historical_friend = TTL
-
-1399.1.1 = {
-	monarch = {
+1399.1.1 = { 
+	monarch = { 
 		name = "Consiglio Comunale"
 		adm = 3
 		dip = 3

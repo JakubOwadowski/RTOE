@@ -48,7 +48,6 @@
 161 = "Tergovistye"
 163 = "Kréta"
 183 = "Párizs"
-226 = "Gibraltár"
 227 = "Lisszabon"
 256 = "Palacka"
 259 = "Szandomir "

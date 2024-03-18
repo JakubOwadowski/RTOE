@@ -1,0 +1,33 @@
+#2088 - Umarkot
+owner = BAL
+controller = BAL
+culture = sindhi
+religion = shiite
+capital = "Umarkot"
+trade_goods = wool
+base_tax = 1
+base_production = 1
+base_manpower = 1
+is_city = yes
+add_core = SND
+add_rajputs_or_marathas_or_nobles_effect = yes
+discovered_by = indian
+discovered_by = muslim
+discovered_by = ottoman
+discovered_by = nomad_group
+discovered_by = chinese
+1498.1.1 = { discovered_by = POR }
+1544.1.1 = { 
+	controller = BNG
+}
+1545.1.1 = { 
+	controller = SND
+}
+1591.1.1 = { 
+	controller = MUG
+	add_core = MUG
+}
+1739.1.1 = { 
+	controller = SND
+}
+add_core = BAL

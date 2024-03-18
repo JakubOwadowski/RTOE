@@ -1,6 +1,6 @@
 government = monarchy
 add_government_reform = feudalism_reform
-primary_culture = poitevin
+primary_culture = cosmopolitan_french
 religion = orthodox
 religious_school = see_of_rome
 technology_group = western

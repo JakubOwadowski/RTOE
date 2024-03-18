@@ -593,14 +593,12 @@ country_event = {
 	desc = {
 		trigger = {
 			capital_scope = { continent = europe }
-			NOT = { tag = TUR }
 		}
 		desc = exploration_events.16.d #European
 	}
 	desc = {
 		trigger = {
 			NOT = { culture_group = east_asian } #Chinese
-			NOT = { tag = TUR }
 			capital_scope = {
 				NOT = { region = japan_region }
 				OR = {
@@ -616,7 +614,6 @@ country_event = {
 			capital_scope = {
 				continent = africa
 			}
-			NOT = { tag = TUR }
 		}
 		desc = exploration_events.19.d #Africa
 	}
@@ -635,20 +632,8 @@ country_event = {
 		trigger = {
 			culture_group = east_asian
 			capital_scope = { continent = asia }
-			NOT = { tag = TUR }
 		}
 		desc = exploration_events.21.d #Chinese version
-	}
-	desc = {
-		trigger = {
-			tag = TUR
-			OR = {
-				capital_scope = { continent = europe }
-				capital_scope = { continent = asia }
-				capital_scope = { continent = africa }
-			}
-		}
-		desc = exploration_events.22.d #Ottoman version
 	}
 	desc = {
 		trigger = {

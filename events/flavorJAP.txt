@@ -662,7 +662,7 @@ country_event = {
 		define_advisor = {
 			name = "William Adams"
 			culture = english
-			religion = protestant
+			religion = orthodox
 			type = trader
 			discount = yes
 			skill = 2
@@ -670,103 +670,6 @@ country_event = {
 	}
 }
 
-# Kirishitan
-country_event = {
-	id = flavor_jap.9
-	title = "flavor_jap.EVTNAME9"
-	desc = "flavor_jap.EVTDESC9"
-	picture = RELIGION_eventPicture
-	
-	trigger = {
-		culture_group = japanese_g
-		NOT = { has_dlc = "Mandate of Heaven" }
-		NOT = { religion = catholic }
-		any_owned_province = {
-			culture_group = japanese_g
-			religion = catholic
-			can_spawn_rebels = catholic_rebels
-		}
-		has_country_flag = western_trade_flag
-	}
-	
-	mean_time_to_happen = {
-		months = 300
-	}
-	
-	immediate = {
-		hidden_effect = {
-			if = {
-				limit = { NOT = { has_country_flag = kirishitan_have_appeared } }
-				set_country_flag = kirishitan_have_appeared
-			}
-			random_owned_province = {
-				limit = {
-					culture_group = japanese_g
-					religion = catholic
-					can_spawn_rebels = catholic_rebels
-				}
-				set_province_flag = jap_kirishitan_flag
-			}
-			if = {
-				limit = {
-					num_of_cities = 8
-				}
-				random_owned_province = {
-					limit = {
-						culture_group = japanese_g
-						religion = catholic
-						can_spawn_rebels = catholic_rebels
-						NOT = { has_province_flag = jap_kirishitan_flag }
-					}
-					set_province_flag = jap_kirishitan_flag
-				}
-			}
-			if = {
-				limit = {
-					num_of_cities = 15
-				}
-				random_owned_province = {
-					limit = {
-						culture_group = japanese_g
-						religion = catholic
-						can_spawn_rebels = catholic_rebels
-						NOT = { has_province_flag = jap_kirishitan_flag }
-					}
-					set_province_flag = jap_kirishitan_flag
-				}
-			}
-		}
-	}
-	
-	option = {
-		name = "flavor_jap.EVTOPTA9" # Stop the missionaries!
-		every_owned_province = {
-			limit = {
-				has_province_flag = jap_kirishitan_flag
-			}
-			spawn_rebels = { 
-				type = catholic_rebels 
-				size = 2 
-			}
-			clr_province_flag = jap_kirishitan_flag
-		}
-	}
-	option = {
-		name = "flavor_jap.EVTOPTB9" # Let them spread their faith
-		add_prestige = -25
-		add_stability = -1
-		every_owned_province = {
-			limit = {
-				has_province_flag = jap_kirishitan_flag
-			}
-			add_province_modifier = {
-				name = add_unrest_5_modifier
-				duration = 1825
-			}
-			clr_province_flag = jap_kirishitan_flag
-		}
-	}
-}
 
 # Attempted Coup!
 country_event = {
@@ -2268,45 +2171,6 @@ country_event = {
 		add_stability = -1
 		remove_country_modifier = sword_hunter
 		clr_country_flag = sword_hunter_flag
-	}
-}
-
-# Province converts to Catholicism
-province_event = {
-	id = flavor_jap.35
-	title = "flavor_jap.EVTNAME35"
-	desc = "flavor_jap.EVTDESC35"
-	picture = RELIGION_eventPicture
-
-	trigger = {
-		NOT = { has_dlc = "Mandate of Heaven" }
-		owner = {
-			culture_group = japanese_g
-			has_country_modifier = western_trade
-		}
-		is_reformation_center = no
-		NOT = { religion = catholic }
-	}
-
-	is_mtth_scaled_to_size = 1
-
-	mean_time_to_happen = {
-		months = 400
-		modifier = {
-			factor = 2
-			is_capital = yes
-		}
-		modifier = {
-			factor = 0.8
-			any_neighbor_province = {
-				religion = catholic
-			}
-		}
-	}
-	
-	option = {
-		name = "flavor_jap.EVTOPTA35"
-		change_religion = catholic
 	}
 }
 

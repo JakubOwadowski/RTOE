@@ -2,11 +2,10 @@ government = tribal
 add_government_reform = tribal_federation
 technology_group = muslim
 primary_culture = bedouin_arabic
-religion = sunni
-capital = 393 # Jabal Shammar
-
-1444.1.1 = {
-	monarch = {
+religion = ibadi
+capital = 393# Jabal Shammar
+1444.1.1 = { 
+	monarch = { 
 		name = "Abdullah"
 		dynasty = "Rashid"
 		adm = 2
@@ -15,9 +14,8 @@ capital = 393 # Jabal Shammar
 	}
 	add_piety = 0.1
 }
-
-1444.1.1 = {
-	heir = {
+1444.1.1 = { 
+	heir = { 
 		name = "Muhammed"
 		monarch_name = "Muhammed I"
 		dynasty = "Rashid"
@@ -29,3 +27,4 @@ capital = 393 # Jabal Shammar
 		mil = 3
 	}
 }
+government_rank = 1

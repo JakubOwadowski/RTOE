@@ -900,20 +900,20 @@ restore_old_nation_on_formation_effect = {
 					}
 				}
 			}
-			else_if = {
-				limit = {
-					has_reform = ottoman_government
-				}
-				event_target:old_tag_target = {
-					change_government = monarchy
-					add_government_reform = ottoman_government
-					#set_legacy_government = ottoman_government_legacy
-					define_ruler = {
-						dynasty = ROOT
-						claim = 95
-					}
-				}
-			}
+			# else_if = {
+			# 	limit = {
+			# 		has_reform = ottoman_government
+			# 	}
+			# 	event_target:old_tag_target = {
+			# 		change_government = monarchy
+			# 		add_government_reform = ottoman_government
+			# 		#set_legacy_government = ottoman_government_legacy
+			# 		define_ruler = {
+			# 			dynasty = ROOT
+			# 			claim = 95
+			# 		}
+			# 	}
+			# }
 			else_if = {
 				limit = {
 					has_reform = indian_sultanate_reform
@@ -936,20 +936,20 @@ restore_old_nation_on_formation_effect = {
 					}
 				}
 			}
-			else_if = {
-				limit = {
-					has_reform = mamluk_government
-				}
-				event_target:old_tag_target = {
-					change_government = monarchy
-					add_government_reform = mamluk_government
-					#set_legacy_government = mamluk_government_legacy
-					define_ruler = {
-						dynasty = ROOT
-						claim = 95
-					}
-				}
-			}
+			# else_if = {
+			# 	limit = {
+			# 		has_reform = mamluk_government
+			# 	}
+			# 	event_target:old_tag_target = {
+			# 		change_government = monarchy
+			# 		add_government_reform = mamluk_government
+			# 		#set_legacy_government = mamluk_government_legacy
+			# 		define_ruler = {
+			# 			dynasty = ROOT
+			# 			claim = 95
+			# 		}
+			# 	}
+			# }
 			else_if = {
 				limit = {
 					has_reform = iqta
@@ -964,20 +964,20 @@ restore_old_nation_on_formation_effect = {
 					}
 				}
 			}
-			else_if = {
-				limit = {
-					has_reform = prussian_monarchy
-				}
-				event_target:old_tag_target = {
-					change_government = monarchy
-					add_government_reform = prussian_monarchy
-					#set_legacy_government = prussian_monarchy_legacy
-					define_ruler = {
-						dynasty = ROOT
-						claim = 95
-					}
-				}
-			}
+			# else_if = {
+			# 	limit = {
+			# 		has_reform = prussian_monarchy
+			# 	}
+			# 	event_target:old_tag_target = {
+			# 		change_government = monarchy
+			# 		add_government_reform = prussian_monarchy
+			# 		#set_legacy_government = prussian_monarchy_legacy
+			# 		define_ruler = {
+			# 			dynasty = ROOT
+			# 			claim = 95
+			# 		}
+			# 	}
+			# }
 			else_if = {
 				limit = {
 					government = monarchy
@@ -1057,19 +1057,19 @@ restore_old_nation_on_formation_effect = {
 					}
 				}
 			}
-			else_if = {
-				limit = {
-					has_reform = prussian_republic_reform
-				}
-				event_target:old_tag_target = {
-					change_government = republic
-					add_government_reform = prussian_republic_reform
-					#set_legacy_government = prussian_republic
-					define_ruler = {
-						claim = 95
-					}
-				}
-			}
+			# else_if = {
+			# 	limit = {
+			# 		has_reform = prussian_republic_reform
+			# 	}
+			# 	event_target:old_tag_target = {
+			# 		change_government = republic
+			# 		add_government_reform = prussian_republic_reform
+			# 		#set_legacy_government = prussian_republic
+			# 		define_ruler = {
+			# 			claim = 95
+			# 		}
+			# 	}
+			# }
 			else_if = {
 				limit = {
 					has_reform = signoria_reform
@@ -3479,6 +3479,14 @@ on_culture_demoted_effect = {
 			}
 			remove_province_modifier = dan_estonian_support
 		}
+	}
+	if = {
+		limit = {
+			has_country_modifier = NRM_accepted_the_dutch
+			NOT = { accepted_culture = dutch }
+			NOT = { primary_culture = dutch }
+		}
+		remove_country_modifier = NRM_accepted_the_dutch
 	}
 }
 

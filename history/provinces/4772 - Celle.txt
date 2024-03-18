@@ -1,20 +1,18 @@
-#Berkshire
-
-owner = NRM
-controller = NRM
-culture = english
+#Ribera
+owner = NAV
+controller = NAV
+add_core = NAV
+culture = tarragonese
 religion = orthodox
-hre = no
+hre = yes
 base_tax = 2
-base_production = 2
-trade_goods = livestock
-base_manpower = 2
-capital = "Reading"
+base_production = 1
+trade_goods = wine
+base_manpower = 1
+capital = "Tudela"
 is_city = yes
-add_core = NRM
-add_core = MRC
+discovered_by = eastern
+discovered_by = western
 discovered_by = western
 discovered_by = muslim
 discovered_by = ottoman
-discovered_by = eastern
-discovered_by = western

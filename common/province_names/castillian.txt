@@ -6,7 +6,6 @@
 221 = "Murcia"
 224 = "Sevilla"
 225 = "Córdoba"
-226 = "Gibraltar"
 231 = "Oporto"
 232 = "Braganza"
 333 = "Mallorca"
@@ -26,10 +25,8 @@
 98 = { "Utreque" "Utreque" }
 99 = "Güeldres"
 100 = { "Frisia" "Leuvarda" }
-1742 = { "Limburgo" "Ruremunda" }
 1744 = { "Antuerpia" "Antuerpia" }
 4769 = { "Lila" "Lila" }
-4770 = "Bolduque"
 
 102 = { "Niza" "Niza" }
 103 = { "Turín" "Turín" }
@@ -39,7 +36,6 @@
 112 = { "Venecia" "Venecia" }
 114 = { "Rávena" "Rávena" }
 116 = { "Florencia" "Florencia" }
-120 = { "Abruzos" "Abruzos" }
 121 = { "Nápoles" "Nápoles" }
 124 = { "Mesina" "Mesina" }
 1247 = { "Córcega" "Bastia" }
@@ -52,7 +48,6 @@
 
 88 = { "Artesia" "Arrás" }
 89 = { "Picardía" "Amiens" }
-91 = "Henao"
 93 = { "Lieja" "Lieja" }
 94 = { "Luxemburgo" "Luxemburgo" }
 167 = { "Ruán" "Ruán" }

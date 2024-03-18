@@ -1,0 +1,72 @@
+namespace = RTOE_flavour_NRM
+
+#Administration of Ireland
+country_event = {
+	id = RTOE_flavour_NRM.1
+	title = RTOE_flavour_NRM.1.t
+	desc = RTOE_flavour_NRM.1.d
+	picture = REFORM_eventPicture
+	
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option = { #Establish them as the chief authority over Ireland
+		name = RTOE_flavour_NRM.1.a
+		ai_chance = { factor = 100 }
+		if = {
+			limit = {
+				NOT = { exists = DUB }
+			}
+			373 = {
+				add_core = DUB
+			}
+			release = DUB
+		}
+		create_subject = {
+			subject_type = feudal_vassal
+			who = DUB
+		}
+		every_owned_province = {
+			limit = {
+				OR = {
+					area = leinster_area
+					area = munster_area
+					area = connacht_area
+					area = meath_area
+					area = west_meath_area
+					area = ulster_area
+					area = west_ulster_area
+				}
+			}
+			cede_province = DUB
+		}
+		DUB = {
+			hidden_effect = {
+				change_country_color = {
+					color = { 210 45 45 }
+				}
+			}
+			override_country_name = IRE
+		}
+		every_province = {
+			limit = {
+				OR = {
+					area = leinster_area
+					area = munster_area
+					area = connacht_area
+					area = meath_area
+					area = west_meath_area
+					area = ulster_area
+					area = west_ulster_area
+				}
+			}
+			add_permanent_claim = DUB
+		}
+	}
+	
+	option = { #Let's not give them too much power
+		name = RTOE_flavour_NRM.1.b
+		ai_chance = { factor = 0 }
+		add_adm_power = 100
+	}
+}

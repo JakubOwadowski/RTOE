@@ -1,5 +1,4 @@
 # 1865 - Dreux
-
 owner = NRM
 controller = NRM
 add_core = NRM
@@ -8,7 +7,6 @@ is_city = yes
 capital = "Dreux"
 culture = cosmopolitan_french
 religion = orthodox
-hre = no
 base_tax = 3
 base_production = 3
 trade_goods = cloth

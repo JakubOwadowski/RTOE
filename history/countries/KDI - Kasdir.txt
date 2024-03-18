@@ -3,12 +3,11 @@ add_government_reform = tribal_kingdom
 government_rank = 1
 primary_culture = algerian
 religion = orthodox
-technology_group = sub_saharan
-capital = 2463	# Kasdir 
+technology_group = muslim
+capital = 2463# Kasdir 
 religious_school = see_of_alexandria
-
-1433.1.1 = {
-	monarch = {
+1433.1.1 = { 
+	monarch = { 
 		name = "Yuften II"
 		dynasty = "Ghanimid"
 		adm = 2

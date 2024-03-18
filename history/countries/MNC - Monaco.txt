@@ -1,12 +1,12 @@
 government = monarchy
 add_government_reform = feudalism_reform
 government_rank = 1
-primary_culture = ligurian
+primary_culture = occitain
 religion = orthodox
 religious_school = see_of_rome
 technology_group = western
-capital = 1 	# Monaco
-fixed_capital = 1  # Cannot move capital away from this province & no power cost to move to it
+capital = 4786 	# Monaco
+fixed_capital = 4786  # Cannot move capital away from this province & no power cost to move to it
 
 1436.1.1 = {
 	monarch = {

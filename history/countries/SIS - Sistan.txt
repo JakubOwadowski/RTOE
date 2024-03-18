@@ -1,15 +1,13 @@
 government = monarchy
 add_government_reform = iqta
 primary_culture = khorasani
-religion = sunni
+religion = shiite
 government_rank = 1
 technology_group = muslim
-capital = 435	# Zaranj
-
+capital = 435# Zaranj
 #Mihrabanids
-
-1439.1.1 = {
-	monarch = {
+1439.1.1 = { 
+	monarch = { 
 		name = "Yahya"
 		dynasty = "Mihrabanid"
 		birth_date = 1417.1.1
@@ -18,9 +16,8 @@ capital = 435	# Zaranj
 		mil = 3
 	}
 }
-
-1480.1.1 = {
-	monarch = {
+1480.1.1 = { 
+	monarch = { 
 		name = "Shams al-Din Muhammad"
 		dynasty = "Mihrabanid"
 		adm = 1
@@ -28,9 +25,8 @@ capital = 435	# Zaranj
 		mil = 1
 	}
 }
-
-1439.1.1 = {
-	monarch = {
+1439.1.1 = { 
+	monarch = { 
 		name = "Mahmud"
 		dynasty = "Mihrabanid"
 		adm = 3

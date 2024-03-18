@@ -14,7 +14,6 @@
 221 = "Murtzia"
 224 = "Sevilla"
 225 = "Kordoba"
-230 = "Algarbe"
 232 = "Bragantza"
 333 = "Balearrak"
 366 = "Kanariak"
@@ -48,3 +47,5 @@
 1247 = "Korsika"
 1934 = "Lukania"
 492 = "Puerto Rico"
+
+4772 = "Erribera"

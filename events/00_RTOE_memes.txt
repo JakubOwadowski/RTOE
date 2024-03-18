@@ -1,0 +1,68 @@
+namespace = RTOE_meme
+
+# A visitor 
+country_event = {
+	id = RTOE_meme.1
+	title = RTOE_meme.1.t
+	desc = RTOE_meme.1.d
+	picture = ADVISOR_eventPicture
+	
+	fire_only_once = yes
+	
+	trigger = {
+		tag = ZAB
+		religion = zun_pagan_reformed
+		any_owned_province = {
+			NOT = { religion = zun_pagan_reformed }
+		}
+	}
+	
+	mean_time_to_happen = {
+		years = 10
+	}
+
+	option = { #Sure.
+		name = RTOE_meme.1.a
+		define_advisor = {
+			type = inquisitor
+			name = "Nov Velian"
+			skill = 3
+			cost_multiplier = 0.1
+		}
+	}
+	
+	option = { #Turn him down.
+		name = RTOE_meme.1.b
+	}
+}
+
+# Searching the catacombs
+country_event = {
+	id = RTOE_meme.2
+	title = RTOE_meme.2.t
+	desc = RTOE_meme.2.d
+	picture = BIG_BOOK_eventPicture
+	
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option = { #DO YOU HEAR THE VOICES TOO?
+		name = RTOE_meme.2.a
+		change_religion = khorne
+		2220 = {
+			change_religion = khorne
+		}
+		every_province = {
+			limit = {
+				region = persia_region
+			}
+			add_permanent_claim = ROOT
+		}
+		change_tag = BKU
+		add_prestige = 200
+	}
+	
+	option = { #Close this place immediately!
+		name = RTOE_meme.2.b	
+	}
+}

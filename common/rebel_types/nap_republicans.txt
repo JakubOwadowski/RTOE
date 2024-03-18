@@ -142,7 +142,7 @@ nap_republican_rebels = {
 						is_revolutionary_republic_trigger = yes
 						has_reform = tribal_federation
 						has_reform = feudal_theocracy
-						has_reform = mamluk_government
+						#has_reform = mamluk_government
 					}
 				}
 			}

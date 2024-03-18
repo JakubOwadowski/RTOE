@@ -1,22 +1,18 @@
 #Country Name: Please see filename.
-
 graphical_culture = muslimgfx
-
-color = { 154 168 121 } 
-revolutionary_colors = { 0  13  0 }
-
-historical_idea_groups = {
+color = { 154 168 121 }
+revolutionary_colors = { 0 13 0 }
+historical_idea_groups = { 
 	trade_ideas
 	defensive_ideas
 	religious_ideas
-	naval_ideas	
+	naval_ideas
 	administrative_ideas
 	offensive_ideas
 	economic_ideas
 	expansion_ideas
 }
-
-historical_units = {
+historical_units = { 
 	mamluk_archer
 	muslim_cavalry_archers
 	mamluk_duel
@@ -25,8 +21,7 @@ historical_units = {
 	muslim_dragoon
 	ali_bey_reformed_infantry
 }
-
-monarch_names = {
+monarch_names = { 
 	"Julianù #1" = 5
 	"Aratù #3" = 30
 	"Markù #4" = 50
@@ -42,36 +37,27 @@ monarch_names = {
 	"Ignakiù #0" = 0
 	"Maximù #0" = 0
 	"Zenù #0" = 0
-	
-	
 	"Gaiserico #1" = 0
 	"Huneric #3" = 0
 	"Gunthamundo #1" = 0
 	"Thrasamund #1" = 0
 	"Hilderico #3" = 0
 	"Gelimer #2" = 0
-	
 	"Anna #0" = -1
 	"Marta #0" = -1
 	"Maria #0" = -1
 }
-
-leader_names = {
-	Albanù Arber Ardian Apli Apludù Aplù Apliù Aeliù Andabiù Armatù Apurù
-	Baezù Abardyli Abarù Abepù Abeusa Abeuza Abatona Abassegli Abobali
-	Kamdù Kaboga Kurbania Kursulabia
-	Daore Adae Adez Adalmat Adardan Adelminium
-	Histrù Herakle
-	Epulù Aghetaldi Agiorgi Agondola Agozze Agradi
-	Iatù Ibka Ibrika Ignakiù
-	Labinkia Ledrù Libere
-	Messore Madekù
-	Naren
-	Paiiù Apane Apania Apaniù Apanentiù Apanthia Apane Apantù Apinsù Apladomenù Aplatinù
-	Samuntiù Seiiù Silbanù Stataniù Statikù Statù Statù Sestù Sextù Sextù
-	Taulant Ateuta Atitù Athana Atiziù Atritù Atitù
+leader_names = { 
+	Albanù Arber Ardian Apli Apludù Aplù Apliù Aeliù Andabiù Armatù
+	Apurù Baezù Abardyli Abarù Abepù Abeusa Abeuza Abatona Abassegli Abobali
+	Kamdù Kaboga Kurbania Kursulabia Daore Adae Adez Adalmat Adardan Adelminium
+	Histrù Herakle Epulù Aghetaldi Agiorgi Agondola Agozze Agradi Iatù Ibka
+	Ibrika Ignakiù Labinkia Ledrù Libere Messore Madekù Naren
+	Paiiù Apane Apania Apaniù Apanentiù Apanthia Apane Apantù Apinsù Apladomenù
+	Aplatinù Samuntiù Seiiù Silbanù Stataniù Statikù Statù Statù Sestù Sextù
+	Sextù Taulant Ateuta Atitù Athana Atiziù Atritù Atitù 
 }
-
-ship_names = {
-	Karthagù Hippona Athapsù Acirta Bullaregia Douga Justinianopoli Maktar Kaesar Imperator Dominant 
+ship_names = { 
+	Karthagù Hippona Athapsù Acirta Bullaregia Douga Justinianopoli Maktar Kaesar Imperator
+	Dominant 
 }

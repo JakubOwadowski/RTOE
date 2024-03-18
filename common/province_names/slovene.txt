@@ -2,7 +2,6 @@
 112 = "Benetke"		# Venezia
 114 = "Ravena"		# Ravenna
 118 = "Rim"			# Roma
-120 = "Abruci"		# Abruzzi
 128 = "Celovec"		# Klagenfurt
 129 = "Kranjska"	# Krain
 130 = "Istra"		# Istria

@@ -76,11 +76,11 @@ roman_provincial_goverment_reform = {
 		#overlord = { has_reform = roman_empire_reform }
 		has_reform = roman_provincial_goverment_reform
 	}
-	factions = {
-		aristocrats_faction
-		loyalists_faction
-		beaurocrats_faction
-	}
+	#factions = {
+	#	aristocrats_faction
+	#	loyalists_faction
+	#	beaurocrats_faction
+	#}
 	modifiers = {
 		production_efficiency = 0.05
 	}
@@ -109,42 +109,4 @@ imperial_bishopric_reform = {
 		NOT = { num_custom_nation_provinces = 2 }
 	}
 	free_city = yes
-}
-
-#Cossacks
-cossack_host = {
-	icon = "cossack_host"
-	potential = {
-		or = {
-			has_reform = cossack_host
-			culture = cossack
-		}
-	}
-	
-	nomad = yes
-	raze_province = yes
-	valid_for_nation_designer = yes
-	nation_designer_cost = 0
-	lock_level_when_selected = yes
-	start_territory_to_estates = 0.5
-	
-	modifiers = {
-		governing_capacity_modifier = -0.25
-		cavalry_cost = -0.05
-		cavalry_shock = 1
-		general_cost = -0.25
-		leader_land_manuever = 1
-		movement_speed = 0.1
-		loot_amount = 0.25
-	}
-	nation_designer_trigger = {
-		culture = cossack
-	}
-	custom_attributes = {
-		enables_horde_idea_group = yes
-		enables_aristocratic_idea_group = no
-	}
-	ai = {
-		factor = 1000
-	}
 }

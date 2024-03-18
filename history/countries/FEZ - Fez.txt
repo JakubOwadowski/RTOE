@@ -1,13 +1,12 @@
-government = monarchy
-add_government_reform = iqta
-primary_culture = moroccan
-religion = sunni
+government = tribal
+add_government_reform = tribal_kingdom
+primary_culture = algerian
+religion = orthodox
 technology_group = muslim
-capital = 343	# Fez
-fixed_capital = 343 # Cannot move capital away from this province & no power cost to move to it
-
-1472.1.1 = {
-	monarch = {
+capital = 343# Fez
+fixed_capital = 343# Cannot move capital away from this province & no power cost to move to it
+1472.1.1 = { 
+	monarch = { 
 		name = "Muhammad I"
 		dynasty = "Wattassid"
 		adm = 2
@@ -15,9 +14,8 @@ fixed_capital = 343 # Cannot move capital away from this province & no power cos
 		mil = 3
 	}
 }
-
-1472.1.1 = {
-	heir = {
+1472.1.1 = { 
+	heir = { 
 		name = "Muhammad II"
 		monarch_name = "Muhammad II"
 		dynasty = "Marinid"
@@ -29,9 +27,8 @@ fixed_capital = 343 # Cannot move capital away from this province & no power cos
 		mil = 1
 	}
 }
-
-1504.1.1 = {
-	monarch = {
+1504.1.1 = { 
+	monarch = { 
 		name = "Muhammad II"
 		dynasty = "Wattassid"
 		adm = 0
@@ -39,9 +36,8 @@ fixed_capital = 343 # Cannot move capital away from this province & no power cos
 		mil = 1
 	}
 }
-
-1504.1.1 = {
-	heir = {
+1504.1.1 = { 
+	heir = { 
 		name = "Ahmad"
 		monarch_name = "Ahmad"
 		dynasty = "Wattassid"
@@ -53,9 +49,8 @@ fixed_capital = 343 # Cannot move capital away from this province & no power cos
 		mil = 2
 	}
 }
-
-1524.1.1 = {
-	monarch = {
+1524.1.1 = { 
+	monarch = { 
 		name = "Ahmad"
 		dynasty = "Wattassid"
 		adm = 2
@@ -63,9 +58,8 @@ fixed_capital = 343 # Cannot move capital away from this province & no power cos
 		mil = 2
 	}
 }
-
-1537.1.1 = {
-	heir = {
+1537.1.1 = { 
+	heir = { 
 		name = "Nasir ad-Din al-Qasri"
 		monarch_name = "Nasir ad-Din al-Qasri"
 		dynasty = "Wattassid"
@@ -77,9 +71,8 @@ fixed_capital = 343 # Cannot move capital away from this province & no power cos
 		mil = 2
 	}
 }
-
-1545.1.1 = {
-	monarch = {
+1545.1.1 = { 
+	monarch = { 
 		name = "Ali Abu Hassun"
 		regent = yes
 		adm = 3
@@ -87,9 +80,8 @@ fixed_capital = 343 # Cannot move capital away from this province & no power cos
 		mil = 0
 	}
 }
-
-1545.1.1 = {
-	heir = {
+1545.1.1 = { 
+	heir = { 
 		name = "Nasir ad-Din al-Qasri"
 		monarch_name = "Nasir ad-Din al-Qasri"
 		dynasty = "Wattassid"
@@ -101,10 +93,8 @@ fixed_capital = 343 # Cannot move capital away from this province & no power cos
 		mil = 2
 	}
 }
-
-
-1547.1.1 = {
-	monarch = {
+1547.1.1 = { 
+	monarch = { 
 		name = "Ahmad"
 		dynasty = "Wattassid"
 		adm = 2
@@ -112,9 +102,8 @@ fixed_capital = 343 # Cannot move capital away from this province & no power cos
 		mil = 2
 	}
 }
-
-1547.1.1 = {
-	heir = {
+1547.1.1 = { 
+	heir = { 
 		name = "Nasir ad-Din al-Qasri"
 		monarch_name = "Nasir ad-Din al-Qasri"
 		dynasty = "Wattassid"
@@ -126,11 +115,10 @@ fixed_capital = 343 # Cannot move capital away from this province & no power cos
 		mil = 2
 	}
 }
-
 #1549 - Saadians capture Fez and reunite Morocco
+1638.1.1 = {  #Dilawites seize Fez and northern Morocco
 
-1638.1.1 = {	#Dilawites seize Fez and northern Morocco
-	monarch = {
+	monarch = { 
 		name = "Mohammed al-Hajj"
 		dynasty = "al-Dila'i"
 		adm = 2
@@ -138,6 +126,5 @@ fixed_capital = 343 # Cannot move capital away from this province & no power cos
 		mil = 4
 	}
 }
-
 #1668.7.20 - Alaouites defeat the Dilawites
-#1668.9.7 - Reunification of Morocco
+government_rank = 1

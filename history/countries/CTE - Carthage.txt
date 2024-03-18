@@ -1,17 +1,15 @@
 #Carthage
-
 government = monarchy
-add_government_reform = feudalism_reform 
+add_government_reform = feudalism_reform
 technology_group = western
 religion = orthodox
 primary_culture = carthgean
-capital = 341 # Carthage
+capital = 341# Carthage
 religious_school = see_of_constantinople
-elector = yes #Imperial Vandal Kingdom of Africa
+elector = yes#Imperial Vandal Kingdom of Africa
 set_country_flag = africa_province
-
-1422.8.12 = {
-	monarch = {
+1422.8.12 = { 
+	monarch = { 
 		name = "Ignatiù II"
 		dynasty = "di Karthagù-Sikili"
 		adm = 6
@@ -19,3 +17,4 @@ set_country_flag = africa_province
 		mil = 3
 	}
 }
+government_rank = 2

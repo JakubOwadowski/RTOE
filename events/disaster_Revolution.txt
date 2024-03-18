@@ -194,9 +194,7 @@ country_event = {
 			country_event = { id = revolution.31 } #Spain
 			country_event = { id = revolution.32 } #Scandinavia
 			country_event = { id = revolution.33 } #UK
-			country_event = { id = revolution.34 } #Ottomans
 			country_event = { id = revolution.37 } #Germans
-			country_event = { id = revolution.38 } #Austria and HRE
 			country_event = { id = revolution.39 } #Netherlands
 			country_event = { id = revolution.40 } #China
 			country_event = { id = revolution.41 } #Indians
@@ -274,12 +272,6 @@ country_event = {
 		name = "EVTOPTB3012" # Tolerate all beliefs
 		ai_chance = { factor = 25 }
 		set_country_flag = religious_revolution
-		if = {
-			limit = {
-				religion = catholic
-			}
-			reverse_add_opinion = { who = PAP modifier = opinion_too_tolerate }
-		}
 		if = {
 			limit = {
 				OR = {
@@ -930,7 +922,6 @@ country_event = {
 			tag = RUS #flavor_rus.2000
 			tag = FRA #revolution.15
 			#revolution.31
-			tag = CAS
 			tag = ARA
 			tag = SPA
 			#revolution.32
@@ -947,20 +938,16 @@ country_event = {
 				}
 			}
 			#revolution.34
-			tag = TUR
 			#revolution.37
 			tag = GER
 			tag = PRU
 			tag = BAV
 			tag = SWA
 			tag = FKN
-			tag = HAN
 			tag = WES
 			tag = SAX
 			tag = POM
 			#revolution.38
-			tag = HAB
-			tag = HLR
 			#revolution.39
 			tag = NED
 			#revolution.41
@@ -1310,7 +1297,6 @@ country_event = {
 	
 	trigger = {
 		OR = {
-			tag = CAS
 			tag = ARA
 			tag = SPA
 		}
@@ -1502,94 +1488,6 @@ country_event = {
 	}
 }
 
-
-#Ottoman version of the Revolution
-country_event = {
-	id = revolution.34
-	title = revolution.34.name
-	desc = {
-		trigger = {
-			OR = {
-				has_heir = no
-				NOT = { government = monarchy }
-			}
-		}
-		desc = revolution.34.desc
-	}
-	desc = {
-		trigger = {
-			has_heir = yes
-			government = monarchy
-		}
-		desc = revolution.34.desc.heir
-	}
-	picture = REVOLUTION_eventPicture
-	
-	trigger = {
-		tag = TUR
-		revolution_event_can_happen_trigger = yes
-	}
-	is_triggered_only = yes
-	major = yes
-
-	mean_time_to_happen = {
-		days = 1
-	}
-
-	immediate = {
-		hidden_effect = {
-			set_saved_name = {
-				key = new_supreme_vizier
-				type = advisor
-			}
-		}
-	}
-
-	option = {
-		name = revolution.34.A
-		hidden_effect = {
-			add_country_modifier = {
-				name = just_had_revolution_bringing_someone_to_power_timer
-				duration = 2
-				hidden = yes
-			}
-		}
-		if = {
-			limit = {
-				has_heir = yes
-				government = monarchy
-			}
-			random_owned_province = {
-				limit = {
-					continent = root
-					is_capital = no
-					highest_supply_limit_in_area = yes
-					development = 10
-				}
-				spawn_rebels = {
-					size = 3
-					type = pretender_rebels
-					use_heir_as_leader = yes
-				}
-			}
-		}
-		enact_revolution_effect = yes
-
-		define_ruler = { #Get a random ruler with +1 in each stat
-			name = new_supreme_vizier
-			change_adm = 1
-			change_dip = 1
-			change_mil = 1
-		}
-		override_country_name = REV_TURKEY_STRING
-		set_country_flag = is_revolutionary_turkey_flag
-	}
-
-	after = {
-		clear_saved_name = new_supreme_vizier
-	}
-}
-
 #Italian Revolution: Another Napoleon
 country_event = {
 	id = revolution.35
@@ -1759,7 +1657,6 @@ country_event = {
 			tag = BAV
 			tag = SWA
 			tag = FKN
-			tag = HAN
 			tag = WES
 			tag = SAX
 			tag = POM
@@ -1804,44 +1701,6 @@ country_event = {
 	after = {
 		clear_saved_name = new_ruler
 		clr_country_flag = use_french_disaster_exile_effect
-	}
-}
-
-#Austrian version of the Revolution
-country_event = {
-	id = revolution.38
-	title = revolution.38.name
-	desc = revolution.38.desc
-	picture = REVOLUTION_eventPicture
-	
-	trigger = {
-		OR = {
-			tag = HAB
-			tag = HLR
-		}
-		revolution_event_can_happen_trigger = yes
-	}
-	is_triggered_only = yes
-	major = yes
-
-	mean_time_to_happen = {
-		days = 1
-	}
-
-	immediate = {
-		hidden_effect = {
-			if = {
-				limit = {
-					dynasty = "von Habsburg"
-				}
-				set_country_flag = habsburgs_exiled_flag
-			}
-		}
-	}
-
-	option = {
-		name = revolution.38.A
-		enact_revolution_effect = yes
 	}
 }
 
@@ -1904,7 +1763,6 @@ country_event = {
 			tag = RUS #flavor_rus.2000
 			tag = FRA #revolution.15
 			#revolution.31
-			tag = CAS
 			tag = ARA
 			tag = SPA
 			#revolution.32
@@ -1921,20 +1779,16 @@ country_event = {
 				}
 			}
 			#revolution.34
-			tag = TUR
 			#revolution.37
 			tag = GER
 			tag = PRU
 			tag = BAV
 			tag = SWA
 			tag = FKN
-			tag = HAN
 			tag = WES
 			tag = SAX
 			tag = POM
 			#revolution.38
-			tag = HAB
-			tag = HLR
 			#revolution.39
 			tag = NED
 			#revolution.41

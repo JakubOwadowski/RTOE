@@ -1,8 +1,6 @@
 graphical_culture = easterngfx
-
-color = { 80  150  220 }
-
-historical_idea_groups = {
+color = { 80 150 220 }
+historical_idea_groups = { 
 	trade_ideas
 	defensive_ideas
 	offensive_ideas
@@ -12,8 +10,7 @@ historical_idea_groups = {
 	spy_ideas
 	religious_ideas
 }
-
-historical_units = {
+historical_units = { 
 	western_medieval_infantry
 	western_medieval_knights
 	western_men_at_arms
@@ -30,43 +27,25 @@ historical_units = {
 	napoleonic_square
 	napoleonic_lancers
 }
-
-leader_names = {
-	Alseniskis Astikas
-	Chodkevicius
-	Daukantas Dauksa Denhofas
-	Giedraitis Gosevskis Gostautas
-	Kesgaila Kiska Kosakovskis Kulvietis
-	Lietuvis
-	Masalskis Mazvydas
-	Nemirovicius
-	Oginskis Ostrogiskis
-	Pacas Pociejus
-	Radvila Rapolionis Rimsa
-	Sanguska Sapiega Simonavicius Sirvydas Skorina Sluska Sosnovskis Svyriskis
-	Tiskevicius
-	Valancius Valavicius Visniovieckis
-	Zabiela
+leader_names = { 
+	Alseniskis Astikas Chodkevicius Daukantas Dauksa Denhofas Giedraitis Gosevskis Gostautas Kesgaila
+	Kiska Kosakovskis Kulvietis Lietuvis
+	Masalskis Mazvydas Nemirovicius Oginskis Ostrogiskis Pacas Pociejus Radvila Rapolionis Rimsa
+	Sanguska Sapiega Simonavicius Sirvydas Skorina Sluska Sosnovskis Svyriskis Tiskevicius Valancius
+	Valavicius Visniovieckis Zabiela 
 }
-
-ship_names = {
+ship_names = { 
 	Alytus
 	Birzai
 	Druskininkai
 	Gardinas
 	Jonava
-	Kaunas Kretinga Kreva
-	Lazdijai
-	Naugardukas
+	Kaunas Kretinga Kreva Lazdijai Naugardukas
 	Palanga
 	Raseiniai
-	Siauliai Sventoji
-	Taurage Telsiai Trakai
-	Utena
-	Vilkmerge
+	Siauliai Sventoji Taurage Telsiai Trakai Utena Vilkmerge
 }
-
-monarch_names = {
+monarch_names = { 
 	"Kaupo #0" = 20
 	"Shutr #0" = 20
 	"Narvait #0" = 20
@@ -80,7 +59,6 @@ monarch_names = {
 	"Vetseke #0" = 0
 	"Vaishvilkas #0" = 0
 	"Yudki #0" = 0
-	
 	"Savna #0" = -1
 	"Brita #0" = -1
 	"Kordula #0" = -1

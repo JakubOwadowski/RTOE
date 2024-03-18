@@ -1,21 +1,17 @@
 #Country Name: Please see filename.
-
 graphical_culture = muslimgfx
-
-color = { 200 220 50 } 
-
-historical_idea_groups = {
+color = { 200 220 50 }
+historical_idea_groups = { 
 	religious_ideas
 	trade_ideas
 	defensive_ideas
-	economic_ideas	
+	economic_ideas
 	administrative_ideas
 	offensive_ideas
 	quality_ideas
 	quantity_ideas
 }
-
-historical_units = {
+historical_units = { 
 	mamluk_archer
 	muslim_cavalry_archers
 	mamluk_duel
@@ -24,8 +20,7 @@ historical_units = {
 	muslim_dragoon
 	ali_bey_reformed_infantry
 }
-
-monarch_names = {
+monarch_names = { 
 	"Ameziane #1" = 5
 	"Azêllay #3" = 30
 	"Azenzêr #4" = 50
@@ -41,31 +36,18 @@ monarch_names = {
 	"Yidir #0" = 0
 	"Areski #0" = 0
 	"Juba #0" = 0
-	
 	"Elkaissa #0" = -1
 	"Tafrara #0" = -1
 	"Tilelli #0" = -1
 }
-
-leader_names = {
+leader_names = { 
 	Atfayyish
-	"Beni Isguen"
-	Tabghurin
-	"bin Yakhlaf"
-	"Lemliki"
-	"Beni Mthar"
-	"Mzabi"
-	"Tilelli"
-	"Adid"
-	"Ghanim"
+	"Beni Isguen" Tabghurin
+	"bin Yakhlaf" "Lemliki" "Beni Mthar" "Mzabi" "Tilelli" "Adid" "Ghanim" 
 }
-
-ship_names = {
-    "Bou Noura" "Beni Isguen" Melika Ghardaia
-	Beriane
-	Barr Muta'al Wali Batin Zahir Akhir Awwal
-	Mu'akhkhir Muqaddim Muqtadir Qadir Samad
-	Wahid Majid Wajed Qayyum Hayy Mumit Muhyi
-	Mu'id Mubdi Muhsi Hamid Waliyy Matin Qawiyy
-	Wakil Haqq Shahid Ba'ith
+ship_names = { 
+	"Bou Noura" "Beni Isguen" Melika Ghardaia Beriane
+	Barr Muta'al Wali Batin Zahir Akhir Awwal Mu'akhkhir Muqaddim Muqtadir
+	Qadir Samad Wahid Majid Wajed Qayyum Hayy Mumit Muhyi Mu'id
+	Mubdi Muhsi Hamid Waliyy Matin Qawiyy Wakil Haqq Shahid Ba'ith
 }

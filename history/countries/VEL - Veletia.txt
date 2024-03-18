@@ -4,5 +4,5 @@ government_rank = 1
 technology_group = eastern
 religion = orthodox
 religious_school = see_of_rome
-primary_culture = veleti
+primary_culture = sorbian
 capital = 50	# Kopanica

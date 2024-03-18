@@ -1,13 +1,12 @@
 government = monarchy
 add_government_reform = iqta
 technology_group = muslim
-religion = sunni
+religion = vajrayana
 primary_culture = afghani
-capital = 451	# Kabul
-
+capital = 451# Kabul
 #Timurid Governors of Kabul, sons of Soyurghatmish
-1443.1.1 = {
-	monarch = {
+1443.1.1 = { 
+	monarch = { 
 		name = "Karatshar bin Soyurghatmish"
 		culture = uzbehk
 		dynasty = "Timurid"
@@ -17,10 +16,9 @@ capital = 451	# Kabul
 	}
 }
 #1451 falls to Babur bin Baysonqor
-
 #Kingdom of the Mughal prince Hakim
-1565.1.1 = {
-	monarch = {
+1565.1.1 = { 
+	monarch = { 
 		name = "Hakim"
 		dynasty = "Timurid"
 		culture = kanauji
@@ -29,21 +27,19 @@ capital = 451	# Kabul
 		mil = 3
 	}
 }
-
 #Ghilzai Dynasty
-1707.1.1 = {
-	monarch = {
+1707.1.1 = { 
+	monarch = { 
 		name = "Mir Ways"
 		dynasty = "Ghilzai"
 		adm = 3
 		dip = 5
 		mil = 5
 	}
-	capital = 447	# Kandahar
+	capital = 447# Kandahar
 }
-
-1707.1.1 = {
-	heir = {
+1707.1.1 = { 
+	heir = { 
 		name = "Mir 'Abd al-'Aziz"
 		monarch_name = "Mir 'Abd al-'Aziz"
 		dynasty = "Ghilzai"
@@ -55,9 +51,8 @@ capital = 451	# Kabul
 		mil = 2
 	}
 }
-
-1715.11.1 = {
-	monarch = {
+1715.11.1 = { 
+	monarch = { 
 		name = "Mir 'Abd-al'Aziz"
 		dynasty = "Ghilzai"
 		adm = 0
@@ -65,9 +60,8 @@ capital = 451	# Kabul
 		mil = 2
 	}
 }
-
-1715.11.1 = {
-	heir = {
+1715.11.1 = { 
+	heir = { 
 		name = "Mir Mahmud"
 		monarch_name = "Mir Mahmud"
 		dynasty = "Ghilzai"
@@ -79,9 +73,8 @@ capital = 451	# Kabul
 		mil = 5
 	}
 }
-
-1716.3.1 = {
-	monarch = {
+1716.3.1 = { 
+	monarch = { 
 		name = "Mir Mahmud"
 		dynasty = "Ghilzai"
 		adm = 1
@@ -89,9 +82,8 @@ capital = 451	# Kabul
 		mil = 5
 	}
 }
-
-1716.3.1 = {
-	heir = {
+1716.3.1 = { 
+	heir = { 
 		name = "Mir Ashraf"
 		monarch_name = "Mir Ashraf"
 		dynasty = "Ghilzai"
@@ -103,9 +95,8 @@ capital = 451	# Kabul
 		mil = 1
 	}
 }
-
-1725.4.25 = {
-	monarch = {
+1725.4.25 = { 
+	monarch = { 
 		name = "Mir Ashraf"
 		dynasty = "Ghilzai"
 		adm = 1
@@ -113,9 +104,8 @@ capital = 451	# Kabul
 		mil = 1
 	}
 }
-
-1725.4.25 = {
-	heir = {
+1725.4.25 = { 
+	heir = { 
 		name = "Mir Husayn"
 		monarch_name = "Mir Husayn"
 		dynasty = "Ghilzai"
@@ -127,22 +117,18 @@ capital = 451	# Kabul
 		mil = 1
 	}
 }
-
-1729.11.2 = {
-	monarch = {
+1729.11.2 = { 
+	monarch = { 
 		name = "Mir Husayn"
 		dynasty = "Ghilzai"
 		adm = 1
 		dip = 0
 		mil = 1
-		
 	}
 }
-
 #Durrani Dynasty
-
-1747.1.1 = {
-	monarch = {
+1747.1.1 = { 
+	monarch = { 
 		name = "Ahmad Shah Durr-i-Durran"
 		dynasty = "Durrani"
 		adm = 3
@@ -150,9 +136,8 @@ capital = 451	# Kabul
 		mil = 6
 	}
 }
-
-1748.1.1 = {
-	heir = {
+1748.1.1 = { 
+	heir = { 
 		name = "Taimur"
 		monarch_name = "Taimur Shah"
 		dynasty = "Durrani"
@@ -164,9 +149,8 @@ capital = 451	# Kabul
 		mil = 3
 	}
 }
-
-1772.10.1 = {
-	monarch = {
+1772.10.1 = { 
+	monarch = { 
 		name = "Taimur Shah"
 		dynasty = "Durrani"
 		adm = 1
@@ -174,9 +158,8 @@ capital = 451	# Kabul
 		mil = 3
 	}
 }
-
-1772.10.1 = {
-	heir = {
+1772.10.1 = { 
+	heir = { 
 		name = "Zaman"
 		monarch_name = "Zaman Shah"
 		dynasty = "Durrani"
@@ -188,11 +171,9 @@ capital = 451	# Kabul
 		mil = 3
 	}
 }
-
 1780.1.1 = { capital = 451 } # Kabul
-
-1793.1.1 = {
-	monarch = {
+1793.1.1 = { 
+	monarch = { 
 		name = "Zaman Shah"
 		dynasty = "Durrani"
 		adm = 1
@@ -200,9 +181,8 @@ capital = 451	# Kabul
 		mil = 3
 	}
 }
-
-1793.1.1 = {
-	heir = {
+1793.1.1 = { 
+	heir = { 
 		name = "Mahmud"
 		monarch_name = "Mahmud Shah"
 		dynasty = "Durrani"
@@ -214,9 +194,8 @@ capital = 451	# Kabul
 		mil = 0
 	}
 }
-
-1801.1.1 = {
-	monarch = {
+1801.1.1 = { 
+	monarch = { 
 		name = "Mahmud Shah"
 		dynasty = "Durrani"
 		adm = 0
@@ -224,11 +203,8 @@ capital = 451	# Kabul
 		mil = 0
 	}
 }
-
-
-
-1803.1.1 = {
-	monarch = {
+1803.1.1 = { 
+	monarch = { 
 		name = "Shuja Shah"
 		dynasty = "Durrani"
 		adm = 2
@@ -236,9 +212,8 @@ capital = 451	# Kabul
 		mil = 3
 	}
 }
-
-1809.5.3 = {
-	monarch = {
+1809.5.3 = { 
+	monarch = { 
 		name = "Mahmud Shah"
 		dynasty = "Durrani"
 		adm = 0
@@ -246,9 +221,8 @@ capital = 451	# Kabul
 		mil = 0
 	}
 }
-
-1818.1.1 = {
-	monarch = {
+1818.1.1 = { 
+	monarch = { 
 		name = "Ali Shah"
 		dynasty = "Durrani"
 		adm = 2
@@ -256,9 +230,8 @@ capital = 451	# Kabul
 		mil = 0
 	}
 }
-
-1819.1.1 = {
-	monarch = {
+1819.1.1 = { 
+	monarch = { 
 		name = "Ayub Shah"
 		dynasty = "Durrani"
 		adm = 1
@@ -266,3 +239,4 @@ capital = 451	# Kabul
 		mil = 0
 	}
 }
+government_rank = 1

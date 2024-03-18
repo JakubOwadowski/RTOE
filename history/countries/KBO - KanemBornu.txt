@@ -4,14 +4,13 @@ technology_group = sub_saharan
 unlock_cult = yemoja_cult
 unlock_cult = roog_cult
 unlock_cult = nyame_cult
-religion = sunni
+religion = coptic
 primary_culture = kanuri
-capital = 1157	# Gatiga, Gazargamu
+capital = 1157# Gatiga, Gazargamu
 historical_rival = YAO
-
 #Sultans
-1389.1.1 = {
-	monarch = {
+1389.1.1 = { 
+	monarch = { 
 		name = "Biri II"
 		dynasty = "Sayfawa"
 		dip = 3
@@ -20,9 +19,8 @@ historical_rival = YAO
 	}
 	add_piety = 0.05
 }
-
-1389.1.1 = {
-	heir = {
+1389.1.1 = { 
+	heir = { 
 		name = "Othman Kalinuama"
 		monarch_name = "Othman Kalinuama"
 		dynasty = "Sayfawa"
@@ -34,9 +32,8 @@ historical_rival = YAO
 		mil = 1
 	}
 }
-
-1421.1.1 = {
-	monarch = {
+1421.1.1 = { 
+	monarch = { 
 		name = "Othman Kalinuama"
 		dynasty = "Sayfawa"
 		dip = 1
@@ -44,8 +41,8 @@ historical_rival = YAO
 		mil = 1
 	}
 }
-1422.1.1 = {
-	monarch = {
+1422.1.1 = { 
+	monarch = { 
 		name = "Dunama IV"
 		dynasty = "Sayfawa"
 		dip = 2
@@ -53,9 +50,8 @@ historical_rival = YAO
 		mil = 3
 	}
 }
-
-1422.1.1 = {
-	heir = {
+1422.1.1 = { 
+	heir = { 
 		name = "Abdullah"
 		monarch_name = "Abdullah II"
 		dynasty = "Sayfawa"
@@ -67,9 +63,8 @@ historical_rival = YAO
 		mil = 0
 	}
 }
-
-1424.1.1 = {
-	monarch = {
+1424.1.1 = { 
+	monarch = { 
 		name = "Abdullah II"
 		dynasty = "Sayfawa"
 		dip = 0
@@ -77,9 +72,8 @@ historical_rival = YAO
 		mil = 0
 	}
 }
-
-1424.1.1 = {
-	heir = {
+1424.1.1 = { 
+	heir = { 
 		name = "Ibrahim"
 		monarch_name = "Ibrahim II"
 		dynasty = "Sayfawa"
@@ -91,9 +85,8 @@ historical_rival = YAO
 		mil = 2
 	}
 }
-				
-1432.1.1 = {
-	monarch = {
+1432.1.1 = { 
+	monarch = { 
 		name = "Ibrahim II"
 		dynasty = "Sayfawa"
 		dip = 2
@@ -101,9 +94,8 @@ historical_rival = YAO
 		mil = 2
 	}
 }
-
-1432.1.1 = {
-	heir = {
+1432.1.1 = { 
+	heir = { 
 		name = "Kadai"
 		monarch_name = "Kadai"
 		dynasty = "Sayfawa"
@@ -115,9 +107,8 @@ historical_rival = YAO
 		mil = 1
 	}
 }
-
-1440.1.1 = {
-	monarch = {
+1440.1.1 = { 
+	monarch = { 
 		name = "Kadai"
 		dynasty = "Sayfawa"
 		dip = 0
@@ -125,9 +116,8 @@ historical_rival = YAO
 		mil = 1
 	}
 }
-
-1440.1.1 = {
-	heir = {
+1440.1.1 = { 
+	heir = { 
 		name = "Dunama"
 		monarch_name = "Dunama V"
 		dynasty = "Sayfawa"
@@ -139,9 +129,8 @@ historical_rival = YAO
 		mil = 0
 	}
 }
-
-1446.1.1 = {
-	monarch = {
+1446.1.1 = { 
+	monarch = { 
 		name = "Dunama V"
 		dynasty = "Sayfawa"
 		dip = 3
@@ -149,9 +138,8 @@ historical_rival = YAO
 		mil = 0
 	}
 }
-
-1446.1.1 = {
-	heir = {
+1446.1.1 = { 
+	heir = { 
 		name = "Mohammed"
 		monarch_name = "Mohammed II"
 		dynasty = "Sayfawa"
@@ -163,9 +151,8 @@ historical_rival = YAO
 		mil = 3
 	}
 }
-
-1450.1.1 = {
-	monarch = {
+1450.1.1 = { 
+	monarch = { 
 		name = "Mohammed II"
 		dynasty = "Sayfawa"
 		dip = 1
@@ -173,9 +160,8 @@ historical_rival = YAO
 		mil = 3
 	}
 }
-
-1450.1.1 = {
-	heir = {
+1450.1.1 = { 
+	heir = { 
 		name = "Ahmad Dunama"
 		monarch_name = "Ahmad Dunama IV"
 		dynasty = "Sayfawa"
@@ -187,9 +173,8 @@ historical_rival = YAO
 		mil = 2
 	}
 }
-
-1451.1.1 = {
-	monarch = {
+1451.1.1 = { 
+	monarch = { 
 		name = "Ahmad Dunama IV"
 		dynasty = "Sayfawa"
 		dip = 2
@@ -197,9 +182,8 @@ historical_rival = YAO
 		mil = 2
 	}
 }
-
-1451.1.1 = {
-	heir = {
+1451.1.1 = { 
+	heir = { 
 		name = "Muhammad"
 		monarch_name = "Muhammad II"
 		dynasty = "Sayfawa"
@@ -211,9 +195,8 @@ historical_rival = YAO
 		mil = 2
 	}
 }
-
-1455.1.1 = {
-	monarch = {
+1455.1.1 = { 
+	monarch = { 
 		name = "Muhammad II"
 		dynasty = "Sayfawa"
 		dip = 2
@@ -221,9 +204,8 @@ historical_rival = YAO
 		mil = 2
 	}
 }
-
-1456.1.1 = {
-	monarch = {
+1456.1.1 = { 
+	monarch = { 
 		name = "Amir"
 		dynasty = "Sayfawa"
 		dip = 2
@@ -231,9 +213,8 @@ historical_rival = YAO
 		mil = 2
 	}
 }
-
-1456.5.1 = {
-	monarch = {
+1456.5.1 = { 
+	monarch = { 
 		name = "Muhammad III"
 		dynasty = "Sayfawa"
 		dip = 2
@@ -241,9 +222,8 @@ historical_rival = YAO
 		mil = 2
 	}
 }
-
-1456.9.1 = {
-	monarch = {
+1456.9.1 = { 
+	monarch = { 
 		name = "Ghaji"
 		dynasty = "Sayfawa"
 		dip = 2
@@ -251,9 +231,8 @@ historical_rival = YAO
 		mil = 2
 	}
 }
-
-1461.1.1 = {
-	monarch = {
+1461.1.1 = { 
+	monarch = { 
 		name = "'Uthman"
 		dynasty = "Sayfawa"
 		dip = 2
@@ -261,9 +240,8 @@ historical_rival = YAO
 		mil = 2
 	}
 }
-
-1461.1.1 = {
-	heir = {
+1461.1.1 = { 
+	heir = { 
 		name = "'Umar"
 		monarch_name = "'Umar"
 		dynasty = "Sayfawa"
@@ -275,9 +253,8 @@ historical_rival = YAO
 		mil = 2
 	}
 }
-
-1466.1.1 = {
-	monarch = {
+1466.1.1 = { 
+	monarch = { 
 		name = "'Umar"
 		dynasty = "Sayfawa"
 		dip = 2
@@ -285,9 +262,8 @@ historical_rival = YAO
 		mil = 2
 	}
 }
-
-1466.1.1 = {
-	heir = {	
+1466.1.1 = { 
+	heir = { 
 		name = "Muhammad"
 		monarch_name = "Muhammad IV"
 		dynasty = "Sayfawa"
@@ -299,9 +275,8 @@ historical_rival = YAO
 		mil = 2
 	}
 }
-
-1467.1.1 = {
-	monarch = {
+1467.1.1 = { 
+	monarch = { 
 		name = "Muhammad IV"
 		dynasty = "Sayfawa"
 		dip = 2
@@ -309,9 +284,8 @@ historical_rival = YAO
 		mil = 2
 	}
 }
-
-1467.1.1 = {
-	heir = {
+1467.1.1 = { 
+	heir = { 
 		name = "'Ali I Ghaji"
 		monarch_name = "'Ali I Ghaji"
 		dynasty = "Sayfawa"
@@ -323,9 +297,8 @@ historical_rival = YAO
 		mil = 5
 	}
 }
-
-1472.1.1 = {
-	monarch = {
+1472.1.1 = { 
+	monarch = { 
 		name = "'Ali I Ghaji"
 		dynasty = "Sayfawa"
 		dip = 4
@@ -333,9 +306,8 @@ historical_rival = YAO
 		mil = 5
 	}
 }
-
-1472.1.1 = {
-	heir = {
+1472.1.1 = { 
+	heir = { 
 		name = "Idris Katakarmaba"
 		monarch_name = "Idris II Katakarmaba"
 		dynasty = "Sayfawa"
@@ -347,9 +319,8 @@ historical_rival = YAO
 		mil = 2
 	}
 }
-		
-1505.3.29 = {
-	monarch = {
+1505.3.29 = { 
+	monarch = { 
 		name = "Idris II Katakarmaba"
 		dynasty = "Sayfawa"
 		dip = 3
@@ -357,9 +328,8 @@ historical_rival = YAO
 		mil = 2
 	}
 }
-
-1505.3.29 = {
-	heir = {
+1505.3.29 = { 
+	heir = { 
 		name = "Muhammad Aminami"
 		monarch_name = "Muhammad V Aminami"
 		dynasty = "Sayfawa"
@@ -371,9 +341,8 @@ historical_rival = YAO
 		mil = 4
 	}
 }
-
-1526.1.1 = {
-	monarch = {
+1526.1.1 = { 
+	monarch = { 
 		name = "Muhammad V Aminami"
 		dynasty = "Sayfawa"
 		dip = 2
@@ -381,9 +350,8 @@ historical_rival = YAO
 		mil = 4
 	}
 }
-
-1526.1.1 = {
-	heir = {
+1526.1.1 = { 
+	heir = { 
 		name = "'Ali Zainami"
 		monarch_name = "'Ali II Zainami"
 		dynasty = "Sayfawa"
@@ -395,9 +363,8 @@ historical_rival = YAO
 		mil = 2
 	}
 }
-
-1545.1.1 = {
-	monarch = {
+1545.1.1 = { 
+	monarch = { 
 		name = "'Ali II Zainami"
 		dynasty = "Sayfawa"
 		dip = 2
@@ -405,9 +372,8 @@ historical_rival = YAO
 		mil = 2
 	}
 }
-
-1545.1.1 = {
-	heir = {
+1545.1.1 = { 
+	heir = { 
 		name = "Dunama Ngumaramma"
 		monarch_name = "Dunama VI Ngumaramma"
 		dynasty = "Sayfawa"
@@ -419,9 +385,8 @@ historical_rival = YAO
 		mil = 3
 	}
 }
-
-1546.1.1 = {
-	monarch = {
+1546.1.1 = { 
+	monarch = { 
 		name = "Dunama VI Ngumaramma"
 		dynasty = "Sayfawa"
 		dip = 3
@@ -429,9 +394,8 @@ historical_rival = YAO
 		mil = 3
 	}
 }
-
-1546.1.1 = {
-	heir = {
+1546.1.1 = { 
+	heir = { 
 		name = "'Abd Allah"
 		monarch_name = "'Abd Allah IV"
 		dynasty = "Sayfawa"
@@ -443,9 +407,8 @@ historical_rival = YAO
 		mil = 2
 	}
 }
-
-1564.1.1 = {
-	monarch = {
+1564.1.1 = { 
+	monarch = { 
 		name = "'Abd Allah IV"
 		dynasty = "Sayfawa"
 		dip = 3
@@ -453,9 +416,8 @@ historical_rival = YAO
 		mil = 2
 	}
 }
-
-1564.1.1 = {
-	heir = {
+1564.1.1 = { 
+	heir = { 
 		name = "Idris Aluma Amsani"
 		monarch_name = "Idris III Aluma Amsani"
 		dynasty = "Sayfawa"
@@ -467,9 +429,8 @@ historical_rival = YAO
 		mil = 6
 	}
 }
-
-1572.1.1 = {
-	monarch = {
+1572.1.1 = { 
+	monarch = { 
 		name = "Idris III Aluma Amsani"
 		dynasty = "Sayfawa"
 		dip = 4
@@ -477,9 +438,8 @@ historical_rival = YAO
 		mil = 6
 	}
 }
-
-1572.1.1 = {
-	heir = {
+1572.1.1 = { 
+	heir = { 
 		name = "Muhammad Bukalmarami"
 		monarch_name = "Muhammad VI Bukalmarami"
 		dynasty = "Sayfawa"
@@ -491,9 +451,8 @@ historical_rival = YAO
 		mil = 2
 	}
 }
-
-1603.1.1 = {
-	monarch = {
+1603.1.1 = { 
+	monarch = { 
 		name = "Muhammad VI Bukalmarami"
 		dynasty = "Sayfawa"
 		dip = 4
@@ -501,9 +460,8 @@ historical_rival = YAO
 		mil = 2
 	}
 }
-
-1603.1.1 = {
-	heir = {
+1603.1.1 = { 
+	heir = { 
 		name = "Ibraihm"
 		monarch_name = "Ibrahim III"
 		dynasty = "Sayfawa"
@@ -515,9 +473,8 @@ historical_rival = YAO
 		mil = 2
 	}
 }
-
-1618.1.1 = {
-	monarch = {
+1618.1.1 = { 
+	monarch = { 
 		name = "Ibrahim III"
 		dynasty = "Sayfawa"
 		dip = 2
@@ -525,9 +482,8 @@ historical_rival = YAO
 		mil = 2
 	}
 }
-
-1618.1.1 = {
-	heir = {
+1618.1.1 = { 
+	heir = { 
 		name = "'Umar"
 		monarch_name = "'Umar III"
 		dynasty = "Sayfawa"
@@ -539,9 +495,8 @@ historical_rival = YAO
 		mil = 2
 	}
 }
-
-1625.1.1 = {
-	monarch = {
+1625.1.1 = { 
+	monarch = { 
 		name = "'Umar III"
 		dynasty = "Sayfawa"
 		dip = 2
@@ -549,9 +504,8 @@ historical_rival = YAO
 		mil = 2
 	}
 }
-
-1625.1.1 = {
-	heir = {
+1625.1.1 = { 
+	heir = { 
 		name = "'Ali"
 		monarch_name = "'Ali III"
 		dynasty = "Sayfawa"
@@ -563,9 +517,8 @@ historical_rival = YAO
 		mil = 2
 	}
 }
-
-1645.1.1 = {
-	monarch = {
+1645.1.1 = { 
+	monarch = { 
 		name = "'Ali III"
 		dynasty = "Sayfawa"
 		dip = 2
@@ -573,9 +526,8 @@ historical_rival = YAO
 		mil = 2
 	}
 }
-
-1660.1.1 = {
-	heir = {
+1660.1.1 = { 
+	heir = { 
 		name = "Idris"
 		monarch_name = "Idris IV"
 		dynasty = "Sayfawa"
@@ -587,9 +539,8 @@ historical_rival = YAO
 		mil = 2
 	}
 }
-
-1685.1.1 = {
-	monarch = {
+1685.1.1 = { 
+	monarch = { 
 		name = "Idris IV"
 		dynasty = "Sayfawa"
 		dip = 2
@@ -597,9 +548,8 @@ historical_rival = YAO
 		mil = 2
 	}
 }
-
-1685.1.1 = {
-	heir = {
+1685.1.1 = { 
+	heir = { 
 		name = "Dunama"
 		monarch_name = "Dunama VII"
 		dynasty = "Sayfawa"
@@ -611,9 +561,8 @@ historical_rival = YAO
 		mil = 2
 	}
 }
-
-1704.1.1 = {
-	monarch = {
+1704.1.1 = { 
+	monarch = { 
 		name = "Dunama VII"
 		dynasty = "Sayfawa"
 		dip = 2
@@ -621,9 +570,8 @@ historical_rival = YAO
 		mil = 2
 	}
 }
-
-1704.1.1 = {	
-	heir = {
+1704.1.1 = { 
+	heir = { 
 		name = "Hamdan"
 		monarch_name = "Hamdan"
 		dynasty = "Sayfawa"
@@ -635,9 +583,8 @@ historical_rival = YAO
 		mil = 2
 	}
 }
-
-1723.1.1 = {
-	monarch = {
+1723.1.1 = { 
+	monarch = { 
 		name = "Hamdan"
 		dynasty = "Sayfawa"
 		dip = 2
@@ -645,9 +592,8 @@ historical_rival = YAO
 		mil = 2
 	}
 }
-
-1723.1.1 = {
-	heir = {
+1723.1.1 = { 
+	heir = { 
 		name = "Muhammad Erghamma"
 		monarch_name = "Muhammad VII Erghamma"
 		dynasty = "Sayfawa"
@@ -659,9 +605,8 @@ historical_rival = YAO
 		mil = 2
 	}
 }
-
-1737.1.1 = {
-	monarch = {
+1737.1.1 = { 
+	monarch = { 
 		name = "Muhammad VII Erghamma"
 		dynasty = "Sayfawa"
 		dip = 2
@@ -669,9 +614,8 @@ historical_rival = YAO
 		mil = 2
 	}
 }
-
-1740.1.1 = {
-	heir = {
+1740.1.1 = { 
+	heir = { 
 		name = "Dunama Ghana"
 		monarch_name = "Dunama VIII Ghana"
 		dynasty = "Sayfawa"
@@ -683,9 +627,8 @@ historical_rival = YAO
 		mil = 2
 	}
 }
-
-1752.1.1 = {
-	monarch = {
+1752.1.1 = { 
+	monarch = { 
 		name = "Dunama VIII Ghana"
 		dynasty = "Sayfawa"
 		dip = 2
@@ -693,9 +636,8 @@ historical_rival = YAO
 		mil = 2
 	}
 }
-
-1752.1.1 = {
-	heir = {
+1752.1.1 = { 
+	heir = { 
 		name = "'Ali Ajimi"
 		monarch_name = "'Ali IV Ajimi"
 		dynasty = "Sayfawa"
@@ -707,9 +649,8 @@ historical_rival = YAO
 		mil = 0
 	}
 }
-
-1755.1.1 = {
-	monarch = {
+1755.1.1 = { 
+	monarch = { 
 		name = "'Ali IV Ajimi"
 		dynasty = "Sayfawa"
 		dip = 1
@@ -717,9 +658,8 @@ historical_rival = YAO
 		mil = 0
 	}
 }
-
-1770.1.1 = {
-	heir = {
+1770.1.1 = { 
+	heir = { 
 		name = "'Ahmad `Alimi"
 		monarch_name = "'Ahmad `Alimi"
 		dynasty = "Sayfawa"
@@ -731,9 +671,8 @@ historical_rival = YAO
 		mil = 0
 	}
 }
-
-1793.1.1 = {
-	monarch = {
+1793.1.1 = { 
+	monarch = { 
 		name = "'Ahmad `Alimi"
 		dynasty = "Sayfawa"
 		dip = 1
@@ -741,9 +680,8 @@ historical_rival = YAO
 		mil = 0
 	}
 }
-
-1793.1.1 = {
-	heir = {
+1793.1.1 = { 
+	heir = { 
 		name = "Dunama"
 		monarch_name = "Dunama VIII"
 		dynasty = "Sayfawa"
@@ -755,9 +693,8 @@ historical_rival = YAO
 		mil = 0
 	}
 }
-
-1808.3.1 = {
-	monarch = {
+1808.3.1 = { 
+	monarch = { 
 		name = "Dunama VIII"
 		dynasty = "Sayfawa"
 		dip = 1
@@ -765,9 +702,8 @@ historical_rival = YAO
 		mil = 0
 	}
 }
-
-1808.3.1 = {
-	heir = {
+1808.3.1 = { 
+	heir = { 
 		name = "Muhammad"
 		monarch_name = "Muhammad VIII"
 		dynasty = "Sayfawa"
@@ -779,9 +715,8 @@ historical_rival = YAO
 		mil = 0
 	}
 }
-
-1810.1.1 = {
-	monarch = {
+1810.1.1 = { 
+	monarch = { 
 		name = "Muhammad VIII"
 		dynasty = "Sayfawa"
 		dip = 1
@@ -789,9 +724,8 @@ historical_rival = YAO
 		mil = 0
 	}
 }
-
-1810.1.1 = {
-	heir = {
+1810.1.1 = { 
+	heir = { 
 		name = "Dunama"
 		monarch_name = "Dunamma VIII"
 		dynasty = "Sayfawa"
@@ -803,19 +737,17 @@ historical_rival = YAO
 		mil = 0
 	}
 }
-
-1813.1.1 = {
-	monarch = {
-		name = "Dunama VIII" #2nd time
+1813.1.1 = { 
+	monarch = { 
+		name = "Dunama VIII"#2nd time
 		dynasty = "Sayfawa"
 		dip = 1
 		adm = 0
 		mil = 0
 	}
 }
-
-1813.1.1 = {	
-	heir = {
+1813.1.1 = { 
+	heir = { 
 		name = "Ibrahim"
 		monarch_name = "Ibrahim V"
 		dynasty = "Sayfawa"
@@ -827,10 +759,8 @@ historical_rival = YAO
 		mil = 0
 	}
 }
-		
-
-1820.1.1 = {
-	monarch = {
+1820.1.1 = { 
+	monarch = { 
 		name = "Ibrahim V"
 		dynasty = "Sayfawa"
 		dip = 1
@@ -838,3 +768,4 @@ historical_rival = YAO
 		mil = 0
 	}
 }
+government_rank = 1

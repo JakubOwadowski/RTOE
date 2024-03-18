@@ -1,16 +1,14 @@
 # 183 Île-de-France - Principal cities: Paris
-
 owner = NRM
 controller = NRM
 capital = "Paris"
 is_city = yes
 culture = cosmopolitan_french
 religion = orthodox
-hre = no
-base_tax = 8
-base_production = 8
+base_tax = 6
+base_production = 6
 trade_goods = paper
-base_manpower = 7
+base_manpower = 4
 add_core = NRM
 add_core = FRA
 add_core = CHP
@@ -19,4 +17,4 @@ discovered_by = western
 discovered_by = muslim
 discovered_by = ottoman
 center_of_trade = 2
-local_autonomy = 90
+add_local_autonomy = 90

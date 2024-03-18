@@ -1,0 +1,24 @@
+#Estland, incl. Reval, Hapsal, Weissenstein, Wesenberg and Pernau.
+owner = EST
+controller = EST
+add_core = EST
+culture = estonian
+religion = finnish_pagan_reformed
+base_tax = 4
+base_production = 4
+trade_goods = grain
+base_manpower = 2
+capital = "Reval"
+is_city = yes
+center_of_trade = 1
+discovered_by = western
+discovered_by = eastern
+1542.1.1 = { religion = Protestant }
+1561.1.1 = { 
+	controller = SWE
+	add_core = SWE
+}
+1710.9.15 = { controller = RUS }
+1721.8.30 = { 
+	add_core = RUS
+}

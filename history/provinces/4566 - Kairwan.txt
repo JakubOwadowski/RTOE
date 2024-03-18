@@ -1,0 +1,27 @@
+# - Kairwan
+owner = CTE
+controller = CTE
+culture = carthgean
+religion = orthodox
+capital = "Kairwan"
+trade_goods = grain
+base_tax = 4
+base_production = 5
+base_manpower = 1
+is_city = yes
+discovered_by = western
+discovered_by = eastern
+discovered_by = muslim
+discovered_by = ottoman
+1530.1.3 = { 
+	add_claim = TUR
+}
+1534.8.16 = { 
+	add_core = ALG
+}
+1546.1.1 = { 
+	controller = TRP
+	add_core = TRP
+}
+add_core = CTE
+hre = yes

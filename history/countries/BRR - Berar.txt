@@ -1,13 +1,12 @@
 government = monarchy
 add_government_reform = indian_sultanate_reform
 technology_group = indian
-religion = shiite
+religion = hinduism
 primary_culture = marathi
-capital = 548	# Berar/Vidharba
-
+capital = 548# Berar/Vidharba
 # Sultans of Berar
-1490.1.1 = {
-	monarch = {
+1490.1.1 = { 
+	monarch = { 
 		name = "Fath Allah 'Imad Malik"
 		dynasty = "Imad Shahi"
 		DIP = 3
@@ -15,9 +14,8 @@ capital = 548	# Berar/Vidharba
 		MIL = 4
 	}
 }
-
-1490.1.1 = {
-	heir = {
+1490.1.1 = { 
+	heir = { 
 		name = "'Ala' ad-din"
 		monarch_name = "'Ala' ad-din"
 		dynasty = "Imad Shahi"
@@ -29,9 +27,8 @@ capital = 548	# Berar/Vidharba
 		MIL = 2
 	}
 }
-
-1504.1.1 = {
-	monarch = {
+1504.1.1 = { 
+	monarch = { 
 		name = "'Ala' ad-din"
 		dynasty = "Imad Shahi"
 		DIP = 1
@@ -39,9 +36,8 @@ capital = 548	# Berar/Vidharba
 		MIL = 2
 	}
 }
-
-1504.1.1 = {
-	heir = {
+1504.1.1 = { 
+	heir = { 
 		name = "Dariya"
 		monarch_name = "Dariya"
 		dynasty = "Imad Shahi"
@@ -53,9 +49,8 @@ capital = 548	# Berar/Vidharba
 		MIL = 3
 	}
 }
-
-1529.1.1 = {
-	monarch = {
+1529.1.1 = { 
+	monarch = { 
 		name = "Dariya"
 		dynasty = "Imad Shahi"
 		DIP = 2
@@ -63,9 +58,8 @@ capital = 548	# Berar/Vidharba
 		MIL = 3
 	}
 }
-
-1529.1.1 = {
-	heir = {
+1529.1.1 = { 
+	heir = { 
 		name = "Burkhan"
 		monarch_name = "Burkhan"
 		dynasty = "Imad Shahi"
@@ -77,9 +71,8 @@ capital = 548	# Berar/Vidharba
 		MIL = 0
 	}
 }
-
-1562.1.1 = {
-	monarch = {
+1562.1.1 = { 
+	monarch = { 
 		name = "Burkhan 'Imad Shah"
 		dynasty = "Imad Shahi"
 		DIP = 2
@@ -87,9 +80,8 @@ capital = 548	# Berar/Vidharba
 		MIL = 0
 	}
 }
-
-1562.1.1 = {	
-	heir = {
+1562.1.1 = { 
+	heir = { 
 		name = "Taufal Khan"
 		monarch_name = "Taufal Khan"
 		dynasty = "Imad Shahi"
@@ -101,9 +93,8 @@ capital = 548	# Berar/Vidharba
 		MIL = 1
 	}
 }
-	
-1568.1.1 = {
-	monarch = {
+1568.1.1 = { 
+	monarch = { 
 		name = "Taufal Khan"
 		dynasty = "Imad Shahi"
 		DIP = 0
@@ -111,5 +102,5 @@ capital = 548	# Berar/Vidharba
 		MIL = 1
 	}
 }
-
 #Annexed by Ahmadnagar April 1574.
+government_rank = 1

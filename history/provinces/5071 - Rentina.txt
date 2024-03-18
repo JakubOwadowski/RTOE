@@ -1,0 +1,17 @@
+#Rentina
+add_core = ROM
+owner = ROM
+controller = ROM
+culture = greek
+religion = orthodox
+hre = yes
+base_tax = 2
+base_production = 1
+trade_goods = livestock
+base_manpower = 1
+capital = "Rentína"
+is_city = yes
+discovered_by = western
+discovered_by = eastern
+discovered_by = muslim
+discovered_by = ottoman

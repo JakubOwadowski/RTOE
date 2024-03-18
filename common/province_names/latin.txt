@@ -125,7 +125,6 @@
 215 = "Vecchia Castiglia"
 224 = "Siviglia"
 225 = "Cordova"
-226 = "Gibilterra"
 227 = "Lisbona"
 333 = "Baleari"
 1749 = "Cadice"

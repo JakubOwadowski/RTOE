@@ -1,0 +1,7 @@
+religion = orthodox
+capital = 5047
+technology_group = western
+primary_culture = romagnan
+government = monarchy
+add_government_reform = feudalism_reform
+government_rank = 1

@@ -234,9 +234,7 @@ revolution = {
 			revolution.31 #Spain
 			revolution.32 #Scandinavia
 			revolution.33 #UK
-			revolution.34 #Ottomans
 			revolution.37 #Germans
-			revolution.38 #Austria and HRE
 			revolution.39 #Netherlands
 			revolution.40 #EoC
 			revolution.41 #Indians

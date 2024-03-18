@@ -5,7 +5,6 @@
 221 = "Murcia"
 224 = "Sevilla"
 225 = "Córdoba"
-226 = "Gibraltar"
 231 = "Oporto"
 232 = "Braganza"
 333 = "Mallorca"
@@ -24,7 +23,6 @@
 98 = "Utreque"
 99 = "Güeldres"
 100 = "Frisia"
-1742 = "Limburgo"
 1744 = "Antuerpia"
 
 102 = "Niza"
@@ -34,7 +32,6 @@
 109 = "Mantua"
 112 = "Venecia"
 116 = "Florencia"
-120 = "Abruzos"
 121 = "Nápoles"
 124 = "Mesina"
 127 = "Sasser"
@@ -48,7 +45,6 @@
 
 88 = "Artesia"
 89 = "Picardía"
-91 = "Henao"
 93 = "Lieja"
 94 = "Luxemburgo"
 167 = "Ruán"

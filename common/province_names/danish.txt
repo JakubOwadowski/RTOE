@@ -81,3 +81,5 @@
 1993 = "Marshalløerne"
 782 = "Ildlandet"
 1995 = "Mikronesien"
+
+2969 = "Lebus"

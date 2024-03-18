@@ -69,9 +69,7 @@
 4376 = "Caer Lyr" #Leicester
 238 = "Dwrdu" #Essex
 1861 = "Llancarw" #Derby
-243 = "Lindo" #Lincoln
-
-4369 = "Caerfyrddin" #Carmarthen
+243 = "Lindo" #Lincolns
 4366 = "Trefaldwyn" #Montgomery
 241 = "Morgannwg" #Glamorgan
 
@@ -79,4 +77,4 @@
 152 = "Aberhonddu"
 4717 = "Penfro"
 86 = "Henffordd"
-4772 = "Bearroc"
+5081 = "Ynys Môn"

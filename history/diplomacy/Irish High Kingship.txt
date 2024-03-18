@@ -1,17 +1,10 @@
 #Irish High Kingship - Similiar to Japense Daimyos
-
-dependency = {
-	subject_type = "irish_fief_vassal"
-	first = CNN
-	second = LEI
-	start_date = 1444.1.1
-}
-
 dependency = {
 	subject_type = "irish_fief_vassal"
 	first = CNN
 	second = FLY
 	start_date = 1444.1.1
+	end_date = 2000.1.1
 }
 
 dependency = {
@@ -19,6 +12,7 @@ dependency = {
 	first = CNN
 	second = AGH
 	start_date = 1444.1.1
+	end_date = 2000.1.1
 }
 
 dependency = {
@@ -26,13 +20,7 @@ dependency = {
 	first = CNN
 	second = ULS
 	start_date = 1444.1.1
-}
-
-dependency = {
-	subject_type = "irish_fief_vassal"
-	first = CNN
-	second = OSR
-	start_date = 1444.1.1
+	end_date = 2000.1.1
 }
 
 dependency = {
@@ -40,6 +28,7 @@ dependency = {
 	first = CNN
 	second = TYR
 	start_date = 1444.1.1
+	end_date = 2000.1.1
 }
 
 
@@ -48,6 +37,7 @@ dependency = {
 	first = CNN
 	second = CRC
 	start_date = 1444.1.1
+	end_date = 2000.1.1
 }
 
 dependency = {
@@ -55,6 +45,7 @@ dependency = {
 	first = CNN
 	second = FIR
 	start_date = 1444.1.1
+	end_date = 2000.1.1
 }
 
 dependency = {
@@ -62,4 +53,5 @@ dependency = {
 	first = CNN
 	second = ELI
 	start_date = 1444.1.1
+	end_date = 2000.1.1
 }

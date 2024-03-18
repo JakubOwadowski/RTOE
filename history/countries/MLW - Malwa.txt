@@ -1,14 +1,13 @@
 government = monarchy
-add_government_reform = indian_sultanate_reform
+add_government_reform = autocracy_reform
 primary_culture = malvi
-religion = sunni
+religion = hinduism
 technology_group = indian
-capital = 526	# Mandu
+capital = 2093# Mandu
 add_accepted_culture = rajput
- 
 #Sultans of Malwa
-1390.1.1 = {
-	monarch = {
+1390.1.1 = { 
+	monarch = { 
 		name = "Dilavar Khan Husain"
 		dynasty = "Ghuri"
 		ADM = 1
@@ -16,9 +15,8 @@ add_accepted_culture = rajput
 		MIL = 2
 	}
 }
-
-1390.1.1 = {
-	heir = {
+1390.1.1 = { 
+	heir = { 
 		name = "Alp Khan Hushang"
 		monarch_name = "Alp Khan Hushang"
 		dynasty = "Ghuri"
@@ -30,11 +28,8 @@ add_accepted_culture = rajput
 		MIL = 0
 	}
 }
-
- 
-
-1405.1.1 = {
-	monarch = {
+1405.1.1 = { 
+	monarch = { 
 		name = "Alp Khan Hushang"
 		dynasty = "Ghuri"
 		ADM = 3
@@ -42,9 +37,8 @@ add_accepted_culture = rajput
 		MIL = 0
 	}
 }
-
-1405.1.1 = {
-	heir = {
+1405.1.1 = { 
+	heir = { 
 		name = "Ghazni"
 		monarch_name = "Ghazni Khan"
 		dynasty = "Ghuri"
@@ -56,9 +50,8 @@ add_accepted_culture = rajput
 		MIL = 2
 	}
 }
-
-1435.1.1 = {
-	monarch = {
+1435.1.1 = { 
+	monarch = { 
 		name = "Ghazni Khan"
 		dynasty = "Ghuri"
 		ADM = 2
@@ -66,9 +59,8 @@ add_accepted_culture = rajput
 		MIL = 2
 	}
 }
-
-1436.5.3 = {
-	monarch = {
+1436.5.3 = { 
+	monarch = { 
 		name = "Mahmud I"
 		dynasty = "Khalji"
 		ADM = 5
@@ -77,13 +69,10 @@ add_accepted_culture = rajput
 	}
 	clear_scripted_personalities = yes
 	#add_ruler_personality = just_personality
-	add_ruler_personality = careful_personality #Most dominant Personality aspect
-	#add_ruler_personality = well_connected_personality
-	#add_ruler_personality = tolerant_personality
+	add_ruler_personality = careful_personality#add_ruler_personality = tolerant_personality
 }
-
-1450.1.1 = {
-	heir = {
+1450.1.1 = { 
+	heir = { 
 		name = "Ghiyath Shah"
 		monarch_name = "Ghiyath Shah"
 		dynasty = "Khalji"
@@ -95,9 +84,8 @@ add_accepted_culture = rajput
 		MIL = 1
 	}
 }
-
-1469.5.30 = {
-	monarch = {
+1469.5.30 = { 
+	monarch = { 
 		name = "Ghiyath Shah"
 		dynasty = "Khalji"
 		ADM = 1
@@ -109,9 +97,8 @@ add_accepted_culture = rajput
 	#add_ruler_personality = kind_hearted_personality
 	add_ruler_personality = sinner_personality
 }
-
-1469.5.30 = {
-	heir = {
+1469.5.30 = { 
+	heir = { 
 		name = "Nasir Shah"
 		monarch_name = "Nasir Shah"
 		dynasty = "Khalji"
@@ -123,9 +110,8 @@ add_accepted_culture = rajput
 		MIL = 3
 	}
 }
-
-1500.11.18 = {
-	monarch = {
+1500.11.18 = { 
+	monarch = { 
 		name = "Nasir Shah"
 		dynasty = "Khalji"
 		ADM = 1
@@ -137,9 +123,8 @@ add_accepted_culture = rajput
 	#add_ruler_personality = tolerant_personality
 	#add_ruler_personality = intricate_web_weaver_personality
 }
-
-1500.11.18 = {
-	heir = {
+1500.11.18 = { 
+	heir = { 
 		name = "Mahmud Shah"
 		monarch_name = "Mahmud Shah"
 		dynasty = "Khalji"
@@ -151,9 +136,8 @@ add_accepted_culture = rajput
 		MIL = 2
 	}
 }
-
-1511.4.30 = {
-	monarch = {
+1511.4.30 = { 
+	monarch = { 
 		name = "Mahmud Shah"
 		dynasty = "Khalji"
 		ADM = 0
@@ -165,8 +149,7 @@ add_accepted_culture = rajput
 	#add_ruler_personality = babbling_buffoon_personality
 	#add_ruler_personality = bold_fighter_personality
 }
-
-1519.1.1 = {
+1519.1.1 = { 
 	remove_accepted_culture = rajput
 }
 #1531.3.29 = {
@@ -177,9 +160,8 @@ add_accepted_culture = rajput
 #		MIL = 0
 #	}
 #}
-
-1536.1.1 = {
-	monarch = {
+1536.1.1 = { 
+	monarch = { 
 		name = "Qadir Shah"
 		dynasty = "Qadirid"
 		ADM = 2
@@ -187,7 +169,6 @@ add_accepted_culture = rajput
 		MIL = 0
 	}
 }
-
 #1542.1.1 = {
 #	monarch = {
 #		name = "Mughal Occupation"
@@ -196,9 +177,8 @@ add_accepted_culture = rajput
 #		MIL = 2
 #	}
 #}
-
-1554.1.1 = {
-	monarch = {
+1554.1.1 = { 
+	monarch = { 
 		name = "Salim Shah"
 		dynasty = "Shaja'atid"
 		ADM = 1
@@ -206,9 +186,8 @@ add_accepted_culture = rajput
 		MIL = 0
 	}
 }
-
-1554.1.1 = {
-	heir = {
+1554.1.1 = { 
+	heir = { 
 		name = "Baz Bahadur"
 		monarch_name = "Baz Bahadur"
 		dynasty = "Shaja'atid"
@@ -220,9 +199,8 @@ add_accepted_culture = rajput
 		MIL = 0
 	}
 }
-
-1555.1.1 = {
-	monarch = {
+1555.1.1 = { 
+	monarch = { 
 		name = "Baz Bahadur"
 		dynasty = "Shaja'atid"
 		ADM = 2
@@ -230,7 +208,6 @@ add_accepted_culture = rajput
 		MIL = 0
 	}
 }
-
 #1562.1.1 = {
 #	monarch = {
 #		name = "Mughal occupation"
@@ -239,12 +216,9 @@ add_accepted_culture = rajput
 #		MIL = 2
 #	}
 #}
-
-
 #Maharajas of Indore
-
-1728.1.1 = {
-	monarch = {
+1728.1.1 = { 
+	monarch = { 
 		name = "Malhar Rao I"
 		dynasty = "Holkar"
 		ADM = 2
@@ -252,9 +226,8 @@ add_accepted_culture = rajput
 		MIL = 5
 	}
 }
-
-1740.1.1 = {
-	heir = {
+1740.1.1 = { 
+	heir = { 
 		name = "Mali"
 		monarch_name = "Mali Rao"
 		dynasty = "Holkar"
@@ -266,9 +239,8 @@ add_accepted_culture = rajput
 		MIL = 1
 	}
 }
-
-1766.5.19 = {
-	monarch = {
+1766.5.19 = { 
+	monarch = { 
 		name = "Mali Rao"
 		dynasty = "Holkar"
 		ADM = 0
@@ -276,9 +248,8 @@ add_accepted_culture = rajput
 		MIL = 1
 	}
 }
-
-1766.5.19 = {
-	heir = {
+1766.5.19 = { 
+	heir = { 
 		name = "Ahalya Bai"
 		monarch_name = "Ahalya Bai"
 		dynasty = "Holkar"
@@ -291,9 +262,8 @@ add_accepted_culture = rajput
 		female = yes
 	}
 }
-
-1767.4.5 = {
-	monarch = {
+1767.4.5 = { 
+	monarch = { 
 		name = "Ahalya Bai"
 		dynasty = "Holkar"
 		ADM = 6
@@ -302,3 +272,4 @@ add_accepted_culture = rajput
 		female = yes
 	}
 }
+government_rank = 1

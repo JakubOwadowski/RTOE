@@ -1,0 +1,4 @@
+45 = {"Wagrë" "Lubëka"}
+46 = "Roztoki"
+59 = "Biô³ô Góra"
+61 = "Drezdany"

@@ -1,16 +1,15 @@
 government = tribal
 add_government_reform = tribal_despotism
 primary_culture = nupe
-religion = sunni
+religion = coptic
 technology_group = sub_saharan
 unlock_cult = yemoja_cult
 unlock_cult = roog_cult
 unlock_cult = nyame_cult
-capital = 1145	# Niani
-
+capital = 1145# Niani
 #Rulers
-1444.1.1 = {
-	monarch = {
+1444.1.1 = { 
+	monarch = { 
 		name = "Tsoede"
 		dynasty = "Etsu Nupe"
 		DIP = 3
@@ -18,11 +17,9 @@ capital = 1145	# Niani
 		MIL = 4
 	}
 }
-
 #Unknown
-
-1531.1.1 = {
-	monarch = {
+1531.1.1 = { 
+	monarch = { 
 		name = "Edegi"
 		dynasty = "Etsu Nupe"
 		DIP = 2
@@ -30,9 +27,8 @@ capital = 1145	# Niani
 		MIL = 2
 	}
 }
-
-1679.1.1 = {
-	monarch = {
+1679.1.1 = { 
+	monarch = { 
 		name = "Abdu Waliyi"
 		dynasty = "Etsu Nupe"
 		DIP = 2
@@ -40,9 +36,8 @@ capital = 1145	# Niani
 		MIL = 2
 	}
 }
-
-1700.1.1 = {
-	monarch = {
+1700.1.1 = { 
+	monarch = { 
 		name = "Alyu"
 		dynasty = "Etsu Nupe"
 		DIP = 2
@@ -50,9 +45,8 @@ capital = 1145	# Niani
 		MIL = 2
 	}
 }
-
-1710.1.1 = {
-	monarch = {
+1710.1.1 = { 
+	monarch = { 
 		name = "Ganamace"
 		dynasty = "Etsu Nupe"
 		DIP = 2
@@ -60,9 +54,8 @@ capital = 1145	# Niani
 		MIL = 2
 	}
 }
-
-1713.1.1 = {
-	monarch = {
+1713.1.1 = { 
+	monarch = { 
 		name = "Ibrashima"
 		dynasty = "Etsu Nupe"
 		DIP = 2
@@ -70,9 +63,8 @@ capital = 1145	# Niani
 		MIL = 2
 	}
 }
-
-1717.1.1 = {
-	monarch = {
+1717.1.1 = { 
+	monarch = { 
 		name = "Idirisu #1"
 		dynasty = "Etsu Nupe"
 		DIP = 2
@@ -80,9 +72,8 @@ capital = 1145	# Niani
 		MIL = 2
 	}
 }
-
-1721.1.1 = {
-	monarch = {
+1721.1.1 = { 
+	monarch = { 
 		name = "Abd Alahi 'Tsado"
 		dynasty = "Etsu Nupe"
 		DIP = 2
@@ -90,9 +81,8 @@ capital = 1145	# Niani
 		MIL = 2
 	}
 }
-
-1742.1.1 = {
-	monarch = {
+1742.1.1 = { 
+	monarch = { 
 		name = "Abu Bakr Kolo"
 		dynasty = "Etsu Nupe"
 		DIP = 2
@@ -100,9 +90,8 @@ capital = 1145	# Niani
 		MIL = 2
 	}
 }
-
-1746.1.1 = {
-	monarch = {
+1746.1.1 = { 
+	monarch = { 
 		name = "Jibirin"
 		dynasty = "Etsu Nupe"
 		DIP = 2
@@ -110,9 +99,8 @@ capital = 1145	# Niani
 		MIL = 2
 	}
 }
-
-1759.1.1 = {
-	monarch = {
+1759.1.1 = { 
+	monarch = { 
 		name = "Ma'azu"
 		dynasty = "Etsu Nupe"
 		DIP = 2
@@ -120,9 +108,8 @@ capital = 1145	# Niani
 		MIL = 2
 	}
 }
-
-1767.1.1 = {
-	monarch = {
+1767.1.1 = { 
+	monarch = { 
 		name = "Majiya #1"
 		dynasty = "Etsu Nupe"
 		DIP = 2
@@ -130,9 +117,8 @@ capital = 1145	# Niani
 		MIL = 2
 	}
 }
-
-1777.1.1 = {
-	monarch = {
+1777.1.1 = { 
+	monarch = { 
 		name = "Ilyasu"
 		dynasty = "Etsu Nupe"
 		DIP = 2
@@ -140,9 +126,8 @@ capital = 1145	# Niani
 		MIL = 2
 	}
 }
-
-1778.1.1 = {
-	monarch = {
+1778.1.1 = { 
+	monarch = { 
 		name = "Ma'azui"
 		dynasty = "Etsu Nupe"
 		DIP = 2
@@ -150,9 +135,8 @@ capital = 1145	# Niani
 		MIL = 2
 	}
 }
-
-1795.1.1 = {
-	monarch = {
+1795.1.1 = { 
+	monarch = { 
 		name = "Mamma"
 		dynasty = "Etsu Nupe"
 		DIP = 2
@@ -160,9 +144,8 @@ capital = 1145	# Niani
 		MIL = 2
 	}
 }
-
-1796.1.1 = {
-	monarch = {
+1796.1.1 = { 
+	monarch = { 
 		name = "Jimada"
 		dynasty = "Etsu Nupe"
 		DIP = 2
@@ -170,9 +153,8 @@ capital = 1145	# Niani
 		MIL = 2
 	}
 }
-
-1805.1.1 = {
-	monarch = {
+1805.1.1 = { 
+	monarch = { 
 		name = "Majiya #2"
 		dynasty = "Etsu Nupe"
 		DIP = 2
@@ -180,9 +162,8 @@ capital = 1145	# Niani
 		MIL = 2
 	}
 }
-
-1810.1.1 = {
-	monarch = {
+1810.1.1 = { 
+	monarch = { 
 		name = "Idirisu #2"
 		dynasty = "Etsu Nupe"
 		DIP = 2
@@ -190,3 +171,4 @@ capital = 1145	# Niani
 		MIL = 2
 	}
 }
+government_rank = 1

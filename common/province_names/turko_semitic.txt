@@ -78,7 +78,6 @@
 221 = "Mursiya"
 224 = "Isbiliya"
 225 = "Qurtuba"
-226 = "Jabal Tariq"
 227 = "Lixbuna"
 228 = "al-Adna"
 231 = "Burtuqal"

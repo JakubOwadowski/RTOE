@@ -2,30 +2,27 @@ government = monarchy
 add_government_reform = feudalism_reform
 primary_culture = cosmopolitan_french
 add_accepted_culture = occitain
-add_accepted_culture = auvergnian
 religion = orthodox
 religious_school = see_of_rome
 technology_group = western
-capital = 184 # Orleans
+capital = 184# Orleans
 historical_rival = NRM
 historical_rival = ROM
 national_focus = DIP
-
-change_estate_land_share = {
+change_estate_land_share = { 
 	estate = estate_nobles
 	share = 20
 }
-change_estate_land_share = {
+change_estate_land_share = { 
 	estate = estate_church
 	share = -5
 }
-change_estate_land_share = {
+change_estate_land_share = { 
 	estate = estate_burghers
 	share = -10
 }
-
-1422.10.22 = {
-	monarch = {
+1422.10.22 = { 
+	monarch = { 
 		name = "Charles VII"
 		dynasty = "de Valois"
 		birth_date = 1403.2.22
@@ -33,21 +30,20 @@ change_estate_land_share = {
 		dip = 2
 		mil = 4
 	}
-	queen = {
-        country_of_origin = PRO
-        name = "Marie"
-        dynasty = "d'Anjou"
-        birth_date = 1404.10.14
-        death_date = 1463.11.29
-        female = yes
-        adm = 4
-        dip = 4
-        mil = 4
-    }
+	queen = { 
+		country_of_origin = PRO
+		name = "Marie"
+		dynasty = "d'Anjou"
+		birth_date = 1404.10.14
+		death_date = 1463.11.29
+		female = yes
+		adm = 4
+		dip = 4
+		mil = 4
+	}
 }
-
-1423.7.3 = {
-	heir = {
+1423.7.3 = { 
+	heir = { 
 		name = "Louis"
 		monarch_name = "Louis XI"
 		dynasty = "de Valois"
@@ -64,5 +60,5 @@ change_estate_land_share = {
 	add_ruler_personality = well_advised_personality
 	add_queen_personality = zealot_personality
 }
-
-1428.1.1 = { leader = {	name = "Jeanne d'Arc"	type = general	fire = 3	shock = 4	manuever = 2	siege = 2	female = yes birth_date = 1412.1.1 death_date = 1476.1.1 } }
+1428.1.1 = { leader = { name = "Jeanne d'Arc" type = general fire = 3 shock = 4 manuever = 2 siege = 2 female = yes birth_date = 1412.1.1 death_date = 1476.1.1 } }
+government_rank = 2

@@ -1,12 +1,11 @@
 #1764 - Burgas
-
 owner = ROM
 controller = ROM
 culture = greek
 religion = orthodox
 capital = "Pýrgos"
 trade_goods = salt
-hre = no
+hre = yes
 base_tax = 2
 base_production = 2
 base_manpower = 1

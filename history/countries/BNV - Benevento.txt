@@ -5,5 +5,5 @@ religion = orthodox
 religious_school = see_of_constantinople
 government_rank = 1
 primary_culture = neapolitan
-capital = 1 # Benevento
+capital = 5061# Benevento
 fixed_capital = 1

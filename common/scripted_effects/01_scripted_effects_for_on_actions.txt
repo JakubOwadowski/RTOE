@@ -978,8 +978,8 @@ on_province_owner_change_government_effect = {
 				has_province_modifier = wine_bonus_prod
 				has_province_modifier = grain_bonus_prod
 			}
-			FROM = { has_reform = monastic_breweries_reform }
-			NOT = { owner = { has_reform = monastic_breweries_reform } }
+			# FROM = { has_reform = monastic_breweries_reform }
+			# NOT = { owner = { has_reform = monastic_breweries_reform } }
 		}
 		remove_province_modifier = wine_bonus_prod
 		remove_province_modifier = grain_bonus_prod
@@ -992,8 +992,8 @@ on_province_owner_change_government_effect = {
 					has_province_modifier = grain_bonus_prod
 				}
 			}
-			owner = { has_reform = monastic_breweries_reform }
-			NOT = { FROM = { has_reform = monastic_breweries_reform } }
+			# owner = { has_reform = monastic_breweries_reform }
+			# NOT = { FROM = { has_reform = monastic_breweries_reform } }
 		}
 		hidden_effect = {
 			if = {

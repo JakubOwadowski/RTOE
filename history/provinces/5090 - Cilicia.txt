@@ -1,0 +1,37 @@
+#Written with Eu4 Easy Province Creator by emiroercn
+#Cilicia
+owner = SYP
+controller = SYP
+culture = armenian
+religion = coptic
+base_tax = 9
+base_production = 8
+trade_goods = wool
+base_manpower = 6
+capital = "Cilicia"
+is_city = yes
+extra_cost = 26
+discovered_by = eastern
+discovered_by = muslim
+discovered_by = nomad_group
+discovered_by = western
+discovered_by = eastern
+discovered_by = muslim
+discovered_by = nomad_group
+discovered_by = western
+discovered_by = eastern
+discovered_by = muslim
+discovered_by = nomad_group
+discovered_by = western
+discovered_by = eastern
+discovered_by = muslim
+discovered_by = nomad_group
+discovered_by = western
+discovered_by = eastern
+discovered_by = muslim
+discovered_by = nomad_group
+discovered_by = western
+add_core = SYP
+hre = yes
+add_core = SYR
+add_core = CIL

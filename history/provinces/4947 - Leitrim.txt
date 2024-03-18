@@ -4,7 +4,6 @@ owner = CRC
 controller = CRC
 culture = irish
 religion = ofbrit
-hre = no
 base_tax = 1
 base_production = 1
 trade_goods = naval_supplies

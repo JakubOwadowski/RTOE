@@ -99,7 +99,6 @@
 1756 = "Besarabia"
 1757 = "Gorny Palatynat"
 1758 = "Hanower"
-1759 = "Postapin"
 1760 = "Koblencja"
 1761 = "Palatynat"
 1763 = "Luzyce"

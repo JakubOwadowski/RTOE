@@ -2,13 +2,12 @@ government = monarchy
 add_government_reform = plutocratic_reform
 government_rank = 2
 technology_group = muslim
-religion = sunni
+religion = ibadi
 primary_culture = gulf_arabic
-capital = 2999	# Ormuz Island
-
+capital = 2999# Ormuz Island
 #Rulers of Ormuz
-1442.1.1 = {
-	monarch = {
+1442.1.1 = { 
+	monarch = { 
 		name = "Fakhr al-Din"
 		dynasty = "Turani"
 		dip = 4
@@ -17,9 +16,8 @@ capital = 2999	# Ormuz Island
 	}
 	add_piety = 0.1
 }
-
-1465.1.1 = {
-	monarch = {
+1465.1.1 = { 
+	monarch = { 
 		name = "Salghur"
 		dynasty = "Turani"
 		dip = 4

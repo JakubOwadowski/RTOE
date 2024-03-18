@@ -1,0 +1,18 @@
+#1755 - Ustyug
+owner = RSO# was part of Ustyug principality, annexed by Muscovy in 1474
+controller = RSO
+culture = russian
+religion = orthodox
+base_tax = 2
+base_production = 2
+trade_goods = fur
+base_manpower = 1
+capital = "Ustyug"
+is_city = yes
+add_core = NOV# Novgorodian claims
+discovered_by = eastern
+discovered_by = western
+discovered_by = nomad_group
+1503.4.1 = { controller = RUS add_core = RUS }
+1550.1.1 = { capital = "Veliky Ustyug" }
+add_core = RSO

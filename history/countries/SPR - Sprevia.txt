@@ -3,5 +3,5 @@ add_government_reform = feudalism_reform
 government_rank = 1
 technology_group = eastern
 religion = slavic_pagan_reformed
-primary_culture = veleti
+primary_culture = sorbian
 capital = 4748	# Brenna

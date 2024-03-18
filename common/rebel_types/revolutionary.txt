@@ -217,9 +217,9 @@ revolutionary_rebels = {
 				country_event = { id = revolution.31 } #Spain
 				country_event = { id = revolution.32 } #Scandinavia
 				country_event = { id = revolution.33 } #UK
-				country_event = { id = revolution.34 } #Ottomans
+				#country_event = { id = revolution.34 } #Ottomans
 				country_event = { id = revolution.37 } #Germans
-				country_event = { id = revolution.38 } #Austria and HRE
+				#country_event = { id = revolution.38 } #Austria and HRE
 				country_event = { id = revolution.39 } #Netherlands
 				country_event = { id = revolution.40 } #China
 				country_event = { id = revolution.41 } #Indians
@@ -265,7 +265,7 @@ revolutionary_rebels = {
 							is_revolutionary_republic_trigger = yes
 							has_reform = tribal_federation
 							has_reform = feudal_theocracy
-							has_reform = mamluk_government
+							#has_reform = mamluk_government
 						}
 					}
 				}

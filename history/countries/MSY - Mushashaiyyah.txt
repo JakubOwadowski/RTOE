@@ -1,14 +1,13 @@
 government = monarchy
 add_government_reform = feudal_theocracy
 primary_culture = al_iraqiya_arabic
-religion = shiite
+religion = sunni
 technology_group = muslim
-capital = 4290	# Haviza
+capital = 412# Haviza
 government_rank = 1
 add_army_professionalism = 0.05
-
-1442.1.16 = {
-	monarch = {
+1442.1.16 = { 
+	monarch = { 
 		name = "Muhammad ibn Falah"
 		dynasty = "Musha'sha'iya"
 		adm = 3
@@ -19,9 +18,8 @@ add_army_professionalism = 0.05
 	clear_scripted_personalities = yes
 	add_ruler_personality = zealot_personality
 }
-
-1465.1.1 = {
-	monarch = {
+1465.1.1 = { 
+	monarch = { 
 		name = "Muhammad"
 		dynasty = "Musha'sha'iya"
 		adm = 3
@@ -29,9 +27,8 @@ add_army_professionalism = 0.05
 		mil = 3
 	}
 }
-
-1500.1.1 = {
-	monarch = {
+1500.1.1 = { 
+	monarch = { 
 		name = "Mushin"
 		dynasty = "Musha'sha'iya"
 		adm = 3
@@ -39,9 +36,8 @@ add_army_professionalism = 0.05
 		mil = 3
 	}
 }
-
-1500.1.1 = {
-	monarch = {
+1500.1.1 = { 
+	monarch = { 
 		name = "Ali"
 		dynasty = "Musha'sha'iya"
 		adm = 4
@@ -49,9 +45,8 @@ add_army_professionalism = 0.05
 		mil = 3
 	}
 }
-
-1508.1.1 = {
-	monarch = {
+1508.1.1 = { 
+	monarch = { 
 		name = "Falah ibn Mushin"
 		dynasty = "Musha'sha'iya"
 		adm = 2
@@ -59,9 +54,8 @@ add_army_professionalism = 0.05
 		mil = 3
 	}
 }
-
-1514.1.1 = {
-		monarch = {
+1514.1.1 = { 
+	monarch = { 
 		name = "Falah ibn Badran"
 		dynasty = "Musha'sha'iya"
 		adm = 3
@@ -69,9 +63,8 @@ add_army_professionalism = 0.05
 		mil = 2
 	}
 }
-
-1550.1.1 = {
-	monarch = {
+1550.1.1 = { 
+	monarch = { 
 		name = "Sadjdjad"
 		dynasty = "Musha'sha'iya"
 		adm = 2
@@ -79,9 +72,8 @@ add_army_professionalism = 0.05
 		mil = 4
 	}
 }
-
-1584.1.1 = {
-	monarch = {
+1584.1.1 = { 
+	monarch = { 
 		name = "Zanbur"
 		dynasty = "Musha'sha'iya"
 		adm = 1
@@ -89,9 +81,8 @@ add_army_professionalism = 0.05
 		mil = 4
 	}
 }
-
-1590.1.1 = {
-	monarch = {
+1590.1.1 = { 
+	monarch = { 
 		name = "Mubarak ibn Muttalib"
 		dynasty = "Musha'sha'iya"
 		adm = 2
@@ -99,9 +90,8 @@ add_army_professionalism = 0.05
 		mil = 3
 	}
 }
-
-1600.1.1 = {
-	monarch = {
+1600.1.1 = { 
+	monarch = { 
 		name = "Mawla Muttalib"
 		dynasty = "Musha'sha'iya"
 		adm = 3
@@ -109,9 +99,8 @@ add_army_professionalism = 0.05
 		mil = 2
 	}
 }
-
-1616.1.1 = {
-	monarch = {
+1616.1.1 = { 
+	monarch = { 
 		name = "Nasir"
 		dynasty = "Musha'sha'iya"
 		adm = 2
@@ -119,9 +108,8 @@ add_army_professionalism = 0.05
 		mil = 1
 	}
 }
-
-1620.1.1 = {
-	monarch = {
+1620.1.1 = { 
+	monarch = { 
 		name = "Muttalib ibn Mansur"
 		dynasty = "Musha'sha'iya"
 		adm = 3
@@ -129,9 +117,8 @@ add_army_professionalism = 0.05
 		mil = 2
 	}
 }
-
-1624.1.1 = {
-	monarch = {
+1624.1.1 = { 
+	monarch = { 
 		name = "Muhammad ibn Mubarak"
 		dynasty = "Musha'sha'iya"
 		adm = 3
@@ -139,9 +126,8 @@ add_army_professionalism = 0.05
 		mil = 3
 	}
 }
-
-1632.1.1 = {
-	monarch = {
+1632.1.1 = { 
+	monarch = { 
 		name = "Mawla Mansur"
 		dynasty = "Musha'sha'iya"
 		adm = 1
@@ -149,9 +135,8 @@ add_army_professionalism = 0.05
 		mil = 3
 	}
 }
-
-1632.9.1 = {
-	monarch = {
+1632.9.1 = { 
+	monarch = { 
 		name = "Mawla Mansur"
 		dynasty = "Musha'sha'iya"
 		adm = 2
@@ -159,9 +144,8 @@ add_army_professionalism = 0.05
 		mil = 2
 	}
 }
-
-1650.1.1 = {
-	monarch = {
+1650.1.1 = { 
+	monarch = { 
 		name = "Muttalib ibn Khalaf"
 		dynasty = "Musha'sha'iya"
 		adm = 3
@@ -169,9 +153,8 @@ add_army_professionalism = 0.05
 		mil = 2
 	}
 }
-
-1681.1.1 = {
-	monarch = {
+1681.1.1 = { 
+	monarch = { 
 		name = "Abdallah"
 		dynasty = "Musha'sha'iya"
 		adm = 3
@@ -179,9 +162,8 @@ add_army_professionalism = 0.05
 		mil = 3
 	}
 }
-
-1682.1.1 = {
-	monarch = {
+1682.1.1 = { 
+	monarch = { 
 		name = "Faradj Allah ibn Ali Khan"
 		dynasty = "Musha'sha'iya"
 		adm = 3
@@ -189,9 +171,8 @@ add_army_professionalism = 0.05
 		mil = 3
 	}
 }
-
-1703.1.1 = {
-	monarch = {
+1703.1.1 = { 
+	monarch = { 
 		name = "Allah Abdallah"
 		dynasty = "Musha'sha'iya"
 		adm = 3
@@ -199,4 +180,3 @@ add_army_professionalism = 0.05
 		mil = 1
 	}
 }
-

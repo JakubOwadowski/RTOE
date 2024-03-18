@@ -1,11 +1,9 @@
 #Pembroke
-
 owner = NRM
 controller = NRM
 culture = welsh
 religion = ofbrit
-hre = no
-base_tax = 1 
+base_tax = 1
 base_production = 1
 trade_goods = livestock
 base_manpower = 1

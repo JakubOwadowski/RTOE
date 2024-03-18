@@ -348,16 +348,6 @@ estate_nobles = {
 		}
 	}
 	custom_name = {
-		desc = estate_junkers
-		trigger = {
-			OR = {
-				has_reform = prussian_republic_reform
-				has_reform = prussian_monarchy
-				tag = GER
-			}
-		}
-	}
-	custom_name = {
 		desc = estate_alii
 		trigger = {
 			OR = {
@@ -452,6 +442,7 @@ estate_nobles = {
 		estate_nobles_leidang_mass_conscription
 		estate_nobles_leidang_elite_conscription
 		estate_nobles_sponsor_hussars
+		estate_nobles_norman_feudal_system
 	}
 
 	agendas = {

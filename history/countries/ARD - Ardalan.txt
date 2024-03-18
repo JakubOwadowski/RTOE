@@ -1,14 +1,13 @@
 government = monarchy
-add_government_reform = iqta
+add_government_reform = autocracy_reform
 government_rank = 1
 primary_culture = kurdish
-religion = sunni
+religion = shiite
 technology_group = muslim
-capital = 2211 # Ardalan
-fixed_capital = 2211 # Cannot move capital away from this province & no power cost to move to it
-
-1399.1.1 = {
-	monarch = {
+capital = 2211# Ardalan
+fixed_capital = 2211# Cannot move capital away from this province & no power cost to move to it
+1399.1.1 = { 
+	monarch = { 
 		name = "Bawa"
 		dynasty = "Ardalan"
 		adm = 2
@@ -17,9 +16,8 @@ fixed_capital = 2211 # Cannot move capital away from this province & no power co
 	}
 	add_piety = 0.1
 }
-
-1525.1.1 = {
-	monarch = {
+1525.1.1 = { 
+	monarch = { 
 		name = "Timur"
 		dynasty = "Ardalan"
 		adm = 3
@@ -27,9 +25,8 @@ fixed_capital = 2211 # Cannot move capital away from this province & no power co
 		mil = 2
 	}
 }
-
-1576.1.1 = {
-	monarch = {
+1576.1.1 = { 
+	monarch = { 
 		name = "Helo"
 		dynasty = "Ardalan"
 		adm = 2
@@ -37,19 +34,17 @@ fixed_capital = 2211 # Cannot move capital away from this province & no power co
 		mil = 4
 	}
 }
-
-1590.1.1 = {
-	monarch = {
-		name = " Ahmad"
+1590.1.1 = { 
+	monarch = { 
+		name = "Ahmad"
 		dynasty = "Ardalan"
 		adm = 3
 		dip = 2
-		mil = 1		
+		mil = 1
 	}
 }
-
-1629.1.1 = {
-	monarch = {
+1629.1.1 = { 
+	monarch = { 
 		name = "Soleiman"
 		dynasty = "Ardalan"
 		adm = 1
@@ -57,9 +52,8 @@ fixed_capital = 2211 # Cannot move capital away from this province & no power co
 		mil = 2
 	}
 }
-
-1737.1.1 = {
-	monarch = {
+1737.1.1 = { 
+	monarch = { 
 		name = "Sobhanverdi"
 		dynasty = "Ardalan"
 		adm = 1
@@ -67,9 +61,8 @@ fixed_capital = 2211 # Cannot move capital away from this province & no power co
 		mil = 1
 	}
 }
-
-1754.1.1 = {
-	monarch = {
+1754.1.1 = { 
+	monarch = { 
 		name = "Khosrow"
 		dynasty = "Bozorg"
 		adm = 1
@@ -77,9 +70,8 @@ fixed_capital = 2211 # Cannot move capital away from this province & no power co
 		mil = 2
 	}
 }
-
-1799.1.1 = {
-	monarch = {
+1799.1.1 = { 
+	monarch = { 
 		name = "Aman-Allah"
 		dynasty = "Bozorg"
 		adm = 2

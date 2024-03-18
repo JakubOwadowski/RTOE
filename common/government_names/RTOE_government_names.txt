@@ -49,3 +49,52 @@ scottish_earldom = {
 		government = monarchy
 	}
 }
+
+zoroatrian_monarchy = {
+	rank = {
+		1 = SHAHRABY 
+		2 = SHAHDOM
+		3 = EMPIRE
+	}
+
+	ruler_male = {
+		1 = SHAHRAB
+		2 = SHAH
+		3 = SHAHANSHAH
+	}
+
+	ruler_female = {
+		1 = SHAHRAB
+		2 = SHAH
+		3 = SHAHANSHAH
+	}
+	
+	consort_male = {
+		1 = SHAH_CONSORT
+		2 = SHAH_CONSORT
+		3 = SHAH_CONSORT
+	}
+
+	consort_female = {
+		1 = BANBISHN
+		2 = BANBISHN
+		3 = BANBISHN
+	}
+	
+	heir_male = {
+		1 = HEIR
+		2 = SHAHZADE
+		3 = SHAHZADE
+	}
+
+	heir_female = {
+		1 = HEIR_fem
+		2 = SHAHDOKHT
+		3 = SHAHDOKHT
+	}
+
+	trigger = {
+		government = monarchy
+		religion_group = zoroastrian_group
+	}
+}

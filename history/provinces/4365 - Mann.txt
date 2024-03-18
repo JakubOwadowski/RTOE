@@ -1,11 +1,9 @@
 #4365 - Mann
-
 owner = DUB
 controller = DUB
-culture = cumbrian
+culture = highland_scottish
 religion = ofbrit
-hre = no
-base_tax = 1 
+base_tax = 1
 base_production = 1
 trade_goods = fish
 base_manpower = 1

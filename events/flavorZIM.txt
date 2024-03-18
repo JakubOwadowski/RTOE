@@ -556,13 +556,7 @@ country_event = {
 		}
 		if = {
 			limit = {
-				OR = {
-					religion = catholic
-					religion = reformed
-					religion = protestant
-					religion = anglican
-					religion = hussite
-				}
+				religion = orthodox
 			}
 			add_prestige = 100	#You always lose 100 prestige when converting...
 		}

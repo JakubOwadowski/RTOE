@@ -1,21 +1,17 @@
 #Lithuania
-
 graphical_culture = easterngfx
-
-color = { 120  40  120 }
-
-historical_idea_groups = {
+color = { 120 40 120 }
+historical_idea_groups = { 
 	humanist_ideas
 	trade_ideas
 	economic_ideas
 	quality_ideas
 	diplomatic_ideas
 	administrative_ideas
-	aristocracy_ideas	
+	aristocracy_ideas
 	quantity_ideas
 }
-
-historical_units = {
+historical_units = { 
 	bardiche_infantry
 	eastern_knights
 	slavic_stradioti
@@ -32,8 +28,7 @@ historical_units = {
 	eastern_carabinier
 	russian_mass
 }
-
-monarch_names = {
+monarch_names = { 
 	"Darius #4" = 10
 	"Gediminas #1" = 10
 	"Giedrius #0" = 0
@@ -63,43 +58,29 @@ monarch_names = {
 	"Vincentas #0" = 0
 	"Vilhelmas #0" = 0
 	"Vytenis #1" = 10
-	
 	"Agné #0" = -1
 	"Morta #0" = -1
 	"Viltauté #0" = -1
 }
-
-leader_names = {
-	Alseniskis Astikas
-	Chodkevicius
-	Daukantas Dauksa Denhofas
-	Giedraitis Gosevskis Gostautas
-	Kesgaila Kiska Kosakovskis Kulvietis
+leader_names = { 
+	Alseniskis Astikas Chodkevicius
+	Daukantas Dauksa Denhofas Giedraitis Gosevskis Gostautas Kesgaila Kiska Kosakovskis Kulvietis
 	Lietuvis
-	Masalskis Mazvydas
-	Nemirovicius
-	Oginskis Ostrogiskis
-	Pacas Pociejus
-	Radvila Rapolionis Rimsa
-	Sanguska Sapiega Simonavicius Sirvydas Skorina Sluska Sosnovskis Svyriskis
-	Tiskevicius
-	Valancius Valavicius Visniovieckis
-	Zabiela
+	Masalskis Mazvydas Nemirovicius
+	Oginskis Ostrogiskis Pacas Pociejus Radvila Rapolionis Rimsa Sanguska Sapiega Simonavicius
+	Sirvydas Skorina Sluska Sosnovskis Svyriskis Tiskevicius
+	Valancius Valavicius Visniovieckis Zabiela
 }
-
-ship_names = {
+ship_names = { 
 	Alytus
 	Birzai
 	Druskininkai
 	Gardinas
 	Jonava
-	Kaunas Kretinga Kreva
-	Lazdijai
+	Kaunas Kretinga Kreva Lazdijai
 	Naugardukas
 	Palanga
 	Raseiniai
-	Siauliai Sventoji
-	Taurage Telsiai Trakai
-	Utena
+	Siauliai Sventoji Taurage Telsiai Trakai Utena
 	Vilkmerge
 }

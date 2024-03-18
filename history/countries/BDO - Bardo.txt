@@ -1,0 +1,30 @@
+government = monarchy
+add_government_reform = feudalism_reform
+government_rank = 1
+primary_culture = pomorzan
+religion = slavic_pagan_reformed
+technology_group = eastern
+capital = 1858	# Stettin
+
+1444.1.1 = {
+        monarch = {
+                name = "Jón III"
+                dynasty = "Grëf"
+                birth_date = 1396.8.1
+                death_date = 1456.1.24
+                adm = 2
+                dip = 3
+                mil = 1
+        }
+        heir = {
+                name = "Jón"
+                monarch_name = "Jón IV"
+                dynasty = "Grëf"
+                birth_date = 1437.9.25
+                death_date = 1477.7.4
+                claim = 95
+                adm = 6
+                dip = 2
+                mil = 6
+        }
+}

@@ -1,16 +1,16 @@
 government = monarchy
-add_government_reform = iqta
+add_government_reform = autocracy_reform
 government_rank = 1
 primary_culture = persian
 add_accepted_culture = azerbaijani
-religion = shiite
+religion = zoroastrian
 technology_group = muslim
-capital = 2213 # Qom
+capital = 2213# Qom
+1442.1.1 = {  #Appointed as governor of Sultaniyya, Qazvin, Rayy and Qom, but takes up tribute from Kashan, Qazvin, Sari, Isfahan, Natanz, Firuzkuh, Sultaniyya, Tarum, Azerbaijan as well.
 
-1442.1.1 = { #Appointed as governor of Sultaniyya, Qazvin, Rayy and Qom, but takes up tribute from Kashan, Qazvin, Sari, Isfahan, Natanz, Firuzkuh, Sultaniyya, Tarum, Azerbaijan as well.
 	religion = sunni
 	add_piety = -0.5
-	monarch = {
+	monarch = { 
 		name = "Muhammad bin Baysonqor"
 		birth_date = 1417.1.1
 		dynasty = "Timurid"
@@ -23,9 +23,8 @@ capital = 2213 # Qom
 	clear_scripted_personalities = yes
 	add_ruler_personality = bold_fighter_personality
 }
-
-1451.1.1 = {
+1451.1.1 = { 
 	religion = shiite
 }
-1504.1.1 = {
+1504.1.1 = { 
 }

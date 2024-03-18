@@ -1,20 +1,16 @@
 # 202 Avignon - Principal cities: Avignon
-
-owner = BUR
-controller = BUR
+owner = PRO
+controller = PRO
 capital = "Avenion"
 is_city = yes
 culture = occitain
 religion = orthodox
-hre = no
-base_tax = 4 
+base_tax = 4
 base_production = 3
 trade_goods = cloth
 base_manpower = 4
-add_core = BUR
 add_core = PRO
 extra_cost = 8
-
 discovered_by = eastern
 discovered_by = western
 discovered_by = western

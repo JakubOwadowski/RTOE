@@ -12,9 +12,12 @@ tags={
 }
 name="Rome: Twilight of the Empire"
 replace_path = "history/diplomacy"
+replace_path = "history/wars"
 replace_path = "events"
 replace_path = "common/disasters"
 replace_path = "common/bookmarks"
+replace_path = "common/rebel_types"
+replace_path = "common/estate_privileges"
 replace_path = "missions"
 replace_path = "decisions"
 supported_version="1.34.5"

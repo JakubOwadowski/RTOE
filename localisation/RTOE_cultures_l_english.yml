@@ -1,13 +1,13 @@
 ﻿l_english:
-
+ #for changed names see replace/RTOE_replace_cultures_l_english.txt
+ 
  ###Greeks###
  #Byzantine -> Hellenic
  #Greek -> Rhomanian
  pontic_greek: "Pontic"
- lycian_greek: "Lycian"
  cilician_greek: "Cilician"
  cretean_greek: "Cretan"
- italian_greek: "Graikoi" #spawnable later
+ griko: "Griko"
  tsakonian: "Tsakonian"
  hellenoafrican: "Hellenoafrican"
  capp_greek: "Cappadocian"
@@ -26,12 +26,12 @@
  #Saxon
  #Swabian
  #Bavarian
- longbard: "Langobardian"
+ longbard: "Langbardian"
  #Frankonian
  #Dutch
  #Frisian
  #Hessian
- rhenish: "Rhenish"
+ thuringian: "Thuringian"
  
  
  ###Anglo-Norman###
@@ -88,9 +88,7 @@
  
  ###French###
  #Francien -> French
- poitevin: "Poitevin"
  lieunnois: "Lieunnois"
- austrasien: "Austrasien"
  gallo: "Gallo"
  #Wallon
  #Burgundian
@@ -113,8 +111,8 @@
  jewish: "Jewish"
  
  ###Armenian group###
- armenian_group: "Hajastani"
- west_armenian: "West Armenian"
+ armenian_group: "Hayastani"
+ #Armenian
  hemshin: "Hemshin"
  
  ###Georgian group###
@@ -123,19 +121,16 @@
  laz: "Laz"
  mingrelian: "Mingrelian"
  
- ###Dagestani group###
- dagestani_group: "Dagestani"
+ ###North Caucasian group###
+ dagestani_group: "North Caucasian"
  lakian: "Lak"
- 
- ###Veinakh group###
  veinakh_group: "Veinakh"
  chechen: "Chechen"
- ingush: "Ingush"
  
- 
+ ###Circassic group###
  abazgi: "Abazgian"
  ubykh: "Ubykh"
- ossetian: "Ossetian"
+ #Circassian
  
  ###Albanians###
  albanic: "Albanic"
@@ -201,13 +196,14 @@
  ###Berbers (Imazigh)###
  atlas: "Atlasic"
  #Moroccan -> Amazigh
- #Algerian -> Maurish
+ #Algerian -> Moorish
  #Berber -> Fezzani
+ #Tunesian -> Kabylian
  #Tuareg
  
  oghuz: "Oghuz"
  #Turkish
- #Azerbeijani -> Arrani
+ #Azerbeijani -> Qashaqi
  #Turkmeni
  
  ###Tatar###
@@ -220,7 +216,6 @@
  #Kyrgyz
  #Uyghur
  #Yakut
- hazar: "Hazar"
  
  ###Egyptian###
  egyptian: "Egyptian"
@@ -231,6 +226,14 @@
  ethiopic: "Ethiopic"
  tajik: "Tajik"
  khoisanic: "Khoisanic"
+ 
+ ###Iranian###
+ #Persian
+ #Mazandarani
+ #Beluchi
+ #Pashtun
+ alan: "Alan"
+ arrani: "Arrani"
  
  
 

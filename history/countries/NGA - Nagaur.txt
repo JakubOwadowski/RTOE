@@ -1,13 +1,12 @@
 government = monarchy
 add_government_reform = indian_sultanate_reform
 primary_culture = rajput
-religion = sunni
+religion = shiite
 technology_group = indian
-capital = 2066	# Nagaur
-fixed_capital = 2066 # Cannot move capital away from this province & no power cost to move to it
-
-1399.1.1 = {
-	monarch = {
+capital = 2066# Nagaur
+fixed_capital = 2066# Cannot move capital away from this province & no power cost to move to it
+1399.1.1 = { 
+	monarch = { 
 		name = "Firuz Khan"
 		dynasty = "Dandani"
 		culture = afghani
@@ -16,9 +15,8 @@ fixed_capital = 2066 # Cannot move capital away from this province & no power co
 		mil = 2
 	}
 }
-
-1399.1.1 = {
-	heir = {
+1399.1.1 = { 
+	heir = { 
 		name = "Qiyam"
 		monarch_name = "Qiyam Khan"
 		dynasty = "Dandani"
@@ -31,9 +29,8 @@ fixed_capital = 2066 # Cannot move capital away from this province & no power co
 		mil = 2
 	}
 }
-
-1428.1.1 = {
-	monarch = {
+1428.1.1 = { 
+	monarch = { 
 		name = "Qiyam Khan"
 		dynasty = "Dandani"
 		culture = afghani
@@ -42,9 +39,8 @@ fixed_capital = 2066 # Cannot move capital away from this province & no power co
 		mil = 2
 	}
 }
-
-1428.1.1 = {
-	heir = {
+1428.1.1 = { 
+	heir = { 
 		name = "Shams"
 		monarch_name = "Shams Khan"
 		culture = afghani
@@ -57,9 +53,8 @@ fixed_capital = 2066 # Cannot move capital away from this province & no power co
 		mil = 2
 	}
 }
-
-1453.1.1 = {
-	monarch = {
+1453.1.1 = { 
+	monarch = { 
 		name = "Shams Khan"
 		dynasty = "Dandani"
 		culture = afghani
@@ -68,9 +63,8 @@ fixed_capital = 2066 # Cannot move capital away from this province & no power co
 		mil = 2
 	}
 }
-
-1453.1.1 = {
-	heir = {
+1453.1.1 = { 
+	heir = { 
 		name = "Muhammad"
 		monarch_name = "Muhammad Khan"
 		culture = afghani
@@ -83,13 +77,11 @@ fixed_capital = 2066 # Cannot move capital away from this province & no power co
 		mil = 1
 	}
 }
-
-1465.1.1 = {
+1465.1.1 = { 
 	government_rank = 1
 }
-
-1500.1.1 = {
-	monarch = {
+1500.1.1 = { 
+	monarch = { 
 		name = "Muhammad Khan"
 		dynasty = "Dandani"
 		culture = afghani
@@ -98,3 +90,4 @@ fixed_capital = 2066 # Cannot move capital away from this province & no power co
 		mil = 1
 	}
 }
+government_rank = 1

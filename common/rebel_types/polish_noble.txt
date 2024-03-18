@@ -182,12 +182,12 @@ polish_noble_rebels = {
 					government = native
 					has_reform = elective_monarchy
 					has_reform = english_monarchy
-					has_reform = ottoman_government
+					#has_reform = ottoman_government
 					has_reform = tribal_federation
 					has_reform = feudal_theocracy
-					has_reform = mamluk_government
+					#has_reform = mamluk_government
 					OR = { 
-						tag = PLC 
+						#tag = PLC 
 						tag = POL 
 					}
 					has_dlc = "Lions of the North"
@@ -198,7 +198,7 @@ polish_noble_rebels = {
 		else_if = { 
 			limit = { 
 				OR = {
-					tag = PLC 
+					#tag = PLC 
 					tag = POL 
 				}
 				NOT = { mission_completed = plc_golden_liberty } 

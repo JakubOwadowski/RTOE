@@ -1,0 +1,46 @@
+#41 - Königsberg
+owner = PRU
+controller = PRU
+capital = "Königsberg"
+culture = prussian
+religion = baltic_pagan_reformed
+trade_goods = gems#Amber
+base_tax = 4
+base_production = 4
+base_manpower = 2
+is_city = yes
+discovered_by = eastern
+discovered_by = western
+discovered_by = muslim
+extra_cost = 8
+center_of_trade = 1
+1454.3.6 = { add_core = POL controller = REB revolt = { type = revolutionary_rebels size = 2 } }
+1466.10.19 = { controller = TEU add_core = PRU revolt = { size = 1 } }
+1525.2.10 = { 
+	controller = PRU
+	trade_goods = Paper
+	religion = Protestant
+}
+1618.8.28 = { 
+	controller = BRA
+	add_core = BRA
+}
+1648.1.1 = { 
+	fort_15th = no
+	fort_17th = yes
+}
+1701.1.18 = { 
+	controller = PRU
+}
+1715.1.1 = { 
+	fort_17th = no
+	fort_18th = yes
+}
+1750.1.1 = { 
+	base_manpower = 4
+	base_tax = 8
+	base_production = 8
+}
+1758.1.22 = { controller = RUS }
+1762.5.5 = { controller = PRU }
+add_core = PRU

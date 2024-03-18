@@ -3,10 +3,9 @@ add_government_reform = tribal_federation
 technology_group = muslim
 primary_culture = bedouin_arabic
 religion = sunni
-capital = 4272 #Al Jawf
-
-1444.1.1 = {
-	monarch = {
+capital = 4272#Al Jawf
+1444.1.1 = { 
+	monarch = { 
 		name = "Abdullah"
 		dynasty = "Dhana Maslam"
 		adm = 2
@@ -15,9 +14,8 @@ capital = 4272 #Al Jawf
 	}
 	add_piety = 0.1
 }
-
-1444.1.1 = {
-	heir = {
+1444.1.1 = { 
+	heir = { 
 		name = "Muhammed"
 		dynasty = "Dhana Maslam"
 		monarch_name = "Muhammed I"
@@ -29,3 +27,4 @@ capital = 4272 #Al Jawf
 		mil = 3
 	}
 }
+government_rank = 1

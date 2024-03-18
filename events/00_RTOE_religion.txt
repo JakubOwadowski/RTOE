@@ -1,0 +1,36 @@
+namespace = RTOE_religion
+
+# Pagans see the light
+province_event = {
+	id = RTOE_religion.1
+	title = RTOE_religion.1.t
+	desc = RTOE_religion.1.d
+	picture = RELIGIOUS_CONVERSION_eventPicture
+	
+	trigger = {
+		religion_group = pagan
+		is_owned_by_trade_company = no
+		is_core = owner
+		owner = {
+			OR = {
+				religion_group = christian
+				religion_group = muslim
+				religion_group = jewish_group
+				religion_group = zoroastrian_group
+			}
+		}
+	}
+	
+	mean_time_to_happen = {
+		years = 10
+		modifier = {
+			factor = 0.5
+			owner_is_colonial_nation = yes
+		}
+	}
+
+	option = { #Great news.
+		name = RTOE_religion.1.a
+		change_religion = owner
+	}
+}

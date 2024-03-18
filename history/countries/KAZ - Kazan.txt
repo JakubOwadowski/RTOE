@@ -1,13 +1,12 @@
-government = tribal
-add_government_reform = steppe_horde
-primary_culture = kazani
-religion = sunni
+government = monarchy
+add_government_reform = autocracy_reform
+primary_culture = bologrian
+religion = shiite
 technology_group = nomad_group
-capital = 1082	# Kazan
+capital = 1082# Kazan
 historical_rival = GOL
-
-1438.1.1 = {
-	monarch = {
+1438.1.1 = { 
+	monarch = { 
 		name = "Ulugh Muhammad"
 		dynasty = "Genghisid"
 		adm = 2
@@ -15,9 +14,8 @@ historical_rival = GOL
 		mil = 3
 	}
 }
-
-1438.1.1 = {
-	heir = {
+1438.1.1 = { 
+	heir = { 
 		name = "Mahmudak"
 		monarch_name = "Mahmudak"
 		dynasty = "Genghisid"
@@ -29,9 +27,8 @@ historical_rival = GOL
 		mil = 2
 	}
 }
-
-1445.11.1 = {
-	monarch = {
+1445.11.1 = { 
+	monarch = { 
 		name = "Mahmudak"
 		dynasty = "Genghisid"
 		adm = 2
@@ -39,9 +36,8 @@ historical_rival = GOL
 		mil = 2
 	}
 }
-
-1445.11.1 = {
-	heir = {
+1445.11.1 = { 
+	heir = { 
 		name = "Khalil"
 		monarch_name = "Khalil"
 		dynasty = "Genghisid"
@@ -53,9 +49,8 @@ historical_rival = GOL
 		mil = 1
 	}
 }
-
-1465.1.1 = {
-	monarch = {
+1465.1.1 = { 
+	monarch = { 
 		name = "Khalil"
 		dynasty = "Genghisid"
 		adm = 1
@@ -63,9 +58,8 @@ historical_rival = GOL
 		mil = 1
 	}
 }
-
-1465.1.1 = {
-	heir = {
+1465.1.1 = { 
+	heir = { 
 		name = "Ibrahim"
 		monarch_name = "Ibrahim"
 		dynasty = "Genghisid"
@@ -77,9 +71,8 @@ historical_rival = GOL
 		mil = 1
 	}
 }
-
-1467.1.1 = {
-	monarch = {
+1467.1.1 = { 
+	monarch = { 
 		name = "Ibrahim"
 		dynasty = "Genghisid"
 		adm = 3
@@ -87,11 +80,10 @@ historical_rival = GOL
 		mil = 1
 	}
 }
-
-1467.1.1 = {
-	heir = {
+1467.1.1 = { 
+	heir = { 
 		name = "Ilham"
-		monarch_name ="Ilham"
+		monarch_name = "Ilham"
 		dynasty = "Genghisid"
 		birth_date = 1465.1.1
 		death_Date = 1490.1.1
@@ -101,9 +93,8 @@ historical_rival = GOL
 		mil = 3
 	}
 }
-
-1479.1.1 = {
-	monarch = {
+1479.1.1 = { 
+	monarch = { 
 		name = "Ilham"
 		dynasty = "Genghisid"
 		adm = 1
@@ -111,9 +102,8 @@ historical_rival = GOL
 		mil = 3
 	}
 }
-
-1487.7.9 = {
-	monarch = {
+1487.7.9 = { 
+	monarch = { 
 		name = "Muhammad Amin"
 		dynasty = "Genghisid"
 		adm = 0
@@ -121,9 +111,8 @@ historical_rival = GOL
 		mil = 4
 	}
 }
-
-1495.1.1 = {
-	monarch = {
+1495.1.1 = { 
+	monarch = { 
 		name = "Mamuk"
 		dynasty = "Shaybanid"
 		adm = 0
@@ -131,9 +120,8 @@ historical_rival = GOL
 		mil = 3
 	}
 }
-
-1496.1.1 = {
-	monarch = {
+1496.1.1 = { 
+	monarch = { 
 		name = "Abdul-Latif"
 		dynasty = "Genghisid"
 		adm = 3
@@ -141,9 +129,8 @@ historical_rival = GOL
 		mil = 3
 	}
 }
-
-1502.1.1 = {
-	monarch = {
+1502.1.1 = { 
+	monarch = { 
 		name = "Muhammad Amin"
 		dynasty = "Genghisid"
 		adm = 0
@@ -151,13 +138,11 @@ historical_rival = GOL
 		mil = 4
 	}
 }
-
-1503.4.1 = {
+1503.4.1 = { 
 	government_rank = 1
 }
-
-1519.4.1 = {
-	monarch = {
+1519.4.1 = { 
+	monarch = { 
 		name = "Shah Ali"
 		dynasty = "Genghisid"
 		adm = 2
@@ -165,9 +150,8 @@ historical_rival = GOL
 		mil = 2
 	}
 }
-
-1521.5.1 = {
-	monarch = {
+1521.5.1 = { 
+	monarch = { 
 		name = "Sahib"
 		dynasty = "Giray"
 		adm = 4
@@ -175,9 +159,8 @@ historical_rival = GOL
 		mil = 3
 	}
 }
-
-1524.5.1 = {
-	monarch = {
+1524.5.1 = { 
+	monarch = { 
 		name = "Safa"
 		dynasty = "Giray"
 		adm = 2
@@ -185,9 +168,8 @@ historical_rival = GOL
 		mil = 3
 	}
 }
-
-1532.1.1 = {
-	monarch = {
+1532.1.1 = { 
+	monarch = { 
 		name = "Jan Ali"
 		dynasty = "Genghisid"
 		adm = 2
@@ -195,9 +177,8 @@ historical_rival = GOL
 		mil = 2
 	}
 }
-
-1535.1.1 = {
-	monarch = {
+1535.1.1 = { 
+	monarch = { 
 		name = "Safa"
 		dynasty = "Giray"
 		adm = 2
@@ -205,9 +186,8 @@ historical_rival = GOL
 		mil = 3
 	}
 }
-
-1549.1.1 = {
-	monarch = {
+1549.1.1 = { 
+	monarch = { 
 		name = "Otemesh"
 		dynasty = "Giray"
 		adm = 0
@@ -215,9 +195,8 @@ historical_rival = GOL
 		mil = 2
 	}
 }
-
-1551.8.1 = {
-	monarch = {
+1551.8.1 = { 
+	monarch = { 
 		name = "Shah Ali"
 		dynasty = "Genghisid"
 		adm = 2
@@ -225,9 +204,8 @@ historical_rival = GOL
 		mil = 2
 	}
 }
-
-1552.3.1 = {
-	monarch = {
+1552.3.1 = { 
+	monarch = { 
 		name = "Yadigar Muhammad"
 		dynasty = "Genghisid"
 		adm = 1
@@ -235,5 +213,5 @@ historical_rival = GOL
 		mil = 3
 	}
 }
-
 # Kazan conquered by Russia in Oct 1552
+government_rank = 1

@@ -1,10 +1,7 @@
 graphical_culture = westerngfx
-
-color = { 255  220  104 } 
-
-revolutionary_colors = { 5  0  1 }
-
-historical_idea_groups = {
+color = { 255 220 104 }
+revolutionary_colors = { 5 0 1 }
+historical_idea_groups = { 
 	maritime_ideas
 	defensive_ideas
 	religious_ideas
@@ -14,8 +11,7 @@ historical_idea_groups = {
 	economic_ideas
 	expansion_ideas
 }
-
-historical_units = {
+historical_units = { 
 	mamluk_archer
 	mamluk_cavalry_charge
 	mamluk_duel
@@ -24,17 +20,13 @@ historical_units = {
 	muslim_dragoon
 	ali_bey_reformed_infantry
 }
-
-
-
-monarch_names = {
+monarch_names = { 
 	"Georgios #0" = 40
 	"Alexandros #0" = 20
 	"Konstantinos #0" = 20
 	"Pavlos #0" = 15
 	"Andreas #0" = 10
 	"Nikolaos #0" = 10
-	
 	"Alexandra #0" = -10
 	"Antonia #0" = -5
 	"Anna #0" = -5
@@ -47,39 +39,30 @@ monarch_names = {
 	"Sevasti #0" = -1
 	"Sophia #0" = -1
 }
-
-leader_names = {
-	Anina Angelopoulos Androutsos Aulakos
-	Botsaris Bouboulis
-	Chatzeris Christianopoulos Chatzimoschos
-	Dalianis Doumpiotis Diakos Danglis Dagres Deligiannis Damodos
-	Flessas Farmakidis
-	Gotzias Gonemis Gouras Giatrakos Gazalis
-	Hatzipetros
-	Kapodistrias Kolokotronis Karaiskakis Kanaris Katsonis Karykes Kontares Karatzas Kriezotis Kirezis Kountouriotis Korais
-	Kairis Kyriazis Kontostavlos
-	Loukaris Livinis
-	Mavrokordatos Mavrikios Makris Mavromichalis Meletopoulos Metaxas Milios Meintanis Mavrogenes
-	Notaras
-	Pegas Patelaros Pelekasis Petrovas Panourgias Pappas Papatsonis Papazafiropoulos Psalidas Papanikolis Pinotsis
-	Ratzikotsikas
-	Serpetzoglou Skoufas Sachtouris Skourtis Stamatelopoulos Soumalis
-	Triantaphyllos Tsakalov Tsokris Tombazis
-	Vokos Verousis Vasileiou Voulgaris
-	Xanthos Xiros
-	Ypsilantis Yiannouzas
-	Zalykis Zeras
+leader_names = { 
+	Anina Angelopoulos Androutsos Aulakos Botsaris Bouboulis Chatzeris Christianopoulos Chatzimoschos Dalianis
+	Doumpiotis Diakos Danglis Dagres Deligiannis Damodos Flessas Farmakidis Gotzias Gonemis
+	Gouras Giatrakos Gazalis Hatzipetros
+	Kapodistrias Kolokotronis Karaiskakis Kanaris Katsonis Karykes Kontares Karatzas Kriezotis Kirezis
+	Kountouriotis Korais Kairis Kyriazis Kontostavlos Loukaris Livinis Mavrokordatos Mavrikios Makris
+	Mavromichalis Meletopoulos Metaxas Milios Meintanis Mavrogenes Notaras
+	Pegas Patelaros Pelekasis Petrovas Panourgias Pappas Papatsonis Papazafiropoulos Psalidas Papanikolis
+	Pinotsis Ratzikotsikas
+	Serpetzoglou Skoufas Sachtouris Skourtis Stamatelopoulos Soumalis Triantaphyllos Tsakalov Tsokris Tombazis
+	Vokos Verousis Vasileiou Voulgaris Xanthos Xiros Ypsilantis Yiannouzas Zalykis Zeras
 }
-
-ship_names = {
-	Ydra Lesvos Limnos Mikonos Salamis Samos Themistoklis Evripidis Aischylos Aristofanis Archimedes Demokritos Anaxagoras Diomedes Herakles Atreas Perseas Aigyptos
-	Aiolos Poseidon Athena Zeus Dias Kronos Rea Ouranos Hera Adonis Afroditi Charavgi Orion Iasonas Theseus Achilleas Mermidon Makedon Lakedemon Athineos Xenofon
-	Miltiades Alexandros Megalexandros Gorgona Midia Efterpi Andriantas Demetra Estia Apollon Ermis Gorgopodaros Gorgoplefstos Artemis Aris Theofanis Theochara
-	Filippos Edessa Ionia Korinthos Sparti Athenai Messina Anthosparti Kampos Argolida Argo Hephestos Hephestion Nearchos Parmenion Leonidas Averof Christos
-	Christoforos "Agios Christoforos" "Vasileus Christoforos" Theodora "Agia Theodora" "Agios Theodoros" "Vasileus Theodoros" Aftokrator "Vasillisa Theodora"
-	Nikephoros "Agios Nikephoros" "Vasileus Nikephoros" Pavlos "Apostolos Pavlos" "Osios Pavlos" Alexios "Agios Alexios" "Agia Alexia" Alexia "Vasileus Alexios"
+ship_names = { 
+	Ydra Lesvos Limnos Mikonos Salamis Samos Themistoklis Evripidis Aischylos Aristofanis
+	Archimedes Demokritos Anaxagoras Diomedes Herakles Atreas Perseas Aigyptos Aiolos Poseidon
+	Athena Zeus Dias Kronos Rea Ouranos Hera Adonis Afroditi Charavgi
+	Orion Iasonas Theseus Achilleas Mermidon Makedon Lakedemon Athineos Xenofon Miltiades
+	Alexandros Megalexandros Gorgona Midia Efterpi Andriantas Demetra Estia Apollon Ermis
+	Gorgopodaros Gorgoplefstos Artemis Aris Theofanis Theochara Filippos Edessa Ionia Korinthos
+	Sparti Athenai Messina Anthosparti Kampos Argolida Argo Hephestos Hephestion Nearchos
+	Parmenion Leonidas Averof Christos Christoforos "Agios Christoforos" "Vasileus Christoforos" Theodora "Agia Theodora" "Agios Theodoros"
+	"Vasileus Theodoros" Aftokrator "Vasillisa Theodora" Nikephoros "Agios Nikephoros" "Vasileus Nikephoros" Pavlos "Apostolos Pavlos" "Osios Pavlos" Alexios
+	"Agios Alexios" "Agia Alexia" Alexia "Vasileus Alexios" 
 }
-
-army_names = {
-	"Stratos apo $PROVINCE$"
+army_names = { 
+	"Stratos apo $PROVINCE$" 
 }

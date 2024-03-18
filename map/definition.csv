@@ -4986,7 +4986,7 @@ province;red;green;blue;x;x
 4985;152;50;88;Mont-Saint-Michel;x
 4986;54;210;106;Jersey;x
 4987;123;120;211;Pays de Retz;x
-4988;138;136;91;Laval;x
+4988;195;136;91;Laval;x
 4989;25;82;92;Saumur;x
 4990;156;46;178;Ventadour;x
 4991;85;255;255;Zagros;x
@@ -5042,3 +5042,54 @@ province;red;green;blue;x;x
 5041;63;194;153;Comenge;x
 5042;12;161;42;Arièja;x
 5043;225;188;255;Torena;x
+5044;12;250;42;Andorra;x
+5045;47;142;150;Huete;x
+5046;91;125;117;Seborga;x
+5047;241;15;109;Massa;x
+5048;248;213;34;Apenine Mountains;x
+5049;248;136;34;Apenine Mountains;x
+5050;228;213;34;Apenine Mountains;x
+5051;123;184;187;Cospaia;x
+5052;160;123;239;SanMarino;x
+5053;130;185;98;Orvieto;x
+5054;112;97;17;Ardea;x
+5055;139;241;62;Rieti;x
+5056;249;240;243;Boiano;x
+5057;248;159;34;Abruzzi;x
+5058;248;180;34;Abruzzi;x
+5059;182;180;34;Abruzzi;x
+5060;16;162;190;Trani;x
+5061;222;35;1;Benevento;x
+5062;31;118;132;Crotone;x
+5063;236;255;0;Dinaric Alps;x
+5064;174;196;3;Dinaric Alps;x
+5065;247;250;146;Dinaric Alps;x
+5066;241;254;69;Pindus;x
+5067;238;255;0;Pindus;x
+5068;199;255;0;Haimus;x
+5069;0;159;64;Draudakon;x
+5070;232;5;115;Antigoneia;x
+5071;68;121;143;Rentina;x
+5072;234;134;107;Etropoli;x
+5073;69;63;32;Diampolis;x
+5074;149;40;64;Galata;x
+5075;104;38;28;Philopation;x
+5076;142;107;0;Apuseni;x
+5077;104;173;190;Larissa;x
+5078;238;238;81;Volos;x
+5079;20;68;125;Thebes;x
+5080;103;186;78;Leon;x
+5081;34;92;128;Anglesay;x
+5082;94;185;180;Rhos;x
+5083;162;67;64;Ystrad Tywi;x
+5084;196;150;181;Den Haag;x
+5085;14;174;102;Groningen;x
+5086;188;52;0;Riza;x
+5087;198;189;50;Aeolis;x
+5088;184;85;5;Isauria;x
+5089;216;99;148;Seleukia;x
+5090;122;0;82;Cilicia;x
+5091;182;0;0;Tskhinvali;x
+5092;202;81;0;Avaria;x
+5093;225;223;82;The Caucasus;x
+5094;164;164;116;Eastern Arabia;x

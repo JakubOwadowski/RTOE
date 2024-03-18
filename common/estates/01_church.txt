@@ -230,15 +230,6 @@ estate_church = {
 		}
 	}
 	custom_name = {
-		desc = estate_pastors
-		trigger = {
-			OR = {
-				religion = protestant
-				religion = reformed
-			}
-		}
-	}
-	custom_name = {
 		desc = estate_popes
 		trigger = {
 			AND = {

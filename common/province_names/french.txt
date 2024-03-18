@@ -178,7 +178,6 @@
 117 = "Sienne"
 118 = "Rome"
 119 = "Ancône"
-120 = "Abruzzes"
 121 = "Naples"
 122 = "Salente"
 123 = "Calabre"
@@ -223,7 +222,6 @@
 221 = "Murcie"
 224 = "Séville"
 225 = "Cordoue"
-226 = "Gibraltar"
 333 = "Baléares"
 366 = "Canaries"
 1745 = "Cantabrie"
@@ -280,7 +278,6 @@
 181 = "Rethélois"
 189 = "Lorraine"
 266 = "Prague"
-1742 = "Limbourg"
 1743 = "Cambrésis"
 1744 = "Anvers"
 1757 = "Haut-Palatinat"
@@ -305,9 +302,7 @@
 4708 = "Frisingue"
 4710 = "Brigance"
 4767 = "Deux-Ponts"
-4768 = "Juliers"
 4769 = "Lille"
-4770 = "Bois-le-Duc"
 
 128 = "Basse-Carinthie"
 129 = "Carniole"
@@ -362,3 +357,6 @@
 1879 = "Alençon"
 
 174 = "Bordeaux"
+5044 = "Andorre"
+
+4986 = "Îles d'la Manche"

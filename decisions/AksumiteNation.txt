@@ -33,7 +33,7 @@ country_decisions = {
 					num_of_cities = 3 #Carnage
 				}
 			}
-			NOT = { tag = HLR }
+			#NOT = { tag = HLR }
 			NOT = { tag = PAP }
 			NOT = { tag = AKS }
 			is_colonial_nation = no

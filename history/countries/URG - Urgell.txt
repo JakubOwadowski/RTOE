@@ -7,4 +7,3 @@ religious_school = see_of_rome
 technology_group = western
 capital = 2987	# Urgell
 fixed_capital = 2987 # Cannot move capital away from this province & no power cost to move to it
-}

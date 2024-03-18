@@ -1,7 +1,7 @@
 ﻿l_english:
  ###Christianity###
  cathar: "Cathar Church"
- arian: "Heteroousianism"
+ arian: "Heteroousian"
  ofbrit: "Church of Britain" #Insular
  ofeast: "Church of the East"
  
@@ -9,11 +9,12 @@
  slavic_pagan_reformed: "Rodnovery"
  finnish_pagan_reformed: "Uomenusko"
  baltic_pagan_reformed: "Romuva"
+ zun_pagan_reformed: "Zuni"
  CRAZED_SHAMANS: "Crazed Shamans"
  
  ###Zoroastrian###
  #zoroastrian -> Mazdayan
- zurvani: "Zurvanism"
+ zurvani: "Zurvani"
  
  ###Chaos###
  chaos_worship: "Chaotic"
@@ -22,4 +23,9 @@
  TZEENTCHEAN: "Tzeentchean"
  NURGLITE: "Nurglite"
  SLANEESHAN: "Slaneeshan"
- MALALITE: "Malalite" 
+ MALALITE: "Malalite"
+ EVIL: "Black Crusade" 
+ 
+ ###Muslim###
+ yazidi: "Yazidi"
+ 

@@ -1,10 +1,7 @@
 #Country Name: Please see filename.
-
 graphical_culture = westerngfx
-
-color = { 80  60  150 }
-
-historical_idea_groups = {
+color = { 80 60 150 }
+historical_idea_groups = { 
 	trade_ideas
 	quantity_ideas
 	economic_ideas
@@ -14,8 +11,7 @@ historical_idea_groups = {
 	offensive_ideas
 	quality_ideas
 }
-
-historical_units = {
+historical_units = { 
 	western_medieval_infantry
 	western_medieval_knights
 	western_men_at_arms
@@ -30,8 +26,7 @@ historical_units = {
 	napoleonic_square
 	napoleonic_lancers
 }
-
-monarch_names = {
+monarch_names = { 
 	"Carlo #3" = 80
 	"Ferdinando #0" = 80
 	"Filippo #0" = 60
@@ -68,14 +63,12 @@ monarch_names = {
 	"Roberto #0" = 0
 	"Salvatore #0" = 0
 	"Vicenzo #0" = 0
-	
 	"Giovanna #1" = -15
 	"Julia #0" = -5
 	"Carlotta #0" = -5
 	"Isabella #0" = -1
 }
-
-leader_names = {
+leader_names = { 
 	Pignatelli
 	Carafa
 	Caracciolo
@@ -84,26 +77,26 @@ leader_names = {
 	Orsini
 	Marzano
 	Pignatelli
-	"d'Avalos"
-	Tocco
+	"d'Avalos" Tocco
 	Mazziotti
 	Coscia
 	Mazzaccara
 	Rizzo
-	Principato Martino Paladini
+	Principato Martino Paladini 
 }
-
-ship_names = {
-	Achille Amalia Archimede Aretusa Aurora Brava Capitana Capri Caracciolo Carolana Cerere Cingana Constanza Cristina Determinada Etna Fama Fiamma Flora
-	Fortuna Galantuomo Galatea Gioacchino Gioia Gru Guiscardo Gusmana Idra Intrepido Invidia Lampreda Leonessa Letiza "Lucien Charles" Luna Lupa Marchesa
-	Margherita Mendoza Minerva Monarca Ocasion Padrona "Padrone di Davide Imperiale" Pallade Partenope Piemontese "Piramide con Cane" Pugliese Pylades Regina
-	"Regina Isabella" Roma Ruggiero Sagittaria Samnita "San Antonio" "San Carlo" "San Ferdinando" "San Filippo" "San Gabriele" "San Genaro" "San Gioacchino"
-	"San Giorgio" "San Giovanni" "San Giuseppe" "San Guilian" "San Jacopo" "San Leopoldo" "San Luigi" "San Luigi Gonzaga" "San Michele" "San Nicola" "San Pasquale"
-	"Santa Amalia" "Santa Barbara" "Santa Caterina" "Santa Chiara" "Santa Dorotea" "Santa Elisabetta" "Santa Lucia" "Santa Teresa" "Sant'Andrea" "Sant'Angelo"
-	"Santissima Concezione" Sibilla Sicilia Simplon Sirena Sparviero Speranza Stabia Stromboli Tancredi Taranto Terana Turca Urania Venere Vesuvio Vittoria Volpe
-	Vulcano
+ship_names = { 
+	Achille Amalia Archimede Aretusa Aurora Brava Capitana Capri Caracciolo Carolana
+	Cerere Cingana Constanza Cristina Determinada Etna Fama Fiamma Flora Fortuna
+	Galantuomo Galatea Gioacchino Gioia Gru Guiscardo Gusmana Idra Intrepido Invidia
+	Lampreda Leonessa Letiza "Lucien Charles" Luna Lupa Marchesa Margherita Mendoza Minerva
+	Monarca Ocasion Padrona "Padrone di Davide Imperiale" Pallade Partenope Piemontese "Piramide con Cane" Pugliese Pylades
+	Regina "Regina Isabella" Roma Ruggiero Sagittaria Samnita "San Antonio" "San Carlo" "San Ferdinando" "San Filippo"
+	"San Gabriele" "San Genaro" "San Gioacchino" "San Giorgio" "San Giovanni" "San Giuseppe" "San Guilian" "San Jacopo" "San Leopoldo" "San Luigi"
+	"San Luigi Gonzaga" "San Michele" "San Nicola" "San Pasquale" "Santa Amalia" "Santa Barbara" "Santa Caterina" "Santa Chiara" "Santa Dorotea" "Santa Elisabetta"
+	"Santa Lucia" "Santa Teresa" "Sant'Andrea" "Sant'Angelo" "Santissima Concezione" Sibilla Sicilia Simplon Sirena Sparviero
+	Speranza Stabia Stromboli Tancredi Taranto Terana Turca Urania Venere Vesuvio
+	Vittoria Volpe Vulcano
 }
-
-army_names = {
-	"Armata di $PROVINCE$"
+army_names = { 
+	"Armata di $PROVINCE$" 
 }

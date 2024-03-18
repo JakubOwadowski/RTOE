@@ -172,50 +172,6 @@ atj_2 = {
 	}
 	has_country_shield = yes
 	
-	atj_sublime_porte = {
-		icon = mission_ottoman_harem
-		required_missions = { atj_porch_of_mecca }
-		provinces_to_highlight = {
-			has_discovered = ROOT
-			owner = {
-				tag = TUR
-			}
-		}
-		position = 2
-		trigger = {
-			if = {
-				limit = {
-					exists = TUR
-				}
-				TUR = {
-					OR = {
-						has_opinion = {
-							who = ROOT
-							value = 100
-						}
-						alliance_with = ROOT
-					}
-				}
-			}
-			else = {
-				any_country = {
-					religion_group = muslim
-					total_development = 300
-					alliance_with = ROOT
-				}
-			}
-		}
-		effect = {
-			add_country_modifier = {
-				name = atj_sublime_port
-				duration = -1
-			}
-		}
-		ai_weight = {
-			factor = 500	#Probably a nerf to the Ottomans as they have some random Pacific nation as ally
-		}
-	}
-
 	atj_conquer_aceh = {
 		icon = mission_unite_home_region
 		required_missions = {  }

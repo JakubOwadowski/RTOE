@@ -1,0 +1,19 @@
+#229 - Baixo Alentejo
+
+owner = BET
+controller = BET
+culture = visigo
+religion = orthodox
+capital = "Beja"
+trade_goods = livestock
+hre = yes
+base_tax = 3
+base_production = 3
+base_manpower = 3
+is_city = yes
+add_core = BET
+add_core = BJA
+discovered_by = western
+discovered_by = muslim
+discovered_by = ottoman
+discovered_by = eastern

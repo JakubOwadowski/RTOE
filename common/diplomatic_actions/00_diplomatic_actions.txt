@@ -127,15 +127,6 @@ declarewar = {
 				duration = -1
 			}
 		}
-		if = {
-			limit = {
-				has_country_flag = teu_joined_the_hre
-				tag = TEU
-				is_part_of_hre = yes
-				FROM = { is_part_of_hre = yes }
-			}
-			clr_country_flag = teu_joined_the_hre
-		}
 	}
 }
 
@@ -232,26 +223,7 @@ allianceaction = {
 	}
 }
 
-enforce_peace = {
-	#do this before the peace is enforced, or there is no war enemy country
-	pre_effect = {
-		if = {
-			limit = {
-				has_country_modifier = liv_protector_of_the_catholics
-				FROM = {
-					any_war_enemy_country = {
-						religion = catholic
-						is_in_war = {
-							defender_leader = THIS
-							attacker_leader = FROM
-						}
-					}
-				}
-			}
-			add_papal_influence = 25
-		}
-	}
-}
+enforce_peace = {}
 
 royal_marriage = {
 	condition = {
@@ -278,6 +250,34 @@ annexationaction = {
 					who = ROOT
 					value = 190
 				}
+			}
+		}
+	}
+	condition = {
+		tooltip = FEUDAL_ANNEX
+		potential = { 
+			FROM = {
+				is_subject_of_type = feudal_vassal
+			}
+		}
+		allow = { 
+			OR = {
+				has_country_flag = reformed_the_feudal_system_flag
+				FROM = { has_country_flag = feudal_vassal_can_be_annexed }
+			}
+		}
+	}
+	condition = {
+		tooltip = IRISH_FIEF_ANNEX
+		potential = { 
+			FROM = {
+				is_subject_of_type = irish_fief_vassal
+			}
+		}
+		allow = { 
+			OR = {
+				has_country_flag = reformed_the_feudal_system_flag
+				FROM = { has_country_flag = feudal_vassal_can_be_annexed }
 			}
 		}
 	}
@@ -463,6 +463,37 @@ ask_for_tributary_state_action = {
 					NOT = { ROOT = { capital_scope = { region = japan_region } } }
 				}
 			}
+		}
+	}
+}
+
+###NEW ONES FROM RTOE###
+
+fabricate_claim = {
+	condition = {
+		tooltip = EMPEROR_CANT_CLAIM
+		potential = {
+			ROOT = {
+				is_emperor = yes
+			}
+			FROM = {
+				is_part_of_hre = yes
+			}
+		}
+		allow = {
+			always = no
+		}
+	}
+}
+
+grant_electorate = {
+	condition = {
+		tooltip = PROVINCES_ONLY_VIA_EVENTS
+		potential = {
+			always = no
+		}
+		allow = {
+			always = no
 		}
 	}
 }

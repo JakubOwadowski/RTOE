@@ -1,3 +1,6 @@
+151 = "I Póli"
+5074 = "Galatá tis Patriarchís"
+4314 = "Periochí ton Teichón"
 285 = "Theodosia"
 340 = "Constantina"
 352 = "Justiniania"
@@ -16,13 +19,10 @@
 2348 = "Chios"
 2343 = "Adrramyta"
 2447 = "Tamatarha"
-149 = { "Adrianople" "Adrianople" }
-151 = { "Constantinople" "Constantinople" }
 316 = { "Optimatoi" "Nikomedeia" }
 317 = { "Opsikion" "Prussa" }
 318 = { "Smyrna" "Smyrna" }
 319 = { "Mylasa" "Mougla" }
-322 = { "Kotyaion" "Kotyaion" }
 323 = { "Ikonion" "Iconion" }
 324 = { "Laranda" "Laranda" }
 325 = { "Paphlagonia" "Timonio" }
@@ -35,7 +35,6 @@
 1846 = { "Armeniakon" "Amasea" }
 1848 = { "Baris" "Baris" }
 2296 = { "Abydos" "Pigai" }
-2297 = { "Thrakesion" "Magnesia" }
 2298 = { "Attalia" "Attalia" }
 2299 = { "Boukellarion" "Klaudiopol" }
 2300 = { "Cappadocia" "Tavium" }
@@ -50,7 +49,6 @@
 4311 = { "Anatolikon" "Polydorion" }
 4312 = { "Dorylaeum" "Dorylaeum" }
 4313 = { "Gangra" "Gangra" }
-4314 = { "Justinianopolis" "Justinianopolis" }
 4315 = { "Evdoksia" "Evdoksia" }
 4705 = { "Komotini" "Komotini" }
 4702 = { "Serres" "Serres" }

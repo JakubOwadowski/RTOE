@@ -1,37 +1,31 @@
-government = tribal
-add_government_reform = tribal_kingdom
+government = monarchy
+add_government_reform = iqta
 government_rank = 1
 primary_culture = baluchi
-religion = sunni
+religion = shiite
 technology_group = muslim
-capital = 577	# Quetta
-
-#Mirwaris, ancestors of later Kambarani dynasty:
-
-1444.1.1 = {
-	monarch = {
-	name = "Kumbar"
+capital = 2231#Mirwaris, ancestors of later Kambarani dynasty:
+1444.1.1 = { 
+	monarch = { 
+		name = "Kumbar"
 		dynasty = "Mirwari"
 		dip = 1
-		adm = 1 
+		adm = 1
 		mil = 1
 	}
 }
-
 #Rind kingdom:
-
 1468.1.1 = { 
-	monarch = {
-	name = "Mir Chakar"
+	monarch = { 
+		name = "Mir Chakar"
 		dynasty = "Rind"
 		dip = 2
-		adm = 1 
+		adm = 1
 		mil = 3
 	}
 }
-
-1468.1.1 = {
-	heir = {
+1468.1.1 = { 
+	heir = { 
 		name = "Mir Shahzad"
 		monarch_name = "Mir Shahzad"
 		dynasty = "Rind"
@@ -43,58 +37,49 @@ capital = 577	# Quetta
 		mil = 3
 	}
 }
-
 1547.1.1 = { capital = 576 } # Kalat
-
 1565.1.1 = { 
-	monarch = {
-	name = "Mir Shahzad"
+	monarch = { 
+		name = "Mir Shahzad"
 		dynasty = "Rind"
 		adm = 2
 		dip = 2
 		mil = 3
 	}
 }
-
 #Rinds migrate into Multan and become Mughal jagirholders after helping Humayun retake Hindusthan from Sher Shah
-
 #Kambaranis (kingdom of Kalat)
-
-1580.1.1 = {
-	monarch = {
-	name = "Kumbar"
+1580.1.1 = { 
+	monarch = { 
+		name = "Kumbar"
 		dynasty = "Kambarani"
 		dip = 2
-		adm = 1 
+		adm = 1
 		mil = 2
 	}
 }
-
-
-1638.1.1 = {
-	monarch = {
-	name = "Hasan"
+1638.1.1 = { 
+	monarch = { 
+		name = "Hasan"
 		dynasty = "Kambarani"
 		dip = 2
-		adm = 1 
+		adm = 1
 		mil = 2
 	}
 }
-
-1666.1.1 = {
+1666.1.1 = { 
 	government = monarchy
-add_government_reform = autocracy_reform
+	add_government_reform = autocracy_reform
 	monarch = { 
 		name = "Ahmad I"
 		dynasty = "Kambarani"
 		dip = 2
-		adm = 2 
+		adm = 2
 		mil = 3
 	}
 } #Kingdom of Kalat
-
-1670.1.1 = {
-	heir = {
+1670.1.1 = { 
+	heir = { 
 		name = "Mir Mehrab"
 		monarch_name = "Mir Mehrab I"
 		dynasty = "Kambarani"
@@ -106,8 +91,7 @@ add_government_reform = autocracy_reform
 		mil = 3
 	}
 }
-
-1695.1.1 = {
+1695.1.1 = { 
 	monarch = { 
 		name = "Mir Mehrab I"
 		dynasty = "Kambarani"
@@ -116,9 +100,8 @@ add_government_reform = autocracy_reform
 		mil = 3
 	}
 }
-
-1695.1.1 = {
-	heir = {
+1695.1.1 = { 
+	heir = { 
 		name = "Samandar"
 		monarch_name = "Samandar"
 		dynasty = "Kambarani"
@@ -130,8 +113,7 @@ add_government_reform = autocracy_reform
 		mil = 2
 	}
 }
-
-1696.1.1 = {
+1696.1.1 = { 
 	monarch = { 
 		name = "Samandar"
 		dynasty = "Kambarani"
@@ -140,9 +122,8 @@ add_government_reform = autocracy_reform
 		mil = 2
 	}
 }
-
-1696.1.1 = {
-	heir = {
+1696.1.1 = { 
+	heir = { 
 		name = "Ahmad"
 		monarch_name = "Ahmad II"
 		dynasty = "Kambarani"
@@ -154,8 +135,7 @@ add_government_reform = autocracy_reform
 		mil = 1
 	}
 }
-
-1713.1.1 = {
+1713.1.1 = { 
 	monarch = { 
 		name = "Ahmad II"
 		dynasty = "Kambarani"
@@ -164,9 +144,8 @@ add_government_reform = autocracy_reform
 		mil = 1
 	}
 }
-
-1713.1.1 = {
-	heir = {
+1713.1.1 = { 
+	heir = { 
 		name = "Mir Abdullah"
 		monarch_name = "Mir Abdullah"
 		dynasty = "Kambarani"
@@ -178,8 +157,7 @@ add_government_reform = autocracy_reform
 		mil = 2
 	}
 }
-
-1715.1.1 = {
+1715.1.1 = { 
 	monarch = { 
 		name = "Mir Abdullah"
 		dynasty = "Kambarani"
@@ -188,9 +166,8 @@ add_government_reform = autocracy_reform
 		mil = 2
 	}
 }
-
-1715.1.1 = {
-	heir = {
+1715.1.1 = { 
+	heir = { 
 		name = "Mir Muhabbat"
 		monarch_name = "Mir Muhabbat"
 		dynasty = "Kambarani"
@@ -202,8 +179,7 @@ add_government_reform = autocracy_reform
 		mil = 1
 	}
 }
-
-1730.1.1 = {
+1730.1.1 = { 
 	monarch = { 
 		name = "Mir Muhabbat"
 		dynasty = "Kambarani"
@@ -212,9 +188,8 @@ add_government_reform = autocracy_reform
 		mil = 1
 	}
 }
-
-1730.1.1 = {
-	heir = {
+1730.1.1 = { 
+	heir = { 
 		name = "Mir Muhammad Naseer"
 		monarch_name = "Mir Muhammad Naseer I"
 		dynasty = "Kambarani"
@@ -226,8 +201,7 @@ add_government_reform = autocracy_reform
 		mil = 2
 	}
 }
-
-1749.1.1 = {
+1749.1.1 = { 
 	monarch = { 
 		name = "Mir Muhammad Naseer I"
 		dynasty = "Kambarani"
@@ -236,9 +210,8 @@ add_government_reform = autocracy_reform
 		mil = 2
 	}
 }
-
-1760.1.1 = {
-	heir = {
+1760.1.1 = { 
+	heir = { 
 		name = "Mir Mahmud"
 		monarch_name = "Mir Mahmud I"
 		dynasty = "Kambarani"
@@ -250,8 +223,7 @@ add_government_reform = autocracy_reform
 		mil = 1
 	}
 }
-
-1794.1.1 = {
+1794.1.1 = { 
 	monarch = { 
 		name = "Mir Mahmud I"
 		dynasty = "Kambarani"
@@ -260,9 +232,8 @@ add_government_reform = autocracy_reform
 		mil = 1
 	}
 }
-
-1794.1.1 = {
-	heir = {
+1794.1.1 = { 
+	heir = { 
 		name = "Mir Mehrab"
 		monarch_name = "Mir Mehrab II"
 		dynasty = "Kambarani"

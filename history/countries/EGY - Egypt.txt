@@ -1,0 +1,7 @@
+government = republic
+add_government_reform = roman_provincial_goverment_reform
+primary_culture = egyptiote
+religion = orthodox
+technology_group = muslim
+capital = 361
+government_rank = 1

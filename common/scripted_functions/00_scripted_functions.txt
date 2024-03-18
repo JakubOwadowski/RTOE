@@ -145,26 +145,82 @@ can_burn_colony = {
 
 can_colonize_province = {
 	condition = {
-		tooltip = "CANNOT_COLONIZE"
-		potential = {
-			has_province_modifier = the_wild_fields
+		tooltip = CAN_COLONISE_ALWAYS
+		potential = { 
+			OR = {
+				has_terrain = coastline
+				has_terrain = farmlands
+				has_terrain = grasslands
+				has_terrain = woods
+				has_terrain = forest
+				has_terrain = drylands
+			}
+			has_port = yes
 		}
-		allow = {
-			always = no
+		allow = { 
+			always = yes
+		}
+	}
+	condition = {
+		tooltip = CANT_COLONISE_INLAND
+		potential = { 
+			OR = {
+				has_terrain = coastline
+				has_terrain = farmlands
+				has_terrain = grasslands
+				has_terrain = woods
+				has_terrain = forest
+				has_terrain = drylands
+			}
+			has_port = no
+		}
+		allow = { 
+			dip_tech = 12 
+		}
+	}
+	condition = {
+		tooltip = CANT_COLONISE_DIFFICULT_TERRAIN
+		potential = { 
+			OR = {
+				has_terrain = hills
+				has_terrain = coastal_desert
+				has_terrain = mountain
+				has_terrain = highlands
+			}
+		}
+		allow = { 
+			dip_tech = 16
+		}
+	}
+	condition = {
+		tooltip = CANT_COLONISE_VERY_DIFFICULT_TERRAIN
+		potential = {  
+			OR = {
+				has_terrain = glacier
+				has_terrain = impassable_mountains
+				has_terrain = jungle
+				has_terrain = marsh
+				has_terrain = desert
+				has_terrain = savannah
+				has_terrain = steppe
+			}
+		}
+		allow = { 
+			dip_tech = 22
 		}
 	}
 }
 
 can_colonize_province_siberian_frontier = {
-	condition = {
-		tooltip = "CANNOT_COLONIZE"
-		potential = {
-			has_province_modifier = the_wild_fields
-		}
-		allow = {
-			always = no
-		}
-	}
+	# condition = {
+	#	tooltip = "CANNOT_COLONIZE"
+	#	potential = {
+	#		has_province_modifier = the_wild_fields
+	#	}
+	#	allow = {
+	#		always = no
+	#	}
+	#}
 }
 
 can_add_seat_in_parliament = {

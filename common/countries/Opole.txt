@@ -1,10 +1,7 @@
 #Country Name: Please see filename.
-
 graphical_culture = westerngfx
-
-color = { 117  140  36 }
-
-historical_idea_groups = {
+color = { 117 140 36 }
+historical_idea_groups = { 
 	trade_ideas
 	defensive_ideas
 	economic_ideas
@@ -14,8 +11,7 @@ historical_idea_groups = {
 	quality_ideas
 	religious_ideas
 }
-
-historical_units = {
+historical_units = { 
 	western_medieval_infantry
 	western_medieval_knights
 	western_men_at_arms
@@ -31,8 +27,7 @@ historical_units = {
 	napoleonic_square
 	napoleonic_lancers
 }
-
-monarch_names = {
+monarch_names = { 
 	"Fryderyk #0" = 80
 	"Jan #0" = 40
 	"Henryk #8" = 40
@@ -68,20 +63,14 @@ monarch_names = {
 	"Markus #0" = 0
 	"Maurycy #0" = 0
 	"Radomir #0" = 0
-	
 	"Henryka #0" = -1
 	"Ilona #0" = -1
 	"Andrea #0" = -1
 }
-
 leader_names = { 
-	Prudnicki Bludowski Celestinski Giszewski
-	Dyhrn Kowalski Prawicz Sanderecki Brzezinski
-	Wilczek
+	Prudnicki Bludowski Celestinski Giszewski Dyhrn Kowalski Prawicz Sanderecki Brzezinski Wilczek
 }
-
-ship_names = {
-	Cieszyn Sokolec Boleslawiec Opole Raciburz
-	Wroclaw Zagan Olesnica Scinawa Lignica Glogów
-	Zebice Nyza Jawór
+ship_names = { 
+	Cieszyn Sokolec Boleslawiec Opole Raciburz Wroclaw Zagan Olesnica Scinawa Lignica
+	Glogów Zebice Nyza Jawór 
 }

@@ -1,12 +1,11 @@
 # - Skopje
-
 owner = ROM
 controller = ROM
 culture = greek
 religion = orthodox
-capital = "SkÃ³pia"
+capital = "Skópia"
 trade_goods = copper
-hre = no
+hre = yes
 base_tax = 2
 base_production = 4
 base_manpower = 2

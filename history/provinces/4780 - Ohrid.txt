@@ -1,12 +1,11 @@
 # 4780 - Ohrid
-
 owner = ROM
 controller = ROM
 culture = greek
 religion = orthodox
-capital = "LychnÃ­dia"
+capital = "Ioustinaní"
 trade_goods = wool
-hre = no
+hre = yes
 base_tax = 2
 base_production = 2
 base_manpower = 2

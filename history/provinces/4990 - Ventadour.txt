@@ -4,7 +4,6 @@ owner = FRA
 controller = FRA
 culture = occitain
 religion = orthodox
-hre = no
 base_tax = 2
 base_production = 2
 trade_goods = livestock

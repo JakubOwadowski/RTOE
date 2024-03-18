@@ -2,22 +2,19 @@ government = monarchy
 add_government_reform = rajput_kingdom
 government_rank = 1
 primary_culture = rajput
-religion = sunni
+religion = shiite
 technology_group = indian
-capital = 520	# Mewat
-fixed_capital = 520 # Cannot move capital away from this province & no power cost to move to it
-
+capital = 520# Mewat
+fixed_capital = 520# Cannot move capital away from this province & no power cost to move to it
 #Meo Cheifs
-
-
-1422.1.1 = {
-	if = {
-		limit = {
+1422.1.1 = { 
+	if = { 
+		limit = { 
 			NOT = { has_dlc = "Dharma" }
 		}
 		add_government_reform = feudalism_reform
 	}
-	monarch = {
+	monarch = { 
 		name = "Jallu Khan"
 		dynasty = "Mewati"
 		DIP = 1
@@ -25,13 +22,12 @@ fixed_capital = 520 # Cannot move capital away from this province & no power cos
 		ADM = 1
 	}
 }
-
-1422.1.1 = {
-	heir = {
+1422.1.1 = { 
+	heir = { 
 		name = "Ahmad Khan"
 		monarch_name = "Ahmad Khan"
 		dynasty = "Mewati"
-		birth_date = 1390.1.1 #Made up
+		birth_date = 1390.1.1#Made up
 		death_date = 1466.1.1
 		claim = 95
 		DIP = 2
@@ -39,9 +35,8 @@ fixed_capital = 520 # Cannot move capital away from this province & no power cos
 		ADM = 2
 	}
 }
-
-1441.1.1 = {
-	monarch = {
+1441.1.1 = { 
+	monarch = { 
 		name = "Ahmad Khan"
 		dynasty = "Mewati"
 		DIP = 2
@@ -51,13 +46,12 @@ fixed_capital = 520 # Cannot move capital away from this province & no power cos
 	clear_scripted_personalities = yes
 	add_ruler_personality = bold_fighter_personality
 }
-
-1441.1.1 = {
-	heir = {
+1441.1.1 = { 
+	heir = { 
 		name = "Adil Khan"
 		monarch_name = "Adil Khan"
 		dynasty = "Mewati"
-		birth_date = 1410.1.1 #Made up
+		birth_date = 1410.1.1#Made up
 		death_date = 1482.1.1
 		claim = 95
 		DIP = 1
@@ -65,9 +59,8 @@ fixed_capital = 520 # Cannot move capital away from this province & no power cos
 		ADM = 1
 	}
 }
-
-1466.1.1 = {
-	monarch = {
+1466.1.1 = { 
+	monarch = { 
 		name = "Adil Khan"
 		dynasty = "Mewati"
 		DIP = 1
@@ -75,13 +68,12 @@ fixed_capital = 520 # Cannot move capital away from this province & no power cos
 		ADM = 1
 	}
 }
-
-1466.1.1 = {
-	heir = {
+1466.1.1 = { 
+	heir = { 
 		name = "Hasan Khan"
 		monarch_name = "Hasan Khan"
 		dynasty = "Mewati"
-		birth_date = 1420.1.1 #Made up
+		birth_date = 1420.1.1#Made up
 		death_date = 1527.3.17
 		claim = 95
 		DIP = 4
@@ -89,9 +81,8 @@ fixed_capital = 520 # Cannot move capital away from this province & no power cos
 		ADM = 4
 	}
 }
-
-1482.1.1 = {
-	monarch = {
+1482.1.1 = { 
+	monarch = { 
 		name = "Hasan Khan"
 		dynasty = "Mewati"
 		DIP = 4
@@ -99,23 +90,21 @@ fixed_capital = 520 # Cannot move capital away from this province & no power cos
 		ADM = 4
 	}
 }
-
-1482.1.1 = {
-	heir = {
+1482.1.1 = { 
+	heir = { 
 		name = "Naher"
 		monarch_name = "Naher Khan"
 		dynasty = "Mewati"
-		birth_date = 1450.1.1 #Made up
-		death_date = 1560.1.1 #Made up
+		birth_date = 1450.1.1#Made up
+		death_date = 1560.1.1#Made up
 		claim = 95
 		ADM = 3
 		DIP = 2
 		MIL = 3
 	}
 }
-
-1527.3.17 = {
-	monarch = {
+1527.3.17 = { 
+	monarch = { 
 		name = "Naher Khan"
 		dynasty = "Mewati"
 		ADM = 3
@@ -123,10 +112,9 @@ fixed_capital = 520 # Cannot move capital away from this province & no power cos
 		MIL = 3
 	}
 }
- 
 #Bharatpur
-1660.1.1 = {
-	monarch = {
+1660.1.1 = { 
+	monarch = { 
 		name = "Gokula"
 		dynasty = "Sinsiniwar"
 		DIP = 2
@@ -135,11 +123,10 @@ fixed_capital = 520 # Cannot move capital away from this province & no power cos
 	}
 	religion = hinduism
 	government = monarchy
-add_government_reform = feudalism_reform
+	add_government_reform = feudalism_reform
 }
-
-1660.1.1 = {
-	heir = {
+1660.1.1 = { 
+	heir = { 
 		name = "Ram"
 		monarch_name = "Ram Singh"
 		dynasty = "Sinsiniwar"
@@ -151,10 +138,8 @@ add_government_reform = feudalism_reform
 		MIL = 3
 	}
 }
-
-
-1670.1.1 = {
-	monarch = {
+1670.1.1 = { 
+	monarch = { 
 		name = "Ram Singh"
 		dynasty = "Sinsiniwar"
 		DIP = 2
@@ -162,9 +147,8 @@ add_government_reform = feudalism_reform
 		MIL = 3
 	}
 }
-
-1670.1.1 = {
-	heir = {
+1670.1.1 = { 
+	heir = { 
 		name = "Churaman"
 		monarch_name = "Churaman Singh"
 		dynasty = "Sinsiniwar"
@@ -176,9 +160,8 @@ add_government_reform = feudalism_reform
 		MIL = 4
 	}
 }
-
-1695.1.1 = {
-	monarch = {
+1695.1.1 = { 
+	monarch = { 
 		name = "Churaman Singh"
 		dynasty = "Sinsiniwar"
 		DIP = 3
@@ -186,9 +169,8 @@ add_government_reform = feudalism_reform
 		MIL = 4
 	}
 }
-
-1695.1.1 = {
-	heir = {
+1695.1.1 = { 
+	heir = { 
 		name = "Badan"
 		monarch_name = "Badan Singh"
 		dynasty = "Sinsiniwar"
@@ -200,9 +182,8 @@ add_government_reform = feudalism_reform
 		MIL = 3
 	}
 }
-
-1722.1.1 = {
-	monarch = {
+1722.1.1 = { 
+	monarch = { 
 		name = "Badan Singh"
 		dynasty = "Sinsiniwar"
 		DIP = 2
@@ -210,9 +191,8 @@ add_government_reform = feudalism_reform
 		MIL = 3
 	}
 }
-
-1722.1.1 = {
-	heir = {
+1722.1.1 = { 
+	heir = { 
 		name = "Suraj Mal"
 		monarch_name = "Suraj Mal"
 		dynasty = "Sinsiniwar"
@@ -224,9 +204,8 @@ add_government_reform = feudalism_reform
 		MIL = 5
 	}
 }
-
-1756.1.1 = {
-	monarch = {
+1756.1.1 = { 
+	monarch = { 
 		name = "Suraj Mal"
 		dynasty = "Sinsiniwar"
 		DIP = 3
@@ -234,9 +213,8 @@ add_government_reform = feudalism_reform
 		MIL = 5
 	}
 }
-
-1756.1.1 = {
-	heir = {
+1756.1.1 = { 
+	heir = { 
 		name = "Jawahir"
 		monarch_name = "Jawahir Singh"
 		dynasty = "Sinsiniwar"
@@ -248,9 +226,8 @@ add_government_reform = feudalism_reform
 		MIL = 1
 	}
 }
-
-1767.1.1 = {
-	monarch = {
+1767.1.1 = { 
+	monarch = { 
 		name = "Jawahir Singh"
 		dynasty = "Sinsiniwar"
 		DIP = 3
@@ -258,9 +235,8 @@ add_government_reform = feudalism_reform
 		MIL = 1
 	}
 }
-
-1767.1.1 = {
-	heir = {
+1767.1.1 = { 
+	heir = { 
 		name = "Ratan"
 		monarch_name = "Ratan Singh"
 		dynasty = "Sinsiniwar"
@@ -272,9 +248,8 @@ add_government_reform = feudalism_reform
 		MIL = 1
 	}
 }
-
-1768.1.1 = {
-	monarch = {
+1768.1.1 = { 
+	monarch = { 
 		name = "Ratan Singh"
 		dynasty = "Sinsiniwar"
 		DIP = 0
@@ -282,9 +257,8 @@ add_government_reform = feudalism_reform
 		MIL = 1
 	}
 }
-
-1768.1.1 = {
-	heir = {
+1768.1.1 = { 
+	heir = { 
 		name = "Keshri"
 		monarch_name = "Keshri Singh"
 		dynasty = "Sinsiniwar"
@@ -296,9 +270,8 @@ add_government_reform = feudalism_reform
 		MIL = 0
 	}
 }
-
-1769.1.1 = {
-	monarch = {
+1769.1.1 = { 
+	monarch = { 
 		name = "Keshri Singh"
 		dynasty = "Sinsiniwar"
 		DIP = 0
@@ -306,9 +279,8 @@ add_government_reform = feudalism_reform
 		MIL = 0
 	}
 }
-
-1769.1.1 = {
-	heir = {
+1769.1.1 = { 
+	heir = { 
 		name = "Ranjit"
 		monarch_name = "Ranjit Singh"
 		dynasty = "Sinsiniwar"
@@ -320,11 +292,9 @@ add_government_reform = feudalism_reform
 		MIL = 0
 	}
 }
-
 #Alwar state
- 
-1775.1.1 = {
-	monarch = {
+1775.1.1 = { 
+	monarch = { 
 		name = "Pratap Singh"
 		dynasty = "Kachwaha"
 		DIP = 0
@@ -332,23 +302,21 @@ add_government_reform = feudalism_reform
 		ADM = 0
 	}
 }
-
-1779.1.1 = {
-	heir = {
+1779.1.1 = { 
+	heir = { 
 		name = "Bakhtawar Singh"
 		monarch_name = "Bakhtawar Singh"
 		dynasty = "Kachwaha"
 		birth_date = 1779.1.1
 		death_date = 1815.1.27
-		claim = 65	#Rather distant relation
+		claim = 65#Rather distant relation
 		DIP = 1
 		MIL = 4
 		ADM = 1
 	}
 }
-
-1791.1.1 = {
-	monarch = {
+1791.1.1 = { 
+	monarch = { 
 		name = "Bakhtawar Singh"
 		dynasty = "Kachwaha"
 		DIP = 1
@@ -356,23 +324,21 @@ add_government_reform = feudalism_reform
 		ADM = 1
 	}
 }
-
-1791.1.1 = {
-	heir = {
+1791.1.1 = { 
+	heir = { 
 		name = "Balwant Singh"
 		monarch_name = "Balwant Singh"
 		dynasty = "Kachwaha"
 		birth_date = 1779.1.1
-		death_date = 1815.1.1 #really died in exile in 1845
-		claim = 65	#Deposed and replaced with:
+		death_date = 1815.1.1#really died in exile in 1845
+		claim = 65#Deposed and replaced with:
 		ADM = 2
 		DIP = 1
 		MIL = 2
 	}
 }
-
-1815.1.1 = {
-	heir = {
+1815.1.1 = { 
+	heir = { 
 		name = "Binay Singh"
 		monarch_name = "Binay Singh"
 		dynasty = "Kachwaha"
@@ -384,9 +350,8 @@ add_government_reform = feudalism_reform
 		ADM = 2
 	}
 }
-
-1815.1.1 = {
-	monarch = {
+1815.1.1 = { 
+	monarch = { 
 		name = "Binay Singh Prabhakar Bahadur"
 		dynasty = "Kachwaha"
 		DIP = 1

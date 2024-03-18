@@ -1,7 +1,6 @@
 government = monarchy
 add_government_reform = feudalism_reform
 primary_culture = austrasien
-add_accepted_culture = rhenish
 religion = orthodox
 religious_school = see_of_rome
 technology_group = western

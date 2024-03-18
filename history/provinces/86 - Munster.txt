@@ -1,10 +1,8 @@
 #Herefordshire
-
 owner = MRC
 controller = MRC
 culture = english
 religion = ofbrit
-hre = no
 base_tax = 2
 base_production = 2
 trade_goods = wool

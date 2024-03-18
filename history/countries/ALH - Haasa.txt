@@ -1,14 +1,12 @@
 government = monarchy
 add_government_reform = iqta
-government_rank = 1 #Emirate
+government_rank = 1#Emirate
 technology_group = muslim
-religion = sunni
+religion = ibadi
 primary_culture = gulf_arabic
-capital = 394	# Al Hasa
-
-#Rulers of Qatif
-1444.1.1 = {
-	monarch = {
+capital = 2347#Rulers of Qatif
+1444.1.1 = { 
+	monarch = { 
 		name = "Ajwad ibn Zamil"
 		dynasty = "Jabrid"
 		dip = 4
@@ -17,13 +15,12 @@ capital = 394	# Al Hasa
 	}
 	add_piety = 0.25
 }
-
-1480.1.1 = {
-	heir = {
+1480.1.1 = { 
+	heir = { 
 		name = "Muqrin ibn Zamil"
 		monarch_name = "Muqrin ibn Zamil"
 		dynasty = "Jabrid"
-		birth_date = 1480.1.1 #Grandson of Ajwad ibn Zamil
+		birth_date = 1480.1.1#Grandson of Ajwad ibn Zamil
 		death_Date = 1521.1.1
 		claim = 95
 		adm = 3
@@ -31,9 +28,8 @@ capital = 394	# Al Hasa
 		mil = 1
 	}
 }
-
-1507.1.1 = {
-	monarch = {
+1507.1.1 = { 
+	monarch = { 
 		name = "Muqrin ibn Zamil"
 		dynasty = "Jabrid"
 		dip = 4
@@ -41,11 +37,9 @@ capital = 394	# Al Hasa
 		adm = 4
 	}
 }
-
 # Sheikhs of Al-Haasa
-
-1682.1.1 = {
-	monarch = {
+1682.1.1 = { 
+	monarch = { 
 		name = "Muhammad I"
 		dynasty = "Usfurid"
 		dip = 1
@@ -55,9 +49,8 @@ capital = 394	# Al Hasa
 	add_piety = 0.1
 	religion = shiite
 }
-
-1682.1.1 = {
-	heir = {
+1682.1.1 = { 
+	heir = { 
 		name = "Sadun"
 		monarch_name = "Sadun I"
 		dynasty = "Usfurid"
@@ -69,9 +62,8 @@ capital = 394	# Al Hasa
 		mil = 1
 	}
 }
-
-1691.1.1 = {
-	monarch = {
+1691.1.1 = { 
+	monarch = { 
 		name = "Sadun I"
 		dynasty = "Usfurid"
 		dip = 2
@@ -79,9 +71,8 @@ capital = 394	# Al Hasa
 		adm = 3
 	}
 }
-
-1691.1.1 = {
-	heir = {
+1691.1.1 = { 
+	heir = { 
 		name = "Barrak"
 		monarch_name = "Barrak I"
 		dynasty = "Usfurid"
@@ -93,9 +84,8 @@ capital = 394	# Al Hasa
 		mil = 0
 	}
 }
-
-1708.1.1 = {
-	 monarch = {
+1708.1.1 = { 
+	monarch = { 
 		name = "Barrak I"
 		dynasty = "Usfurid"
 		dip = 0
@@ -103,9 +93,8 @@ capital = 394	# Al Hasa
 		adm = 0
 	}
 }
-
-1708.1.1 = {
-	heir = {
+1708.1.1 = { 
+	heir = { 
 		name = "Ali"
 		monarch_name = "Ali"
 		dynasty = "Usfurid"
@@ -117,9 +106,8 @@ capital = 394	# Al Hasa
 		mil = 2
 	}
 }
-
-1723.1.1 = {
-	 monarch = {
+1723.1.1 = { 
+	monarch = { 
 		name = "Ali"
 		dynasty = "Usfurid"
 		dip = 3
@@ -127,9 +115,8 @@ capital = 394	# Al Hasa
 		adm = 3
 	}
 }
-
-1723.1.1 = {
-	heir = {
+1723.1.1 = { 
+	heir = { 
 		name = "Sulyaman"
 		monarch_name = "Sulyaman"
 		dynasty = "Usfurid"
@@ -141,9 +128,8 @@ capital = 394	# Al Hasa
 		mil = 2
 	}
 }
-
-1736.1.1 = {
-	 monarch = {
+1736.1.1 = { 
+	monarch = { 
 		name = "Sulyaman"
 		dynasty = "Usfurid"
 		dip = 2
@@ -151,9 +137,8 @@ capital = 394	# Al Hasa
 		adm = 5
 	}
 }
-
-1736.1.1 = {
-	heir = {
+1736.1.1 = { 
+	heir = { 
 		name = "Urayir ibn Dudjayn"
 		monarch_name = "Urayir ibn Dudjayn"
 		dynasty = "Usfurid"
@@ -165,9 +150,8 @@ capital = 394	# Al Hasa
 		mil = 1
 	}
 }
-
-1752.1.1 = {
-	 monarch = {
+1752.1.1 = { 
+	monarch = { 
 		name = "Urayir ibn Dudjayn"
 		dynasty = "Usfurid"
 		dip = 4
@@ -175,9 +159,8 @@ capital = 394	# Al Hasa
 		adm = 3
 	}
 }
-
-1752.1.1 = {
-	heir = {
+1752.1.1 = { 
+	heir = { 
 		name = "Sadun"
 		monarch_name = "Sadun II"
 		dynasty = "Usfurid"
@@ -189,9 +172,8 @@ capital = 394	# Al Hasa
 		mil = 2
 	}
 }
-
-1774.1.1 = {
-	 monarch = {
+1774.1.1 = { 
+	monarch = { 
 		name = "Sadun II"
 		dynasty = "Usfurid"
 		dip = 3
@@ -199,10 +181,9 @@ capital = 394	# Al Hasa
 		adm = 2
 	}
 }
-
-1774.1.1 = {
-	heir = {
-		name ="Zayid"
+1774.1.1 = { 
+	heir = { 
+		name = "Zayid"
 		monarch_name = "Zayid"
 		dynasty = "Usfurid"
 		birth_date = 1770.1.1
@@ -213,9 +194,8 @@ capital = 394	# Al Hasa
 		mil = 0
 	}
 }
-
-1789.1.1 = {
-	 monarch = {
+1789.1.1 = { 
+	monarch = { 
 		name = "Zayid"
 		dynasty = "Usfurid"
 		dip = 0
@@ -223,11 +203,10 @@ capital = 394	# Al Hasa
 		adm = 0
 	}
 }
-
-1789.1.1 = {
-	heir = {
+1789.1.1 = { 
+	heir = { 
 		name = "Barrak"
-		monarch_name ="Barrak II"
+		monarch_name = "Barrak II"
 		dynasty = "Usfurid"
 		birth_date = 1780.1.1
 		death_Date = 1794.1.1
@@ -237,9 +216,8 @@ capital = 394	# Al Hasa
 		mil = 0
 	}
 }
-
-1794.1.1 = {
-	 monarch = {
+1794.1.1 = { 
+	monarch = { 
 		name = "Barrak II"
 		dynasty = "Usfurid"
 		dip = 3
@@ -247,23 +225,21 @@ capital = 394	# Al Hasa
 		adm = 4
 	}
 }
-
-1794.1.1 = {
-	heir = {
+1794.1.1 = { 
+	heir = { 
 		name = "Nadjim ibn Dyhaynim"
 		monarch_name = "Nadjim ibn Dyhaynim"
 		dynasty = "Usfurid"
 		birth_date = 1770.1.1
-		death_date= 1798.1.1
+		death_date = 1798.1.1
 		claim = 95
 		adm = 0
 		dip = 2
 		mil = 4
 	}
 }
-
-1795.1.1 = {
-	 monarch = {
+1795.1.1 = { 
+	monarch = { 
 		name = "Nadjim ibn Duhaynim"
 		dynasty = "Usfurid"
 		dip = 2
@@ -271,9 +247,8 @@ capital = 394	# Al Hasa
 		adm = 0
 	}
 }
-
-1795.1.1 = {
-	heir = {
+1795.1.1 = { 
+	heir = { 
 		name = "Sulayman ibn Muhammad"
 		monarch_name = "Sulayman ibn Muhammad"
 		dynasty = "Usfurid"
@@ -285,9 +260,8 @@ capital = 394	# Al Hasa
 		mil = 3
 	}
 }
-
-1798.1.1 = {
-	 monarch = {
+1798.1.1 = { 
+	monarch = { 
 		name = "Sulayman ibn Muhammad"
 		dynasty = "Usfurid"
 		dip = 0

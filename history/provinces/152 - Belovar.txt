@@ -1,13 +1,11 @@
 #Brecknockshire
-
 owner = NRM
 controller = NRM
 culture = welsh
 religion = ofbrit
-hre = no
-base_tax = 1 
+base_tax = 1
 base_production = 1
-trade_goods = livestock
+trade_goods = iron
 base_manpower = 1
 capital = "Aberhonddu"
 is_city = yes
@@ -18,3 +16,6 @@ discovered_by = muslim
 discovered_by = ottoman
 discovered_by = eastern
 discovered_by = western
+latent_trade_goods = { 
+	coal 
+}

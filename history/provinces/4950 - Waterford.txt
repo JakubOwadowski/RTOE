@@ -6,7 +6,6 @@ owner = DUB
 controller = DUB
 culture = anglo_irish
 religion = ofbrit
-hre = no
 base_tax = 1
 base_production = 1
 trade_goods = livestock

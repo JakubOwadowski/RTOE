@@ -1,0 +1,5 @@
+﻿l_english:
+ RTOE_religion.1.t: "Pagans see the light"
+ RTOE_religion.1.d: "The pagan population of [Root.GetName] have decided to abandon their old beliefs and accept the [Root.Owner.Religion.GetName] religion."
+ RTOE_religion.1.a: "Great news."
+ 

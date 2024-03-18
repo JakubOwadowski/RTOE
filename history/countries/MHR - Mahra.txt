@@ -3,11 +3,10 @@ add_government_reform = iqta
 primary_culture = mahri_culture
 religion = sunni
 technology_group = muslim
-capital = 402	# Qishn
-
+capital = 401# Qishn
 #Fictional Banu Afrar leaders
-1435.1.1 = {
-	monarch = {
+1435.1.1 = { 
+	monarch = { 
 		name = "Ahmad"
 		dynasty = "Banu Afrar"
 		adm = 3
@@ -15,9 +14,9 @@ capital = 402	# Qishn
 		mil = 2
 	}
 }
+1480.1.1 = {  #Fictional
 
-1480.1.1 = { #Fictional
-	monarch = {
+	monarch = { 
 		name = "Tawari"
 		dynasty = "Banu Afrar"
 		adm = 2
@@ -25,9 +24,9 @@ capital = 402	# Qishn
 		mil = 1
 	}
 }
+1540.1.1 = {  #Guesstimated date
 
-1540.1.1 = { #Guesstimated date
-	monarch = {
+	monarch = { 
 		name = "Said ibn Abdallah"
 		dynasty = "Banu Afrar"
 		adm = 3
@@ -35,9 +34,9 @@ capital = 402	# Qishn
 		mil = 3
 	}
 }
+1600.1.1 = {  #Fictional
 
-1600.1.1 = { #Fictional
-	monarch = {
+	monarch = { 
 		name = "Amr"
 		dynasty = "Banu Afrar"
 		adm = 3
@@ -45,9 +44,9 @@ capital = 402	# Qishn
 		mil = 3
 	}
 }
+1640.1.1 = {  #Fictional
 
-1640.1.1 = { #Fictional
-	monarch = {
+	monarch = { 
 		name = "Isa"
 		dynasty = "Banu Afrar"
 		adm = 2
@@ -55,9 +54,9 @@ capital = 402	# Qishn
 		mil = 2
 	}
 }
+1690.1.1 = {  #Fictional
 
-1690.1.1 = { #Fictional
-	monarch = {
+	monarch = { 
 		name = "Abdallah"
 		dynasty = "Banu Afrar"
 		adm = 1
@@ -65,9 +64,8 @@ capital = 402	# Qishn
 		mil = 3
 	}
 }
-
-1750.1.1 = {
-	monarch = {
+1750.1.1 = { 
+	monarch = { 
 		name = "Afrar al Mahri"
 		dynasty = "Banu Afrar"
 		adm = 3
@@ -75,9 +73,8 @@ capital = 402	# Qishn
 		mil = 2
 	}
 }
-
-1780.1.1 = {
-	monarch = {
+1780.1.1 = { 
+	monarch = { 
 		name = "Tawara ibn al-Mahri"
 		dynasty = "Banu Afrar"
 		adm = 2
@@ -85,9 +82,8 @@ capital = 402	# Qishn
 		mil = 1
 	}
 }
-
-1800.1.1 = {
-	monarch = {
+1800.1.1 = { 
+	monarch = { 
 		name = "Sad ibn Tawari"
 		dynasty = "Banu Afrar"
 		adm = 3
@@ -95,3 +91,4 @@ capital = 402	# Qishn
 		mil = 2
 	}
 }
+government_rank = 1

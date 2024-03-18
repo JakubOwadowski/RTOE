@@ -6,20 +6,17 @@ DUB = "countries/Dublin.txt"
 ELI = "countries/Ely.txt"
 FIR = "countries/Fermanagh.txt"
 MYO = "countries/Mayo.txt"
-
 #Scotland
 CBH = "countries/Cataibh.txt"
 GBH = "countries/Gallaibh.txt"
 RHE = "countries/Rheged.txt"
 GLW = "countries/Galloway.txt"
 AGU = "countries/Angus.txt"
-
 #Wales
 GWY = "countries/Gwynedd.txt"
 PWS = "countries/Powys.txt"
 DEH = "countries/Deheubarth.txt"
 MRG = "countries/Morgannwg.txt"
-
 #England
 MRC = "countries/Mercia.txt"
 ANG = "countries/Anglia.txt"
@@ -30,7 +27,6 @@ KNT = "countries/Kent.txt"
 SSX = "countries/Sussex.txt"
 WSX = "countries/Wessex.txt"
 LNC = "countries/Lancaster.txt"
-
 #Spain
 SLM = "countries/Salamanca.txt"
 BGC = "countries/Braganca.txt"
@@ -48,7 +44,7 @@ BCA = "countries/Barcelona.txt"
 ADR = "countries/Andorra.txt"
 URG = "countries/Urgell.txt"
 ELB = "countries/Elbora.txt"
-
+BGO = "countries/Burgos.txt"
 #France
 POI = "countries/Poitiers.txt"
 ANJ = "countries/Anjou.txt"
@@ -59,7 +55,6 @@ LAV = "countries/Laval.txt"
 VED = "countries/Vendome.txt"
 TOS = "countries/Tours.txt"
 PRI = "countries/Perigord.txt"
-
 #Italy
 RAV = "countries/Ravenna.txt"
 ANC = "countries/Ancona.txt"
@@ -70,7 +65,7 @@ BRC = "countries/Brescia.txt"
 BNV = "countries/Benevento.txt"
 CNO = "countries/Cuneo.txt"
 NVA = "countries/Novara.txt"
-AVE = "countries/Avellino.txt"
+AVL = "countries/Avellino.txt"
 FOG = "countries/Foggia.txt"
 PAV = "countries/Pavia.txt"
 CRM = "countries/Cremona.txt"
@@ -82,7 +77,7 @@ TNI = "countries/Trani.txt"
 ABO = "countries/Arborea.txt"
 PLM = "countries/Palermo.txt"
 SEB = "countries/Seborga.txt"
-
+MSS = "countries/Massa.txt"
 #Germany
 BRN = "countries/Bern.txt"
 LOM = "countries/Longobardi.txt"
@@ -94,13 +89,15 @@ SCH = "countries/Schwyz.txt"
 ILA = "countries/Illanz.txt"
 HEL = "countries/Helgoland.txt"
 DAV = "countries/Davos.txt"
-
 #Poland
 VEL = "countries/Veleti.txt"
 SPR = "countries/Sprevia.txt"
 WRO = "countries/Wroclaw.txt"
 ZAT = "countries/Zator.txt"
-
+BDO = "countries/Bardo.txt"
+GDA = "countries/Gdansk.txt"
+PYR = "countries/Pyrzyce.txt"
+SLU = "countries/Slupsk.txt"
 #Balkans
 BES = "countries/Besarabia.txt"
 OLT = "countries/Oltenia.txt"
@@ -110,14 +107,11 @@ BEL = "countries/Belgrade.txt"
 SLJ = "countries/Solj.txt"
 SZL = "countries/Slavonia.txt"
 DKR = "countries/DonjiKraji.txt"
-
 #Middle East
 SYP = "countries/SyriaPalestine.txt"
-
 #Finland
 TAV = "countries/Tavastania.txt"
 SVO = "countries/Savo.txt"
-
 #Africa
 CTE = "countries/Carthage.txt"
 LAG = "countries/Laghouat.txt"
@@ -129,7 +123,6 @@ MSR = "countries/Misratania.txt"
 JUF = "countries/Jufra.txt"
 NEM = "countries/Nemenchia.txt"
 OUA = "countries/Ouargla.txt"
-
 #Baltic Region
 SKL = "countries/Skalovovia.txt"
 YOT = "countries/Yotvingia.txt"
@@ -138,7 +131,6 @@ SEM = "countries/Semigalia.txt"
 ZEL = "countries/Selonia.txt"
 LAT = "countries/Latgalia.txt"
 ZHM = "countries/Samogatia.txt"
-
 #Rus'
 PRJ = "countries/Pereyaslav.txt"
 PIN = "countries/PinskTurov.txt"
@@ -150,11 +142,8 @@ MST = "countries/Mstislav.txt"
 VTB = "countries/Vitebsk.txt"
 RYL = "countries/Rylsk.txt"
 PTV = "countries/Poltava.txt"
-YEL = "countries/Yelets.txt"
-DON = "countries/Don.txt"
 VYM = "countries/Vym.txt"
 GCH = "countries/Galich.txt"
-
 #Persia & Middle East
 KTE = "countries/Ctesiphon.txt"
 EDE = "countries/Edessa.txt"
@@ -166,3 +155,38 @@ ABK = "countries/Abkhazia.txt"
 THA = "countries/Thaqif.txt"
 KIN = "countries/Kinana.txt"
 UDH = "countries/Udhrah.txt"
+HUM = "countries/Hum.txt"
+LGC = "countries/Lignica.txt"
+SWD = "countries/Swidnica.txt"
+KUY = "countries/Kuyavia.txt"
+RAT = "countries/Ratibor-Opava.txt"
+RHI = "countries/RhineLeague.txt"
+LEO = "countries/BroLeon.txt"
+WUJ = "countries/Wujda.txt"
+IDU = "countries/Idukal.txt"
+AMZ = "countries/Amzur.txt"
+ASF = "countries/Asfi.txt"
+OUS = "countries/Ouarsenis.txt"
+TUT = "countries/Tuat.txt"
+ORY = "countries/Oryol.txt"
+TTU = "countries/Tartu.txt"
+SRC = "countries/Soroca.txt"
+ABZ = "countries/Abaza.txt"
+KRB = "countries/Karabadia.txt"
+NKH = "countries/Nakh.txt"
+ALN = "countries/Alania.txt"
+BGY = "countries/Bolgary.txt"
+MOG = "countries/Mogostan.txt"
+BMM = "countries/Bam.txt"
+PLS = "countries/Palestine.txt"
+MTY = "countries/Mutayr.txt"
+HRB = "countries/Harb.txt"
+HWZ = "countries/Hawazin.txt"
+COA = "countries/Chola.txt"
+SAA = "countries/Sena.txt"
+QAT = "countries/Qatar.txt"
+ZAB = "countries/Zabulistan.txt"
+
+
+#meme
+BKU = "countries/BloodCult.txt"

@@ -1,12 +1,11 @@
 owner = NRM
-controller = NRM 
+controller = NRM
 capital = "Chirbury"
 is_city = yes
-culture = normand
+culture = dutch
 religion = orthodox
-hre = no
-base_tax = 4
-base_production = 4
+base_tax = 3
+base_production = 3
 trade_goods = naval_supplies
 base_manpower = 2
 discovered_by = eastern

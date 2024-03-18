@@ -1,12 +1,10 @@
 #Landes
-
 owner = GUY
 controller = GUY
 capital = "Lo Mont"
 is_city = yes
 culture = gascon
 religion = orthodox
-hre = no
 base_tax = 2
 base_production = 2
 trade_goods = wine

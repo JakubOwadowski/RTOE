@@ -5,11 +5,9 @@ primary_culture = croatian
 religion = orthodox
 religious_school = see_of_rome
 technology_group = eastern
-capital = 131	# Zagrab
-
-
-1422.1.1 = {
-	monarch = {
+capital = 1864# Zagrab
+1422.1.1 = { 
+	monarch = { 
 		name = "Trpimir II"
 		dynasty = "Babonic"
 		adm = 5

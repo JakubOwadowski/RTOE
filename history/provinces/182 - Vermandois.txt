@@ -1,12 +1,10 @@
 # 182 Valois - Principal cities: Compiègne + Soissons
-
 owner = NRM
 controller = NRM
 capital = "Soissons"
 is_city = yes
-culture = wallonian
+culture = cosmopolitan_french
 religion = orthodox
-hre = no
 base_tax = 4
 base_production = 4
 trade_goods = livestock

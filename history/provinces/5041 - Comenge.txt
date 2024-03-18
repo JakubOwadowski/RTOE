@@ -1,5 +1,4 @@
 #Comenge
-
 owner = GUY
 controller = GUY
 capital = "Muret"
@@ -7,15 +6,12 @@ is_city = yes
 culture = pyrenean
 religion = cathar
 hre = yes
-base_tax = 2 
+base_tax = 2
 base_production = 2
 trade_goods = wool
 base_manpower = 2
 add_core = GUY
 add_core = FOI
-
-
-
 discovered_by = eastern
 discovered_by = western
 discovered_by = western

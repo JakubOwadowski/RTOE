@@ -1,7 +1,7 @@
 government = monarchy
 add_government_reform = autocracy_reform
-primary_culture = georgian
+primary_culture = megrelian
 religion = orthodox
 technology_group = eastern
-capital = 462 # Odishi
+capital = 462# Odishi
 government_rank = 1

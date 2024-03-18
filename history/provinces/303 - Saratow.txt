@@ -1,0 +1,24 @@
+#303 - Saratow
+owner = KAZ
+controller = KAZ
+culture = kazani
+religion = shiite
+base_tax = 4
+base_production = 4
+trade_goods = livestock
+base_manpower = 4
+capital = "Ukek"
+is_city = yes
+discovered_by = eastern
+discovered_by = western
+discovered_by = ottoman
+discovered_by = nomad_group
+1502.6.1 = { controller = KAZ }
+1552.10.2 = { controller = RUS add_core = RUS }
+1590.7.12 = { capital = "Saratov" }
+1600.1.1 = { culture = russian religion = Orthodox }
+1670.3.1 = { controller = REB revolt = { type = anti_tax_rebels name = "Stepan Razin" size = 2 } }
+1671.4.14 = { controller = RUS revolt = { size = 1 } }
+1773.9.13 = { controller = REB revolt = { type = anti_tax_rebels name = "Yemelyan Pugachev" size = 2 } }
+1775.2.1 = { controller = RUS revolt = { size = 1 } }
+add_core = KAZ

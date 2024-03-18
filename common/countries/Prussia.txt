@@ -1,12 +1,8 @@
 #Prussia
-
-graphical_culture = westerngfx
-
-color = { 180  180  120 }
-
-revolutionary_colors = { 1  0  4 }
-
-historical_idea_groups = {
+graphical_culture = easterngfx
+color = { 242 232 110 }
+revolutionary_colors = { 1 0 4 }
+historical_idea_groups = { 
 	innovativeness_ideas
 	offensive_ideas
 	diplomatic_ideas
@@ -16,8 +12,7 @@ historical_idea_groups = {
 	defensive_ideas
 	administrative_ideas
 }
-
-historical_units = {
+historical_units = { 
 	eastern_medieval_infantry
 	eastern_knights
 	slavic_stradioti
@@ -33,8 +28,7 @@ historical_units = {
 	eastern_uhlan
 	eastern_carabinier
 }
-
-monarch_names = {
+monarch_names = { 
 	"Herkus #5" = 40
 	"Prätorius 3" = 30
 	"Auctume #6" = 30
@@ -42,17 +36,13 @@ monarch_names = {
 	"Glande #0" = 10
 	"Glappo #2" = 10
 	"Skomantas #1" = 10
-	
 	"Mara #0" = -1
 	"Laima #0" = -1
 	"Laimdota #0" = -1
 }
-
 leader_names = { 
-	Monte Grunau Saper Balderis Tal Ambundi
-	Nerija Satekle Autine Koknese
+	Monte Grunau Saper Balderis Tal Ambundi Nerija Satekle Autine Koknese
 }
-
-ship_names = {
+ship_names = { 
 	Prusa Drusuo Pamede Elbings Warmi Alna Galinda Tuwangste Semba Skalava
 }

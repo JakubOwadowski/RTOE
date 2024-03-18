@@ -1,13 +1,11 @@
 # 181 Rethel
-
 owner = CHP
 controller = CHP
 capital = "Rethel"
 is_city = yes
 culture = wallonian
-religion = catholic
-hre = no
-base_tax = 6 
+religion = orthodox
+base_tax = 6
 base_production = 6
 trade_goods = cloth
 base_manpower = 2

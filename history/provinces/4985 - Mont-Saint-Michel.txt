@@ -4,7 +4,6 @@ owner = BRI
 controller = BRI
 culture = breton
 religion = orthodox
-hre = no
 base_tax = 1
 base_production = 1
 trade_goods = fish

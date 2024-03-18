@@ -1,6 +1,7 @@
-government = tribal
-add_government_reform = steppe_horde
+government = monarchy
+add_government_reform = autocracy_reform
 primary_culture = bashkir
-religion = sunni
+religion = shiite
 technology_group = nomad_group
-capital = 475	# Bashkortostan
+capital = 475
+government_rank = 1

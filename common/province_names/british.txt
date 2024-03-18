@@ -235,3 +235,4 @@
 4867 = { "Kimberley" "Easton" }
 4868 = { "Launceston" "Launceston" }
 4869 = { "Queenstown" "Queenstown" }
+4369 = "Cardiganshire"

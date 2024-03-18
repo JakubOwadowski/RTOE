@@ -1,0 +1,17 @@
+estate_nobles_norman_feudal_system = {
+	icon = privilege_permit_self_governance
+	land_share = 10
+	max_absolutism = -20
+	influence = 0.1
+	can_select = {
+		has_estate_privilege = estate_nobles_norman_feudal_system
+	}
+	penalties = {
+		min_autonomy = 25
+		stability_cost_modifier = 0.25
+		vassal_income = -0.5
+	}
+	ai_will_do = {
+		factor = 0
+	}
+}

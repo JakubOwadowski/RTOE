@@ -217,10 +217,37 @@ vassal = {
 	modifier_overlord = {
 		modifier = vassal_subject
 	}
+	modifier_overlord = {
+		modifier = pirate_subject
+		trigger = {
+			has_government_attribute = is_pirate_republic_reform
+			overlord = {
+				has_government_attribute = pirate_vassal_bonus
+			}
+		}
+	}
+	modifier_subject = {
+		modifier = subject_tax_modifier
+		trigger = {
+			overlord = {
+				has_government_attribute = subject_tax_modifier_25
+			}
+		}
+	}
+	modifier_subject = {
+		modifier = same_religion_subject_bonus_mod
+		trigger = {
+			overlord = {
+				has_government_attribute = same_religion_subject_bonus
+				religion = PREV
+			}
+		}
+	}
 
 	overlord_opinion_modifier = is_vassal
 	subject_opinion_modifier = is_vassal
 }
+
 
 march = {
 	copy_from = vassal
