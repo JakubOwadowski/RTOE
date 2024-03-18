@@ -1,7 +1,7 @@
 #2103 - Khurda (Orissa Tributary States)
 owner = GRJ
 controller = GRJ
-culture = gondi
+culture = oriya
 religion = hinduism
 capital = "Khurda"
 trade_goods = grain

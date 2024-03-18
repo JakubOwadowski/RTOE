@@ -1,7 +1,7 @@
 #2048 - Jeypore
 owner = JPR
 controller = JPR
-culture = gondi
+culture = oriya
 religion = hinduism
 capital = "Jeypore"
 trade_goods = tropical_wood

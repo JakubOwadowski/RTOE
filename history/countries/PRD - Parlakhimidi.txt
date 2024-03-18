@@ -3,9 +3,8 @@ add_government_reform = tribal_kingdom
 government_rank = 1
 technology_group = indian
 religion = hinduism
-primary_culture = gondi
-capital = 4448# Parlakhimidi
-# Founder 
+primary_culture = oriya
+capital = 4448# Founder 
 1444.1.1 = {  # Younger son of Kapilendra of Orissa
 
 	monarch = { 

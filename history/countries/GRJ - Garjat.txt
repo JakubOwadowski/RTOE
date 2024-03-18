@@ -3,9 +3,8 @@ add_government_reform = tribal_kingdom
 government_rank = 1
 technology_group = indian
 religion = hinduism
-primary_culture = gondi
-capital = 2049# Khurda
-# Bhanj rulers of nearby Orissan feudatories
+primary_culture = oriya
+capital = 2049# Bhanj rulers of nearby Orissan feudatories
 1444.1.1 = { 
 	monarch = { 
 		name = "Adi"

@@ -219,6 +219,9 @@ country_event = {
 			random_owned_province = {
 				limit = {
 					is_in_capital_area = yes
+					can_have_center_of_reformation_trigger = {
+						RELIGION = calvinist
+					}
 				}
 				change_religion = calvinist
 				add_reform_center = calvinist
@@ -229,6 +232,11 @@ country_event = {
 	trigger = {
 		owns = 4720
 		is_religion_enabled = reformed
+		any_owned_province ={
+			can_have_center_of_reformation_trigger = {
+				RELIGION = calvinist
+			}
+		}
 	}
 
 	mean_time_to_happen = {
@@ -295,9 +303,13 @@ country_event = {
 						region = anatolia_region
 						region = balkan_region
 					}
+					can_have_center_of_reformation_trigger = {
+						RELIGION = iconoclast
+					}
 				}
 				change_religion = iconoclast
 				add_reform_center = iconoclast
+				
 			}
 		}
 	}
@@ -307,6 +319,9 @@ country_event = {
 			OR = {
 				region = anatolia_region
 				region = balkan_region
+			}
+			can_have_center_of_reformation_trigger = {
+				RELIGION = iconoclast
 			}
 		}
 		is_religion_enabled = calvinist
@@ -348,16 +363,88 @@ country_event = {
 		random_province = { limit = { region = anatolia_region religion = orthodox } change_religion = iconoclast }
 		random_province = { limit = { region = anatolia_region religion = orthodox } change_religion = iconoclast }
 		random_province = { limit = { region = anatolia_region religion = orthodox } change_religion = iconoclast }
-		random_province = { limit = { region = anatolia_region religion = orthodox } change_religion = iconoclast }
-		random_province = { limit = { region = anatolia_region religion = orthodox } change_religion = iconoclast }
-		random_province = { limit = { region = anatolia_region religion = orthodox } change_religion = iconoclast }
-		random_province = { limit = { region = anatolia_region religion = orthodox } change_religion = iconoclast }
-		random_province = { limit = { region = anatolia_region religion = orthodox } change_religion = iconoclast }
-		random_province = { limit = { region = anatolia_region religion = orthodox } change_religion = iconoclast }
 		random_province = { limit = { region = balkan_region religion = orthodox } change_religion = iconoclast }
 		random_province = { limit = { region = balkan_region religion = orthodox } change_religion = iconoclast }
 		random_province = { limit = { region = balkan_region religion = orthodox } change_religion = iconoclast }
-		random_province = { limit = { region = balkan_region religion = orthodox } change_religion = iconoclast }
-		random_province = { limit = { region = balkan_region religion = orthodox } change_religion = iconoclast }
+	}
+}
+
+#Huldrych Zwingli
+country_event = {
+	id = RTOE_reformation.7
+	title = RTOE_reformation.7.t
+	desc = RTOE_reformation.7.d
+	picture = PROTESTANT_GREAT_REFORMER_eventPicture
+
+	fire_only_once = yes
+
+	immediate = {
+		hidden_effect = {
+			enable_religion = anabaptist
+			random_owned_province = {
+				limit = {
+					is_in_capital_area = yes
+					can_have_center_of_reformation_trigger = {
+						RELIGION = anabaptist
+					}
+				}
+				change_religion = anabaptist
+				add_reform_center = anabaptist
+			}
+		}
+	}
+
+	trigger = {
+		is_religion_enabled = calvinist
+		any_owned_province = {
+			OR = {
+				area = switzerland_area
+				area = romandie_area
+				area = raetia_area
+			}
+			can_have_center_of_reformation_trigger = {
+				RELIGION = anabaptist
+			}
+		}
+	}
+
+	mean_time_to_happen = {
+		days = 7300
+	}
+
+	#He's right!
+	option = {
+		change_religion = anabaptist
+		define_advisor = {
+			type = theologian
+			name = "Huldrych Zwingli"
+			skill = 3
+			religion = anabaptist
+			culture = swiss
+			cost_multiplier = 0.0
+		}
+		ai_chance = {
+			factor = 75
+			modifier = {
+				factor = 0
+				religion = calvinist
+			}
+		}
+	}
+
+	option = {
+		add_prestige = 20
+		ai_chance = {
+			factor = 25
+		}
+	}
+
+	after = {
+		random_province = { limit = { region = south_german_region OR = { religion = orthodox religion = calvinist } } change_religion = anabaptist }
+		random_province = { limit = { region = south_german_region OR = { religion = orthodox religion = calvinist } } change_religion = anabaptist }
+		random_province = { limit = { region = south_german_region OR = { religion = orthodox religion = calvinist } } change_religion = anabaptist }
+		random_province = { limit = { region = low_countries_region OR = { religion = orthodox religion = calvinist } } change_religion = anabaptist }
+		random_province = { limit = { region = low_countries_region OR = { religion = orthodox religion = calvinist } } change_religion = anabaptist }
+		random_province = { limit = { region = low_countries_region OR = { religion = orthodox religion = calvinist } } change_religion = anabaptist }
 	}
 }

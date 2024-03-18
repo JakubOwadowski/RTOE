@@ -1,7 +1,7 @@
 #2052 - Navanagar
 owner = NVR
 controller = NVR
-culture = saurashtri
+culture = gujarati
 religion = hinduism
 capital = "Nagnes"
 trade_goods = gems

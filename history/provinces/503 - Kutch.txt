@@ -1,7 +1,7 @@
 #503 - Kutch
 owner = KAT
 controller = KAT
-culture = saurashtri
+culture = sindhi
 religion = hinduism
 capital = "Lakhiyarvira"
 trade_goods = salt

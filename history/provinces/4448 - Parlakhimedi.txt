@@ -1,7 +1,7 @@
 #4448 - Parlakhimedi
 owner = PRD
 controller = PRD
-culture = gondi
+culture = oriya
 religion = hinduism
 capital = "Parlakhimedi"
 trade_goods = tropical_wood
