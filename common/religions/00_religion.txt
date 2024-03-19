@@ -268,8 +268,7 @@ christian = {
 
 			picture = "GFX_icon_heterodoxy"
 		}
-	}
-	
+	}	
 
 	ofbrit = { #Insulars
 		color = { 184 231 0 }
@@ -966,7 +965,7 @@ christian = {
 		color = { 244 55 9 }
 		icon = 1
 		allowed_conversion = {
-			orthodox calvinist iconoclast anabaptist
+			orthodox calvinist iconoclast anabaptist 
 		}
 		allowed_center_conversion = {
 			orthodox
@@ -1085,7 +1084,7 @@ christian = {
 		icon = 4
 
 		allowed_conversion = {
-			reformed calvinist iconoclast anabaptist
+			reformed calvinist iconoclast anabaptist varelist
 		}
 		country = {
 			stability_cost_modifier = -0.1
@@ -1276,7 +1275,7 @@ christian = {
 		color = { 76 76 229 }
 		icon = 3
 		allowed_conversion = {
-			orthodox reformed iconoclast anabaptist
+			orthodox reformed iconoclast anabaptist varelist
 		}
 		allowed_center_conversion = {
 			orthodox
@@ -1325,10 +1324,10 @@ christian = {
 	}
 
 	iconoclast = {
-		color = { 153 0 77 }
+		color = { 126 27 27 }
 		icon = 35
 		allowed_conversion = {
-			orthodox reformed calvinist anabaptist
+			orthodox reformed calvinist anabaptist varelist
 		}
 		allowed_center_conversion = {
 			orthodox
@@ -1378,9 +1377,9 @@ christian = {
 
 	anabaptist = {
 		color = { 88 138 237 }
-		icon = 3
+		icon = 38
 		allowed_conversion = {
-			orthodox reformed iconoclast calvinist
+			orthodox reformed iconoclast calvinist varelist
 		}
 		allowed_center_conversion = {
 			orthodox calvinist
@@ -1405,6 +1404,58 @@ christian = {
 		
 		on_convert = {
 			change_religion = anabaptist
+			add_prestige = -100
+			remove_country_modifier = counter_reformation
+			remove_country_modifier = the_statue_in_restraint_of_appeals
+			remove_country_modifier = revocation_of_restraint_of_appeals
+			remove_country_modifier = bavarian_jesuits
+			remove_country_modifier = the_societas_jesu
+			remove_country_modifier = the_declaration_of_indulgence
+			remove_country_modifier = de_heretico_comburendo
+			remove_country_modifier = the_conventicle_act
+			
+			add_country_modifier = {
+				name = "conversion_zeal"
+				duration = 3650
+			}
+		}
+		
+		heretic = { METHODIST BAPTIST QUAKER }
+		
+		date = 1536.5.1
+		
+		fervor = yes
+	}
+
+	varelist = {
+		color = { 195 115 34 }
+		icon = 40
+		allowed_conversion = {
+			orthodox reformed iconoclast calvinist anabaptist
+		}
+		allowed_center_conversion = {
+			orthodox reformed
+		}
+		country = {
+			tolerance_heretic = 2
+			advisor_pool = 1
+		}
+		
+		country_as_secondary = {
+			global_unrest = -1
+			advisor_cost = -0.1
+		}
+
+		will_get_center = { #Refered to even for initial CoR Spawn
+			any_owned_province = {
+				can_have_center_of_reformation_trigger = {
+					RELIGION = varelist
+				}
+			}
+		}
+		
+		on_convert = {
+			change_religion = varelist
 			add_prestige = -100
 			remove_country_modifier = counter_reformation
 			remove_country_modifier = the_statue_in_restraint_of_appeals

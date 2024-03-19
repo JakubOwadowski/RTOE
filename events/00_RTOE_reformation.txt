@@ -448,3 +448,80 @@ country_event = {
 		random_province = { limit = { region = low_countries_region OR = { religion = orthodox religion = calvinist } } change_religion = anabaptist }
 	}
 }
+
+#Eliseo Varela
+country_event = {
+	id = RTOE_reformation.8
+	title = RTOE_reformation.8.t
+	desc = RTOE_reformation.8.d
+	picture = PROTESTANT_GREAT_REFORMER_eventPicture
+
+	fire_only_once = yes
+
+	immediate = {
+		hidden_effect = {
+			enable_religion = varelist
+			random_owned_province = {
+				limit = {
+					is_in_capital_area = yes
+					can_have_center_of_reformation_trigger = {
+						RELIGION = varelist
+					}
+				}
+				change_religion = varelist
+				add_reform_center = varelist
+			}
+		}
+	}
+
+	trigger = {
+		is_religion_enabled = reformed
+		any_owned_province = {
+			OR = {
+				area = galicia_area
+				area = asturias_area
+				area = beieras_area
+			}
+			can_have_center_of_reformation_trigger = {
+				RELIGION = varelist
+			}
+		}
+	}
+
+	mean_time_to_happen = {
+		days = 7300
+	}
+
+	#He's right!
+	option = {
+		change_religion = varelist
+		define_advisor = {
+			type = theologian
+			name = "Eliseo Varela"
+			skill = 3
+			religion = varelist
+			culture = galician
+			cost_multiplier = 0.0
+		}
+		ai_chance = {
+			factor = 75
+			modifier = {
+				factor = 0
+				religion = reformed
+			}
+		}
+	}
+
+	option = {
+		add_prestige = 20
+		ai_chance = {
+			factor = 25
+		}
+	}
+
+	after = {
+		random_province = { limit = { region = iberia_region OR = { religion = orthodox religion = reformed } } change_religion = varelist }
+		random_province = { limit = { region = iberia_region OR = { religion = orthodox religion = reformed } } change_religion = varelist }
+		random_province = { limit = { region = iberia_region OR = { religion = orthodox religion = reformed } } change_religion = varelist }
+	}
+}
