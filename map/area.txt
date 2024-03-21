@@ -258,7 +258,7 @@ normandy_area = {  #4
 }
 provence_area = {  #5
 
-	201 202 2991 4696 4786 
+	201 202 2991 4696 102 
 }
 poitou_area = {  #4
 
@@ -333,7 +333,7 @@ wallonia_area = {  #4
 }
 holland_area = {  #4
 
-	96 97 98 5084 
+	97 98 5084 96 
 }
 flanders_area = {  #3
 
@@ -341,7 +341,7 @@ flanders_area = {  #3
 }
 frisia_area = {  #5
 
-	99 100 1931 5085 
+	100 1931 5085 99 
 }
 brabant_area = {  #3
 
@@ -444,7 +444,7 @@ lombardy_area = {  #5
 po_valley_area = {  #3
 
 	color = { 205 190 47 }
-	109 107 1862 
+	109 107 1862 110 
 }
 piedmont_area = {  #4
 
@@ -455,7 +455,7 @@ tuscany_area = {  #5
 	115 116 117 2978 2980 
 }
 liguria_area = { 
-	5047 5046 101 102 2992 
+	5047 5046 101 2992 4786 
 }
 corsica_sardinia_area = {  #4
 
@@ -756,7 +756,7 @@ zaporizhia_area = {  #3
 }
 azov_area = {  #4
 
-	286 287 2413 2414 5093 
+	286 287 2413 2414 
 }
 crimea_area = {  #4
 
@@ -924,11 +924,11 @@ lower_swabia_area = {  #3 (West Swabia)
 franconia_area = {  #4 (Lower Franconia)
 
 	color = { 121 49 117 }
-	4715 71 79 
+	4715 71 79 77 
 }
 upper_franconia_area = {  #4
 
-	66 67 4716 1757 
+	66 4716 1757 67 
 }
 upper_swabia_area = {  #4 (East Swabia)
 
@@ -961,7 +961,7 @@ hinter_pommern_area = {  #3
 }
 tirol_area = {  #5
 
-	73 110 1768 4758 
+	73 1768 4758 
 }
 austria_proper_area = {  #5
 
@@ -975,7 +975,7 @@ inner_austria_area = {  #4
 carinthia_area = {  #4 # Carniola in-game
 
 	color = { 46 217 110 }
-	129 130 1769 4738 4751 
+	130 1769 4738 4751 129 
 }
 switzerland_area = {  #5
 
@@ -991,26 +991,25 @@ romandie_area = {  #5
 }
 upper_rhineland_area = {  #3 # now 'Baden'
 
-	74 4714 75 1880 
+	74 4714 75 1880 4767 
 }
 alsace_area = {  #3
 
 }
 palatinate_area = {  #3
 
-	77 1761 4767 
 }
 north_rhine_area = {  #4
 
-	84 85 2975 83 
+	84 83 69 1761 
 }
 lower_rhineland_area = {  #4
 
-	80 1760 1878 
+	80 1760 1878 85 2975 
 }
 westphalia_area = {  #3 (South Westphalia)
 
-	82 2972 4775 56 69 
+	82 2972 4775 56 
 }
 north_westphalia_area = {  #4
 
@@ -1240,7 +1239,7 @@ dulkadir_area = {  # 4
 }
 iraq_arabi_area = {  #5 Lower Mesopotamia
 
-	406 409 410 2310 4291 
+	406 409 410 2310 
 }
 basra_area = {  #4
 
@@ -1261,7 +1260,7 @@ khuzestan_area = {  #5
 shahrizor_area = {  #4
 
 	color = { 152 102 102 }
-	415 2211 4293 4294 
+	415 2211 4293 4294 4291 
 }
 al_jazira_area = {  #5
 
@@ -3718,7 +3717,7 @@ dyfed_area = {
 	5083 4369 4717 
 }
 besarabia_area = { 
-	2405 1756 4540 
+	2405 4540 1756 
 }
 trebizond_area = { 
 	330 5086 5008 

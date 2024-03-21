@@ -1,6 +1,6 @@
 namespace = RTOE_reformation
 
-# Cutting ties with Constantinople
+#Cutting ties with Constantinople
 country_event = {
 	id = RTOE_reformation.1
 	title = RTOE_reformation.1.t
@@ -96,7 +96,7 @@ country_event = {
 	}
 }
 
-# Pope breaks the communion 
+#Pope breaks the communion 
 country_event = {
 	id = RTOE_reformation.2
 	title = RTOE_reformation.2.t
@@ -116,7 +116,7 @@ country_event = {
 	}
 }
 
-# Orphaned
+#Orphaned
 country_event = {
 	id = RTOE_reformation.3
 	title = RTOE_reformation.3.t
@@ -140,7 +140,7 @@ country_event = {
 	}
 }
 
-# Martin Luther and reformation in Germany
+#Martin Luther and reformation in Germany
 country_event = {
 	id = RTOE_reformation.4
 	title = RTOE_reformation.4.t
@@ -168,6 +168,11 @@ country_event = {
 
 	#He's right!
 	option = {
+		trigger = {
+			NOT = {
+				is_emperor = yes
+			}
+		}
 		change_religion = reformed
 		define_advisor = {
 			type = theologian
@@ -175,7 +180,7 @@ country_event = {
 			skill = 3
 			religion = reformed
 			culture = saxon
-			cost_multiplier = 0.0
+			cost_multiplier = 0.1
 		}
 		ai_chance = {
 			factor = 75
@@ -245,6 +250,11 @@ country_event = {
 
 	#He's right!
 	option = {
+		trigger = {
+			NOT = {
+				is_emperor = yes
+			}
+		}
 		change_religion = calvinist
 		define_advisor = {
 			type = theologian
@@ -252,7 +262,7 @@ country_event = {
 			skill = 3
 			religion = calvinist
 			culture = wallonian
-			cost_multiplier = 0.0
+			cost_multiplier = 0.1
 		}
 		ai_chance = {
 			factor = 75
@@ -333,6 +343,11 @@ country_event = {
 
 	#He's right!
 	option = {
+		trigger = {
+			NOT = {
+				is_emperor = yes
+			}
+		}
 		change_religion = iconoclast
 		define_advisor = {
 			type = theologian
@@ -340,7 +355,7 @@ country_event = {
 			skill = 3
 			religion = iconoclast
 			culture = cappadocian
-			cost_multiplier = 0.0
+			cost_multiplier = 0.1
 		}
 		ai_chance = {
 			factor = 75
@@ -383,7 +398,11 @@ country_event = {
 			enable_religion = anabaptist
 			random_owned_province = {
 				limit = {
-					is_in_capital_area = yes
+					OR = {
+						area = switzerland_area
+						area = romandie_area
+						area = raetia_area
+					}
 					can_have_center_of_reformation_trigger = {
 						RELIGION = anabaptist
 					}
@@ -414,6 +433,11 @@ country_event = {
 
 	#He's right!
 	option = {
+		trigger = {
+			NOT = {
+				is_emperor = yes
+			}
+		}
 		change_religion = anabaptist
 		define_advisor = {
 			type = theologian
@@ -421,7 +445,7 @@ country_event = {
 			skill = 3
 			religion = anabaptist
 			culture = swiss
-			cost_multiplier = 0.0
+			cost_multiplier = 0.1
 		}
 		ai_chance = {
 			factor = 75
@@ -494,6 +518,11 @@ country_event = {
 
 	#He's right!
 	option = {
+		trigger = {
+			NOT = {
+				is_emperor = yes
+			}
+		}
 		change_religion = varelist
 		define_advisor = {
 			type = theologian
@@ -501,7 +530,7 @@ country_event = {
 			skill = 3
 			religion = varelist
 			culture = galician
-			cost_multiplier = 0.0
+			cost_multiplier = 0.1
 		}
 		ai_chance = {
 			factor = 75

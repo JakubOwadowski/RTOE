@@ -1,20 +1,16 @@
 #102 - Nice
-
 owner = NIC
 controller = NIC
 add_core = NIC
-culture = occitain
+culture = ligurian
 religion = orthodox
 hre = yes
-base_tax = 4 
+base_tax = 4
 base_production = 4
 trade_goods = fish
 base_manpower = 2
 capital = "Nice"
 is_city = yes
-
-
-
 discovered_by = eastern
 discovered_by = western
 discovered_by = muslim
