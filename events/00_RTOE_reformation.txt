@@ -44,6 +44,7 @@ country_event = {
 		118 = {
 			change_religion = reformed
 			add_reform_center = reformed
+			add_province_modifier = { name = religious_zeal_at_conv duration = 10950 } 
 		}
 	}
 
@@ -81,18 +82,18 @@ country_event = {
 				id = RTOE_reformation.3
 			}
 		}
-		random_province = { limit = { region = italy_region religion = orthodox } change_religion = reformed }
-		random_province = { limit = { region = italy_region religion = orthodox } change_religion = reformed }
-		random_province = { limit = { region = italy_region religion = orthodox } change_religion = reformed }
-		random_province = { limit = { region = italy_region religion = orthodox } change_religion = reformed }
-		random_province = { limit = { region = italy_region religion = orthodox } change_religion = reformed }
-		random_province = { limit = { region = italy_region religion = orthodox } change_religion = reformed }
-		random_province = { limit = { region = italy_region religion = orthodox } change_religion = reformed }
-		random_province = { limit = { region = italy_region religion = orthodox } change_religion = reformed }
-		random_province = { limit = { region = italy_region religion = orthodox } change_religion = reformed }
-		random_province = { limit = { region = italy_region religion = orthodox } change_religion = reformed }
-		random_province = { limit = { region = italy_region religion = orthodox } change_religion = reformed }
-		random_province = { limit = { region = italy_region religion = orthodox } change_religion = reformed }
+		random_province = { limit = { region = italy_region religion = orthodox } change_religion = reformed add_province_modifier = { name = religious_zeal_at_conv duration = 10950 } }
+		random_province = { limit = { region = italy_region religion = orthodox } change_religion = reformed add_province_modifier = { name = religious_zeal_at_conv duration = 10950 } }
+		random_province = { limit = { region = italy_region religion = orthodox } change_religion = reformed add_province_modifier = { name = religious_zeal_at_conv duration = 10950 } }
+		random_province = { limit = { region = italy_region religion = orthodox } change_religion = reformed add_province_modifier = { name = religious_zeal_at_conv duration = 10950 } }
+		random_province = { limit = { region = italy_region religion = orthodox } change_religion = reformed add_province_modifier = { name = religious_zeal_at_conv duration = 10950 } }
+		random_province = { limit = { region = italy_region religion = orthodox } change_religion = reformed add_province_modifier = { name = religious_zeal_at_conv duration = 10950 } }
+		random_province = { limit = { region = italy_region religion = orthodox } change_religion = reformed add_province_modifier = { name = religious_zeal_at_conv duration = 10950 } }
+		random_province = { limit = { region = italy_region religion = orthodox } change_religion = reformed add_province_modifier = { name = religious_zeal_at_conv duration = 10950 } }
+		random_province = { limit = { region = italy_region religion = orthodox } change_religion = reformed add_province_modifier = { name = religious_zeal_at_conv duration = 10950 } }
+		random_province = { limit = { region = italy_region religion = orthodox } change_religion = reformed add_province_modifier = { name = religious_zeal_at_conv duration = 10950 } }
+		random_province = { limit = { region = italy_region religion = orthodox } change_religion = reformed add_province_modifier = { name = religious_zeal_at_conv duration = 10950 } }
+		random_province = { limit = { region = italy_region religion = orthodox } change_religion = reformed add_province_modifier = { name = religious_zeal_at_conv duration = 10950 } }
 	}
 }
 
@@ -196,16 +197,16 @@ country_event = {
 	}
 
 	after = {
-		random_province = { limit = { region = north_german_region religion = orthodox } change_religion = reformed }
-		random_province = { limit = { region = north_german_region religion = orthodox } change_religion = reformed }
-		random_province = { limit = { region = north_german_region religion = orthodox } change_religion = reformed }
-		random_province = { limit = { region = north_german_region religion = orthodox } change_religion = reformed }
-		random_province = { limit = { region = north_german_region religion = orthodox } change_religion = reformed }
-		random_province = { limit = { region = north_german_region religion = orthodox } change_religion = reformed }
-		random_province = { limit = { region = north_german_region religion = orthodox } change_religion = reformed }
-		random_province = { limit = { region = north_german_region religion = orthodox } change_religion = reformed }
-		random_province = { limit = { region = north_german_region religion = orthodox } change_religion = reformed }
-		random_province = { limit = { region = north_german_region religion = orthodox } change_religion = reformed }
+		random_province = { limit = { region = north_german_region religion = orthodox } change_religion = reformed add_province_modifier = { name = religious_zeal_at_conv duration = 10950 } }
+		random_province = { limit = { region = north_german_region religion = orthodox } change_religion = reformed add_province_modifier = { name = religious_zeal_at_conv duration = 10950 } }
+		random_province = { limit = { region = north_german_region religion = orthodox } change_religion = reformed add_province_modifier = { name = religious_zeal_at_conv duration = 10950 } }
+		random_province = { limit = { region = north_german_region religion = orthodox } change_religion = reformed add_province_modifier = { name = religious_zeal_at_conv duration = 10950 } }
+		random_province = { limit = { region = north_german_region religion = orthodox } change_religion = reformed add_province_modifier = { name = religious_zeal_at_conv duration = 10950 } }
+		random_province = { limit = { region = north_german_region religion = orthodox } change_religion = reformed add_province_modifier = { name = religious_zeal_at_conv duration = 10950 } }
+		random_province = { limit = { region = north_german_region religion = orthodox } change_religion = reformed add_province_modifier = { name = religious_zeal_at_conv duration = 10950 } }
+		random_province = { limit = { region = north_german_region religion = orthodox } change_religion = reformed add_province_modifier = { name = religious_zeal_at_conv duration = 10950 } }
+		random_province = { limit = { region = north_german_region religion = orthodox } change_religion = reformed add_province_modifier = { name = religious_zeal_at_conv duration = 10950 } }
+		random_province = { limit = { region = north_german_region religion = orthodox } change_religion = reformed add_province_modifier = { name = religious_zeal_at_conv duration = 10950 } }
 	}
 }
 
@@ -230,6 +231,7 @@ country_event = {
 				}
 				change_religion = calvinist
 				add_reform_center = calvinist
+				add_province_modifier = { name = religious_zeal_at_conv duration = 10950 } 
 			}
 		}
 	}
@@ -277,21 +279,21 @@ country_event = {
 	}
 
 	after = {
-		random_province = { limit = { region = south_german_region religion = orthodox } change_religion = calvinist }
-		random_province = { limit = { region = south_german_region religion = orthodox } change_religion = calvinist }
-		random_province = { limit = { region = south_german_region religion = orthodox } change_religion = calvinist }
-		random_province = { limit = { region = south_german_region religion = orthodox } change_religion = calvinist }
-		random_province = { limit = { region = south_german_region religion = orthodox } change_religion = calvinist }
-		random_province = { limit = { region = low_countries_region religion = orthodox } change_religion = calvinist }
-		random_province = { limit = { region = low_countries_region religion = orthodox } change_religion = calvinist }
-		random_province = { limit = { region = low_countries_region religion = orthodox } change_religion = calvinist }
-		random_province = { limit = { region = low_countries_region religion = orthodox } change_religion = calvinist }
-		random_province = { limit = { region = low_countries_region religion = orthodox } change_religion = calvinist }
-		random_province = { limit = { region = france_region religion = orthodox } change_religion = calvinist }
-		random_province = { limit = { region = france_region religion = orthodox } change_religion = calvinist }
-		random_province = { limit = { region = france_region religion = orthodox } change_religion = calvinist }
-		random_province = { limit = { region = france_region religion = orthodox } change_religion = calvinist }
-		random_province = { limit = { region = france_region religion = orthodox } change_religion = calvinist }
+		random_province = { limit = { region = south_german_region religion = orthodox } change_religion = calvinist add_province_modifier = { name = religious_zeal_at_conv duration = 10950 } }
+		random_province = { limit = { region = south_german_region religion = orthodox } change_religion = calvinist add_province_modifier = { name = religious_zeal_at_conv duration = 10950 } }
+		random_province = { limit = { region = south_german_region religion = orthodox } change_religion = calvinist add_province_modifier = { name = religious_zeal_at_conv duration = 10950 } }
+		random_province = { limit = { region = south_german_region religion = orthodox } change_religion = calvinist add_province_modifier = { name = religious_zeal_at_conv duration = 10950 } }
+		random_province = { limit = { region = south_german_region religion = orthodox } change_religion = calvinist add_province_modifier = { name = religious_zeal_at_conv duration = 10950 } }
+		random_province = { limit = { region = low_countries_region religion = orthodox } change_religion = calvinist add_province_modifier = { name = religious_zeal_at_conv duration = 10950 } }
+		random_province = { limit = { region = low_countries_region religion = orthodox } change_religion = calvinist add_province_modifier = { name = religious_zeal_at_conv duration = 10950 } }
+		random_province = { limit = { region = low_countries_region religion = orthodox } change_religion = calvinist add_province_modifier = { name = religious_zeal_at_conv duration = 10950 } }
+		random_province = { limit = { region = low_countries_region religion = orthodox } change_religion = calvinist add_province_modifier = { name = religious_zeal_at_conv duration = 10950 } }
+		random_province = { limit = { region = low_countries_region religion = orthodox } change_religion = calvinist add_province_modifier = { name = religious_zeal_at_conv duration = 10950 } }
+		random_province = { limit = { region = france_region religion = orthodox } change_religion = calvinist add_province_modifier = { name = religious_zeal_at_conv duration = 10950 } }
+		random_province = { limit = { region = france_region religion = orthodox } change_religion = calvinist add_province_modifier = { name = religious_zeal_at_conv duration = 10950 } }
+		random_province = { limit = { region = france_region religion = orthodox } change_religion = calvinist add_province_modifier = { name = religious_zeal_at_conv duration = 10950 } }
+		random_province = { limit = { region = france_region religion = orthodox } change_religion = calvinist add_province_modifier = { name = religious_zeal_at_conv duration = 10950 } }
+		random_province = { limit = { region = france_region religion = orthodox } change_religion = calvinist add_province_modifier = { name = religious_zeal_at_conv duration = 10950 } }
 	}
 }
 
@@ -319,6 +321,7 @@ country_event = {
 				}
 				change_religion = iconoclast
 				add_reform_center = iconoclast
+				add_province_modifier = { name = religious_zeal_at_conv duration = 10950 } 
 				
 			}
 		}
@@ -374,13 +377,13 @@ country_event = {
 	}
 
 	after = {
-		random_province = { limit = { region = anatolia_region religion = orthodox } change_religion = iconoclast }
-		random_province = { limit = { region = anatolia_region religion = orthodox } change_religion = iconoclast }
-		random_province = { limit = { region = anatolia_region religion = orthodox } change_religion = iconoclast }
-		random_province = { limit = { region = anatolia_region religion = orthodox } change_religion = iconoclast }
-		random_province = { limit = { region = balkan_region religion = orthodox } change_religion = iconoclast }
-		random_province = { limit = { region = balkan_region religion = orthodox } change_religion = iconoclast }
-		random_province = { limit = { region = balkan_region religion = orthodox } change_religion = iconoclast }
+		random_province = { limit = { region = anatolia_region religion = orthodox } change_religion = iconoclast add_province_modifier = { name = religious_zeal_at_conv duration = 10950 } }
+		random_province = { limit = { region = anatolia_region religion = orthodox } change_religion = iconoclast add_province_modifier = { name = religious_zeal_at_conv duration = 10950 } }
+		random_province = { limit = { region = anatolia_region religion = orthodox } change_religion = iconoclast add_province_modifier = { name = religious_zeal_at_conv duration = 10950 } }
+		random_province = { limit = { region = anatolia_region religion = orthodox } change_religion = iconoclast add_province_modifier = { name = religious_zeal_at_conv duration = 10950 } }
+		random_province = { limit = { region = balkan_region religion = orthodox } change_religion = iconoclast add_province_modifier = { name = religious_zeal_at_conv duration = 10950 } }
+		random_province = { limit = { region = balkan_region religion = orthodox } change_religion = iconoclast add_province_modifier = { name = religious_zeal_at_conv duration = 10950 } }
+		random_province = { limit = { region = balkan_region religion = orthodox } change_religion = iconoclast add_province_modifier = { name = religious_zeal_at_conv duration = 10950 } }
 	}
 }
 
@@ -409,6 +412,7 @@ country_event = {
 				}
 				change_religion = anabaptist
 				add_reform_center = anabaptist
+				add_province_modifier = { name = religious_zeal_at_conv duration = 10950 } 
 			}
 		}
 	}
@@ -464,12 +468,12 @@ country_event = {
 	}
 
 	after = {
-		random_province = { limit = { region = south_german_region OR = { religion = orthodox religion = calvinist } } change_religion = anabaptist }
-		random_province = { limit = { region = south_german_region OR = { religion = orthodox religion = calvinist } } change_religion = anabaptist }
-		random_province = { limit = { region = south_german_region OR = { religion = orthodox religion = calvinist } } change_religion = anabaptist }
-		random_province = { limit = { region = low_countries_region OR = { religion = orthodox religion = calvinist } } change_religion = anabaptist }
-		random_province = { limit = { region = low_countries_region OR = { religion = orthodox religion = calvinist } } change_religion = anabaptist }
-		random_province = { limit = { region = low_countries_region OR = { religion = orthodox religion = calvinist } } change_religion = anabaptist }
+		random_province = { limit = { region = south_german_region OR = { religion = orthodox religion = calvinist } } change_religion = anabaptist add_province_modifier = { name = religious_zeal_at_conv duration = 10950 } }
+		random_province = { limit = { region = south_german_region OR = { religion = orthodox religion = calvinist } } change_religion = anabaptist add_province_modifier = { name = religious_zeal_at_conv duration = 10950 } }
+		random_province = { limit = { region = south_german_region OR = { religion = orthodox religion = calvinist } } change_religion = anabaptist add_province_modifier = { name = religious_zeal_at_conv duration = 10950 } }
+		random_province = { limit = { region = low_countries_region OR = { religion = orthodox religion = calvinist } } change_religion = anabaptist add_province_modifier = { name = religious_zeal_at_conv duration = 10950 } }
+		random_province = { limit = { region = low_countries_region OR = { religion = orthodox religion = calvinist } } change_religion = anabaptist add_province_modifier = { name = religious_zeal_at_conv duration = 10950 } }
+		random_province = { limit = { region = low_countries_region OR = { religion = orthodox religion = calvinist } } change_religion = anabaptist add_province_modifier = { name = religious_zeal_at_conv duration = 10950 } }
 	}
 }
 
@@ -494,6 +498,7 @@ country_event = {
 				}
 				change_religion = varelist
 				add_reform_center = varelist
+				add_province_modifier = { name = religious_zeal_at_conv duration = 10950 } 
 			}
 		}
 	}
@@ -549,8 +554,8 @@ country_event = {
 	}
 
 	after = {
-		random_province = { limit = { region = iberia_region OR = { religion = orthodox religion = reformed } } change_religion = varelist }
-		random_province = { limit = { region = iberia_region OR = { religion = orthodox religion = reformed } } change_religion = varelist }
-		random_province = { limit = { region = iberia_region OR = { religion = orthodox religion = reformed } } change_religion = varelist }
+		random_province = { limit = { region = iberia_region OR = { religion = orthodox religion = reformed } } change_religion = varelist add_province_modifier = { name = religious_zeal_at_conv duration = 10950 } }
+		random_province = { limit = { region = iberia_region OR = { religion = orthodox religion = reformed } } change_religion = varelist add_province_modifier = { name = religious_zeal_at_conv duration = 10950 } }
+		random_province = { limit = { region = iberia_region OR = { religion = orthodox religion = reformed } } change_religion = varelist add_province_modifier = { name = religious_zeal_at_conv duration = 10950 } }
 	}
 }

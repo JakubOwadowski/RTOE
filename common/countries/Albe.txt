@@ -1,4 +1,6 @@
 graphical_culture = westerngfx
+preferred_religion = anabaptist
+
 
 color = { 139 241 62 }
 

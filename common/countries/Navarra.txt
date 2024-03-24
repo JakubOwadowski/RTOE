@@ -1,6 +1,7 @@
 #Country Name: Please see filename.
 
 graphical_culture = westerngfx
+preferred_religion = varelist
 
 color = { 252  233  58 }
 revolutionary_colors = { 5 8 5 }

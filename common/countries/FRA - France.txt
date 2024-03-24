@@ -3,7 +3,7 @@ graphical_culture = westerngfx
 color = { 20 50 210 }
 historical_council = concilatory
 revolutionary_colors = { 15 0 16 }
-preferred_religion = reformed
+preferred_religion = calvinist
 historical_score = 6700
 historical_idea_groups = { 
 	economic_ideas

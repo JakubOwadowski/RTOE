@@ -1,9 +1,12 @@
 ﻿l_english:
  ###Christianity###
- cathar: "Cathar Church"
+ cathar: "Cathar"
  arian: "Heteroousian"
- ofbrit: "Church of Britain" #Insular
- ofeast: "Church of the East"
+ ofbrit: "Brittonic" #Insular
+ ofeast: "Nestorian"
+ calvinist: "Calvinist"
+ iconoclast: "Iconoclast"
+ varelist: "Varelist"
  
  ###Pagans###
  slavic_pagan_reformed: "Rodnovery"
