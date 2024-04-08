@@ -4,4 +4,28 @@ primary_culture = al_iraqiya_arabic
 religion = sunni
 technology_group = muslim
 capital = 4292
-government_rank = 1
+government_rank = 2
+historical_rival = TBR #Umayyads
+
+1444.1.1 = {
+	monarch = {
+			name = "Faruq VI"
+			dynasty = "Abbadid"
+			birth_date = 1392.9.13
+			death_date = 1452.5.13
+			adm = 4
+			dip = 4
+			mil = 3
+	}
+	heir = {
+			name = "Sa'îd"
+			monarch_name = "Sa'îd II"
+			dynasty = "Abbadid"
+			birth_date = 1425.8.27
+			death_date = 1465.8.6
+			claim = 90
+			adm = 2
+			dip = 2
+			mil = 0
+	}
+}

@@ -1,0 +1,4 @@
+﻿l_english:
+ RTOE_roman_empire.1.t: "Renovatio Imperii Romanorum"
+ RTOE_roman_empire.1.d: "In the year of our lord, [GetYear], the most serene Augustus [Emperor.Monarch.GetName], Romanorum Imperator, crowned by God, has again convened the Estates of the Roman Empire. The remaining rulers of the mepire have agreed to bow to the Emperor. Rome shall be reborn. The phoenix rises."
+ RTOE_roman_empire.1.a: "Ave Caesar! Ave Imperator! Ave [Root.Monarch.GetName]!"

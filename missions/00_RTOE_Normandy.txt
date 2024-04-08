@@ -642,21 +642,21 @@ RTOE_Normandy_4 = {
 		effect = { }
 	}
 	RTOE_Normandy_control_the_north_sea = {
-		icon = mission_build_up_to_force_limit
+		icon = mission_north_sea
 		position = 4
 		required_missions = { RTOE_Normandy_subjugate_scotland }
 		trigger = { }
 		effect = { }
 	}
 	RTOE_Normandy_annex_champagne = {
-		icon = mission_build_up_to_force_limit
+		icon = mission_champagne
 		position = 5
 		required_missions = { RTOE_Normandy_push_into_auvergne }
 		trigger = { }
 		effect = { }
 	}
 	RTOE_Normandy_the_eastern_border_treaty = {
-		icon = mission_build_up_to_force_limit
+		icon = mission_border_treaty
 		position = 6
 		required_missions = { RTOE_Normandy_annex_champagne }
 		trigger = { }
@@ -670,7 +670,7 @@ RTOE_Normandy_4 = {
 		effect = { }
 	}
 	RTOE_Normandy_establish_the_continental_army = {
-		icon = mission_build_up_to_force_limit
+		icon = mission_norman_army
 		position = 8
 		required_missions = { RTOE_Normandy_pacify_france }
 		trigger = { }
@@ -734,7 +734,7 @@ RTOE_Normandy_5 = {
 		effect = { }
 	}
 	RTOE_Normandy_push_into_auvergne = {
-		icon = mission_build_up_to_force_limit
+		icon = mission_push_into_auvergne
 		position = 4
 		required_missions = { RTOE_Normandy_fall_of_france }
 		trigger = { }
@@ -748,7 +748,7 @@ RTOE_Normandy_5 = {
 		effect = { }
 	}
 	RTOE_Normandy_act_of_union = {
-		icon = mission_build_up_to_force_limit
+		icon = mission_act_of_union
 		position = 6
 		required_missions = { RTOE_Normandy_estinguish_french_resistance }
 		trigger = { }
@@ -769,14 +769,14 @@ RTOE_Normandy_5 = {
 		effect = { }
 	}
 	RTOE_Normandy_sell_wine_to_the_chinese = {
-		icon = mission_build_up_to_force_limit
+		icon = mission_chinese_wine
 		position = 13
 		required_missions = { RTOE_Normandy_occitan_wine RTOE_Normandy_discover_japan }
 		trigger = { }
 		effect = { }
 	}
 	RTOE_Normandy_the_wine_wars = {
-		icon = mission_build_up_to_force_limit
+		icon = mission_wine_wars
 		position = 14
 		required_missions = { RTOE_Normandy_sell_wine_to_the_chinese }
 		trigger = { }

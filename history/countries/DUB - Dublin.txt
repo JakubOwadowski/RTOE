@@ -8,6 +8,7 @@ religious_school = see_of_rome
 technology_group = western
 capital = 373 	# Dublin
 fixed_capital = 373  # Cannot move capital away from this province & no power cost to move to it
+historical_friend = NRM
 
 1444.1.1 = {
         monarch = {

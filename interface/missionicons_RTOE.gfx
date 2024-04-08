@@ -39,5 +39,40 @@ spriteTypes = {
 		name = "mission_london"
 		texturefile = "gfx//interface//missions//mission_london.dds"
 	}
+
+	spriteType = {
+		name = "mission_north_sea"
+		texturefile = "gfx//interface//missions//mission_north_sea.dds"
+	}
+
+	spriteType = {
+		name = "mission_champagne"
+		texturefile = "gfx//interface//missions//mission_champagne.dds"
+	}
+
+	spriteType = {
+		name = "mission_border_treaty"
+		texturefile = "gfx//interface//missions//mission_border_treaty.dds"
+	}
+
+	spriteType = {
+		name = "mission_norman_army"
+		texturefile = "gfx//interface//missions//mission_norman_army.dds"
+	}
+
+	spriteType = {
+		name = "mission_act_of_union"
+		texturefile = "gfx//interface//missions//mission_act_of_union.dds"
+	}
+
+	spriteType = {
+		name = "mission_wine_wars"
+		texturefile = "gfx//interface//missions//mission_wine_wars.dds"
+	}
+
+	spriteType = {
+		name = "mission_push_into_auvergne"
+		texturefile = "gfx//interface//missions//mission_push_into_auvergne.dds"
+	}
 }	
 

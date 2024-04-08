@@ -144,83 +144,75 @@ can_burn_colony = {
 }
 
 can_colonize_province = {
-	condition = {
-		tooltip = CAN_COLONISE_ALWAYS
-		potential = { 
-			OR = {
-				has_terrain = coastline
-				has_terrain = farmlands
-				has_terrain = grasslands
-				has_terrain = woods
-				has_terrain = forest
-				has_terrain = drylands
-			}
-			has_port = yes
-		}
-		allow = { 
-			always = yes
-		}
-	}
-	condition = {
-		tooltip = CANT_COLONISE_INLAND
-		potential = { 
-			OR = {
-				has_terrain = coastline
-				has_terrain = farmlands
-				has_terrain = grasslands
-				has_terrain = woods
-				has_terrain = forest
-				has_terrain = drylands
-			}
-			has_port = no
-		}
-		allow = { 
-			dip_tech = 12 
-		}
-	}
-	condition = {
-		tooltip = CANT_COLONISE_DIFFICULT_TERRAIN
-		potential = { 
-			OR = {
-				has_terrain = hills
-				has_terrain = coastal_desert
-				has_terrain = mountain
-				has_terrain = highlands
-			}
-		}
-		allow = { 
-			dip_tech = 16
-		}
-	}
-	condition = {
-		tooltip = CANT_COLONISE_VERY_DIFFICULT_TERRAIN
-		potential = {  
-			OR = {
-				has_terrain = glacier
-				has_terrain = impassable_mountains
-				has_terrain = jungle
-				has_terrain = marsh
-				has_terrain = desert
-				has_terrain = savannah
-				has_terrain = steppe
-			}
-		}
-		allow = { 
-			dip_tech = 22
-		}
-	}
+	# condition = {
+	# 	tooltip = CAN_COLONISE_ALWAYS
+	# 	potential = { 
+	# 		OR = {
+	# 			has_terrain = coastline
+	# 			has_terrain = farmlands
+	# 			has_terrain = grasslands
+	# 			has_terrain = woods
+	# 			has_terrain = forest
+	# 			has_terrain = drylands
+	# 		}
+	# 		has_port = yes
+	# 	}
+	# 	allow = { 
+	# 		always = yes
+	# 	}
+	# }
+	# condition = {
+	# 	tooltip = CANT_COLONISE_INLAND
+	# 	potential = { 
+	# 		OR = {
+	# 			has_terrain = coastline
+	# 			has_terrain = farmlands
+	# 			has_terrain = grasslands
+	# 			has_terrain = woods
+	# 			has_terrain = forest
+	# 			has_terrain = drylands
+	# 		}
+	# 		has_port = no
+	# 	}
+	# 	allow = { 
+	# 		dip_tech = 12 
+	# 	}
+	# }
+	# condition = {
+	# 	tooltip = CANT_COLONISE_DIFFICULT_TERRAIN
+	# 	potential = { 
+	# 		OR = {
+	# 			has_terrain = hills
+	# 			has_terrain = coastal_desert
+	# 			has_terrain = mountain
+	# 			has_terrain = highlands
+	# 		}
+	# 	}
+	# 	allow = { 
+	# 		dip_tech = 16
+	# 	}
+	# }
+	# condition = {
+	# 	tooltip = CANT_COLONISE_VERY_DIFFICULT_TERRAIN
+	# 	potential = {  
+	# 		OR = {
+	# 			has_terrain = glacier
+	# 			has_terrain = impassable_mountains
+	# 			has_terrain = jungle
+	# 			has_terrain = marsh
+	# 			has_terrain = desert
+	# 			has_terrain = savannah
+	# 			has_terrain = steppe
+	# 		}
+	# 	}
+	# 	allow = { 
+	# 		dip_tech = 22
+	# 	}
+	# }
 }
 
 can_colonize_province_siberian_frontier = {
-	# condition = {
-	#	tooltip = "CANNOT_COLONIZE"
-	#	potential = {
-	#		has_province_modifier = the_wild_fields
-	#	}
-	#	allow = {
-	#		always = no
-	#	}
-	#}
+
 }
 
 can_add_seat_in_parliament = {
@@ -266,77 +258,77 @@ is_possible_hre_province = {
 		potential = {
 		}
 		allow = {
-			# OR = {
-			# 	region = iberia_region
-			# 	region = france_region
-			# 	region = italy_region
-			# 	region = balkan_region
-			# 	region = anatolia_region
-			# 	area = carinthia_area
-			# 	area = transdanubia_area
-			# 	area = inner_austria_area
-			# 	area = austria_proper_area
-			# 	area = east_bavaria_area
-			# 	area = lower_bavaria_area
-			# 	area = upper_bavaria_area
-			# 	area = tirol_area
-			# 	area = raetia_area
-			# 	area = switzerland_area
-			# 	area = romandie_area
-			# 	area = upper_swabia_area
-			# 	province_id = 4710
-			# 	province_id = 4712
-			# 	province_id = 4713
-			# 	area = upper_rhineland_area
-			# 	area = lower_rhineland_area
-			# 	area = wallonia_area
-			# 	area = brabant_area
-			# 	area = flanders_area
-			# 	province_id = 96
-			# 	province_id = 1761
-			# 	area = home_counties_area
-			# 	area = east_anglia_area
-			# 	area = wessex_area
-			# 	area = west_midlands_area
-			# 	area = east_midlands_area
-			# 	area = south_wales_area
-			# 	area = dyfed_area
-			# 	area = wales_area
-			# 	area = yorkshire_area
-			# 	area = scottish_marches_area
-			# 	province_id = 4718
-			# 	province_id = 246
-			# 	province_id = 4365
-			# 	area = northern_morocco_area
-			# 	area = western_morocco_area
-			# 	area = marrekesh_area
-			# 	area = algiers_area
-			# 	area = hautes_plaines_area
-			# 	area = barbary_coast_area
-			# 	area = ouled_nail_area
-			# 	area = kabylia_area
-			# 	area = tunisia_area
-			# 	area = djerba_area
-			# 	area = tripolitania_area
-			# 	area = cyrenaica_area
-			# 	area = al_wahat_area
-			# 	area = delta_area
-			# 	area = bahari_area
-			# 	area = said_area
-			# 	area = gulf_of_arabia_area
-			# 	area = sinai_area
-			# 	area = palestine_area
-			# 	area = syria_area
-			# 	area = aleppo_area
-			# 	area = cukurova_area
-			# 	area = trans_jordan_area
-			# 	province_id = 4270
-			# 	province_id = 405
-			# 	province_id = 4271
-			# 	area = dulkadir_area
-			# 	region = mesopotamia_area
-			# }
-			continent = europe
+			OR = {
+				region = iberia_region
+				region = france_region
+				region = italy_region
+				region = balkan_region
+				region = anatolia_region
+				area = carinthia_area
+				area = transdanubia_area
+				area = inner_austria_area
+				area = austria_proper_area
+				area = east_bavaria_area
+				area = lower_bavaria_area
+				area = upper_bavaria_area
+				area = tirol_area
+				area = raetia_area
+				area = switzerland_area
+				area = romandie_area
+				area = upper_swabia_area
+				province_id = 4710
+				province_id = 4712
+				province_id = 4713
+				area = upper_rhineland_area
+				area = lower_rhineland_area
+				area = wallonia_area
+				area = brabant_area
+				area = flanders_area
+				province_id = 96
+				province_id = 1761
+				area = home_counties_area
+				area = east_anglia_area
+				area = wessex_area
+				area = west_midlands_area
+				area = east_midlands_area
+				area = south_wales_area
+				area = dyfed_area
+				area = wales_area
+				area = yorkshire_area
+				area = scottish_marches_area
+				province_id = 4718
+				province_id = 246
+				province_id = 4365
+				area = northern_morocco_area
+				area = western_morocco_area
+				area = marrekesh_area
+				area = algiers_area
+				area = hautes_plaines_area
+				area = barbary_coast_area
+				area = ouled_nail_area
+				area = kabylia_area
+				area = tunisia_area
+				area = djerba_area
+				area = tripolitania_area
+				area = cyrenaica_area
+				area = al_wahat_area
+				area = delta_area
+				area = bahari_area
+				area = said_area
+				area = gulf_of_arabia_area
+				area = sinai_area
+				area = palestine_area
+				area = syria_area
+				area = aleppo_area
+				area = cukurova_area
+				area = trans_jordan_area
+				province_id = 4270
+				province_id = 405
+				province_id = 4271
+				area = dulkadir_area
+				region = mesopotamia_area
+			}
+			# continent = europe
 		}
 	}
 }

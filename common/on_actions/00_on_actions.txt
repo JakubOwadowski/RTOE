@@ -5221,6 +5221,15 @@ on_dip_exploited = {
 on_mil_exploited = {
 }
 on_raze = {
+	if = {
+		limit = {
+			NOT = { development = 10 }
+			owner = {
+				religion = khorne
+			}
+		}
+		change_religion = khorne
+	}
 }
 on_concentrate_development = {
 }

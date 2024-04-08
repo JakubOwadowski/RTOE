@@ -1,5 +1,6 @@
 government = monarchy
 add_government_reform = feudalism_reform
+set_estate_privilege = estate_nobles_norman_feudal_system
 government_rank = 2
 technology_group = western
 primary_culture = normand
@@ -11,13 +12,17 @@ historical_rival = FRA
 historical_rival = ANG #
 historical_rival = MRC # The English hate their overlords
 historical_rival = YRK #
-historical_rival = SCO
-historical_rival = CNN
-historical_rival = IRE
 historical_friend = BRI
-historical_friend = NOR
-historical_friend = DAN
 add_truce_with = SCO
+add_truce_with = GWY
+change_estate_land_share = { 
+	estate = estate_nobles
+	share = 15
+}
+change_estate_land_share = { 
+	estate = estate_burghers
+	share = -5
+}
 
 1440.1.1 = {
 	monarch = {
