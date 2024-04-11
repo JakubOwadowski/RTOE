@@ -148,21 +148,6 @@ emperor_landfriede = {
 emperor_reichstag_collegia = {
 	empire = hre
 	required_reform = emperor_perpetual_diet
-	disabled_by = emperor_hofgericht
-	gui_container = left_branch
-	ai_acceptance_decentralize = yes
-
-	potential = {
-		has_dlc = "Emperor"
-	}
-	emperor = {
-		max_free_cities = 3
-	}
-}
-
-emperor_expand_gemeiner_pfennig = {
-	empire = hre
-	required_reform = emperor_reichstag_collegia
 	gui_container = left_branch
 	ai_acceptance_decentralize = yes
 
@@ -180,6 +165,34 @@ emperor_expand_gemeiner_pfennig = {
 	}
 }
 
+emperor_expand_gemeiner_pfennig = {
+	empire = hre
+	required_reform = emperor_reichstag_collegia
+	disabled_by = emperor_hofgericht
+	gui_container = left_branch
+	ai_acceptance_decentralize = yes
+
+	potential = {
+		has_dlc = "Emperor"
+	}
+	emperor_per_prince = {
+		imperial_authority = 0.025
+	}
+	on_effect = {
+		custom_tooltip = RE_meditisation_tooltip
+		hidden_effect = {
+			every_country = {
+				limit = {
+					is_part_of_hre = yes
+					NOT = { num_of_cities = 2 }
+				}
+				set_country_flag = RE_to_be_annexed_flag
+			}
+		}
+	}
+
+}
+
 emperor_rechenschaft = {
 	empire = hre
 	required_reform = emperor_expand_gemeiner_pfennig
@@ -192,8 +205,11 @@ emperor_rechenschaft = {
 	emperor_per_prince = {
 		imperial_authority = 0.01
 	}
-	emperor = {
-		max_electors = 1
+	elector = {
+		manpower_in_true_faith_provinces = 0.25
+	}
+	elector_per_prince = {
+		global_tax_income = 0.25 
 	}
 }
 
@@ -208,13 +224,12 @@ emperor_geteilte_macht = {
 		has_dlc = "Emperor"
 	}
 	on_effect = {
-		custom_tooltip = GETEILTE_MACHT_EFFECT
+		enable_imperial_realm_war = yes
+		custom_tooltip = REICHSKRIEG_DEFENSE_OF_REALM_MODIFIER
 	}
-	elector_per_prince = {
-		global_tax_income = 0.5
-	}
-	province = {
-		local_development_cost = -0.05
+
+	off_effect = {
+		enable_imperial_realm_war = no
 	}
 }
 
@@ -228,12 +243,185 @@ emperor_reichskrieg = {
 		has_dlc = "Emperor"
 	}
 	on_effect = {
-		enable_imperial_realm_war = yes
-		custom_tooltip = REICHSKRIEG_DEFENSE_OF_REALM_MODIFIER
+		random_elector = {
+			limit = {
+				has_country_flag = italy_province
+			}
+			save_event_target_as = ITALY_PROVINCE
+		}
+		random_elector = {
+			limit = {
+				has_country_flag = spain_province
+			}
+			save_event_target_as = SPAIN_PROVINCE
+		}
+		random_elector = {
+			limit = {
+				has_country_flag = africa_province
+			}
+			save_event_target_as = AFRICA_PROVINCE
+		}
+		random_elector = {
+			limit = {
+				has_country_flag = gaul_province
+			}
+			save_event_target_as = GAUL_PROVINCE
+		}
+		random_elector = {
+			limit = {
+				has_country_flag = syria_province
+			}
+			save_event_target_as = SYRIA_PROVINCE
+		}
+		random_elector = {
+			limit = {
+				has_country_flag = egypt_province
+			}
+			save_event_target_as = EGYPT_PROVINCE
+		}
+		random_elector = {
+			limit = {
+				has_country_flag = anatolia_province
+			}
+			save_event_target_as = ANATOLIA_PROVINCE
+		}
+		every_country = {
+			limit = {
+				is_part_of_hre = yes
+				capital_scope = {
+					region = iberia_region
+				}
+				NOT = { is_subject_of = event_target:SPAIN_PROVINCE }
+			}
+			event_target:SPAIN_PROVINCE = {
+				create_subject = {
+					subject_type = feudal_vassal
+					subject = PREV
+				}
+			}
+		}
+		every_country = {
+			limit = {
+				is_part_of_hre = yes
+				capital_scope = {
+					OR = {
+						region = france_region
+						region = low_countries_region
+					}
+				}
+				NOT = { is_subject_of = event_target:GAUL_PROVINCE }
+			}
+			event_target:GAUL_PROVINCE = {
+				create_subject = {
+					subject_type = feudal_vassal
+					subject = PREV
+				}
+			}
+		}
+		every_country = {
+			limit = {
+				is_part_of_hre = yes
+				capital_scope = {
+					region = italy_region
+				}
+				NOT = { is_subject_of = event_target:ITALY_PROVINCE }
+			}
+			event_target:ITALY_PROVINCE = {
+				create_subject = {
+					subject_type = feudal_vassal
+					subject = PREV
+				}
+			}
+		}
+		every_country = {
+			limit = {
+				is_part_of_hre = yes
+				capital_scope = {
+					OR = {
+						region = mashriq_region
+						region = mesopotamia_area
+					}
+				}
+				NOT = { is_subject_of = event_target:SYRIA_PROVINCE }
+			}
+			event_target:SYRIA_PROVINCE = {
+				create_subject = {
+					subject_type = feudal_vassal
+					subject = PREV
+				}
+			}
+		}
+		every_country = {
+			limit = {
+				is_part_of_hre = yes
+				capital_scope = {
+					region = maghreb_region
+				}
+				NOT = { is_subject_of = event_target:AFRICA_PROVINCE }
+			}
+			event_target:AFRICA_PROVINCE = {
+				create_subject = {
+					subject_type = feudal_vassal
+					subject = PREV
+				}
+			}
+		}
+		every_country = {
+			limit = {
+				is_part_of_hre = yes
+				capital_scope = {
+					region = egypt_region
+				}
+				NOT = { is_subject_of = event_target:EGYPT_PROVINCE }
+			}
+			event_target:EGYPT_PROVINCE = {
+				create_subject = {
+					subject_type = feudal_vassal
+					subject = PREV
+				}
+			}
+		}
+		every_country = {
+			limit = {
+				is_part_of_hre = yes
+				capital_scope = {
+					region = anatolia_region
+				}
+				NOT = { is_subject_of = event_target:ANATOLIA_PROVINCE }
+			}
+			event_target:ANATOLIA_PROVINCE = {
+				create_subject = {
+					subject_type = feudal_vassal
+					subject = PREV
+				}
+			}
+		}
+		every_country = {
+			limit = {
+				is_part_of_hre = yes
+				is_subject = no
+				is_elector = no
+			}
+			ROM = {
+				create_subject = {
+					subject_type = feudal_vassal
+					subject = PREV
+				}
+			}
+		}
+		every_country = {
+			limit = {
+				is_part_of_hre = yes
+				is_subject = no
+			}
+			change_country_color = {
+				country = ROM
+			}
+		}
 	}
 
 	off_effect = {
-		enable_imperial_realm_war = no
+
 	}
 }
 

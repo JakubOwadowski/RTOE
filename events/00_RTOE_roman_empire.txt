@@ -4,15 +4,15 @@ namespace = hre_event
 #Renovatio - Emperor
 country_event = {
 	id = RTOE_roman_empire.1
-	title = "EVTNAME9075"
-	desc = "EVTDESC9075"
+	title = RTOE_roman_empire.1.t
+	desc = RTOE_roman_empire.1.d
 	picture = HRE_eventPicture
 
 	major = yes
 	is_triggered_only = yes
 	
 	option = {
-		name = "EVTOPTA9075"
+		name = RTOE_roman_empire.1.a
 		change_tag = ROM
 		restore_country_name_effect = yes
 		add_country_modifier = {
@@ -426,5 +426,101 @@ country_event = {
 		ai_chance = {
 			factor = 1
 		}
+	}
+}
+
+#Meditisation
+country_event = {
+	id = RTOE_roman_empire.3
+	title = RTOE_roman_empire.3.t
+	desc = RTOE_roman_empire.3.d
+	picture = HRE_eventPicture
+
+	trigger = {
+		has_country_flag = RE_to_be_annexed_flag
+		is_at_war = no
+		OR = {
+			AND = {
+				is_subject = yes
+				overlord = {
+					is_part_of_hre = yes
+				}
+			}
+			AND = {
+				is_subject = no
+				any_neighbor_country = {
+					num_of_cities = 2
+					is_part_of_hre = yes
+					is_free_or_tributary_trigger = yes
+				}
+			}
+		}
+	}
+
+	option = {
+		name = RTOE_roman_empire.3.a
+		if = {
+			limit = {
+				is_subject = yes
+				overlord = {
+					is_part_of_hre = yes
+				}
+			}
+			overlord = {
+				inherit = ROOT
+			}
+		}
+		else_if = {
+			limit = {
+				is_free_or_tributary_trigger = yes
+				any_neighbor_country = {
+					num_of_cities = 2
+					is_part_of_hre = yes
+					is_free_or_tributary_trigger = yes
+					capital_scope = {
+						area_for_scope_province = { is_capital_of = ROOT }
+					}
+				}
+			}
+			random_neighbor_country = {
+				limit = {
+					num_of_cities = 2
+					is_part_of_hre = yes
+					is_free_or_tributary_trigger = yes
+					capital_scope = {
+						area_for_scope_province = { is_capital_of = ROOT }
+					}
+				}
+				inherit = ROOT
+			}
+		}
+		else_if = {
+			limit = {
+				is_free_or_tributary_trigger = yes
+				any_neighbor_country = {
+					num_of_cities = 2
+					is_part_of_hre = yes
+					is_free_or_tributary_trigger = yes
+				}
+			}
+			random_neighbor_country = {
+				limit = {
+					any_neighbor_country = {
+						num_of_cities = 2
+						is_part_of_hre = yes
+						is_free_or_tributary_trigger = yes
+					}
+				}
+				inherit = ROOT
+			}
+		}
+	}
+
+	option = {
+		name = RTOE_roman_empire.3.b
+		ai_chance = {
+			factor = 0
+		}
+		clr_country_flag = RE_to_be_annexed_flag
 	}
 }
