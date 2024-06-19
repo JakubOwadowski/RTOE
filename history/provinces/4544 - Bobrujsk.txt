@@ -1,7 +1,7 @@
 # - Bobrujsk
 owner = OLT
 controller = OLT
-culture = vlach
+culture = transylvanian
 religion = orthodox
 base_tax = 1
 base_production = 1

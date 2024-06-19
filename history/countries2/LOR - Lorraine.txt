@@ -1,8 +1,0 @@
-government = monarchy
-add_government_reform = feudalism_reform
-government_rank = 1
-primary_culture = lieunnois
-religion = orthodox
-religious_school = see_of_rome
-technology_group = western
-capital = 188	# Nancy

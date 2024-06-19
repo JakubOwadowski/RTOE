@@ -1,7 +1,7 @@
 #4126 - Bács (Bacs + Bodrog + parts of Csongrad and Kiskunság)
-owner = SZL
-controller = SZL
-culture = serbian
+owner = BUL
+controller = BUL
+culture = bulgarian
 religion = orthodox
 capital = "Bács"
 trade_goods = livestock
@@ -46,3 +46,4 @@ discovered_by = ottoman
 1769.1.1 = { controller = REB revolt = { type = nationalist_rebels size = 2 } }
 1770.1.1 = { controller = HAB revolt = { size = 1 } }
 add_core = SZL
+add_core = BUL

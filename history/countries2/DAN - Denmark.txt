@@ -1,8 +1,0 @@
-government = monarchy
-add_government_reform = feudalism_reform
-primary_culture = danish
-religion = orthodox
-religious_school = see_of_rome
-technology_group = eastern
-historical_friend = NOR
-capital = 12 #Sjaelland

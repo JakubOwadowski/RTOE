@@ -1,8 +1,6 @@
 #Dorpat
 owner = TTU
 controller = TTU
-add_core = LTG
-add_core = EST
 culture = estonian
 religion = finnish_pagan_reformed
 base_tax = 3

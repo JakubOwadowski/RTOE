@@ -1,6 +1,6 @@
 #Country Name: Please see filename.
 graphical_culture = westerngfx
-color = { 100 50 150 }
+color = { 30 100 130 }
 revolutionary_colors = { 15 6 16 } #Parthenopean Republic
 historical_score = 120
 historical_idea_groups = { 

@@ -1,8 +1,0 @@
-government = tribal
-add_government_reform = tribal_kingdom
-government_rank = 1
-primary_culture = prussian
-add_accepted_culture = galindian
-religion = baltic_pagan_reformed
-technology_group = eastern
-capital = 1841 # Truso

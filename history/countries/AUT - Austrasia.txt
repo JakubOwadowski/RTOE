@@ -4,4 +4,4 @@ primary_culture = austrasien
 religion = orthodox
 religious_school = see_of_rome
 technology_group = western
-capital = 1878 # Aquisgranne 
+capital = 1878

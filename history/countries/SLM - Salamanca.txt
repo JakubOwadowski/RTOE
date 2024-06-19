@@ -5,10 +5,9 @@ primary_culture = leonese
 religion = orthodox
 religious_school = see_of_rome
 technology_group = western
-capital = 216 #Salamanca
-
-1434.1.1 = {
-	monarch = {
+capital = 216#Salamanca
+1434.1.1 = { 
+	monarch = { 
 		name = "Alfonso I"
 		adm = 1
 		dip = 4

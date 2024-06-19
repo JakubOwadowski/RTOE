@@ -5,5 +5,5 @@ technology_group = eastern
 religion = orthodox
 religious_school = see_of_constantinople
 primary_culture = ruthenian
-capital = 278	# Pinsk
+capital = 278# Pinsk
 fixed_capital = 278

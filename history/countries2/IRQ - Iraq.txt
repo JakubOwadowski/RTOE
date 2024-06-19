@@ -1,7 +1,0 @@
-government = monarchy
-add_government_reform = iqta
-primary_culture = al_iraqiya_arabic
-add_accepted_culture = syriac
-religion = sunni
-technology_group = muslim
-capital = 4292	# Bagdad

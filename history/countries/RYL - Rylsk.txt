@@ -4,12 +4,10 @@ government_rank = 1
 technology_group = eastern
 religion = orthodox
 primary_culture = ryazanian
-capital = 4543	# Rylsk
-fixed_capital = 4543 # Cannot move capital away from this province & no power cost to move to it
-
-
-1390.1.1 = {
-	monarch = {
+capital = 4543# Rylsk
+fixed_capital = 4543# Cannot move capital away from this province & no power cost to move to it
+1390.1.1 = { 
+	monarch = { 
 		name = "Feodor I"
 		dynasty = "Rurikovich"
 		adm = 1
@@ -17,17 +15,15 @@ fixed_capital = 4543 # Cannot move capital away from this province & no power co
 		mil = 2
 	}
 }
-
-1454.1.1 = {
-	monarch = {
+1454.1.1 = { 
+	monarch = { 
 		name = "Ivan I"
 		dynasty = "Shemyakin"
 		adm = 4
 		dip = 3
 		mil = 5
 	}
-	
-	heir = {
+	heir = { 
 		name = "Vasiliy"
 		monarch_name = "Vasiliy I"
 		dynasty = "Shemyakin"
@@ -38,9 +34,8 @@ fixed_capital = 4543 # Cannot move capital away from this province & no power co
 		mil = 1
 	}
 }
-
-1471.1.1 = {
-	monarch = {
+1471.1.1 = { 
+	monarch = { 
 		name = "Vasiliy I"
 		dynasty = "Shemyakin"
 		adm = 0

@@ -1,7 +1,0 @@
-government = monarchy
-add_government_reform = feudalism_reform
-primary_culture = czech
-religion = orthodox
-religious_school = see_of_constantinople
-capital = 266 # Praha
-technology_group = eastern

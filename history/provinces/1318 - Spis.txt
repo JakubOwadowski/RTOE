@@ -42,3 +42,4 @@ discovered_by = QAS
 1710.1.1 = { revolt = { size = 1 } }
 1711.1.1 = { controller = HAB }
 add_core = KRA
+add_core = MVA

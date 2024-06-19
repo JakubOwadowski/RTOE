@@ -6,6 +6,9 @@ estate_nobles_norman_feudal_system = {
 	can_select = {
 		has_estate_privilege = estate_nobles_norman_feudal_system
 	}
+	can_revoke = {
+		always = no
+	}
 	penalties = {
 		min_autonomy = 25
 		stability_cost_modifier = 0.25

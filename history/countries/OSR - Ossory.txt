@@ -5,9 +5,8 @@ technology_group = western
 primary_culture = irish
 religion = ofbrit
 capital = 4951
-
-1431.1.1 = {
-	monarch = {
+1431.1.1 = { 
+	monarch = { 
 		name = "Snedgus I"
 		dynasty = "Mac Gilla Patraic"
 		adm = 2

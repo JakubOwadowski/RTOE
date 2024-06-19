@@ -5,9 +5,8 @@ primary_culture = savo
 religion = finnish_pagan_reformed
 technology_group = eastern
 capital = 31
-
-1444.1.1 = {
-	monarch = {
+1444.1.1 = { 
+	monarch = { 
 		name = "Tribal Council"
 		adm = 3
 		dip = 3

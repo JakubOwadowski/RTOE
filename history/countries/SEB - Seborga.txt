@@ -4,12 +4,11 @@ technology_group = western
 religion = orthodox
 religious_school = see_of_rome
 primary_culture = ligurian
-capital = 5046 # Seborga
-fixed_capital = 5046 # Cannot move capital away from this province & no power cost to move to it
+capital = 5046# Seborga
+fixed_capital = 5046# Cannot move capital away from this province & no power cost to move to it
 government_rank = 1
-
-1399.1.1 = {
-	monarch = {
+1399.1.1 = { 
+	monarch = { 
 		name = "Consiglio Comunale"
 		adm = 3
 		dip = 3
@@ -17,4 +16,3 @@ government_rank = 1
 		regent = yes
 	}
 }
-

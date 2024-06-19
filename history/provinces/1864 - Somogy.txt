@@ -2,9 +2,9 @@
 latent_trade_goods = { 
 	coal 
 }
-owner = SZL
-controller = SZL
-culture = croatian
+owner = BUL
+controller = BUL
+culture = bulgarian
 religion = orthodox
 capital = "Kaposvár"
 trade_goods = livestock
@@ -41,3 +41,4 @@ discovered_by = ottoman
 	controller = HAB
 }
 add_core = SZL
+add_core = BUL

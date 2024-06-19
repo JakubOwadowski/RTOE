@@ -1,7 +1,7 @@
 #2424 - Przemysl
 owner = UKR
 controller = UKR
-culture = ruthenian
+culture = carpat
 religion = orthodox
 base_tax = 3
 base_production = 3
@@ -9,7 +9,6 @@ trade_goods = livestock
 base_manpower = 1
 capital = "Przemysl"
 is_city = yes
-add_core = VOL
 discovered_by = KAZ
 discovered_by = CRI
 discovered_by = GOL

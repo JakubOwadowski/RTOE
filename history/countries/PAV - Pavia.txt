@@ -4,4 +4,4 @@ government_rank = 1
 primary_culture = cisalpine
 religion = orthodox
 technology_group = western
-capital = 4728 # Pavia
+capital = 4728

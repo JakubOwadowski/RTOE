@@ -1,7 +1,7 @@
 #1954 - Torontál
 owner = BUL
 controller = BUL
-culture = serbian
+culture = transylvanian
 religion = orthodox
 capital = "Nagybecskerek"
 trade_goods = livestock

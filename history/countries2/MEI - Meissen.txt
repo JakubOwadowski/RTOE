@@ -1,8 +1,0 @@
-government = monarchy
-add_government_reform = feudalism_reform
-government_rank = 1
-primary_culture = sorbian
-religion = orthodox
-religious_school = see_of_rome
-technology_group = eastern
-capital = 61	# Meissen

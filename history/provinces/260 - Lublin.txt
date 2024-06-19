@@ -45,4 +45,3 @@ center_of_trade = 2
 	add_core = RUS
 }
 add_core = UKR
-add_core = VOL

@@ -5,11 +5,10 @@ technology_group = western
 primary_culture = cosmopolitan_french
 religion = orthodox
 religious_school = see_of_rome
-capital = 4988	# Laval
+capital = 4988# Laval
 fixed_capital = 4988
-
-1399.1.1 = {
-	monarch = {
+1399.1.1 = { 
+	monarch = { 
 		name = "Conseil Municipal"
 		adm = 3
 		dip = 3
@@ -17,4 +16,3 @@ fixed_capital = 4988
 		regent = yes
 	}
 }
-

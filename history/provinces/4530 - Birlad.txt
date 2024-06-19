@@ -1,6 +1,6 @@
 #4530 - Birlad
-owner = BUL
-controller = BUL
+owner = BES
+controller = BES
 culture = moldavian
 religion = orthodox
 capital = "Birlad"
@@ -29,4 +29,5 @@ discovered_by = nomad_group
 1791.8.4 = { controller = MOL }
 1806.1.1 = { controller = RUS }
 1812.5.28 = { add_core = RUS }
-add_core = BUL
+add_core = BES
+add_core = MOL

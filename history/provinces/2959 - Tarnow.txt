@@ -1,6 +1,6 @@
 #2959 - Tarnow
-owner = POL
-controller = POL
+owner = UKR
+controller = UKR
 capital = "Tarnów"
 culture = polish
 religion = orthodox
@@ -33,3 +33,4 @@ discovered_by = ottoman
 1733.1.1 = { controller = REB revolt = { type = revolutionary_rebels size = 0 } }
 1735.1.1 = { controller = PLC revolt = { size = 1 } }
 1772.8.5 = { controller = HAB add_core = HAB }
+add_core = UKR

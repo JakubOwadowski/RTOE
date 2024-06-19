@@ -1,6 +1,6 @@
 #436 - Birjand
-owner = TBR
-controller = TBR
+owner = YZD
+controller = YZD
 culture = persian
 religion = shiite
 capital = "Birjand"

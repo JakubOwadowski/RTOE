@@ -4,10 +4,9 @@ technology_group = western
 primary_culture = english
 religion = orthodox
 religious_school = see_of_rome
-capital = 4372	# Coventry
-
-1444.1.1 = {
-	monarch = {
+capital = 4372# Coventry
+1444.1.1 = { 
+	monarch = { 
 		name = "Alan III"
 		dynasty = "Wyche"
 		birth_date = 1396.2.23
@@ -16,7 +15,7 @@ capital = 4372	# Coventry
 		dip = 5
 		mil = 6
 	}
-	heir = {
+	heir = { 
 		name = "Gabriel"
 		monarch_name = "Gabriel II"
 		dynasty = "Wyche"

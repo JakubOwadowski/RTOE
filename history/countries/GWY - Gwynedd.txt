@@ -4,27 +4,26 @@ government_rank = 1
 technology_group = western
 primary_culture = welsh
 religion = ofbrit
-capital = 242	# Gwynedd
-
-1444.1.1 = {
-        monarch = {
-                name = "Gruffydd"
-                dynasty = "Aberffraw"
-                birth_date = 1396.5.11
-                death_date = 1456.7.24
-                adm = 6
-                dip = 5
-                mil = 4
-        }
-        heir = {
-                name = "Llewelyn"
-                monarch_name = "Llewelyn III"
-                dynasty = "Aberffraw"
-                birth_date = 1427.5.27
-                death_date = 1475.6.21
-                claim = 90
-                adm = 1
-                dip = 1
-                mil = 3
-        }
+capital = 242# Gwynedd
+1444.1.1 = { 
+	monarch = { 
+		name = "Gruffydd"
+		dynasty = "Aberffraw"
+		birth_date = 1396.5.11
+		death_date = 1456.7.24
+		adm = 6
+		dip = 5
+		mil = 4
+	}
+	heir = { 
+		name = "Llewelyn"
+		monarch_name = "Llewelyn III"
+		dynasty = "Aberffraw"
+		birth_date = 1427.5.27
+		death_date = 1475.6.21
+		claim = 90
+		adm = 1
+		dip = 1
+		mil = 3
+	}
 }

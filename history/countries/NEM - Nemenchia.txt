@@ -4,11 +4,10 @@ government_rank = 2
 primary_culture = algerian
 religion = orthodox
 technology_group = muslim
-capital = 352	# Gafsa
+capital = 352# Gafsa
 religious_school = see_of_alexandria
-
-1437.1.1 = {
-	monarch = {
+1437.1.1 = { 
+	monarch = { 
 		name = "Yakob IV"
 		dynasty = "Basilid"
 		adm = 6

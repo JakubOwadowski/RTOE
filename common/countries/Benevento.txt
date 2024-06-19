@@ -1,6 +1,6 @@
 #Country Name: Please see filename.
 graphical_culture = westerngfx
-color = { 80 60 150 }
+color = { 95 103 126 }
 historical_idea_groups = { 
 	trade_ideas
 	quantity_ideas

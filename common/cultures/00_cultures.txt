@@ -1,16 +1,7 @@
-# Do not change tags in here without changing every other reference to them.
-# If adding new groups or cultures, make sure they are unique.
-#
-# Union tags do not suffer from the 'same_culture_group' tax penalty.
-# Primary tags are the first choice for rebel factions seeking cultural independence.
-#
-# graphical_culture = westerngfx
-# second_graphical_culture = muslimgfx (fallback if the first does not exist)
-
 germanic = {
+
 	graphical_culture = westerngfx
 
-	male_names = { Gunther Rolf }
 	longbard = {
 		primary = LOM
 		male_names = {
@@ -341,6 +332,9 @@ germanic = {
 			Japiks "fan Jever" Jelckama Jelgersma Lenige Ripperda "fan Rossum" Steenbicker 
 			Sirksena Syrtsema "fan Thabor" Vitringa Walles Wiarda Zelle
 		}
+	}
+	male_names = { 
+		Gunther Rolf 
 	}
 	female_names = {
 		Adele Adelgunde Adelheid Adolfine Agatha Agnes Alexandra Alice Alina Aline Alma Alwina Alwine Amalia Amalie Amanda 
@@ -10158,7 +10152,6 @@ armenian_group = {
 		Sirvart Srpouhi Shoushanig Takouhi Tamar Tamar Vartanoush Vartouhi Vosgi Yeva Zabel Elizabeth 
 	}
 }
-
 
 african_romance = {
 	graphical_culture = muslimgfx

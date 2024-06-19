@@ -72,6 +72,7 @@ poland_region = {
 ruthenia_region = { 
 	areas = { 
 		west_dniepr_area east_dniepr_area sloboda_ukraine_area white_ruthenia_area pripyat_area smolensk_area podlasie_area volhynia_area red_ruthenia_area oka_area
+		podolia_volhynia_area chernigov_area 
 	}
 }
 crimea_region = { 

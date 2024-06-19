@@ -1,7 +1,7 @@
 #156 - Temes
 owner = BUL
 controller = BUL
-culture = vlach
+culture = transylvanian
 religion = orthodox
 capital = "Temesvár"
 trade_goods = wool

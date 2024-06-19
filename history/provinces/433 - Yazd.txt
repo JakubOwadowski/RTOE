@@ -1,6 +1,6 @@
 #433 - Yadz
-owner = TBR
-controller = TBR
+owner = YZD
+controller = YZD
 culture = persian
 religion = zoroastrian
 capital = "Yazd"

@@ -5,5 +5,5 @@ technology_group = eastern
 religion = orthodox
 religious_school = see_of_constantinople
 primary_culture = carpat
-capital = 1940	# Belz
+capital = 1940# Belz
 fixed_capital = 1940

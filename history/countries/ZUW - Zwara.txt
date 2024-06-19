@@ -4,11 +4,10 @@ government_rank = 2
 primary_culture = berber
 religion = orthodox
 technology_group = muslim
-capital = 2452	# Zuwarah
+capital = 2452# Zuwarah
 religious_school = see_of_rome
-
-1438.1.1 = {
-	monarch = {
+1438.1.1 = { 
+	monarch = { 
 		name = "Azuz II"
 		dynasty = "Ifranid"
 		adm = 4

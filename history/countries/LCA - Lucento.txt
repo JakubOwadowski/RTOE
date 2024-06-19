@@ -6,5 +6,5 @@ primary_culture = visigo
 religion = orthodox
 religious_school = see_of_rome
 technology_group = western
-capital = 1750 #Lucento
+capital = 1750#Lucento
 fixed_capital = 1750

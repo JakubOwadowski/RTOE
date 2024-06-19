@@ -5,4 +5,4 @@ religion = orthodox
 religious_school = see_of_rome
 primary_culture = longbard
 add_accepted_culture = slovene
-capital = 1863	# Graz
+capital = 1863

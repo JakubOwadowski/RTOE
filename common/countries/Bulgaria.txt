@@ -1,8 +1,7 @@
 #Country Name: Please see filename.
 graphical_culture = easterngfx
 preferred_religion = reformed
-
-color = { 116 107 140 }
+color = { 130 178 92 }
 revolutionary_colors = { 0 10 5 }
 historical_idea_groups = { 
 	defensive_ideas
@@ -78,15 +77,12 @@ monarch_names = {
 }
 leader_names = { 
 	Balina
-	Djordjic Dobrovski Frujin
-	Karposh Konstantin Marinov
-	Peyachevich
+	Djordjic Dobrovski Frujin Karposh Konstantin Marinov Peyachevich
 	Radic Rali Shishman Sorkochovich Strahil Stratimirovich 
 }
 ship_names = { 
 	Alhtpolo
-	Kiten Kraymorie Lozenets
-	Promorsko
+	Kiten Kraymorie Lozenets Promorsko
 	Rezovo
-	Sarafovo Sinemorets Sozopol Varara
+	Sarafovo Sinemorets Sozopol Varara 
 }

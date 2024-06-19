@@ -49,7 +49,6 @@
 4537 = "Naugardukas"
 4545 = "Sluckas"
 4539 = "Kremenecas"
-4247 = "Ovrucas"
 4544 = "Babruiskas"
 292 = "Mogiliavas"
 4246 = "Mstislavlis"

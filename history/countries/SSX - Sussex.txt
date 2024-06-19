@@ -4,4 +4,4 @@ government_rank = 1
 technology_group = western
 primary_culture = english
 religion = ofbrit
-capital = 4371	# Sussex
+capital = 4371# Sussex

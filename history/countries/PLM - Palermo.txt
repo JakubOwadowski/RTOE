@@ -4,12 +4,11 @@ technology_group = western
 religion = orthodox
 religious_school = see_of_constantinople
 primary_culture = sicilian
-capital = 125 # Palermo
-fixed_capital = 125 # Cannot move capital away from this province & no power cost to move to it
+capital = 125# Palermo
+fixed_capital = 125# Cannot move capital away from this province & no power cost to move to it
 government_rank = 1
-
-1399.1.1 = {
-	monarch = {
+1399.1.1 = { 
+	monarch = { 
 		name = "Consiglio Comunale"
 		adm = 3
 		dip = 3
@@ -17,4 +16,3 @@ government_rank = 1
 		regent = yes
 	}
 }
-

@@ -1,8 +1,0 @@
-government = republic
-add_government_reform = cossack_host
-technology_group = nomad_group
-religion = orthodox
-religious_school = see_of_constantinople
-primary_culture = cossack
-capital = 283	# Zaporozhia
-government_rank = 1

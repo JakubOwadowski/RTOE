@@ -1,6 +1,6 @@
 #2234 - Rafsanjan
-owner = TBR
-controller = TBR
+owner = YZD
+controller = YZD
 culture = persian
 religion = zoroastrian
 capital = "Rafsanjan"
@@ -33,3 +33,4 @@ discovered_by = nomad_group
 1550.1.1 = { discovered_by = TUR }
 1673.1.1 = { discovered_by = ENG }
 1707.5.12 = { discovered_by = GBR }
+add_core = YZD

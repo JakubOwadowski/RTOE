@@ -5,4 +5,4 @@ primary_culture = saxon
 religion = orthodox
 elector = yes
 technology_group = eastern
-capital = 53 # Lauenburg
+capital = 53

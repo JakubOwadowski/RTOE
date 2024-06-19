@@ -5,4 +5,4 @@ primary_culture = visigo
 religion = orthodox
 religious_school = see_of_rome
 technology_group = western
-capital = 1742	# Elbora
+capital = 1742# Elbora

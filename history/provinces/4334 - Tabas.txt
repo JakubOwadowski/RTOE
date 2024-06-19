@@ -1,6 +1,6 @@
 #4334 - Tabas
-owner = TBR
-controller = TBR
+owner = YZD
+controller = YZD
 culture = persian
 religion = shiite
 capital = "Tabas"

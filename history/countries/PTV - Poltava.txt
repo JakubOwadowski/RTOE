@@ -4,5 +4,5 @@ technology_group = nomad_group
 religion = orthodox
 religious_school = see_of_constantinople
 primary_culture = cossack
-capital = 290	# Poltava
+capital = 290# Poltava
 government_rank = 1

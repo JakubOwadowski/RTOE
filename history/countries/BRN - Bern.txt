@@ -6,5 +6,5 @@ religion = orthodox
 religious_school = see_of_rome
 primary_culture = swabian
 add_accepted_culture = burgundian
-capital = 165 # Bern
+capital = 165# Bern
 add_army_professionalism = 0.1

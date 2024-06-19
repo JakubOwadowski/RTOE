@@ -4,37 +4,36 @@ government_rank = 1
 primary_culture = pomorzan
 religion = slavic_pagan_reformed
 technology_group = eastern
-capital = 1858	# Stettin
-
-1444.1.1 = {
-        monarch = {
-                name = "Morës II"
-                dynasty = "Grëf"
-                birth_date = 1422.7.25
-                death_date = 1482.5.16
-                adm = 0
-                dip = 4
-                mil = 4
-        }
-        heir = {
-                name = "Michôl"
-                monarch_name = "Michôl II"
-                dynasty = "Grëf"
-                birth_date = 1416.8.15
-                death_date = 1456.9.25
-                claim = 90
-                adm = 0
-                dip = 0
-                mil = 0
-        }
-        queen = {
-                name = "Józëfa"
-                dynasty = "Drëzdzow"
-                birth_date = 1389.5.11
-                death_date = 1449.6.16
-                female = yes
-                adm = 0
-                dip = 1
-                mil = 0
-        }
+capital = 1858# Stettin
+1444.1.1 = { 
+	monarch = { 
+		name = "Morës II"
+		dynasty = "Grëf"
+		birth_date = 1422.7.25
+		death_date = 1482.5.16
+		adm = 0
+		dip = 4
+		mil = 4
+	}
+	heir = { 
+		name = "Michôl"
+		monarch_name = "Michôl II"
+		dynasty = "Grëf"
+		birth_date = 1416.8.15
+		death_date = 1456.9.25
+		claim = 90
+		adm = 0
+		dip = 0
+		mil = 0
+	}
+	queen = { 
+		name = "Józëfa"
+		dynasty = "Drëzdzow"
+		birth_date = 1389.5.11
+		death_date = 1449.6.16
+		female = yes
+		adm = 0
+		dip = 1
+		mil = 0
+	}
 }
