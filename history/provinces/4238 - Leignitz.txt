@@ -1,7 +1,7 @@
 #4238 - Liegnitz (Liegnitz+Schweidnitz+Jauer+Glatz+Neisse+Münsterberg)
 #Coal
-owner = POL
-controller = POL
+owner = LGC
+controller = LGC
 culture = polish
 religion = orthodox
 capital = "Lignica"
@@ -34,5 +34,4 @@ discovered_by = ottoman
 	base_manpower = 13
 }
 1806.7.12 = { hre = no }
-add_core = POL
 add_core = LGC

@@ -1,6 +1,6 @@
 #258 - Lodz
-owner = POL
-controller = POL
+owner = KUY
+controller = KUY
 capital = "Sieradz"
 culture = polish
 religion = orthodox
@@ -43,4 +43,4 @@ discovered_by = ottoman
 1814.4.11 = { 
 	add_core = RUS
 }
-add_core = POL
+add_core = KUY

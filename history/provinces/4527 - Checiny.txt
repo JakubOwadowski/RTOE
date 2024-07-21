@@ -1,6 +1,6 @@
 #4527 - Checiny
-owner = KRA
-controller = KRA
+owner = BOH
+controller = BOH
 capital = "Checiny"
 culture = polish
 religion = orthodox
@@ -40,3 +40,5 @@ discovered_by = ottoman
 	add_core = RUS
 }
 add_core = KRA
+add_core = BOH
+add_core = POL

@@ -1,6 +1,6 @@
 #1318 - Spiš
-owner = KRA
-controller = KRA
+owner = BUL
+controller = BUL
 culture = slovak
 religion = orthodox
 capital = "Spiš"
@@ -43,3 +43,4 @@ discovered_by = QAS
 1711.1.1 = { controller = HAB }
 add_core = KRA
 add_core = MVA
+add_core = BUL

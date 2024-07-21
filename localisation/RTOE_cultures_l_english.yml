@@ -96,8 +96,9 @@
  ###Daco-Romance###
  dacish: "Daco-Romance"
  dacian: "Dacian"
- transylvanian: "Transylvanian" #Transylvanian Romanians
  thessalian: "Thessalian"
+ vlach: "South Dacian"
+ moldavian: "North Dacian"
  
  ###Basques###
  basque_group: "Basquic"

@@ -1,6 +1,6 @@
 #262 - Sadecki
-owner = KRA
-controller = KRA
+owner = BOH
+controller = BOH
 culture = polish
 religion = orthodox
 capital = "Nowy Sacz"
@@ -30,3 +30,5 @@ discovered_by = ottoman
 1735.1.1 = { controller = PLC revolt = { size = 1 } }
 1772.8.5 = { controller = HAB add_core = HAB }
 add_core = KRA
+add_core = BOH
+add_core = POL

@@ -2,8 +2,8 @@
 latent_trade_goods = { 
 	coal 
 }
-owner = KRA
-controller = KRA
+owner = BOH
+controller = BOH
 culture = polish
 religion = orthodox
 capital = "Kraków"
@@ -39,4 +39,6 @@ center_of_trade = 2
 1815.5.3 = { 
 	controller = KRA
 }
+add_core = BOH
+add_core = POL
 fort_15th = yes

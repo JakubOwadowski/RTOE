@@ -1,6 +1,6 @@
 # 4525 - Dobryzn
-owner = MAZ
-controller = MAZ
+owner = KUY
+controller = KUY
 capital = "Dobrzyn"
 is_city = yes
 culture = polish
@@ -36,4 +36,4 @@ discovered_by = ottoman
 1814.4.11 = { 
 	add_core = RUS
 }
-add_core = MAZ
+add_core = KUY

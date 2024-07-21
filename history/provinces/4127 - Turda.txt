@@ -1,7 +1,7 @@
 #1951 - Hunyad
 owner = BUL
 controller = BUL
-culture = transylvanian
+culture = moldavian
 religion = orthodox
 capital = "Turda"
 trade_goods = salt# Famous salt mines

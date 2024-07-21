@@ -1,6 +1,6 @@
 #49 - Neumark
-owner = POL
-controller = POL
+owner = STE
+controller = STE
 culture = pomorzan
 religion = orthodox
 base_tax = 1
@@ -13,5 +13,5 @@ discovered_by = eastern
 discovered_by = western
 discovered_by = muslim
 discovered_by = ottoman
-add_core = POL
 add_core = STE
+add_core = PYR

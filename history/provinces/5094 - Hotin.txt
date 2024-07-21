@@ -2,7 +2,7 @@
 #Hotin
 owner = UKR
 controller = UKR
-culture = moldavian
+culture = ruthenian
 religion = orthodox
 base_tax = 2
 base_production = 1
