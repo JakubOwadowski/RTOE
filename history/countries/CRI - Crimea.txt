@@ -1,6 +1,6 @@
 government = monarchy
 add_government_reform = feudalism_reform
-technology_group = nomad_group
+technology_group = eastern
 religion = orthodox
 primary_culture = crimean
 capital = 1974# Crimea

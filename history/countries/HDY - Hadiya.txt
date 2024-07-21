@@ -1,14 +1,13 @@
-government = monarchy
-add_government_reform = autocracy_reform
+government = tribal
+add_government_reform = tribal_kingdom
 government_rank = 1
 primary_culture = sidamo
 religion = sunni
 technology_group = east_african
 unit_type = sub_saharan
-capital = 2760		# Hadiya
-
-1444.1.1 = {
-	monarch = {
+capital = 2760# Hadiya
+1444.1.1 = { 
+	monarch = { 
 		name = "Bamo"
 		dynasty = "Hadiya"
 		adm = 3
@@ -16,9 +15,9 @@ capital = 2760		# Hadiya
 		mil = 2
 	}
 }
+1480.1.1 = {  #Fictional
 
-1480.1.1 = { #Fictional
-	monarch = {
+	monarch = { 
 		name = "Bamo II"
 		dynasty = "Hadiya"
 		adm = 3
@@ -26,9 +25,9 @@ capital = 2760		# Hadiya
 		mil = 2
 	}
 }
+1510.1.1 = {  #Fictional
 
-1510.1.1 = { #Fictional
-	monarch = {
+	monarch = { 
 		name = "Bamo III"
 		dynasty = "Hadiya"
 		adm = 3

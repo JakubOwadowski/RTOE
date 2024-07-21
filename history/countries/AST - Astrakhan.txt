@@ -1,5 +1,5 @@
-government = monarchy
-add_government_reform = high_kingdom_reform
+government = tribal
+add_government_reform = tribal_kingdom
 primary_culture = khazar
 religion = jewish
 technology_group = muslim

@@ -151,7 +151,9 @@ country_event = {
 	fire_only_once = yes
 
 	trigger = {
-		owns = 58
+		capital_scope = {
+			region = north_german_region
+		}
 		is_religion_enabled = reformed
 	}
 
@@ -175,6 +177,9 @@ country_event = {
 			}
 		}
 		change_religion = reformed
+		capital_scope = {
+			change_religion = reformed
+		}
 		define_advisor = {
 			type = theologian
 			name = "Martin Luther"
@@ -237,7 +242,9 @@ country_event = {
 	}
 
 	trigger = {
-		owns = 4720
+		capital_scope = {
+			region = france_region
+		}
 		is_religion_enabled = reformed
 		any_owned_province ={
 			can_have_center_of_reformation_trigger = {
@@ -256,6 +263,9 @@ country_event = {
 			NOT = {
 				is_emperor = yes
 			}
+		}
+		capital_scope = {
+			change_religion = calvinist
 		}
 		change_religion = calvinist
 		define_advisor = {
@@ -352,6 +362,9 @@ country_event = {
 			}
 		}
 		change_religion = iconoclast
+		capital_scope = {
+			change_religion = iconoclast
+		}
 		define_advisor = {
 			type = theologian
 			name = "Alexios Kyriakopoulos"
@@ -442,6 +455,9 @@ country_event = {
 				is_emperor = yes
 			}
 		}
+		capital_scope = {
+			change_religion = anabaptist
+		}
 		change_religion = anabaptist
 		define_advisor = {
 			type = theologian
@@ -527,6 +543,9 @@ country_event = {
 			NOT = {
 				is_emperor = yes
 			}
+		}
+		capital_scope = {
+			change_religion = varelist
 		}
 		change_religion = varelist
 		define_advisor = {

@@ -1,11 +1,9 @@
-government = monarchy
-add_government_reform = iqta
+government = tribal
+add_government_reform = tribal_despotism
 primary_culture = lakian
 religion = jewish
 technology_group = eastern
-capital = 4306#Khumukh
-# Pulling a Hansa with the first 1st ruler ( as information before Umal-Muhammad is limited ).  Usually referred to only by their title.
-# Also with birth dates (seniority based system)
+capital = 4306# Also with birth dates (seniority based system)
 1444.1.1 = { 
 	monarch = { 
 		name = "Shamkhal"

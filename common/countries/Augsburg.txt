@@ -83,8 +83,7 @@ ship_names = {
 	Roland
 	Tagenbare
 	Geelbeen
-	"Johann Dove" Honorius
-	Willehad
+	"Johann Dove" Honorius Willehad
 	Jever
 	Weserwelle
 	"The Confessor" "Dressed Up To Party" "Furious Purpose" "Anticipation Of A New Lover's Arrival" 

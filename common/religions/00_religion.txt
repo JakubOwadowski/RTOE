@@ -1351,7 +1351,7 @@ christian = {
 		}
 		
 		on_convert = {
-			change_religion = calvinist
+			change_religion = iconoclast
 			add_prestige = -100
 			remove_country_modifier = counter_reformation
 			remove_country_modifier = the_statue_in_restraint_of_appeals

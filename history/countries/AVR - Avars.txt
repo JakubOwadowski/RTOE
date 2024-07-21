@@ -1,5 +1,5 @@
-government = monarchy
-add_government_reform = iqta
+government = tribal
+add_government_reform = tribal_despotism
 primary_culture = avar
 religion = jewish
 technology_group = eastern

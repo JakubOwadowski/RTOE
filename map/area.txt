@@ -1395,7 +1395,7 @@ djerba_area = {  #3
 }
 algiers_area = {  #3
 
-	336 4562 2465 
+	336 4562 2465 343 
 }
 barbary_coast_area = {  #3
 
@@ -1439,7 +1439,7 @@ marrekesh_area = {  #3
 }
 northern_morocco_area = {  #5
 
-	334 335 1751 4563 4561 343 
+	334 335 1751 4563 4561 
 }
 ########################################
 # East Africa					       #
