@@ -1,6 +1,6 @@
 #2974 Loon
-owner = BRB
-controller = BRB
+owner = AUT
+controller = AUT
 is_city = yes
 capital = "Loon"
 culture = dutch

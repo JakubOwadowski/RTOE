@@ -1,7 +1,7 @@
 #4313 - Kangiri
 owner = ROM
 controller = ROM
-culture = turkish
+culture = pontic_greek
 religion = jewish
 capital = "Kangiri"
 trade_goods = wool

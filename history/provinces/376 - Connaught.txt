@@ -1,6 +1,6 @@
 #376 - Connaught
-owner = MCM
-controller = MCM
+owner = CNN
+controller = CNN
 culture = irish
 religion = ofbrit
 base_tax = 1
@@ -15,4 +15,3 @@ discovered_by = muslim
 discovered_by = ottoman
 discovered_by = eastern
 discovered_by = western
-add_core = MCM

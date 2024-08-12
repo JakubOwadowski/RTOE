@@ -22,8 +22,8 @@ discovered_by = muslim
 1667.1.1 = { controller = FRA }
 1668.5.2 = { add_core = FRA }
 1671.1.1 = { 
-	fort_15th = no
 	fort_17th = yes
 }
 1806.7.12 = { hre = no }
 add_core = NRM
+add_core = FLA

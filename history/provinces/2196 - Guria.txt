@@ -5,7 +5,6 @@ culture = georgian
 religion = orthodox
 capital = "Batumi"
 trade_goods = fish
-hre = yes
 base_tax = 3
 base_production = 3
 base_manpower = 2

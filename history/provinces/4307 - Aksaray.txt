@@ -1,6 +1,6 @@
 #4307 - Aksaray
-owner = ROM
-controller = ROM
+owner = KAR
+controller = KAR
 culture = turkish
 religion = shiite
 capital = "Aksaray"
@@ -29,4 +29,3 @@ discovered_by = nomad_group
 	base_tax = 1
 	base_production = 1
 }
-add_core = ROM

@@ -2,7 +2,7 @@
 #Isauria
 owner = ROM
 controller = ROM
-culture = turkish
+culture = cappadocian
 religion = orthodox
 base_tax = 9
 base_production = 8

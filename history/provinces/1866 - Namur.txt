@@ -2,8 +2,8 @@
 latent_trade_goods = { 
 	coal 
 }
-owner = AUT
-controller = AUT
+owner = WLN
+controller = WLN
 capital = "Namur"
 is_city = yes
 culture = wallonian
@@ -12,7 +12,6 @@ base_tax = 7
 base_production = 7
 trade_goods = iron
 base_manpower = 3
-add_core = HAI
 discovered_by = eastern
 discovered_by = western
 discovered_by = muslim
@@ -50,6 +49,5 @@ discovered_by = ottoman
 	controller = NED
 	add_core = NED
 }
-add_core = AUT
 add_core = WLN
 fort_15th = yes

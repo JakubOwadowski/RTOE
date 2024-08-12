@@ -7,7 +7,7 @@ capital = 390	# Sana'a
 
 1439.1.1 = {
 	monarch = {
-		name = "Zeyad I"
+		name = "Zeyad I al-Rahhal"
 		dynasty = "Himyarid"
 		adm = 2
 		dip = 5

@@ -30,5 +30,4 @@ discovered_by = ottoman
 	add_core = NED
 }
 add_core = AUT
-add_core = WLN
 fort_15th = yes
