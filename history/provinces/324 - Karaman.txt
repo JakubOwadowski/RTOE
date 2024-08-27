@@ -1,8 +1,8 @@
 #324 - Karaman
 owner = ROM
 controller = ROM
-culture = turkish
-religion = jewish
+culture = cappadocian
+religion = orthodox
 capital = "Karaman"
 trade_goods = livestock
 hre = yes

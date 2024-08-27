@@ -2,7 +2,7 @@
 owner = ROM
 controller = ROM
 culture = pontic_greek
-religion = jewish
+religion = orthodox
 capital = "Kangiri"
 trade_goods = wool
 base_tax = 2

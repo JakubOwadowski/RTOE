@@ -1,7 +1,7 @@
 #1848 - Hamid
 owner = MEN
 controller = MEN
-culture = greek
+culture = turkish
 religion = orthodox
 capital = "Burdur"
 trade_goods = grain

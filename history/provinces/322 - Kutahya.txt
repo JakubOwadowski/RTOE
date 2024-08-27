@@ -2,7 +2,7 @@
 owner = TUR
 controller = TUR
 culture = turkish
-religion = orthodox
+religion = alevi
 capital = "Kütahya"
 trade_goods = cloth
 hre = yes

@@ -1,9 +1,9 @@
 #Written with Eu4 Easy Province Creator by emiroercn
 #Isauria
-owner = ROM
-controller = ROM
-culture = cappadocian
-religion = orthodox
+owner = QAR
+controller = QAR
+culture = turkish
+religion = alevi
 base_tax = 9
 base_production = 8
 trade_goods = livestock
@@ -23,6 +23,6 @@ discovered_by = eastern
 discovered_by = muslim
 discovered_by = nomad_group
 discovered_by = western
-add_core = ROM
 add_core = KAR
 hre = yes
+add_core = QAR

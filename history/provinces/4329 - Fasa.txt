@@ -2,7 +2,7 @@
 owner = FRS
 controller = FRS
 culture = azerbaijani
-religion = shiite
+religion = alevi
 capital = "Fasa"
 trade_goods = silk#And Paper in Jahrum
 base_tax = 4

@@ -33,5 +33,4 @@ discovered_by = nomad_group
 discovered_by = western
 add_core = SYP
 hre = yes
-add_core = SYR
 add_core = CIL

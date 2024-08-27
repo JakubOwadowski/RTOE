@@ -2,7 +2,7 @@
 owner = KAZ
 controller = KAZ
 culture = bashkir
-religion = shiite
+religion = alevi
 capital = "Bashkort"
 trade_goods = wool
 base_tax = 3

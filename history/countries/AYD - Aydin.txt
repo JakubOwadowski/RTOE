@@ -2,12 +2,11 @@ government = monarchy
 add_government_reform = autocracy_reform
 government_rank = 1
 primary_culture = turkish
-religion = sunni
+religion = orthodox
 technology_group = ottoman
-capital = 4309	# Aydin
-
-1402.1.1 = {
-	monarch = {
+capital = 4309# Aydin
+1402.1.1 = { 
+	monarch = { 
 		name = "Umar II"
 		dynasty = "Aydinoglu"
 		adm = 1
@@ -16,9 +15,8 @@ capital = 4309	# Aydin
 	}
 	add_piety = 0.3
 }
-
-1402.1.1 = {
-	heir = {
+1402.1.1 = { 
+	heir = { 
 		name = "Junayd"
 		monarch_name = "Junayd"
 		dynasty = "Aydinoglu"
@@ -30,9 +28,8 @@ capital = 4309	# Aydin
 		mil = 2
 	}
 }
-
-1405.1.1 = {
-	monarch = {
+1405.1.1 = { 
+	monarch = { 
 		name = "Junayd"
 		dynasty = "Aydinoglu"
 		adm = 3

@@ -2,7 +2,7 @@
 owner = KAR
 controller = KAR
 culture = turkish
-religion = shiite
+religion = alevi
 capital = "Aksaray"
 trade_goods = livestock
 hre = yes
