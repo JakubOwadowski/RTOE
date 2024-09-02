@@ -1,0 +1,21 @@
+#232 - Bragança
+
+owner = BGC
+controller = BGC
+culture = leonese
+religion = orthodox
+capital = "Bragança"
+trade_goods = wine
+hre = yes
+base_tax = 5 
+base_production = 5
+base_manpower = 2
+is_city = yes
+add_core = BGC
+
+
+
+discovered_by = western
+discovered_by = muslim
+discovered_by = ottoman
+discovered_by = eastern

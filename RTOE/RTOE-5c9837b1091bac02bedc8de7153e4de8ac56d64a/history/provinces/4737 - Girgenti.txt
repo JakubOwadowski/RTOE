@@ -1,0 +1,21 @@
+# - Syracusa
+
+owner = CTE
+controller = CTE
+culture = sicilian 
+religion = orthodox 
+hre = yes 
+base_tax = 3
+base_production = 3
+trade_goods = grain
+base_manpower = 2
+capital = "Girgenti"
+is_city = yes
+add_core = SIC
+add_core = CTE
+
+
+
+discovered_by = western
+discovered_by = eastern
+discovered_by = muslim

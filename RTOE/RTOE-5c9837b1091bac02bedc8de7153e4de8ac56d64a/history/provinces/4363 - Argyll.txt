@@ -1,0 +1,19 @@
+#4363 - Argyll
+
+owner = SCO
+controller = SCO
+culture = highland_scottish
+religion = ofbrit
+hre = no
+base_tax = 3
+base_production = 3
+trade_goods = iron
+base_manpower = 2
+capital = "Ceann Loch Gilb"
+is_city = yes
+add_core = SCO
+discovered_by = western
+discovered_by = muslim
+discovered_by = ottoman
+discovered_by = eastern
+discovered_by = western

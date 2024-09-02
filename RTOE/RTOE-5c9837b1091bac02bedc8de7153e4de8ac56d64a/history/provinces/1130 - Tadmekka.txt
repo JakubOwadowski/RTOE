@@ -1,0 +1,19 @@
+#1130 - Tadimekket
+owner = SON
+controller = SON
+culture = tuareg
+is_city = yes
+base_manpower = 1
+religion = coptic
+capital = "Tadmekka al-Suq"
+trade_goods = wool
+base_tax = 1
+base_production = 1
+add_core = SON
+discovered_by = sub_saharan
+1543.1.1 = { discovered_by = MOR }
+1591.3.15 = { 
+	controller = AIR
+	add_core = AIR
+}
+1700.1.1 = { controller = TMB add_core = TMB }

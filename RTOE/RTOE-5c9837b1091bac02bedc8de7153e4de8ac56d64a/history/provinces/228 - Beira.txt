@@ -1,0 +1,21 @@
+#228 - Beira
+
+owner = BGC
+controller = BGC
+culture = leonese
+religion = orthodox
+capital = "Viseu"
+trade_goods = wine
+hre = yes
+base_tax = 4 
+base_production = 4
+base_manpower = 3
+is_city = yes
+add_core = BGC
+
+
+
+discovered_by = western
+discovered_by = muslim
+discovered_by = ottoman
+discovered_by = eastern

@@ -1,0 +1,45 @@
+#544 - Ahmednagar
+owner = AHM
+controller = AHM
+culture = marathi
+religion = hinduism
+capital = "Ahmednagar"
+trade_goods = cotton
+base_tax = 4
+base_production = 4
+base_manpower = 1
+is_city = yes
+add_core = AHM
+discovered_by = indian
+discovered_by = nomad_group
+discovered_by = muslim
+discovered_by = ottoman
+discovered_by = chinese
+1490.1.1 = { 
+	controller = AHM
+}
+1498.1.1 = { discovered_by = POR }
+1633.7.27 = { 
+	controller = MUG
+	add_core = MUG
+}
+1650.1.1 = { add_core = MAR }
+1658.1.15 = { 
+	controller = REB
+	revolt = { type = pretender_rebels name = "Aurangzeb's Faction" size = 0 leader = "Aurangzeb Alamgir Timurid" }
+}
+1658.6.8 = { 
+	controller = MUG
+	revolt = { size = 1 }
+}
+1712.1.1 = { add_core = DEC }
+1724.1.1 = { 
+	controller = DEC
+}
+1760.1.1 = { 
+	controller = MAR
+}
+1818.6.3 = { 
+	controller = GBR
+	add_core = GBR
+}

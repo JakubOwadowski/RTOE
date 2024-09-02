@@ -1,0 +1,66 @@
+graphical_culture = muslimgfx
+color = { 200 0 0 }
+revolutionary_colors = { 5 5 5 }
+historical_idea_groups = { 
+	defensive_ideas
+	religious_ideas
+	offensive_ideas
+	trade_ideas
+	spy_ideas
+	economic_ideas
+	diplomatic_ideas
+	administrative_ideas
+}
+historical_units = { 
+	persian_footsoldier
+	persian_cavalry_charge
+	persian_shamshir
+	qizilbash_cavalry_unit
+	tofongchis_musketeer
+	topchis_artillery
+	afsharid_reformed
+	afsharid_reformed_infantry
+	muslim_mass_infantry
+	muslim_dragoon
+	persian_rifle
+}
+monarch_names = { 
+	"Goreblade #0" = 10
+	"Skullcrusher #0" = 10
+	"Bloodreaper #0" = 10
+	"Ravencleaver #0" = 10
+	"Wrathbringer #0" = 10
+	"Ironfist #0" = 10
+	"Doomhowl #0" = 10
+	"Bloodstorm  #0" = 10
+	"Skullrend #0" = 10
+	"Khorneblade #0" = 10
+	"Warfiend #0" = 10
+	"Skulltaker #0" = 10
+	"Bloodforged #0" = 10
+	"Deathrage #0" = 10
+	"Carnagecaller #0" = 10
+	"Skullharvester #0" = 10
+	"Darkspike #0" = 10
+	"Bloodwrath #0" = 10
+	"Skullrend #0" = 10
+	"Axebringer #0" = 10
+	"Bloodthorn #0" = -1
+	"Vexia #0" = -1
+	"Doomfury #0" = -1
+}
+leader_names = { 
+	Gorefiend Bloodreaver Skullcrusher Wrathmonger Carnage Rageblood Skullsplinter Bloodstorm Warhowl 
+}
+ship_names = { 
+	"Bloodsoaked Reaver" Skullcutter "Wrathful Annihilator" "Gorestorm Raider" "Khorne's Vengeance" 
+	Bloodtide "Crimson Fury" "Carnage Invictus" "Skullcrusher Corsair" Warhowl
+	Slaughterwave "Skullrend Scourge" Bloodflame "Wrathmonger Marauder" Goreblade 
+	"Crimson Zealot" "Skullreaper Rampage" "Bloodstorm Harbinger" Skullsplinter 
+}
+army_names = { 
+	Blood Horde from "$PROVINCE$" 
+}
+fleet_names = { 
+	Blood Fleet from "$PROVINCE$"
+}

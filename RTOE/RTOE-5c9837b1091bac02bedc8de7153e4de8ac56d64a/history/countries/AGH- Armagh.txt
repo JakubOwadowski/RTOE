@@ -1,0 +1,30 @@
+government = monarchy
+add_government_reform = irish_fiefdom_reform
+government_rank = 1
+technology_group = western
+primary_culture = irish
+religion = ofbrit
+capital = 4944
+
+1444.1.1 = {
+        monarch = {
+                name = "Ruaidhri"
+                dynasty = "mac Mathghamhna"
+                birth_date = 1386.11.5
+                death_date = 1446.12.16
+                adm = 4
+                dip = 2
+                mil = 4
+        }
+        heir = {
+                name = "Aodh Ruadh"
+                monarch_name = "Aodh Ruadh"
+                dynasty = "mac Mathghamhna"
+                birth_date = 1410.8.3
+                death_date = 1450.3.8
+                claim = 90
+                adm = 0
+                dip = 5
+                mil = 2
+        }
+}

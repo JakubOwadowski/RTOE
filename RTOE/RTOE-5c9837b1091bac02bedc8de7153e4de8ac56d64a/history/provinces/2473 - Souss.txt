@@ -1,0 +1,24 @@
+# - Susa
+owner = HNR
+controller = HNR
+culture = carthgean
+religion = orthodox
+capital = "Susa"
+trade_goods = sugar
+base_tax = 5
+base_production = 5
+base_manpower = 2
+is_city = yes
+discovered_by = muslim
+discovered_by = ottoman
+discovered_by = western
+discovered_by = eastern
+1534.8.16 = { 
+	add_core = ALG
+}
+1546.1.1 = { 
+	controller = TRP
+	add_core = TRP
+}
+add_core = HNR
+hre = yes

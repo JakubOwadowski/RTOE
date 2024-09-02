@@ -1,0 +1,7 @@
+government = tribal
+add_government_reform = tribal_kingdom
+government_rank = 1
+technology_group = muslim
+religion = arian
+capital = 2466
+primary_culture = atlas

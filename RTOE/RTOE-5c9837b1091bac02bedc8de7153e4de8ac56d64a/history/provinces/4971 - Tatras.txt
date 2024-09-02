@@ -1,0 +1,18 @@
+#Written with Eu4 Easy Province Creator by emiroercan
+#Tatras
+discovered_by = eastern
+discovered_by = muslim
+discovered_by = western
+discovered_by = KAZ
+discovered_by = CRI
+owner = BOH
+base_tax = 2
+base_manpower = 1
+base_production = 2
+culture = slovak
+trade_goods = livestock
+religion = orthodox
+controller = BOH
+is_city = yes
+capital = "Dolný Kubín"
+add_core = BOH

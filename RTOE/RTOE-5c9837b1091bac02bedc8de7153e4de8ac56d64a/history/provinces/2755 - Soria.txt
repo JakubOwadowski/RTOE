@@ -1,0 +1,22 @@
+#2755 - Soria
+
+owner = SPA
+controller = SPA
+add_core = SPA
+culture = visigo
+religion = orthodox
+hre = yes
+base_tax = 2 
+base_production = 2
+trade_goods = wool 
+base_manpower = 1
+capital = "Soria"
+is_city = yes
+
+
+
+discovered_by = western
+discovered_by = eastern
+discovered_by = western
+discovered_by = muslim
+discovered_by = ottoman

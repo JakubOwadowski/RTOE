@@ -1,0 +1,7 @@
+government = tribal
+add_government_reform = tribal_federation
+government_rank = 1
+primary_culture = sudovian
+religion = baltic_pagan_reformed
+technology_group = eastern
+capital = 1936

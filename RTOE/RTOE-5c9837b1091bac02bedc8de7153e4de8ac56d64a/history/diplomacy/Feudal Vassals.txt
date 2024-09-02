@@ -1,0 +1,307 @@
+#Scotland
+
+dependency = {
+	subject_type = "feudal_vassal"
+	first = SCO
+	second = GBH
+	start_date = 1444.1.1
+	end_date = 2000.1.1
+}
+
+dependency = {
+	subject_type = "feudal_vassal"
+	first = SCO
+	second = CBH
+	start_date = 1444.1.1
+	end_date = 2000.1.1
+}
+
+dependency = {
+	subject_type = "feudal_vassal"
+	first = SCO
+	second = LOI
+	start_date = 1444.1.1
+	end_date = 2000.1.1
+}
+
+dependency = {
+	subject_type = "feudal_vassal"
+	first = SCO
+	second = GLW
+	start_date = 1444.1.1
+	end_date = 2000.1.1
+}
+
+dependency = {
+	subject_type = "feudal_vassal"
+	first = SCO
+	second = AGU
+	start_date = 1444.1.1
+	end_date = 2000.1.1
+}
+
+dependency = {
+	subject_type = "feudal_vassal"
+	first = NAV
+	second = RIO
+	start_date = 1444.1.1
+	end_date = 2000.1.1
+}
+
+dependency = {
+	subject_type = "feudal_vassal"
+	first = NAV
+	second = BGO
+	start_date = 1444.1.1
+	end_date = 2000.1.1
+}
+
+dependency = {
+	subject_type = "feudal_vassal"
+	first = LON
+	second = BGC
+	start_date = 1444.1.1
+	end_date = 2000.1.1
+}
+
+dependency = {
+	subject_type = "feudal_vassal"
+	first = TRC
+	second = MJO
+	start_date = 1444.1.1
+	end_date = 2000.1.1
+}
+
+dependency = {
+	subject_type = "feudal_vassal"
+	first = ARM
+	second = BTL
+	start_date = 1444.1.1
+	end_date = 2000.1.1
+}
+
+
+dependency = {
+	subject_type = "feudal_vassal"
+	first = BUL
+	second = OLT
+	start_date = 1444.1.1
+	end_date = 2000.1.1
+}
+
+dependency = {
+	subject_type = "feudal_vassal"
+	first = BUL
+	second = SLJ
+	start_date = 1444.1.1
+	end_date = 2000.1.1
+}
+
+dependency = {
+	subject_type = "feudal_vassal"
+	first = BUL
+	second = SZL
+	start_date = 1444.1.1
+	end_date = 2000.1.1
+}
+
+dependency = {
+	subject_type = "feudal_vassal"
+	first = POL
+	second = KUY
+	start_date = 1444.1.1
+	end_date = 2000.1.1
+}
+
+dependency = {
+	subject_type = "feudal_vassal"
+	first = POL
+	second = LGC
+	start_date = 1444.1.1
+	end_date = 2000.1.1
+}
+
+dependency = {
+	subject_type = "feudal_vassal"
+	first = BOH
+	second = OPL
+	start_date = 1444.1.1
+	end_date = 2000.1.1
+}
+
+dependency = {
+	subject_type = "feudal_vassal"
+	first = BOH
+	second = RAT
+	start_date = 1444.1.1
+	end_date = 2000.1.1
+}
+
+dependency = {
+	subject_type = "feudal_vassal"
+	first = BOH
+	second = MVA
+	start_date = 1444.1.1
+	end_date = 2000.1.1
+}
+
+dependency = {
+	subject_type = "feudal_vassal"
+	first = SAX
+	second = MEI
+	start_date = 1444.1.1
+	end_date = 2000.1.1
+}
+
+dependency = {
+	subject_type = "feudal_vassal"
+	first = SAX
+	second = THU
+	start_date = 1444.1.1
+	end_date = 2000.1.1
+}
+
+dependency = {
+	subject_type = "feudal_vassal"
+	first = AUT
+	second = BRB
+	start_date = 1444.1.1
+	end_date = 2000.1.1
+}
+
+dependency = {
+	subject_type = "feudal_vassal"
+	first = AUT
+	second = LOR
+	start_date = 1444.1.1
+	end_date = 2000.1.1
+}
+
+dependency = {
+	subject_type = "feudal_vassal"
+	first = AUT
+	second = RHI
+	start_date = 1444.1.1
+	end_date = 2000.1.1
+}
+
+dependency = {
+	subject_type = "feudal_vassal"
+	first = AUT
+	second = WLN
+	start_date = 1444.1.1
+	end_date = 2000.1.1
+}
+
+dependency = {
+	subject_type = "feudal_vassal"
+	first = AUT
+	second = HAI
+	start_date = 1444.1.1
+	end_date = 2000.1.1
+}
+
+dependency = {
+	subject_type = "feudal_vassal"
+	first = RAV
+	second = MAN
+	start_date = 1444.1.1
+	end_date = 2000.1.1
+}
+
+dependency = {
+	subject_type = "feudal_vassal"
+	first = TUS
+	second = PGA
+	start_date = 1444.1.1
+	end_date = 2000.1.1
+}
+
+dependency = {
+	subject_type = "feudal_vassal"
+	first = NAP
+	second = BNV
+	start_date = 1444.1.1
+	end_date = 2000.1.1
+}
+
+dependency = {
+	subject_type = "feudal_vassal"
+	first = CTE
+	second = ABO
+	start_date = 1444.1.1
+	end_date = 2000.1.1
+}	
+
+dependency = {
+	subject_type = "feudal_vassal"
+	first = CTE
+	second = JAI
+	start_date = 1444.1.1
+	end_date = 2000.1.1
+}	
+
+
+dependency = {
+	subject_type = "feudal_vassal"
+	first = GEN
+	second = SEB
+	start_date = 1444.1.1
+	end_date = 2000.1.1
+}	
+
+dependency = {
+	subject_type = "feudal_vassal"
+	first = BRI
+	second = LEO
+	start_date = 1444.1.1
+	end_date = 2000.1.1
+}	
+
+dependency = {
+	subject_type = "feudal_vassal"
+	first = BRI
+	second = LAV
+	start_date = 1444.1.1
+	end_date = 2000.1.1
+}	
+
+dependency = {
+	subject_type = "feudal_vassal"
+	first = BRI
+	second = VED
+	start_date = 1444.1.1
+	end_date = 2000.1.1
+}	
+
+dependency = {
+	subject_type = "feudal_vassal"
+	first = SPL
+	second = BOJ
+	start_date = 1444.1.1
+	end_date = 2000.1.1
+}	
+
+dependency = {
+	subject_type = "feudal_vassal"
+	first = AUG
+	second = ULM
+	start_date = 1444.1.1
+	end_date = 2000.1.1
+}	
+
+dependency = {
+	subject_type = "feudal_vassal"
+	first = CRI
+	second = FEO
+	start_date = 1444.1.1
+	end_date = 2000.1.1
+}	
+
+dependency = {
+	subject_type = "feudal_vassal"
+	first = UKR
+	second = SRC
+	start_date = 1444.1.1
+	end_date = 2000.1.1
+}	

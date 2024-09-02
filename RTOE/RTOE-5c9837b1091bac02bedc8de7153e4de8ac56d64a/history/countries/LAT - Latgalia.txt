@@ -1,0 +1,8 @@
+government = tribal
+add_government_reform = tribal_federation
+government_rank = 1
+primary_culture = latvian
+add_accepted_culture = livonian
+religion = baltic_pagan_reformed
+technology_group = eastern
+capital = 273

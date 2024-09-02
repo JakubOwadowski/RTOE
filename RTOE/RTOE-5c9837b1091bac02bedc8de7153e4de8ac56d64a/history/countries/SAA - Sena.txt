@@ -1,0 +1,6 @@
+government = monarchy
+add_government_reform = nayankara_reform
+government_rank = 1
+technology_group = western
+religion = hinduism
+capital = 4476

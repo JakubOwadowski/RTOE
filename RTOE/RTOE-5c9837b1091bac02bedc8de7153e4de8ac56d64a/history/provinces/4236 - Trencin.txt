@@ -1,0 +1,38 @@
+#4236 - Trencin
+owner = BOH
+controller = BOH
+culture = slovak
+religion = orthodox
+capital = "Trencin"
+trade_goods = iron
+base_tax = 2
+base_production = 3
+base_manpower = 1
+is_city = yes
+discovered_by = western
+discovered_by = eastern
+discovered_by = muslim
+discovered_by = ottoman
+discovered_by = KAZ
+discovered_by = CRI
+discovered_by = GOL
+discovered_by = AST
+discovered_by = QAS
+1490.1.1 = { controller = HAB }
+1491.11.7 = { controller = HUN }
+1526.8.30 = { 
+	controller = HAB
+	add_core = HAB
+}
+1545.1.1 = { religion = Protestant }
+1567.1.1 = { religion = Reformed }
+1604.1.1 = { controller = REB revolt = { type = nationalist_rebels size = 2 } }
+1606.1.1 = { controller = HAB religion = Reformed revolt = { size = 1 } }
+1619.1.1 = { controller = REB revolt = { type = nationalist_rebels size = 2 } }
+1626.1.1 = { controller = HAB revolt = { size = 1 } }
+1703.1.1 = { controller = REB revolt = { type = nationalist_rebels size = 2 } }
+1710.1.1 = { revolt = { size = 1 } }
+1711.1.1 = { controller = HAB }
+add_core = BOH
+add_core = MVA
+fort_15th = yes

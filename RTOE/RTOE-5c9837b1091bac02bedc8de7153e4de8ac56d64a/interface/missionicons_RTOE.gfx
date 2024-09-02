@@ -1,0 +1,78 @@
+spriteTypes = {	
+	spriteType = {
+		name = "mission_abolish_feudalism"
+		texturefile = "gfx//interface//missions//mission_abolish_feudalism.dds"
+	}
+	spriteType = {
+		name = "mission_industrialise_the_mainland"
+		texturefile = "gfx//interface//missions//mission_industrialise_the_mainland.dds"
+	}
+	spriteType = {
+		name = "mission_expand_york"
+		texturefile = "gfx//interface//missions//mission_expand_york.dds"
+	}
+	spriteType = {
+		name = "mission_develop_mercia"
+		texturefile = "gfx//interface//missions//mission_develop_mercia.dds"
+	}
+	spriteType = {
+		name = "mission_chinese_wine"
+		texturefile = "gfx//interface//missions//mission_chinese_wine.dds"
+	}
+	spriteType = {
+		name = "mission_conquer_lowlands"
+		texturefile = "gfx//interface//missions//mission_conquer_lowlands.dds"
+	}
+	spriteType = {
+		name = "mission_land_reform"
+		texturefile = "gfx//interface//missions//mission_land_reform.dds"
+	}
+	spriteType = {
+		name = "mission_manufactory"
+		texturefile = "gfx//interface//missions//mission_manufactory.dds"
+	}
+	spriteType = {
+		name = "mission_colombia"
+		texturefile = "gfx//interface//missions//mission_colombia.dds"
+	}
+	spriteType = {
+		name = "mission_london"
+		texturefile = "gfx//interface//missions//mission_london.dds"
+	}
+
+	spriteType = {
+		name = "mission_north_sea"
+		texturefile = "gfx//interface//missions//mission_north_sea.dds"
+	}
+
+	spriteType = {
+		name = "mission_champagne"
+		texturefile = "gfx//interface//missions//mission_champagne.dds"
+	}
+
+	spriteType = {
+		name = "mission_border_treaty"
+		texturefile = "gfx//interface//missions//mission_border_treaty.dds"
+	}
+
+	spriteType = {
+		name = "mission_norman_army"
+		texturefile = "gfx//interface//missions//mission_norman_army.dds"
+	}
+
+	spriteType = {
+		name = "mission_act_of_union"
+		texturefile = "gfx//interface//missions//mission_act_of_union.dds"
+	}
+
+	spriteType = {
+		name = "mission_wine_wars"
+		texturefile = "gfx//interface//missions//mission_wine_wars.dds"
+	}
+
+	spriteType = {
+		name = "mission_push_into_auvergne"
+		texturefile = "gfx//interface//missions//mission_push_into_auvergne.dds"
+	}
+}	
+

@@ -1,0 +1,23 @@
+#119 - Ancona
+owner = ANC
+controller = ANC
+culture = umbrian
+religion = orthodox
+hre = yes
+base_tax = 5
+base_production = 5
+trade_goods = paper
+base_manpower = 4
+capital = "Ancona"
+is_city = yes
+discovered_by = western
+discovered_by = eastern
+discovered_by = muslim
+1750.1.1 = { add_core = ITA }
+1805.12.26 = { 
+	controller = ITA
+}
+1814.4.11 = { 
+	controller = PAP
+}
+add_core = ANC

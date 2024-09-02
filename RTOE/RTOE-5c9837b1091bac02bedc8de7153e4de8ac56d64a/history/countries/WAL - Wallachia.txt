@@ -1,0 +1,6 @@
+religion = orthodox
+capital = 4531
+technology_group = eastern
+primary_culture = vlach
+government_rank = 1
+government = monarchy

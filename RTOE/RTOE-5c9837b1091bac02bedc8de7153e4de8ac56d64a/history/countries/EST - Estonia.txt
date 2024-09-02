@@ -1,0 +1,10 @@
+government = tribal
+add_government_reform = tribal_federation
+government_rank = 1
+technology_group = eastern
+religion = finnish_pagan_reformed
+primary_culture = estonian
+capital = 36
+1542.1.1 = { 
+	religion = protestant
+}

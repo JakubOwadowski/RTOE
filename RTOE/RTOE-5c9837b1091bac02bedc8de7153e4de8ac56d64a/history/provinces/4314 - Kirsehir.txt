@@ -1,0 +1,13 @@
+#4314 - Kirsehir
+owner = ROM
+controller = ROM
+culture = greek
+religion = orthodox
+capital = "Kirshehir"
+trade_goods = wool
+base_tax = 1
+base_production = 1
+base_manpower = 1
+is_city = yes
+add_core = ROM
+hre = yes

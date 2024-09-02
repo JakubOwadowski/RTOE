@@ -1,0 +1,17 @@
+government = tribal
+add_government_reform = tribal_kingdom
+government_rank = 1
+primary_culture = atlas
+religion = orthodox
+technology_group = sub_saharan
+capital = 349# Fijuij 
+religious_school = see_of_alexandria
+1433.1.1 = { 
+	monarch = { 
+		name = "Izemrasen II"
+		dynasty = "Yidid"
+		adm = 1
+		dip = 1
+		mil = 2
+	}
+}

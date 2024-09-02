@@ -1,0 +1,6 @@
+#Swabian Jura
+
+discovered_by = eastern
+discovered_by = ottoman
+discovered_by = nomad_group
+discovered_by = western

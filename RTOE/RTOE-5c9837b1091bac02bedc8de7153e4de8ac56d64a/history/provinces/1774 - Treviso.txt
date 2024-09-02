@@ -1,0 +1,36 @@
+#1774 - Treviso
+owner = VRN
+controller = VRN
+culture = venetian
+religion = orthodox
+hre = yes
+base_tax = 7
+base_production = 7
+trade_goods = paper
+base_manpower = 4
+capital = "Treviso"
+is_city = yes# Estimated 
+discovered_by = western
+discovered_by = eastern
+discovered_by = muslim
+1444.1.1 = { add_core = VEN }
+1583.1.1 = { fort_15th = no fort_16th = yes }
+1648.1.1 = { fort_16th = no fort_17th = yes }
+1715.1.1 = { fort_17th = no fort_18th = yes }
+1797.10.17 = { 
+	controller = HAB
+	add_core = HAB
+}
+1805.12.26 = { 
+	controller = ITA
+	add_core = ITA
+}
+1806.7.12 = { hre = no }
+1814.4.11 = { 
+	controller = HAB
+}
+add_core = VRN
+fort_15th = yes
+1444.11.11 = { 
+	remove_core = VEN
+}

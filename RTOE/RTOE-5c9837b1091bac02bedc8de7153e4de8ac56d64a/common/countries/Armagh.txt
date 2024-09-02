@@ -1,0 +1,80 @@
+# Country name see file name.
+
+graphical_culture = westerngfx
+
+color = { 220 90 0 }
+
+historical_idea_groups = {
+	maritime_ideas
+	aristocracy_ideas
+	trade_ideas
+	diplomatic_ideas
+	economic_ideas
+	spy_ideas
+	innovativeness_ideas
+	administrative_ideas
+}
+
+historical_units = {
+	western_medieval_infantry
+	western_medieval_knights
+	gaelic_galloglaigh
+	gaelic_mercenary
+	gaelic_free_shooter
+	irish_charge
+	anglofrench_line
+	british_redcoat
+	british_hussar
+	british_square
+	mixed_order_infantry
+	open_order_cavalry
+	napoleonic_square
+	napoleonic_lancers
+}
+
+monarch_names = {
+        "Dubhglais #3" = 25
+        "Áedán #3" = 25
+        "Gearóid #2" = 20
+        "Oissé #1" = 15
+        "Nechtan #1" = 15
+        "Blathmacc #0" = 10
+        "Eochaid #0" = 10
+        "Fairchellach #0" = 10
+        "Éochad #0" = 10
+        "Jacob #0" = 10
+        "Farannán #0" = 10
+        "Finguine #0" = 10
+        "Taran #0" = 10
+        "Alwin #0" = 10
+        "Fergal #0" = 10
+        "Fuirechtach #0" = 10
+        "Conall #0" = 10
+        "Túathal #0" = 10
+        "Ruah #0" = 10
+        "Natsluaig #0" = 10
+
+        "Gelgéis #0" = -1
+        "Faílenn #0" = -1
+        "Eithne #0" = -1
+}
+
+ship_names = {
+	Clare Cork
+	"Deas Mhuman" 
+	Kerry 
+	"Lar Mumhan" Limerick
+	Tipperary "Tuad Mhuman"
+	"Urh Mumhan"  
+	Waterford
+}  
+
+leader_names = {
+	Barry Boyle
+	Darcy
+	FitzGerald FitzThomas
+	O'Brien O'Neill
+	MacCarthy
+	Sarsfield
+	Talbot Magginis McDonnald
+}

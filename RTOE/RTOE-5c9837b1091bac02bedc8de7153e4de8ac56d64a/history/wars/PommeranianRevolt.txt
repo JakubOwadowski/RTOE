@@ -1,0 +1,16 @@
+name = "Pagan Reaction"
+war_goal = {
+	type = take_core
+	casus_belli = cb_core
+	province = 43 # Gdańsk
+}
+
+1440.1.1 = {
+	add_attacker = SLU
+	add_defender = GDA
+}
+
+1446.1.1 = {
+	rem_attacker = SLU
+	rem_defender = GDA
+}

@@ -1,0 +1,68 @@
+#Country Name: Please see filename.
+
+graphical_culture = muslimgfx
+
+color = { 0 100 200 } 
+
+historical_idea_groups = {
+	trade_ideas
+	defensive_ideas
+	religious_ideas
+	naval_ideas	
+	administrative_ideas
+	offensive_ideas
+	economic_ideas
+	expansion_ideas
+}
+
+historical_units = {
+	mamluk_archer
+	muslim_cavalry_archers
+	mamluk_duel
+	mamluk_musket_charge
+	muslim_mass_infantry
+	muslim_dragoon
+	ali_bey_reformed_infantry
+}
+
+monarch_names = {
+	"Klemiant #1" = 5
+	"Faustù #3" = 30
+	"Markù #4" = 50
+	"Salinatore #6" = 40
+	"Nikhiforù #3" = 30
+	"Jiolian #2" = 25
+	"Jakop #2" = 25
+	"Laurenzù #6" = 25
+	"Leonardù #1" = 10
+	"Atitù #2" = 10
+	"Messore #1" = 10
+	"Herakle #0" = 0
+	"Ignakiù #0" = 0
+	"Maximù #0" = 0
+	"Zenù #0" = 0
+	
+	"Anna #0" = -1
+	"Marta #0" = -1
+	"Maria #0" = -1
+}
+
+leader_names = {
+	Albanù Arber Ardian Apli Apludù Aplù Apliù Aeliù Andabiù Armatù Apurù
+	Baezù Abardyli Abarù Abepù Abeusa Abeuza Abatona Abassegli Abobali
+	Kamdù Kaboga Kurbania Kursulabia
+	Daore Adae Adez Adalmat Adardan Adelminium
+	Histrù Herakle
+	Epulù Aghetaldi Agiorgi Agondola Agozze Agradi
+	Iatù Ibka Ibrika Ignakiù
+	Labinkia Ledrù Libere
+	Messore Madekù
+	Naren
+	Paiiù Apane Apania Apaniù Apanentiù Apanthia Apane Apantù Apinsù Apladomenù Aplatinù
+	Samuntiù Seiiù Silbanù Stataniù Statikù Statù Statù Sestù Sextù Sextù
+	Taulant Ateuta Atitù Athana Atiziù Atritù Atitù
+}
+
+ship_names = {
+	Karthagù Hippona Athapsù Acirta Bullaregia Douga Justinianopoli Maktar
+}

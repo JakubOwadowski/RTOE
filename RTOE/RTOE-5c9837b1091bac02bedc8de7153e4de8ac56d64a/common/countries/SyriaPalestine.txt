@@ -1,0 +1,113 @@
+graphical_culture = westerngfx
+
+color = { 190 45 100 }
+
+revolutionary_colors = { 5  3  5 }
+
+historical_idea_groups = {
+	defensive_ideas
+	religious_ideas
+	offensive_ideas
+	trade_ideas
+	spy_ideas
+	diplomatic_ideas
+	innovativeness_ideas
+	economic_ideas
+}
+
+historical_units = {
+	persian_footsoldier
+	persian_cavalry_charge
+	persian_shamshir
+	qizilbash_cavalry
+	tofongchis_musketeer
+	topchis_artillery
+	afsharid_reformed
+	afsharid_reformed_infantry
+	muslim_mass_infantry
+	muslim_dragoon
+	persian_rifle
+}
+
+monarch_names = {
+	"Georgo #0" = 20
+	"Gewargis #0" = 0
+	"Hano #0" = 0
+	"Samano #0" = 0
+	"Naramsin #0" = 0
+	"Ramsin #0" = 0
+	"Ramin #0" = 0
+	"Dawid #0" = 20
+	"Benyamin #0" = 20
+	"Apram #0" = 0
+	"Yoel #0" = 0
+	"Petros #0" = 20
+	"Gabriel #0" = 0
+	"Yaqub #0" = 20
+	"Daniel #0" = 20
+	"Yousip #0" = 0
+	"Moushe #0" = 0
+	"Thoma #0" = 0
+	"Eliya #0" = 0
+	"Haytham #0" = 20
+	"Adam #0" = 20
+	"Ezekiel #0" = 0
+	"Atur #0" = 20
+	"Beniel #0" = 0
+	"Matti #0" = 0
+	"Mari #0" = 0
+	"Hedo #0" = 0
+	"Odisho #0" = 0
+	"Eshu #0" = 0
+	"Ilishu #0" = 0
+	"Shalita #0" = 0
+	
+	"Dinah #0" = -1
+	"Layah #0" = -1
+	"Martha #0" = -1
+	"Arbella #0" = -1
+	"Sharukina #0" = -1
+	"Nuhadra #0" = -1
+	"Waleeta #0" = -1
+	"Shamiram #0" = -1
+	"Sarah #0" = -1
+	"Siduri #0" = -1
+	"Suriya #0" = -1
+	"Mariam #0" = -1
+	"Esmar #0" = -1
+	"Helena #0" = -1
+	"Larsa #0" = -1
+	"Lilitu #0" = -1
+	"Talitha #0" = -1
+	"Samantha #0" = -1
+	"Arbilina #0" = -1
+}
+
+leader_names = {
+	"beth Ashur" "beth Albaq" "beth Alqosh" "beth Barwar" "beth Baz" "beth Botan" "beth Chal" "beth Diz"
+	"beth Bash-Kalah" "beth Gawar" "beth Halim" "beth Jilu" "beth Kasran" "beth Kakov" "beth Mar b'Ishu"
+	"beth Nochiya" "beth Qodchanis" "beth Taimar" "beth Tkhuma" "beth Tyari" "beth Urmia" "beth Walto" 
+	"beth Tur Abdin" "beth Qalu"
+	"bar Sabbaye" "bar Ishaq" "bar Saliba" "bar Hibraius" "bar Mokates" "bet Qinyana" "bet Abraham" "bar Sabaee" 
+}
+
+ship_names = {
+	Antakija
+	Damashq
+	Ierushalaim
+	Arif
+	Azmi
+	Fuad
+	Haci
+	Haydar
+	Mulish
+	Nuri
+	Salih
+	Said
+	Sefveti
+	Shukri
+}
+
+army_names = {
+	"Syetoa beth $PROVINCE$"
+}

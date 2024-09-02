@@ -1,0 +1,49 @@
+orphaned_by_the_roman_church = {
+	technology_cost = 0.025
+	institution_growth = -0.5
+}
+
+conversion_zeal = {
+	global_heretic_missionary_strength = 0.10
+	missionary_maintenance_cost = -0.33
+	missionaries = 1
+}
+
+NRM_shipbuilding_frenzy = {
+	galley_cost = -0.25
+	heavy_ship_cost = -0.25
+}
+
+NRM_norman_grand_armada = {
+	heavy_ship_power = 1
+	navy_tradition_decay = -0.1
+	naval_maintenance_modifier = -0.1
+}
+
+NRM_frisian_conquest = {
+	trade_efficiency = 0.1
+}
+
+NRM_welsh_march = {
+	defensiveness = 0.1
+}
+
+NRM_conquest_of_wales = {
+	core_creation = -0.05
+}
+
+NRM_accepted_the_dutch = {
+	num_accepted_cultures = 1
+}
+
+NRM_conquest_of_ireland = {
+	trade_efficiency = 0.15 
+	promote_culture_cost = -0.1
+}
+
+NRM_rule_normandia = {
+	reduced_liberty_desire_on_other_continent = -10
+	trade_steering = 0.25
+	ship_trade_power_modifier = 0.25
+	global_sailors_modifier = 0.25
+}

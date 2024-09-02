@@ -1,0 +1,8 @@
+government = tribal
+add_government_reform = tribal_kingdom
+primary_culture = moroccan
+religion = orthodox
+technology_group = muslim
+capital = 4561
+fixed_capital = 4561
+government_rank = 1

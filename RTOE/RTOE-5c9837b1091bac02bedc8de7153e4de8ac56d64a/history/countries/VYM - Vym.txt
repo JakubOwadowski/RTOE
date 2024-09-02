@@ -1,0 +1,8 @@
+government = monarchy
+add_government_reform = feudalism_reform
+government_rank = 1
+primary_culture = uralic
+religion = orthodox
+religious_school = see_of_constantinople
+technology_group = eastern
+capital = 4129# Vym

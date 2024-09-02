@@ -1,0 +1,20 @@
+government = monarchy
+add_government_reform = feudalism_reform
+primary_culture = leonese
+religion = orthodox
+religious_school = see_of_rome
+government_rank = 1
+technology_group = western
+capital = 208 #Leon
+
+1424.1.1 = {
+	monarch = {
+		name = "Sanctio"
+		dynasty = "de Llión"
+		adm = 3
+		dip = 1
+		mil = 3
+	}
+	clear_scripted_personalities = yes
+	add_ruler_personality = strict_personality
+}
