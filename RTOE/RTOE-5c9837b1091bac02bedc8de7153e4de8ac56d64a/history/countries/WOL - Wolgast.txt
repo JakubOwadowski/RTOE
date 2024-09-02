@@ -1,0 +1,30 @@
+government = monarchy
+add_government_reform = feudalism_reform
+government_rank = 1
+primary_culture = pomorzan
+religion = slavic_pagan_reformed
+technology_group = eastern
+capital = 1858	# Stettin
+
+1444.1.1 = {
+        monarch = {
+                name = "Starzë I"
+                dynasty = "Grëf"
+                birth_date = 1434.4.5
+                death_date = 1454.4.7
+                adm = 2
+                dip = 0
+                mil = 1
+        }
+        heir = {
+                name = "Mátësz"
+                monarch_name = "Mátësz III"
+                dynasty = "Grëf"
+                birth_date = 1437.2.10
+                death_date = 1477.10.25
+                claim = 95
+                adm = 6
+                dip = 5
+                mil = 3
+        }
+}

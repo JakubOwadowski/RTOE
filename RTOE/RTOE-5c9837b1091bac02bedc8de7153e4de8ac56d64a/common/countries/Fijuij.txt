@@ -1,0 +1,71 @@
+#Country Name: Please see filename.
+
+graphical_culture = muslimgfx
+
+color = { 100 120 100 } 
+
+historical_idea_groups = {
+	religious_ideas
+	trade_ideas
+	defensive_ideas
+	economic_ideas	
+	administrative_ideas
+	offensive_ideas
+	quality_ideas
+	quantity_ideas
+}
+
+historical_units = {
+	mamluk_archer
+	muslim_cavalry_archers
+	mamluk_duel
+	mamluk_musket_charge
+	muslim_mass_infantry
+	muslim_dragoon
+	ali_bey_reformed_infantry
+}
+
+monarch_names = {
+	"Ameziane #1" = 5
+	"Azêllay #3" = 30
+	"Azenzêr #4" = 50
+	"Addi #6" = 40
+	"Yufayyur #3" = 30
+	"Yuften #2" = 25
+	"Izemrasen #2" = 25
+	"Adid #6" = 25
+	"Ghanim #1" = 10
+	"Udad #2" = 10
+	"Yufitri #1" = 10
+	"Zigza #0" = 0
+	"Yidir #0" = 0
+	"Areski #0" = 0
+	"Juba #0" = 0
+	
+	"Elkaissa #0" = -1
+	"Tafrara #0" = -1
+	"Tilelli #0" = -1
+}
+
+leader_names = {
+	Atfayyish
+	"Beni Isguen"
+	Tabghurin
+	"bin Yakhlaf"
+	"Lemliki"
+	"Beni Mthar"
+	"Mzabi"
+	"Tilelli"
+	"Adid"
+	"Ghanim"
+}
+
+ship_names = {
+    "Bou Noura" "Beni Isguen" Melika Ghardaia
+	Beriane
+	Barr Muta'al Wali Batin Zahir Akhir Awwal
+	Mu'akhkhir Muqaddim Muqtadir Qadir Samad
+	Wahid Majid Wajed Qayyum Hayy Mumit Muhyi
+	Mu'id Mubdi Muhsi Hamid Waliyy Matin Qawiyy
+	Wakil Haqq Shahid Ba'ith
+}

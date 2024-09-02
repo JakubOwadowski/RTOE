@@ -1,0 +1,100 @@
+scottish_earldom = {
+	rank = {
+		1 = EARLDOM
+		2 = KINGDOM
+		3 = EMPIRE
+	}
+
+	ruler_male = {
+		1 = EARL
+		2 = KING
+		3 = EMPEROR
+	}
+
+	ruler_female = {
+		1 = COUNTESS
+		2 = QUEEN
+		3 = EMPRESS
+	}
+
+	consort_male = {
+		1 = EARL
+		2 = KING
+		3 = EMPEROR
+	}
+
+	consort_female = {
+		1 = COUNTESS
+		2 = QUEEN
+		3 = EMPRESS
+	}
+
+	heir_male = {
+		1 = HEIR
+		2 = HEIR
+		3 = HEIR
+	}
+
+	heir_female = {
+		1 = HEIR_fem
+		2 = HEIR_fem
+		3 = HEIR_fem
+	}
+
+	trigger = {
+		OR = {
+			primary_culture = highland_scottish
+			primary_culture = scottish
+		}
+		government = monarchy
+	}
+}
+
+zoroatrian_monarchy = {
+	rank = {
+		1 = SHAHRABY 
+		2 = SHAHDOM
+		3 = EMPIRE
+	}
+
+	ruler_male = {
+		1 = SHAHRAB
+		2 = SHAH
+		3 = SHAHANSHAH
+	}
+
+	ruler_female = {
+		1 = SHAHRAB
+		2 = SHAH
+		3 = SHAHANSHAH
+	}
+	
+	consort_male = {
+		1 = SHAH_CONSORT
+		2 = SHAH_CONSORT
+		3 = SHAH_CONSORT
+	}
+
+	consort_female = {
+		1 = BANBISHN
+		2 = BANBISHN
+		3 = BANBISHN
+	}
+	
+	heir_male = {
+		1 = HEIR
+		2 = SHAHZADE
+		3 = SHAHZADE
+	}
+
+	heir_female = {
+		1 = HEIR_fem
+		2 = SHAHDOKHT
+		3 = SHAHDOKHT
+	}
+
+	trigger = {
+		government = monarchy
+		religion_group = zoroastrian_group
+	}
+}

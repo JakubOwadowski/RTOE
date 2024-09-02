@@ -1,0 +1,7 @@
+government = monarchy
+add_government_reform = autocracy_reform
+government_rank = 1
+technology_group = muslim
+religion = coptic
+capital = 4305
+primary_culture = azerbaijani

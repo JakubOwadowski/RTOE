@@ -1,0 +1,61 @@
+namespace = dotf
+
+# Small faith decides whether to evangelize internally or externally
+country_event = {
+	id = dotf.1
+	title = dotf.1.t
+	desc = dotf.1.d
+	picture = RELIGION_eventPicture
+	
+	is_triggered_only = yes # on pulse
+	
+	trigger = {
+		has_dlc = "Emperor"
+		is_defender_of_faith = yes
+		NOT = { is_defender_of_faith_of_tier = 3 }
+		NOT = {
+			OR = {
+				has_country_modifier = evangelism_in_one_country
+				has_country_modifier = international_evangelism
+			}
+		}
+		NOT = {
+			num_of_owned_provinces_with = {
+				value = 50
+				religion = ROOT
+			}
+		}
+	}
+	
+	option = {
+		name = dotf.1.a
+		ai_chance = {
+			factor = 10
+			modifier = {
+				factor = 0
+				NOT = {
+					any_owned_province = {
+						NOT = { 
+							religion = ROOT
+						}
+					}
+				}
+			}
+		}
+		add_country_modifier = { # missionary strength and missionary cost
+			name = evangelism_in_one_country
+			duration = 7300
+		}
+	}
+	
+	option = {
+		name = dotf.1.b
+		ai_chance = {
+			factor = 10
+		}
+		add_country_modifier = { # warscore cost against other religion
+			name = international_evangelism
+			duration = 7300
+		}
+	}
+}

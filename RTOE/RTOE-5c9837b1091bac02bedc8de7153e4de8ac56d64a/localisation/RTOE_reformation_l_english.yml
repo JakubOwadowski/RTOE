@@ -1,0 +1,16 @@
+﻿l_english:
+ RTOE_reformation.1.t: "Cutting ties with Constantinople"
+ RTOE_reformation.1.d: "In a somber assembly of the ecclesiastical council, Pope [Root.Monarch.GetName], burdened by the weight of responsibility, confronts a momentous decision regarding the spiritual unity of Christendom. The escalating tensions between the Holy See and Constantinople have reached an intolerable level, compelling the Pontiff to make a radical move: breaking the communion with the Church in Constantinople.\nWith unwavering resolve, the Pope rises to address the assembly, condemning Constantinople as a bastion of corruption and moral decay. He argues passionately that the purity of the faith must prevail, unmarred by the perceived transgressions of the East. By severing ties, the Pope envisions a reformed and morally upright church, free from the perceived impurities that have plagued Christendom."
+ RTOE_reformation.1.a: "I've brought peace, freedom and justice to my new church!"
+ RTOE_reformation.1.b: "What is this heresy?!"
+ RTOE_reformation.1.c: "He's right!"
+ orphaned_by_the_roman_church: "Orphaned by the Roman Church"
+ orphaned_by_the_roman_church_desc: "The Pope has averted his gaze, the Roman Church now leads a pan-Christian reformation."
+ RTOE_reformation.2.t: "Pope breaks the communion!"
+ RTOE_reformation.2.d: "The Pope has decided to break communion with the rest of the church, citing corruption and nepotism as the reason. This unexpected move has sent shockwaves throughout the Christian world, leaving many faithful questioning their allegiance."
+ RTOE_reformation.2.a: "Your new church?"
+ RTOE_reformation.3.t: "Orphaned"
+ RTOE_reformation.3.d: "In the wake of the Pope breaking communion with the rest of the church, our nation find itself without any clear direction. The once-unifying force of the Papacy has left us, and now we must navigate the uncertain future, contemplating the repercussions."
+ RTOE_reformation.3.a: "What's going to happen now?"
+ RTOE_reformation.3.a.tooltip: "§YYou can remove this modifier by changing religion.§!"
+ 

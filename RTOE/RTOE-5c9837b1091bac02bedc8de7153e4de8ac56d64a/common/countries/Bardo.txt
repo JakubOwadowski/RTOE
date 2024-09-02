@@ -1,0 +1,68 @@
+#Country Name: Please see filename.
+
+graphical_culture = easterngfx
+
+color = { 174  224  91 }
+
+historical_idea_groups = {
+	trade_ideas
+	defensive_ideas
+	innovativeness_ideas
+	offensive_ideas
+	economic_ideas
+	maritime_ideas
+	quality_ideas
+	administrative_ideas
+}
+
+historical_units = {
+	western_medieval_infantry
+	western_medieval_knights
+	western_men_at_arms
+	dutch_maurician
+	swedish_gallop
+	swedish_gustavian
+	swedish_caroline
+	swedish_arme_blanche
+	prussian_frederickian
+	prussian_uhlan
+	mixed_order_infantry
+	open_order_cavalry
+	napoleonic_square
+	napoleonic_lancers
+}
+
+monarch_names = {
+        "Pëtr #3" = 25
+        "Jón #3" = 25
+        "Pomór #2" = 20
+        "Starzë #1" = 15
+        "Morës #1" = 15
+        "Mësézô #0" = 10
+        "Patrzëk #0" = 10
+        "Mieczëslôw #0" = 10
+        "Sërbët #0" = 10
+        "Pawel #0" = 10
+        "Tomôsz #0" = 10
+        "Winëncëj #0" = 10
+        "Zdzich #0" = 10
+        "Zadzë #0" = 10
+        "Samér #0" = 10
+        "Kôsma #0" = 10
+        "Michôl #0" = 10
+        "Szymun #0" = 10
+        "Mátësz #0" = 10
+        "Stéfan #0" = 10
+
+        "Nôwéna #0" = -1
+        "Dromi³a #0" = -1
+        "Szarlota #0" = -1
+}
+
+leader_names = {
+	Grëf Guscërlëw Czakow Lësë Dërgë Drëzdzow Bogardë Rzëpczë Kamë Sëmëk Buszë
+}
+
+ship_names = {
+	Pomorze "Zëmë Rëmëskô" Borówka "Lësny Duh" Brëza Môrawa Kogut Orlëta Jeziora "Gwiôzdë Sëmë"
+}

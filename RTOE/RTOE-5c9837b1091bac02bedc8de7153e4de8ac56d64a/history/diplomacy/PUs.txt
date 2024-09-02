@@ -1,0 +1,13 @@
+union = {
+	first = SPA
+	second = BET
+	start_date = 1444.1.1
+	end_date = 2000.1.1
+}
+
+union = {
+	first = UKR
+	second = KIE
+	start_date = 1444.1.1
+	end_date = 2000.1.1
+}

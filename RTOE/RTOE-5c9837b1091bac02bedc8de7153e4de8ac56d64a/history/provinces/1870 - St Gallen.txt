@@ -1,0 +1,18 @@
+#1870 - St Gallen
+owner = AUG
+controller = AUG
+culture = swabian
+religion = orthodox
+capital = "St Gallen"
+trade_goods = livestock
+base_tax = 4
+base_production = 4
+base_manpower = 2
+is_city = yes
+discovered_by = western
+discovered_by = eastern
+discovered_by = muslim
+discovered_by = ottoman
+1526.1.1 = { religion = Reformed }
+1806.7.12 = { hre = no }
+add_core = AUG

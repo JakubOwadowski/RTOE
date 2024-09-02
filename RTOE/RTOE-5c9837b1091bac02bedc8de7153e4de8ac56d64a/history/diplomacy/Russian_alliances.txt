@@ -1,0 +1,55 @@
+vassal = {
+	first = MOS
+	second = PSK
+	start_date = 1444.1.1
+	end_date = 1503.4.1
+}
+
+vassal = {
+	first = MOS
+	second = YAR
+	start_date = 1444.1.1
+	end_date = 1463.1.1
+}
+
+vassal = {
+	first = MOS
+	second = BLO
+	start_date = 1444.1.1
+	end_date = 1486.1.1
+}
+
+vassal = {
+	first = MOS
+	second = RSO
+	start_date = 1444.1.1
+	end_date = 1474.1.1
+}
+
+vassal = {
+	first = MOS
+	second = PRM
+	start_date = 1444.1.1
+	end_date = 1503.4.1
+}
+
+vassal = {
+	first = MOS
+	second = VYM
+	start_date = 1444.4.1
+	end_date = 1505.4.1
+}
+
+vassal = {
+	first = MOS
+	second = GCH
+	start_date = 1444.4.1
+	end_date = 1505.4.1
+}
+
+vassal = {
+	first = SMO
+	second = MST
+	start_date = 1444.4.1
+	end_date = 1505.4.1
+}

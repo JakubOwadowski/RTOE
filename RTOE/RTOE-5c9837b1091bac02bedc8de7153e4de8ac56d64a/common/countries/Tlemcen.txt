@@ -1,0 +1,60 @@
+#Country Name: Please see filename.
+graphical_culture = muslimgfx
+color = { 129 203 96 }
+revolutionary_colors = { 0 13 0 }
+historical_idea_groups = { 
+	trade_ideas
+	defensive_ideas
+	religious_ideas
+	naval_ideas
+	administrative_ideas
+	offensive_ideas
+	economic_ideas
+	expansion_ideas
+}
+historical_units = { 
+	mamluk_archer
+	muslim_cavalry_archers
+	mamluk_duel
+	mamluk_musket_charge
+	muslim_mass_infantry
+	muslim_dragoon
+	ali_bey_reformed_infantry
+}
+monarch_names = { 
+	"Sakar #1" = 5
+	"Kusaila #3" = 30
+	"Yakob #4" = 50
+	"Ptolemo #6" = 40
+	"Dawid #3" = 30
+	"Aghiles #2" = 25
+	"Ghanim #2" = 25
+	"Yedder #6" = 25
+	"Juba #1" = 10
+	"Mendas #2" = 10
+	"Meziane #1" = 10
+	"Atbir #0" = 0
+	"Anarouz #0" = 0
+	"Azmar #0" = 0
+	"Maqrin #0" = 0
+	"Dihya #1" = -1
+	"Tabat #0" = -1
+	"Ghanima #2" = -1
+}
+leader_names = { 
+	Addi Aderfi Adid Agerzam Aghbalu Aghilas Aghiles Agizul Agwmar Ahar
+	Akawel Akersim Akli Aksil Amalu Amanar Amastan Amastane Amayas Amaynu
+	Amazigh Amenzu Ameqqran Amessan Ameziane Amêzyan Amokrane Anarouz Anaruz Anebdad
+	Anir Anqa Areksim Areski Asafar Asafu Asfru Asirem Asmun Asulil
+	Atbir Awlagh Awsim Aksil Ayrad Ayyur Azêllay Azêllay Azenzêr Azmar
+	Azrur Azuz Badis Baloua Baragsen Basi Ebeggi Fourou
+	Ghanim Ghilas Gwasila Idder Iften Ighlaf Igider Ilayetmas Immeghar Ioues
+	Isgaden Izdârasen Izebboudjen Izemrasen Izîl Juba Jugurtha Lounès Lounis Makoud
+	Maqrin Masensen Masinissa Masnsen Massen Massin Massinissa Mendas Merin Mezian
+	Meziane Mimum Mokrane Munatas Naravas Navil Nayram Rezki Udad Ugwistan
+	Usem Usus Wagguten Wararni Warmaksan Winaruz Wiwurgh Ksamida Yedder Yeddes
+	Yidir Yufayyur Yufitran Yufitri Yuften Yugerten Yuns Zigza Ziri
+}
+ship_names = { 
+	Altava Mauretania Afrika Dahra Oran Kabyle Erkul Konstantine Hodna Tlemcen
+}

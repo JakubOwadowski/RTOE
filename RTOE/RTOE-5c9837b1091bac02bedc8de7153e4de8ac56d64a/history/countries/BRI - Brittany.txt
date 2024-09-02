@@ -1,0 +1,34 @@
+government = monarchy
+add_government_reform = feudalism_reform
+primary_culture = breton
+religion = orthodox
+religious_school = see_of_rome
+technology_group = western
+capital = 172
+
+1442.8.29 = {
+	monarch = {
+		name = "François I"
+		dynasty = "de Dreux"
+		birth_date = 1414.5.14
+		adm = 1
+		dip = 3
+		mil = 2
+	}
+	clear_scripted_personalities = yes
+	add_ruler_personality = charismatic_negotiator_personality 
+}
+
+1442.8.29 = {
+	heir = {
+		name = "Pierre"
+		monarch_name = "Pierre II"
+		dynasty = "de Dreux"
+		birth_date = 1418.7.7
+		death_date = 1457.9.22
+		claim = 95
+		adm = 2
+		dip = 2
+		mil = 3
+	}
+}

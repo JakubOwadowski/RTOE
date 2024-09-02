@@ -1,0 +1,101 @@
+#Country Name: Please see filename.
+
+graphical_culture = westerngfx
+
+color = { 190  125  5 }
+revolutionary_colors = { 8 0 15 }
+
+historical_idea_groups = {
+	exploration_ideas
+	religious_ideas
+	offensive_ideas
+	expansion_ideas
+	influence_ideas
+	maritime_ideas
+	quality_ideas
+	defensive_ideas
+}
+
+historical_units = {
+	western_medieval_infantry
+	western_medieval_knights
+	western_men_at_arms
+	spanish_tercio
+	austrian_tercio
+	austrian_grenzer
+	austrian_hussar
+	austrian_white_coat
+	austrian_jaeger
+	mixed_order_infantry
+	open_order_cavalry
+	napoleonic_square
+	napoleonic_lancers
+}
+
+monarch_names = {
+        "Guislabert #4" = 30
+        "Gerard #3" = 25
+        "Guerau #2" = 20
+        "Jofro #1" = 45
+        "Pono #0" = 10
+        "Arnold #0" = 10
+        "Ferdinand #0" = 10
+        "Sano #0" = 10
+        "William #0" = 10
+        "Sancho #0" = 10
+        "Guillem #0" = 10
+        "Otto #0" = 10
+        "Berenguer-Ramon #0" = 10
+        "Ott #0" = 10
+        "Gausfred #0" = 10
+        "Ramon-Folc #0" = 10
+        "Raymond #0" = 10
+        "Raymond-Berengar #0" = 10
+        "Alfons #0" = 10
+        "Roger #0" = 10
+
+        "Adelaida #0" = -1
+        "Elisenda #0" = -1
+        "Yolanda #0" = -1
+}
+
+leader_names = {
+	"de Aguirre" "de Alarcon" "de Toleto" "de Andrade" "de Ayala"
+	"de Basan" "de Benavides" Campomanes "de Castra" "de la Cerda" Cienfuegos Colon Coronado Cortes
+	"de Toleto" "de Corduba" "de Cueva" "de Figueroa" Fonseca
+	Galves Gomas "de Gusman" "Imenes de Cisneros"
+	"de Leiva" "Lopes de Haro" "de Luna"
+	"de Lara" "de Velasco" "de Villena" "de Mendotta"
+	Narvas "de Nebria" "Nunes de Balboa" "de Oda" Orerana Osorio 
+	Pimentel Pinson Pisato "Ponce de Leion" Portocarrero
+	"de Roias" Teres-Giron "de la Vega" "de Zuniga"
+}
+
+ship_names = {
+	Leion Argonauta Asturias Asuntion Atrevido Azor
+	Cartagonova Castra Castor
+	Doncera Dragon 
+	"Grin Manho" "Retiro" Eneas Eolo Esperanza "Spirito Sancto" Extremadura
+	Furor Galicia "Grifon Manho" Halcon Hercule Isabela Jupiter
+	"Conception" "Magdalena" "Manuela" Ligera "Lopo Marino"
+	Marte Mercurio Neptuno Nina Orion
+	"Paloma Blanca" Pegaso "Perro Marino" Pinta Pluton Pollux "Princepo de Asturias"
+	Rayo "Regino Alphonso" "Regino Henrico" "Regino Iovanno" "Rex Pelaio" "Rex Rodrigo"
+	"Sancto Andreas" "Sancto Antonio" "Sancto Bartolomeo" "Sancto Bernabeo" "Sancto Cristophro" "Sancto Henrico"
+	"Sancto Stephano" "Sancto Fardnando" "Sancto Francisco" "Sancto Gabrielo" "Sancto Isidoro" "Sancto Hieronimo"
+	"Sancto Iosepho" "Sancto Iovanno" "Sancto Iovanno Baptisto" "Sancto Leonadro" "Sancto Micael" "Sancto Petro"
+	"Sancto Rafaelo" "Sancto Salvadoro" "Sancto Sebastiano" "Sancta Anna" "Sancta Barbara" "Sancta Beatrix"
+	"Sancta Carolina" "Sancta Crux" "Sancta Fide" "Sancta Isabela" "Sancta Justa" "Sancta Maria"
+	"Sancta Marta" "Sancta Rita" "Sancta Teresa" "Sancto Iacobo" "Sanctisima Trinidad" "Sancto Dominico" Sirena
+	Terror Toleto Trinidad Triton Unicornio
+	Vencedora Ventura Victoria Vigilante Vizcaya Vulcano Suniga
+}
+
+
+army_names = {
+	"Pratoria Regia" "Exertito de $PROVINCE$"
+}
+
+fleet_names = {
+	"Clasi Regio"	"Clasi de $PROVINCE$"
+}

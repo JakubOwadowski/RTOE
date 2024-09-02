@@ -1,0 +1,7 @@
+government = native
+add_government_reform = native_hereditary_reform
+government_rank = 1
+technology_group = eastern
+religion = finnish_pagan_reformed
+primary_culture = karelian
+capital = 32

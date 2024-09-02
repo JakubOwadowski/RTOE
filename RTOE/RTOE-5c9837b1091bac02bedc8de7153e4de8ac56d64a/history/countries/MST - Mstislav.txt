@@ -1,0 +1,9 @@
+government = monarchy
+add_government_reform = principality
+government_rank = 1
+primary_culture = byelorussian
+religion = orthodox
+religious_school = see_of_constantinople
+technology_group = eastern
+capital = 4246# Mstislav
+fixed_capital = 4246

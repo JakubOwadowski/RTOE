@@ -1,0 +1,17 @@
+government = tribal
+add_government_reform = tribal_kingdom
+government_rank = 1
+primary_culture = berber
+religion = orthodox
+technology_group = muslim
+capital = 350# Laghouat 
+religious_school = see_of_alexandria
+1430.1.1 = { 
+	monarch = { 
+		name = "Yufitri I"
+		dynasty = "Uddid"
+		adm = 2
+		dip = 3
+		mil = 3
+	}
+}

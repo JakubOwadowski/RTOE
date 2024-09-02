@@ -1,0 +1,9 @@
+government = theocracy
+add_government_reform = imperial_bishopric_reform
+government_rank = 1
+primary_culture = pyrenean
+religion = orthodox
+religious_school = see_of_rome
+technology_group = western
+capital = 2987# Urgell
+fixed_capital = 2987

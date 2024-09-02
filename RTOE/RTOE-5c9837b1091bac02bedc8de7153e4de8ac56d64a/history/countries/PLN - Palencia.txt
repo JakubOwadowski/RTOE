@@ -1,0 +1,17 @@
+government = monarchy
+add_government_reform = feudalism_reform
+primary_culture = leonese
+religion = orthodox
+religious_school = see_of_rome
+technology_group = western
+capital = 4552#Palencia
+government_rank = 1
+1408.1.1 = { 
+	monarch = { 
+		name = "Piedro II"
+		dynasty = "de Llión"
+		adm = 3
+		dip = 3
+		mil = 3
+	}
+}

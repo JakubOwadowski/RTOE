@@ -1,0 +1,8 @@
+4382 = "Caitnes"
+4771 = "Stirlin"
+253 = "Ooter Hebrides"
+252 = "Innerness"
+251 = "Aiberdeen"
+248 = "Lowden"
+4361 = "Jethart"
+4709 = "Gallowa"

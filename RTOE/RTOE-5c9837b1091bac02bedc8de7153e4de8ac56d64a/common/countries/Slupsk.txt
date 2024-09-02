@@ -1,0 +1,61 @@
+#Country Name: Please see filename.
+graphical_culture = easterngfx
+color = { 76 19 162 }
+historical_idea_groups = { 
+	trade_ideas
+	defensive_ideas
+	innovativeness_ideas
+	offensive_ideas
+	economic_ideas
+	maritime_ideas
+	quality_ideas
+	administrative_ideas
+}
+historical_units = { 
+	western_medieval_infantry
+	western_medieval_knights
+	western_men_at_arms
+	dutch_maurician
+	swedish_gallop
+	swedish_gustavian
+	swedish_caroline
+	swedish_arme_blanche
+	prussian_frederickian
+	prussian_uhlan
+	mixed_order_infantry
+	open_order_cavalry
+	napoleonic_square
+	napoleonic_lancers
+}
+monarch_names = { 
+	"Szczerzësz #3" = 25
+	"Macëj #3" = 25
+	"Szymun #3" = 25
+	"Natan #1" = 15
+	"Sténcë #0" = 10
+	"Starzë #0" = 10
+	"Slaw #0" = 10
+	"Mësézô #0" = 10
+	"Stéfan #0" = 10
+	"Michôl #0" = 10
+	"Mëchimôr #0" = 10
+	"Mëszko #0" = 10
+	"Winëncëj #0" = 10
+	"Samul #0" = 10
+	"Samér #0" = 10
+	"Pomór #0" = 10
+	"Jón #0" = 10
+	"Sténs #0" = 10
+	"Stanëslôw #0" = 10
+	"Zéncë #0" = 10
+	"Karlëta #0" = -1
+	"S³owéncë #0" = -1
+	"Szméra #0" = -1
+}
+leader_names = { 
+	Grëfsczë Guscërlëwsczi Czakowsczi Lësësczi Dërgësczi Drëzdzowsczi Bogardësczi Rzëpczësczi Kamësczi Sëmëksczi
+	Buszësczi 
+}
+ship_names = { 
+	Pomorze "Zëmë Rëmëskô" Borówka "Lësny Duh" Brëza Môrawa Kogut Orlëta Jeziora "Gwiôzdë Sëmë"
+}

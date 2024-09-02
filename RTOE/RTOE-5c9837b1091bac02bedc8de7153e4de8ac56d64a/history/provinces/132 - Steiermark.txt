@@ -1,0 +1,21 @@
+#132 - Steiermark
+owner = LOM
+controller = LOM
+culture = longbard
+religion = orthodox
+base_tax = 4
+base_production = 4
+trade_goods = grain
+base_manpower = 3
+capital = "Judenburg"
+is_city = yes
+discovered_by = KAZ
+discovered_by = CRI
+discovered_by = GOL
+discovered_by = AST
+discovered_by = QAS
+discovered_by = western
+discovered_by = eastern
+discovered_by = muslim
+1806.7.12 = { hre = no }
+add_core = LOM

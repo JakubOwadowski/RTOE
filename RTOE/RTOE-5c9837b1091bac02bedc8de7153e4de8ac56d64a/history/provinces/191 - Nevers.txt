@@ -1,0 +1,19 @@
+# 191 Nevers - Principal cities: Nevers
+
+owner = FRA
+controller = FRA 
+capital = "Nevers"
+is_city = yes
+culture = cosmopolitan_french
+religion = orthodox
+hre = no
+base_tax = 5
+base_production = 5
+trade_goods = livestock
+base_manpower = 3
+add_core = FRA
+discovered_by = eastern
+discovered_by = western
+discovered_by = western
+discovered_by = muslim
+discovered_by = ottoman

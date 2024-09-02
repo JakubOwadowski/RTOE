@@ -1,0 +1,241 @@
+﻿l_english:
+ #for changed names see replace/RTOE_replace_cultures_l_english.txt
+ 
+ ###Greeks###
+ #Byzantine -> Hellenic
+ #Greek -> Rhomanian
+ pontic_greek: "Pontic"
+ cilician_greek: "Cilician"
+ cretean_greek: "Cretan"
+ griko: "Griko"
+ tsakonian: "Tsakonian"
+ hellenoafrican: "Hellenoafrican"
+ capp_greek: "Cappadocian"
+
+ ###Scandinavia###
+ icelandic: "Icelandic"
+ vinlander: "Vinlander"
+ #Swedish
+ #Danish
+ #Norwegian
+ gotalander: "Gottish"
+ jutlander: "Jutish"
+ jamtlander: "Jamtlander"
+
+ ###Germans###
+ #Saxon
+ #Swabian
+ #Bavarian
+ longbard: "Langbardian"
+ #Frankonian
+ #Dutch
+ #Frisian
+ #Hessian
+ thuringian: "Thuringian"
+ 
+ 
+ ###Anglo-Norman###
+
+ #Norman
+ #English
+ #Scottish -> Scots
+ northumbrian: "Northumbrian"
+ anglo_irish: "Anglo-Irish"
+  
+ ###Celts###
+ #Irish
+ #Highland Scottish -> Gaelic
+ cumbrian: "Cumbric"
+ #Welsh
+ #Cornish
+ #Breton
+ 
+ ###Latin Megagroup###
+ 
+ ###Italian###
+ #Umbrian -> Central Italian
+ #Neapolitan
+ #Tuscan
+ #Venetian
+ cisalpine: "Cisalpine"
+ romansh: "Romansh"
+ friulian: "Friulian"
+ corsican: "Corsican"
+ sicilian: "Sicilian"
+ #Dalmatian
+ istrian: "Istriot"
+ 
+ ###Occitain###
+ occitain_group: "Langues d'oc"
+ balearese: "Balearese"
+ #Occitain
+ gascon: "Gascon"
+ pyrenean: "Pyrenean"
+  
+ ###Hispanic###
+ #Leonese
+ #Galician
+ visigo: "Visigian"
+ betic: "Betic"
+ tarragonese: "Tarragonese"
+ 
+ ###African Romance###
+ african_romance: "African Romance"
+ carthgean: "Carthgean"
+ numidian: "Numidian"
+ sardinian: "Sardinian"
+ maltese: "Maltese"
+ 
+ ###French###
+ #Francien -> French
+ lieunnois: "Lieunnois"
+ gallo: "Gallo"
+ #Wallon
+ #Burgundian
+ 
+ ###Daco-Romance###
+ dacish: "Daco-Romance"
+ dacian: "Dacian"
+ thessalian: "Thessalian"
+ vlach: "South Dacian"
+ moldavian: "North Dacian"
+ 
+ ###Basques###
+ basque_group: "Basquic"
+ #Basque
+ 
+ ###Arameic Group####
+ aramaic: "Aramaic"
+ syriac: "Syriac"		
+ lebanese: "Lebanese"		
+ palestinian: "Palestinian"	
+ jewish: "Jewish"
+ 
+ ###Armenian group###
+ armenian_group: "Hayastani"
+ #Armenian
+ hemshin: "Hemshin"
+ 
+ ###Georgian group###
+ georgian_group: "Georgian"
+ #Georgian
+ laz: "Laz"
+ mingrelian: "Mingrelian"
+ 
+ ###North Caucasian group###
+ dagestani_group: "North Caucasian"
+ lakian: "Lak"
+ veinakh_group: "Veinakh"
+ chechen: "Chechen"
+ 
+ ###Circassic group###
+ abazgi: "Abazgian"
+ ubykh: "Ubykh"
+ #Circassian
+ 
+ ###Albanians###
+ albanic: "Albanic"
+ #Albanian
+ 
+ ###Slavs###
+ #West Slavs
+ polabian: "Polabian"
+ moravian: "Moravian"
+ pomorzan: "Pomeranian"
+ #Polish
+ #Czech
+ #Slovak
+ #Sorbian -> Lusitan
+ masovian: "Masovian"
+ silesian: "Silesian"
+ lutitian: "Lutitian"
+ 
+ #East Slavs
+ #Ruthenian -> Kyivan
+ carpat: "Carpathian"
+ #Muscovite -> Moskvite
+ #Novgorodian
+ #Ryazanian
+ #Belorussian
+ pomor: "Pomor"
+ 
+ #South Slavs
+ #Serbian
+ #Croatian
+ #Bulgarian
+ #Slovene
+ 
+ ###Baltic Peoples###
+ sudovian: "Yotvingan"
+ curonian: "Curonian"
+ zhmudin: "Samogitian"
+ #Lithuanian
+ #Lativan -> Latgallian
+ semigallian: "Semigalian"
+ selonian: "Selonian"
+ scalovovian: "Scalovovian"
+ galindian: "Galindian"
+ 
+ ###Fins and Urals###
+ ingrian: "Ingrian"
+ #Finnish
+ #Karelian
+ tavastanian: "Tavastian"
+ #Saami
+ #Samoyed
+ #Ostyak
+ #Uralic -> Komi
+ #Estonian
+ livonian: "Livonian"
+ pohjanmaa: "Bothnian"
+ kainuu: "Kainuu"
+ savo: "Savonian"
+ kolan: "Kolan"
+ south_sapmi: "South Saami"
+ finnic: "Finnic"
+ 
+ ###Berbers (Imazigh)###
+ atlas: "Atlasic"
+ #Moroccan -> Amazigh
+ #Algerian -> Moorish
+ #Berber -> Fezzani
+ #Tunesian -> Kabylian
+ #Tuareg
+ 
+ oghuz: "Oghuz"
+ #Turkish
+ #Azerbeijani -> Qashaqi
+ #Turkmeni
+ 
+ ###Tatar###
+ 
+ #Nogai
+ #Mishar
+ #Kazani
+ #Kazakh
+ #Uzbek
+ #Kyrgyz
+ #Uyghur
+ #Yakut
+ 
+ ###Egyptian###
+ egyptian: "Egyptian"
+ lower_egyptian: "Tsakhitan"
+ upper_egyptian: "Marese"
+ 
+ ###The Rest###
+ ethiopic: "Ethiopic"
+ tajik: "Tajik"
+ khoisanic: "Khoisanic"
+ 
+ ###Iranian###
+ #Persian
+ #Mazandarani
+ #Beluchi
+ #Pashtun
+ alan: "Alan"
+ arrani: "Arrani"
+ 
+ 
+
+ 

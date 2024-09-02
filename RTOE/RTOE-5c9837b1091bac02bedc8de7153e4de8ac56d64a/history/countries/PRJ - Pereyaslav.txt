@@ -1,0 +1,9 @@
+government = monarchy
+add_government_reform = principality
+government_rank = 1
+technology_group = eastern
+religion = orthodox
+religious_school = see_of_constantinople
+primary_culture = ruthenian
+capital = 2407# Pereyaslav
+fixed_capital = 2407

@@ -1,0 +1,580 @@
+namespace = RTOE_reformation
+
+#Cutting ties with Constantinople
+country_event = {
+	id = RTOE_reformation.1
+	title = RTOE_reformation.1.t
+	desc = RTOE_reformation.1.d
+	picture = POPE_PREACHING_eventPicture
+	
+	fire_only_once = yes
+	
+	trigger = {
+		OR = {
+			tag = PAP
+			owns = 118
+		}
+		is_year = 1500
+	}
+	
+	mean_time_to_happen = {
+		years = 15
+	}
+
+	option = { #I've brought peace, freedom and justice to my new church!
+		name = RTOE_reformation.1.a
+		trigger = {
+			tag = PAP
+		}
+		enable_religion = reformed
+		change_religion = reformed
+		118 = {
+			change_religion = reformed
+			add_reform_center = reformed
+		}
+		
+	}
+
+	option = { #What is this heresy?!
+		name = RTOE_reformation.1.b
+		trigger = {
+			NOT = { tag = PAP }
+		}
+		enable_religion = reformed
+		118 = {
+			change_religion = reformed
+			add_reform_center = reformed
+			add_province_modifier = { name = religious_zeal_at_conv duration = 10950 } 
+		}
+	}
+
+	option = { #He's right!
+		name = RTOE_reformation.1.c
+		trigger = {
+			NOT = { tag = PAP }
+		}
+		enable_religion = reformed
+		change_religion = reformed
+		118 = {
+			change_religion = reformed
+			add_reform_center = reformed
+		}
+	}
+
+	after = {
+		every_country = {
+			limit = {
+				religion = orthodox
+			}
+			country_event = {
+				id = RTOE_reformation.2
+			}
+		}
+		every_country = {
+			limit = {
+				religion = orthodox
+				religious_school = {
+					group = christian
+					school = see_of_rome
+				}
+			}
+			country_event = {
+				id = RTOE_reformation.3
+			}
+		}
+		random_province = { limit = { region = italy_region religion = orthodox } change_religion = reformed add_province_modifier = { name = religious_zeal_at_conv duration = 10950 } }
+		random_province = { limit = { region = italy_region religion = orthodox } change_religion = reformed add_province_modifier = { name = religious_zeal_at_conv duration = 10950 } }
+		random_province = { limit = { region = italy_region religion = orthodox } change_religion = reformed add_province_modifier = { name = religious_zeal_at_conv duration = 10950 } }
+		random_province = { limit = { region = italy_region religion = orthodox } change_religion = reformed add_province_modifier = { name = religious_zeal_at_conv duration = 10950 } }
+		random_province = { limit = { region = italy_region religion = orthodox } change_religion = reformed add_province_modifier = { name = religious_zeal_at_conv duration = 10950 } }
+		random_province = { limit = { region = italy_region religion = orthodox } change_religion = reformed add_province_modifier = { name = religious_zeal_at_conv duration = 10950 } }
+		random_province = { limit = { region = italy_region religion = orthodox } change_religion = reformed add_province_modifier = { name = religious_zeal_at_conv duration = 10950 } }
+		random_province = { limit = { region = italy_region religion = orthodox } change_religion = reformed add_province_modifier = { name = religious_zeal_at_conv duration = 10950 } }
+		random_province = { limit = { region = italy_region religion = orthodox } change_religion = reformed add_province_modifier = { name = religious_zeal_at_conv duration = 10950 } }
+		random_province = { limit = { region = italy_region religion = orthodox } change_religion = reformed add_province_modifier = { name = religious_zeal_at_conv duration = 10950 } }
+		random_province = { limit = { region = italy_region religion = orthodox } change_religion = reformed add_province_modifier = { name = religious_zeal_at_conv duration = 10950 } }
+		random_province = { limit = { region = italy_region religion = orthodox } change_religion = reformed add_province_modifier = { name = religious_zeal_at_conv duration = 10950 } }
+	}
+}
+
+#Pope breaks the communion 
+country_event = {
+	id = RTOE_reformation.2
+	title = RTOE_reformation.2.t
+	desc = RTOE_reformation.2.d
+	picture = BAD_POPE_eventPicture
+
+	is_triggered_only = yes
+
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	#Your new church?
+	option = {
+		name = RTOE_reformation.2.a
+		add_stability = -1
+	}
+}
+
+#Orphaned
+country_event = {
+	id = RTOE_reformation.3
+	title = RTOE_reformation.3.t
+	desc = RTOE_reformation.3.d
+	picture = RELIGIOUS_TURMOIL_eventPicture
+
+	is_triggered_only = yes
+
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	#What's going to happen now?
+	option = {
+		name = RTOE_reformation.3.a
+		add_country_modifier = {
+			name = orphaned_by_the_roman_church
+			duration = -1
+		}
+		custom_tooltip = RTOE_reformation.3.a.tooltip
+	}
+}
+
+#Martin Luther and reformation in Germany
+country_event = {
+	id = RTOE_reformation.4
+	title = RTOE_reformation.4.t
+	desc = RTOE_reformation.4.d
+	picture = LUTHER_eventPicture
+
+	fire_only_once = yes
+
+	trigger = {
+		capital_scope = {
+			region = north_german_region
+		}
+		is_religion_enabled = reformed
+	}
+
+	mean_time_to_happen = {
+		days = 3650
+	}
+
+	immediate = {
+		hidden_effect = {
+			58 = {
+				change_religion = reformed
+			}
+		}
+	}
+
+	#He's right!
+	option = {
+		trigger = {
+			NOT = {
+				is_emperor = yes
+			}
+		}
+		change_religion = reformed
+		capital_scope = {
+			change_religion = reformed
+		}
+		define_advisor = {
+			type = theologian
+			name = "Martin Luther"
+			skill = 3
+			religion = reformed
+			culture = saxon
+			cost_multiplier = 0.1
+		}
+		ai_chance = {
+			factor = 75
+		}
+	}
+
+	#He's a heretic!
+	option = {
+		add_prestige = 20
+		ai_chance = {
+			factor = 25
+		}
+	}
+
+	after = {
+		random_province = { limit = { region = north_german_region religion = orthodox } change_religion = reformed add_province_modifier = { name = religious_zeal_at_conv duration = 10950 } }
+		random_province = { limit = { region = north_german_region religion = orthodox } change_religion = reformed add_province_modifier = { name = religious_zeal_at_conv duration = 10950 } }
+		random_province = { limit = { region = north_german_region religion = orthodox } change_religion = reformed add_province_modifier = { name = religious_zeal_at_conv duration = 10950 } }
+		random_province = { limit = { region = north_german_region religion = orthodox } change_religion = reformed add_province_modifier = { name = religious_zeal_at_conv duration = 10950 } }
+		random_province = { limit = { region = north_german_region religion = orthodox } change_religion = reformed add_province_modifier = { name = religious_zeal_at_conv duration = 10950 } }
+		random_province = { limit = { region = north_german_region religion = orthodox } change_religion = reformed add_province_modifier = { name = religious_zeal_at_conv duration = 10950 } }
+		random_province = { limit = { region = north_german_region religion = orthodox } change_religion = reformed add_province_modifier = { name = religious_zeal_at_conv duration = 10950 } }
+		random_province = { limit = { region = north_german_region religion = orthodox } change_religion = reformed add_province_modifier = { name = religious_zeal_at_conv duration = 10950 } }
+		random_province = { limit = { region = north_german_region religion = orthodox } change_religion = reformed add_province_modifier = { name = religious_zeal_at_conv duration = 10950 } }
+		random_province = { limit = { region = north_german_region religion = orthodox } change_religion = reformed add_province_modifier = { name = religious_zeal_at_conv duration = 10950 } }
+	}
+}
+
+#John Calvin
+country_event = {
+	id = RTOE_reformation.5
+	title = RTOE_reformation.5.t
+	desc = RTOE_reformation.5.d
+	picture = PROTESTANT_GREAT_REFORMER_eventPicture
+
+	fire_only_once = yes
+
+	immediate = {
+		hidden_effect = {
+			enable_religion = calvinist
+			random_owned_province = {
+				limit = {
+					is_in_capital_area = yes
+					can_have_center_of_reformation_trigger = {
+						RELIGION = calvinist
+					}
+				}
+				change_religion = calvinist
+				add_reform_center = calvinist
+				add_province_modifier = { name = religious_zeal_at_conv duration = 10950 } 
+			}
+		}
+	}
+
+	trigger = {
+		capital_scope = {
+			region = france_region
+		}
+		is_religion_enabled = reformed
+		any_owned_province ={
+			can_have_center_of_reformation_trigger = {
+				RELIGION = calvinist
+			}
+		}
+	}
+
+	mean_time_to_happen = {
+		days = 7300
+	}
+
+	#He's right!
+	option = {
+		trigger = {
+			NOT = {
+				is_emperor = yes
+			}
+		}
+		capital_scope = {
+			change_religion = calvinist
+		}
+		change_religion = calvinist
+		define_advisor = {
+			type = theologian
+			name = "Jean Calvin"
+			skill = 3
+			religion = calvinist
+			culture = wallonian
+			cost_multiplier = 0.1
+		}
+		ai_chance = {
+			factor = 75
+		}
+	}
+
+	option = {
+		add_prestige = 20
+		ai_chance = {
+			factor = 25
+		}
+	}
+
+	after = {
+		random_province = { limit = { region = south_german_region religion = orthodox } change_religion = calvinist add_province_modifier = { name = religious_zeal_at_conv duration = 10950 } }
+		random_province = { limit = { region = south_german_region religion = orthodox } change_religion = calvinist add_province_modifier = { name = religious_zeal_at_conv duration = 10950 } }
+		random_province = { limit = { region = south_german_region religion = orthodox } change_religion = calvinist add_province_modifier = { name = religious_zeal_at_conv duration = 10950 } }
+		random_province = { limit = { region = south_german_region religion = orthodox } change_religion = calvinist add_province_modifier = { name = religious_zeal_at_conv duration = 10950 } }
+		random_province = { limit = { region = south_german_region religion = orthodox } change_religion = calvinist add_province_modifier = { name = religious_zeal_at_conv duration = 10950 } }
+		random_province = { limit = { region = low_countries_region religion = orthodox } change_religion = calvinist add_province_modifier = { name = religious_zeal_at_conv duration = 10950 } }
+		random_province = { limit = { region = low_countries_region religion = orthodox } change_religion = calvinist add_province_modifier = { name = religious_zeal_at_conv duration = 10950 } }
+		random_province = { limit = { region = low_countries_region religion = orthodox } change_religion = calvinist add_province_modifier = { name = religious_zeal_at_conv duration = 10950 } }
+		random_province = { limit = { region = low_countries_region religion = orthodox } change_religion = calvinist add_province_modifier = { name = religious_zeal_at_conv duration = 10950 } }
+		random_province = { limit = { region = low_countries_region religion = orthodox } change_religion = calvinist add_province_modifier = { name = religious_zeal_at_conv duration = 10950 } }
+		random_province = { limit = { region = france_region religion = orthodox } change_religion = calvinist add_province_modifier = { name = religious_zeal_at_conv duration = 10950 } }
+		random_province = { limit = { region = france_region religion = orthodox } change_religion = calvinist add_province_modifier = { name = religious_zeal_at_conv duration = 10950 } }
+		random_province = { limit = { region = france_region religion = orthodox } change_religion = calvinist add_province_modifier = { name = religious_zeal_at_conv duration = 10950 } }
+		random_province = { limit = { region = france_region religion = orthodox } change_religion = calvinist add_province_modifier = { name = religious_zeal_at_conv duration = 10950 } }
+		random_province = { limit = { region = france_region religion = orthodox } change_religion = calvinist add_province_modifier = { name = religious_zeal_at_conv duration = 10950 } }
+	}
+}
+
+#Rebirth of Iconoclasm
+country_event = {
+	id = RTOE_reformation.6
+	title = RTOE_reformation.6.t
+	desc = RTOE_reformation.6.d
+	picture = PROTESTANT_GREAT_REFORMER_eventPicture
+
+	fire_only_once = yes
+
+	immediate = {
+		hidden_effect = {
+			enable_religion = iconoclast
+			random_owned_province = {
+				limit = {
+					OR = {
+						region = anatolia_region
+						region = balkan_region
+					}
+					can_have_center_of_reformation_trigger = {
+						RELIGION = iconoclast
+					}
+				}
+				change_religion = iconoclast
+				add_reform_center = iconoclast
+				add_province_modifier = { name = religious_zeal_at_conv duration = 10950 } 
+				
+			}
+		}
+	}
+
+	trigger = {
+		any_owned_province = {
+			OR = {
+				region = anatolia_region
+				region = balkan_region
+			}
+			can_have_center_of_reformation_trigger = {
+				RELIGION = iconoclast
+			}
+		}
+		is_religion_enabled = calvinist
+	}
+
+	mean_time_to_happen = {
+		days = 3650
+	}
+
+	#He's right!
+	option = {
+		trigger = {
+			NOT = {
+				is_emperor = yes
+			}
+		}
+		change_religion = iconoclast
+		capital_scope = {
+			change_religion = iconoclast
+		}
+		define_advisor = {
+			type = theologian
+			name = "Alexios Kyriakopoulos"
+			skill = 3
+			religion = iconoclast
+			culture = cappadocian
+			cost_multiplier = 0.1
+		}
+		ai_chance = {
+			factor = 75
+			modifier = {
+				factor = 0
+				is_emperor = yes
+			}
+		}
+	}
+
+	option = {
+		add_prestige = 20
+		ai_chance = {
+			factor = 25
+		}
+	}
+
+	after = {
+		random_province = { limit = { region = anatolia_region religion = orthodox } change_religion = iconoclast add_province_modifier = { name = religious_zeal_at_conv duration = 10950 } }
+		random_province = { limit = { region = anatolia_region religion = orthodox } change_religion = iconoclast add_province_modifier = { name = religious_zeal_at_conv duration = 10950 } }
+		random_province = { limit = { region = anatolia_region religion = orthodox } change_religion = iconoclast add_province_modifier = { name = religious_zeal_at_conv duration = 10950 } }
+		random_province = { limit = { region = anatolia_region religion = orthodox } change_religion = iconoclast add_province_modifier = { name = religious_zeal_at_conv duration = 10950 } }
+		random_province = { limit = { region = balkan_region religion = orthodox } change_religion = iconoclast add_province_modifier = { name = religious_zeal_at_conv duration = 10950 } }
+		random_province = { limit = { region = balkan_region religion = orthodox } change_religion = iconoclast add_province_modifier = { name = religious_zeal_at_conv duration = 10950 } }
+		random_province = { limit = { region = balkan_region religion = orthodox } change_religion = iconoclast add_province_modifier = { name = religious_zeal_at_conv duration = 10950 } }
+	}
+}
+
+#Huldrych Zwingli
+country_event = {
+	id = RTOE_reformation.7
+	title = RTOE_reformation.7.t
+	desc = RTOE_reformation.7.d
+	picture = PROTESTANT_GREAT_REFORMER_eventPicture
+
+	fire_only_once = yes
+
+	immediate = {
+		hidden_effect = {
+			enable_religion = anabaptist
+			random_owned_province = {
+				limit = {
+					OR = {
+						area = switzerland_area
+						area = romandie_area
+						area = raetia_area
+					}
+					can_have_center_of_reformation_trigger = {
+						RELIGION = anabaptist
+					}
+				}
+				change_religion = anabaptist
+				add_reform_center = anabaptist
+				add_province_modifier = { name = religious_zeal_at_conv duration = 10950 } 
+			}
+		}
+	}
+
+	trigger = {
+		is_religion_enabled = calvinist
+		any_owned_province = {
+			OR = {
+				area = switzerland_area
+				area = romandie_area
+				area = raetia_area
+			}
+			can_have_center_of_reformation_trigger = {
+				RELIGION = anabaptist
+			}
+		}
+	}
+
+	mean_time_to_happen = {
+		days = 7300
+	}
+
+	#He's right!
+	option = {
+		trigger = {
+			NOT = {
+				is_emperor = yes
+			}
+		}
+		capital_scope = {
+			change_religion = anabaptist
+		}
+		change_religion = anabaptist
+		define_advisor = {
+			type = theologian
+			name = "Huldrych Zwingli"
+			skill = 3
+			religion = anabaptist
+			culture = swiss
+			cost_multiplier = 0.1
+		}
+		ai_chance = {
+			factor = 75
+			modifier = {
+				factor = 0
+				religion = calvinist
+			}
+		}
+	}
+
+	option = {
+		add_prestige = 20
+		ai_chance = {
+			factor = 25
+		}
+	}
+
+	after = {
+		random_province = { limit = { region = south_german_region OR = { religion = orthodox religion = calvinist } } change_religion = anabaptist add_province_modifier = { name = religious_zeal_at_conv duration = 10950 } }
+		random_province = { limit = { region = south_german_region OR = { religion = orthodox religion = calvinist } } change_religion = anabaptist add_province_modifier = { name = religious_zeal_at_conv duration = 10950 } }
+		random_province = { limit = { region = south_german_region OR = { religion = orthodox religion = calvinist } } change_religion = anabaptist add_province_modifier = { name = religious_zeal_at_conv duration = 10950 } }
+		random_province = { limit = { region = low_countries_region OR = { religion = orthodox religion = calvinist } } change_religion = anabaptist add_province_modifier = { name = religious_zeal_at_conv duration = 10950 } }
+		random_province = { limit = { region = low_countries_region OR = { religion = orthodox religion = calvinist } } change_religion = anabaptist add_province_modifier = { name = religious_zeal_at_conv duration = 10950 } }
+		random_province = { limit = { region = low_countries_region OR = { religion = orthodox religion = calvinist } } change_religion = anabaptist add_province_modifier = { name = religious_zeal_at_conv duration = 10950 } }
+	}
+}
+
+#Eliseo Varela
+country_event = {
+	id = RTOE_reformation.8
+	title = RTOE_reformation.8.t
+	desc = RTOE_reformation.8.d
+	picture = PROTESTANT_GREAT_REFORMER_eventPicture
+
+	fire_only_once = yes
+
+	immediate = {
+		hidden_effect = {
+			enable_religion = varelist
+			random_owned_province = {
+				limit = {
+					is_in_capital_area = yes
+					can_have_center_of_reformation_trigger = {
+						RELIGION = varelist
+					}
+				}
+				change_religion = varelist
+				add_reform_center = varelist
+				add_province_modifier = { name = religious_zeal_at_conv duration = 10950 } 
+			}
+		}
+	}
+
+	trigger = {
+		is_religion_enabled = reformed
+		any_owned_province = {
+			OR = {
+				area = galicia_area
+				area = asturias_area
+				area = beieras_area
+			}
+			can_have_center_of_reformation_trigger = {
+				RELIGION = varelist
+			}
+		}
+	}
+
+	mean_time_to_happen = {
+		days = 7300
+	}
+
+	#He's right!
+	option = {
+		trigger = {
+			NOT = {
+				is_emperor = yes
+			}
+		}
+		capital_scope = {
+			change_religion = varelist
+		}
+		change_religion = varelist
+		define_advisor = {
+			type = theologian
+			name = "Eliseo Varela"
+			skill = 3
+			religion = varelist
+			culture = galician
+			cost_multiplier = 0.1
+		}
+		ai_chance = {
+			factor = 75
+			modifier = {
+				factor = 0
+				religion = reformed
+			}
+		}
+	}
+
+	option = {
+		add_prestige = 20
+		ai_chance = {
+			factor = 25
+		}
+	}
+
+	after = {
+		random_province = { limit = { region = iberia_region OR = { religion = orthodox religion = reformed } } change_religion = varelist add_province_modifier = { name = religious_zeal_at_conv duration = 10950 } }
+		random_province = { limit = { region = iberia_region OR = { religion = orthodox religion = reformed } } change_religion = varelist add_province_modifier = { name = religious_zeal_at_conv duration = 10950 } }
+		random_province = { limit = { region = iberia_region OR = { religion = orthodox religion = reformed } } change_religion = varelist add_province_modifier = { name = religious_zeal_at_conv duration = 10950 } }
+	}
+}

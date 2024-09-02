@@ -1,0 +1,24 @@
+country_decisions = {
+	search_the_catacombs_decision = {
+		potential = {
+			tag = BMM
+			NOT = { is_year = 1445 }
+			owns = 2220
+			religion = zoroastrian
+		}
+
+		allow = {
+			is_at_war = no
+		}
+
+		effect = {
+			country_event = {
+				id = RTOE_meme.2
+			}
+		}
+
+		ai_will_do = {
+			factor = 0 #never
+		}
+	}
+}

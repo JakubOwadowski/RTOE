@@ -1,0 +1,32 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_icon_see_of_rome"
+		texturefile = "gfx/interface/icon_see_of_rome.dds"
+	}
+	spriteType = {
+		name = "GFX_icon_see_of_constantinople"
+		texturefile = "gfx/interface/icon_see_of_constantinople.dds"
+	}
+	spriteType = {
+		name = "GFX_icon_see_of_alexandria"
+		texturefile = "gfx/interface/icon_see_of_alexandria.dds"
+	}
+	spriteType = {
+		name = "GFX_icon_see_of_antioch"
+		texturefile = "gfx/interface/icon_see_of_antioch.dds"
+	}
+	spriteType = {
+		name = "GFX_icon_see_of_jerusalem"
+		texturefile = "gfx/interface/icon_see_of_jerusalem.dds"
+	}
+	spriteType = {
+		name = "GFX_icon_heterodoxy"
+		texturefile = "gfx/interface/icon_heterodoxy.dds"
+	}
+	spriteType = {
+	  name = "GFX_disaster_GFX_fall_of_france"
+	  texturefile = "gfx/interface/disasters/fall_of_france.dds"
+	  noOfFrames = 3
+	  loadType = "INGAME"
+	 }
+}

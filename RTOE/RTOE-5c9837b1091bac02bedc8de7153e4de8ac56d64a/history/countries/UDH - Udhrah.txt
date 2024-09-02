@@ -1,0 +1,16 @@
+government = monarchy
+add_government_reform = iqta
+government_rank = 1
+technology_group = muslim
+religion = sunni
+primary_culture = bedouin_arabic
+capital = 2328
+1437.1.1 = { 
+	monarch = { 
+		name = "Ahmad II"
+		dynasty = "Banu Udhrah"
+		adm = 3
+		dip = 2
+		mil = 6
+	}
+}

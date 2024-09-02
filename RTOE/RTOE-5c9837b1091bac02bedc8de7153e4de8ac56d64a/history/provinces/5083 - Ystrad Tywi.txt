@@ -1,0 +1,27 @@
+#Written with Eu4 Easy Province Creator by emiroercn
+#Ystrad Tywi
+owner = NRM
+controller = NRM
+culture = welsh
+religion = ofbrit
+base_tax = 1
+base_production = 1
+trade_goods = livestock
+base_manpower = 1
+capital = "Ystrad Tywi"
+is_city = yes
+extra_cost = 26
+discovered_by = eastern
+discovered_by = muslim
+discovered_by = western
+discovered_by = eastern
+discovered_by = muslim
+discovered_by = western
+discovered_by = eastern
+discovered_by = muslim
+discovered_by = western
+discovered_by = eastern
+discovered_by = muslim
+discovered_by = western
+add_core = DEH
+add_core = NRM

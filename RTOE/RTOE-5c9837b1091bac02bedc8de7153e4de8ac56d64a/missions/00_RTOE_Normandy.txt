@@ -1,0 +1,949 @@
+RTOE_Normandy_1 = {
+	slot = 1
+	generic = no
+	ai = yes
+	has_country_shield = yes
+	potential = {
+		NOT = { map_setup = map_setup_random }
+		OR = {
+			tag = NRM
+			#tag = UKN
+		}
+	}
+
+	RTOE_Normandy_channel_trade = {
+		icon = mission_control_the_channel
+		position = 1
+		required_missions = { }
+		trigger = { 
+			num_ships_protecting_trade = 15
+			1271 = {
+				light_ships_in_province = 15
+			}
+		}
+		effect = { 
+			add_country_modifier = {
+				name = NRM_shipbuilding_frenzy
+				duration = 9125
+			}
+		}
+	}
+	RTOE_Normandy_construct_the_norman_armada = {
+		icon = mission_establish_high_seas_navy
+		position = 2
+		required_missions = { RTOE_Normandy_channel_trade }
+		trigger = { 
+			navy_size_percentage = 90
+			navy_size = 50
+			num_of_light_ship = 25
+			num_of_heavy_ship = 10
+		}
+		effect = { 
+			add_country_modifier = {
+				name = NRM_norman_grand_armada
+				duration = -1
+			}
+		}
+	}
+	RTOE_Normandy_frisian_conquest = {
+		icon = mission_galleys_in_port
+		position = 3
+		required_missions = { RTOE_Normandy_norman_monopoly }
+		provinces_to_highlight = {
+			OR = {
+				area = frisia_area
+				area = holland_area
+			}
+			NOT = {	country_or_non_sovereign_subject_holds = ROOT }
+		}
+		trigger = { 
+			num_of_provinces_owned_or_owned_by_subjects_with = {
+				value = 5
+				OR = {
+					area = frisia_area
+					area = holland_area
+				}
+			}
+		}
+		effect = { 
+			add_country_modifier = {
+				name = NRM_frisian_conquest
+				duration = 18250
+			}
+			every_province = {
+				limit = {
+					region = low_countries_region
+				}
+				add_permanent_claim = ROOT
+			}
+		}
+	}
+	RTOE_Normandy_control_the_low_countries = {
+		icon = mission_conquer_lowlands
+		position = 4
+		required_missions = { RTOE_Normandy_frisian_conquest }
+		provinces_to_highlight = {
+			region = low_countries_region
+			NOT = {	country_or_non_sovereign_subject_holds = ROOT }
+		}
+		trigger = { 
+			owns_core_province = 95
+			owns_core_province = 92
+			num_of_provinces_owned_or_owned_by_subjects_with = {
+				value = 12
+				region = low_countries_region
+				OR = {
+					has_building = marketplace
+					has_building = trade_depot
+					has_building = stock_exchange
+				}
+			}
+		}
+		effect = { 
+			define_advisor = {
+				type = trader
+				skill = 3
+				discount = yes
+			}
+			every_province = {
+				limit = {
+					region = low_countries_region
+					OR = {
+						has_building = marketplace
+						has_building = trade_depot
+						has_building = stock_exchange
+					}
+				}
+				add_random_development = 3
+			}
+			if = {
+				limit = {
+					NOT = { accepted_culture = dutch }
+				}
+				add_country_modifier = {
+					name = NRM_accepted_the_dutch
+					duration = -1
+				}
+				custom_tooltip = RTOE_Normandy_control_the_low_countries.tooltip
+				add_accepted_culture = dutch
+			}
+		}
+	}
+	RTOE_Normandy_fate_of_wales = {
+		icon = mission_rb_conquer_wales
+		position = 5
+		required_missions = { }
+		provinces_to_highlight = {
+			OR = {
+				area = wales_area
+				area = dyfed_area
+				area = south_wales_area
+			}
+			NOT = {	country_or_non_sovereign_subject_holds = ROOT }
+		}
+		trigger = { 
+			OR = {
+				owns_all_provinces = {
+					OR = {
+						area = wales_area
+						area = dyfed_area
+						area = south_wales_area
+					}
+				}
+				custom_trigger_tooltip = {
+					has_country_flag = nrm_fate_of_wales_flag
+					tooltip = RTOE_Normandy_fate_of_wales.tooltip
+				}
+			}
+		}
+		effect = { 
+			if = {
+				limit = { 
+					has_country_flag = nrm_fate_of_wales_flag
+					GWY = {
+						is_subject_of = ROOT
+					}
+				}
+				GWY = {
+					override_country_name = WLS
+					change_country_color = {
+						color = { 255 77 77 }
+					}
+					every_province = {
+						limit = {
+							OR = {
+								area = wales_area
+								area = dyfed_area
+							}
+						}
+						add_core = ROOT
+					}
+				}
+				every_province = {
+					limit = {
+						owned_by = ROOT
+						OR = {
+							area = wales_area
+							area = dyfed_area
+						}
+					}
+					cede_province = GWY
+				}
+				create_subject = {
+					subject_type = feudal_vassal
+					who = GWY
+				}
+				add_country_modifier = {
+					name = NRM_welsh_march
+					duration = 9125
+				}
+			}
+			else = {
+				add_country_modifier = {
+					name = NRM_conquest_of_wales
+					duration = 9125
+				}
+				add_adm_power = 100
+			}
+			add_prestige = 10
+		}
+	}
+	RTOE_Normandy_protect_dublin = {
+		icon = mission_rb_beyond_the_pale
+		position = 6
+		required_missions = { RTOE_Normandy_fate_of_wales }
+		provinces_to_highlight = {
+			province_id = 373
+			NOT = {	country_or_non_sovereign_subject_holds = DUB }
+		}
+		trigger = { 
+			OR = {
+				AND = {
+					NOT = { exists = DUB }
+					owns_core_province = 373
+				}
+				AND = {
+					reverse_has_opinion = {
+						who = DUB
+						value = 100
+					}
+					OR = {
+						has_guaranteed = DUB
+						alliance_with = DUB
+					}
+				}
+			}
+		}
+		effect = { 
+			every_province = {
+				limit = {
+					area = leinster_area
+				}
+				add_permanent_claim = ROOT
+			}
+			if = {
+				limit = { exists = DUB }
+				if = {
+					limit = {
+						has_dlc = "The Cossacks"
+					}
+					DUB = {
+						add_trust = {
+							who = ROOT
+							value = 20
+						}
+					}
+				}
+			}
+		}
+	}
+	RTOE_Normandy_claim_leinster = {
+		icon = mission_rb_conquer_leinster
+		position = 7
+		required_missions = { RTOE_Normandy_protect_dublin }
+		provinces_to_highlight = {
+			area = leinster_area
+			OR = {
+				NOT = {	country_or_non_sovereign_subject_holds = ROOT }
+				NOT = {	country_or_non_sovereign_subject_holds = DUB }
+			}
+		}
+		trigger = { 
+			leinster_area = {
+				type = all
+				OR = {
+					country_or_non_sovereign_subject_holds = ROOT
+					country_or_non_sovereign_subject_holds = DUB
+				}
+			}
+		}
+		effect = { 
+			every_province = {
+				limit = {
+					OR = {
+						area = leinster_area
+						area = munster_area
+						area = connacht_area
+						area = meath_area
+						area = west_meath_area
+						area = ulster_area
+						area = west_ulster_area
+					}
+				}
+				add_permanent_claim = DUB
+			}
+			373 = {
+				add_random_development = 3
+			}
+		}
+	}
+	RTOE_Normandy_lordship_of_ireland = {
+		icon = mission_invade_island
+		position = 8
+		required_missions = { RTOE_Normandy_claim_leinster }
+		provinces_to_highlight = {
+			OR = {
+				area = leinster_area
+				area = meath_area
+				area = west_meath_area
+				area = west_ulster_area
+				province_id = 4944
+				province_id = 4121
+			}
+			OR = {
+				NOT = {	country_or_non_sovereign_subject_holds = ROOT }
+				NOT = {	country_or_non_sovereign_subject_holds = DUB }
+			}
+		}
+		trigger = { 
+			leinster_area = {
+				type = all
+				OR = {
+					country_or_non_sovereign_subject_holds = ROOT
+					country_or_non_sovereign_subject_holds = DUB
+				}
+			}
+			meath_area = {
+				type = all
+				OR = {
+					country_or_non_sovereign_subject_holds = ROOT
+					country_or_non_sovereign_subject_holds = DUB
+				}
+			}
+			west_meath_area = {
+				type = all
+				OR = {
+					country_or_non_sovereign_subject_holds = ROOT
+					country_or_non_sovereign_subject_holds = DUB
+				}
+			}
+			west_ulster_area = {
+				type = all
+				OR = {
+					country_or_non_sovereign_subject_holds = ROOT
+					country_or_non_sovereign_subject_holds = DUB
+				}
+			}
+			4944 = {
+				OR = {
+					country_or_non_sovereign_subject_holds = ROOT
+					country_or_non_sovereign_subject_holds = DUB
+				}
+			}
+			4121 = {
+				OR = {
+					country_or_non_sovereign_subject_holds = ROOT
+					country_or_non_sovereign_subject_holds = DUB
+				}
+			}
+		}
+		effect = { 
+			country_event = {
+				id = RTOE_flavour_NRM.1
+			}
+			add_country_modifier = {
+				name = NRM_conquest_of_ireland
+				duration = 9125
+			}
+			create_explorer = { tradition = 50 }
+		}
+	}
+	RTOE_Normandy_colonise_canada = {
+		icon = mission_rb_colonise_canada
+		position = 10
+		required_missions = { RTOE_Normandy_discover_the_new_world }
+		provinces_to_highlight = {
+			if = {
+				limit = { is_random_new_world = no }
+				colonial_region = colonial_canada
+			}
+			else = {
+				continent = new_world
+			}
+			NOT = { country_or_non_sovereign_subject_holds = ROOT }
+			has_discovered = ROOT
+		}
+		trigger = { 
+			num_of_provinces_owned_or_owned_by_non_sovereign_subjects_with = {
+				value = 10
+				colonial_region = colonial_canada
+				is_city = yes
+			}
+		}
+		effect = { 
+			change_price = {
+				trade_goods = fur
+				key = NORMAN_FUR_TRADE
+				value = 0.25
+				duration = 3650
+			}
+			add_prestige = 10
+		}
+	}
+}
+
+RTOE_Normandy_2 = {
+	slot = 2
+	generic = no
+	ai = yes
+	has_country_shield = yes
+	potential = {
+		NOT = { map_setup = map_setup_random }
+		OR = {
+			tag = NRM
+			#tag = UKN
+		}
+	}
+
+	RTOE_Normandy_coutrail_the_english_lords = {
+		icon = mission_rb_angevin_kingdom
+		position = 1
+		required_missions = { }
+		provinces_to_highlight = {
+			owner = {
+				is_subject_of_type_with_overlord = {
+					who = NRM
+					type = feudal_vassal
+				}
+				culture_group = british
+				liberty_desire = 50
+			}
+		}
+		trigger = { 
+			NOT = {
+				any_subject_country = {
+					is_subject_of_type = feudal_vassal
+					culture_group = british
+					liberty_desire = 50
+				}
+			}
+			estate_loyalty = {
+				estate = estate_nobles
+				loyalty = 75
+			}
+			num_of_estate_agendas_completed = {
+				estate = estate_nobles
+				value = 4
+			}
+		}
+		effect = { 
+			remove_estate_privilege = estate_nobles_norman_feudal_system
+		}
+	}
+	RTOE_Normandy_norman_monopoly = {
+		icon = mission_rb_monopolize_the_channel
+		position = 2
+		required_missions = { RTOE_Normandy_channel_trade RTOE_Normandy_coutrail_the_english_lords }
+		trigger = { 
+			all_province = {
+				OR = {
+					area = english_channel_area
+					area = north_sea_area
+					area = celtic_sea_area
+					area = bay_of_biscay_area
+				}
+				is_strongest_trade_power = ROOT
+			}
+			has_flagship = yes
+			navy_size = 200
+			is_in_deficit = no
+		}
+		effect = { 
+			add_country_modifier = {
+				name = NRM_rule_normandia
+				duration = -1
+			}
+			custom_tooltip = RTOE_Normandy_norman_monopoly_desc.tooltip
+		}
+	}
+	RTOE_Normandy_promote_norman_identity = {
+		icon = mission_english_renaissance
+		position = 3
+		required_missions = { RTOE_Normandy_abolish_feudalism }
+		trigger = { 
+			has_institution = renaissance
+			OR = {
+				monthly_adm = 10
+				has_adm_advisor_3 = yes
+			}
+			num_of_owned_provinces_with = {
+				value = 5
+				has_building = university
+			}
+		}
+		effect = { 
+			183 = { #Paris
+				if = {
+					limit = {
+						owned_by = ROOT
+					}
+					change_culture = normand
+				}
+			}
+			hidden_effect = {
+				every_province = {
+					limit = {
+						culture_group = british
+						NOT = { culture = normand }
+						development = 30
+					}
+					change_culture = normand
+				}
+			}
+			custom_tooltip = RTOE_Normandy_promote_norman_identity.tooltip
+			capital = {
+				add_random_development = 10
+			}
+			add_adm_power = 100
+			add_dip_power = 100
+			add_mil_power = 100
+		}
+	}
+	RTOE_Normandy_expand_channel_ports = {
+		icon = mission_early_game_buildings
+		position = 4
+		required_missions = { RTOE_Normandy_frisian_conquest }
+		trigger = { 
+			168 = {
+				development = 15
+				OR = {
+					has_building = marketplace
+					has_building = trade_depot
+					has_building = stock_exchange
+				}
+				OR = {
+					has_building = shipyard
+					has_building = grand_shipyard
+				}
+			}
+			167 = {
+				development = 15
+				OR = {
+					has_building = marketplace
+					has_building = trade_depot
+					has_building = stock_exchange
+				}
+				OR = {
+					has_building = shipyard
+					has_building = grand_shipyard
+				}
+			}
+			89 = {
+				development = 15
+				OR = {
+					has_building = marketplace
+					has_building = trade_depot
+					has_building = stock_exchange
+				}
+				OR = {
+					has_building = shipyard
+					has_building = grand_shipyard
+				}
+			}
+			87 = {
+				development = 15
+				OR = {
+					has_building = marketplace
+					has_building = trade_depot
+					has_building = stock_exchange
+				}
+				OR = {
+					has_building = shipyard
+					has_building = grand_shipyard
+				}
+			}
+			235 = {
+				development = 15
+				OR = {
+					has_building = marketplace
+					has_building = trade_depot
+					has_building = stock_exchange
+				}
+				OR = {
+					has_building = shipyard
+					has_building = grand_shipyard
+				}
+			}
+			168 = {
+				development = 15
+				OR = {
+					has_building = marketplace
+					has_building = trade_depot
+					has_building = stock_exchange
+				}
+				OR = {
+					has_building = shipyard
+					has_building = grand_shipyard
+				}
+			}
+			4371 = {
+				development = 15
+				OR = {
+					has_building = marketplace
+					has_building = trade_depot
+					has_building = stock_exchange
+				}
+				OR = {
+					has_building = shipyard
+					has_building = grand_shipyard
+				}
+			}
+			168 = {
+				development = 15
+				OR = {
+					has_building = marketplace
+					has_building = trade_depot
+					has_building = stock_exchange
+				}
+				OR = {
+					has_building = shipyard
+					has_building = grand_shipyard
+				}
+			}
+			234 = {
+				development = 15
+				OR = {
+					has_building = marketplace
+					has_building = trade_depot
+					has_building = stock_exchange
+				}
+				OR = {
+					has_building = shipyard
+					has_building = grand_shipyard
+				}
+			}
+		}
+		effect = { }
+	}
+	RTOE_Normandy_expand_york = {
+		icon = mission_expand_york
+		position = 5
+		required_missions = { RTOE_Normandy_develop_mercia }
+		trigger = { }
+		effect = { }
+	}
+	RTOE_Normandy_welsh_industry = {
+		icon = mission_pol_develop_countryside
+		position = 6
+		required_missions = { RTOE_Normandy_fate_of_wales }
+		trigger = { }
+		effect = { }
+	}
+	RTOE_industrialise_the_isle = {
+		icon = mission_rb_build_furnaces
+		position = 7
+		required_missions = { RTOE_Normandy_welsh_industry RTOE_Normandy_the_manufactory_of_europe }
+		trigger = { }
+		effect = { }
+	}
+	RTOE_Normandy_celtic_sea_trade = {
+		icon = mission_unite_coromandel
+		position = 8
+		required_missions = { RTOE_Normandy_claim_leinster }
+		trigger = { }
+		effect = { }
+	}
+	RTOE_Normandy_colonise_virginia = {
+		icon = mission_settlers_north_america
+		position = 10
+		required_missions = { RTOE_Normandy_discover_the_new_world }
+		trigger = { }
+		effect = { }
+	}
+	RTOE_Normandy_north_american_dominions = {
+		icon = mission_ruler_of_north_america
+		position = 11
+		required_missions = { RTOE_Normandy_colonise_canada RTOE_Normandy_colonise_virginia RTOE_Normandy_colonise_the_caribbean }
+		trigger = { }
+		effect = { }
+	}
+	RTOE_Normandy_colonise_australia = {
+		icon = colonize_australia
+		position = 12
+		required_missions = { RTOE_Normandy_colony_in_ceylon }
+		trigger = { }
+		effect = { }
+	}
+}
+
+RTOE_Normandy_3 = {
+	slot = 3
+	generic = no
+	ai = yes
+	has_country_shield = yes
+	potential = {
+		NOT = { map_setup = map_setup_random }
+		OR = {
+			tag = NRM
+			#tag = UKN
+		}
+	}
+
+	RTOE_Normandy_abolish_feudalism = {
+		icon = mission_abolish_feudalism
+		position = 2
+		required_missions = { RTOE_Normandy_coutrail_the_english_lords }
+		trigger = { }
+		effect = { }
+	}
+	RTOE_Normandy_enact_the_land_reforms = {
+		icon = mission_land_reform
+		position = 3
+		required_missions = { RTOE_Normandy_abolish_feudalism }
+		trigger = { }
+		effect = { }
+	}
+	RTOE_Normandy_develop_mercia = {
+		icon = mission_develop_mercia
+		position = 4
+		required_missions = { RTOE_Normandy_enact_the_land_reforms }
+		trigger = { }
+		effect = { }
+	}
+	RTOE_Normandy_the_manufactory_of_europe = {
+		icon = mission_manufactory
+		position = 6
+		required_missions = { RTOE_Normandy_develop_mercia }
+		trigger = { }
+		effect = { }
+	}
+	RTOE_Normandy_industrialise_the_mainland = {
+		icon = mission_industrialise_the_mainland
+		position = 7
+		required_missions = { RTOE_Normandy_act_of_union }
+		trigger = { }
+		effect = { }
+	}
+	RTOE_Normandy_hegemonize_european_economy = {
+		icon = mission_rb_prospect_for_coal
+		position = 8
+		required_missions = { RTOE_industrialise_the_isle RTOE_Normandy_industrialise_the_mainland }
+		trigger = { }
+		effect = { }
+	}
+	RTOE_Normandy_discover_the_new_world = {
+		icon = mission_exploration
+		position = 9
+		required_missions = {  }
+		trigger = { }
+		effect = { }
+	}
+	RTOE_Normandy_colonise_the_caribbean = {
+		icon = mission_colonize_the_caribbean
+		position = 10
+		required_missions = { RTOE_Normandy_discover_the_new_world }
+		trigger = { }
+		effect = { }
+	}
+	RTOE_Normandy_norman_colombia = {
+		icon = mission_colombia
+		position = 11
+		required_missions = { RTOE_Normandy_colonise_the_caribbean }
+		trigger = { }
+		effect = { }
+	}
+	RTOE_Normandy_influence_the_spice_trade = {
+		icon = mission_rb_colonise_spice_islands
+		position = 12
+		required_missions = { RTOE_Normandy_colony_in_ceylon }
+		trigger = { }
+		effect = { }
+	}
+}
+
+RTOE_Normandy_4 = {
+	slot = 4
+	generic = yes
+	ai = yes
+	has_country_shield = yes
+	potential = {
+		NOT = { map_setup = map_setup_random }
+		OR = {
+			tag = NRM
+			#tag = UKN
+		}
+	}
+
+	RTOE_Normandy_a_church_in_crisis = {
+		icon = mission_rb_control_state_religion
+		position = 1
+		required_missions = {  }
+		trigger = { }
+		effect = { }
+	}
+	RTOE_Normandy_expand_london = {
+		icon = mission_london
+		position = 2
+		required_missions = { RTOE_Normandy_coutrail_the_english_lords }
+		trigger = { }
+		effect = { }
+	}
+	RTOE_Normandy_subjugate_scotland = {
+		icon = mission_rb_conquer_scotland
+		position = 3
+		required_missions = { RTOE_Normandy_abolish_feudalism }
+		trigger = { }
+		effect = { }
+	}
+	RTOE_Normandy_control_the_north_sea = {
+		icon = mission_north_sea
+		position = 4
+		required_missions = { RTOE_Normandy_subjugate_scotland }
+		trigger = { }
+		effect = { }
+	}
+	RTOE_Normandy_annex_champagne = {
+		icon = mission_champagne
+		position = 5
+		required_missions = { RTOE_Normandy_push_into_auvergne }
+		trigger = { }
+		effect = { }
+	}
+	RTOE_Normandy_the_eastern_border_treaty = {
+		icon = mission_border_treaty
+		position = 6
+		required_missions = { RTOE_Normandy_annex_champagne }
+		trigger = { }
+		effect = { }
+	}
+	RTOE_Normandy_pacify_france = {
+		icon = mission_build_up_to_force_limit
+		position = 7
+		required_missions = { RTOE_Normandy_act_of_union }
+		trigger = { }
+		effect = { }
+	}
+	RTOE_Normandy_establish_the_continental_army = {
+		icon = mission_norman_army
+		position = 8
+		required_missions = { RTOE_Normandy_pacify_france }
+		trigger = { }
+		effect = { }
+	}
+	RTOE_Normandy_discover_the_cape = {
+		icon = mission_build_up_to_force_limit
+		position = 10
+		required_missions = { RTOE_Normandy_discover_the_new_world }
+		trigger = { }
+		effect = { }
+	}
+	RTOE_Normandy_colony_in_ceylon = {
+		icon = mission_build_up_to_force_limit
+		position = 11
+		required_missions = { RTOE_Normandy_discover_the_cape }
+		trigger = { }
+		effect = { }
+	}
+	RTOE_Normandy_discover_japan = {
+		icon = mission_build_up_to_force_limit
+		position = 12
+		required_missions = { RTOE_Normandy_colony_in_ceylon }
+		trigger = { }
+		effect = { }
+	}
+}
+
+RTOE_Normandy_5 = {
+	slot = 5
+	generic = no
+	ai = yes
+	has_country_shield = yes
+	potential = {
+		NOT = { map_setup = map_setup_random }
+		OR = {
+			tag = NRM
+			#tag = UKN
+		}
+	}
+
+	RTOE_Normandy_address_the_religious_divide = {
+		icon = mission_build_up_to_force_limit
+		position = 1
+		required_missions = {  }
+		trigger = { }
+		effect = { }
+	}
+	RTOE_Normandy_churches_for_normandy = {
+		icon = mission_build_up_to_force_limit
+		position = 2
+		required_missions = { RTOE_Normandy_address_the_religious_divide }
+		trigger = { }
+		effect = { }
+	}
+	RTOE_Normandy_fall_of_france = {
+		icon = mission_build_up_to_force_limit
+		position = 3
+		required_missions = {  }
+		trigger = { }
+		effect = { }
+	}
+	RTOE_Normandy_push_into_auvergne = {
+		icon = mission_push_into_auvergne
+		position = 4
+		required_missions = { RTOE_Normandy_fall_of_france }
+		trigger = { }
+		effect = { }
+	}
+	RTOE_Normandy_estinguish_french_resistance = {
+		icon = mission_build_up_to_force_limit
+		position = 5
+		required_missions = { RTOE_Normandy_push_into_auvergne }
+		trigger = { }
+		effect = { }
+	}
+	RTOE_Normandy_act_of_union = {
+		icon = mission_act_of_union
+		position = 6
+		required_missions = { RTOE_Normandy_estinguish_french_resistance }
+		trigger = { }
+		effect = { }
+	}
+	RTOE_Normandy_innvest_in_paris = {
+		icon = mission_build_up_to_force_limit
+		position = 7
+		required_missions = { RTOE_Normandy_act_of_union }
+		trigger = { }
+		effect = { }
+	}
+	RTOE_Normandy_occitan_wine = {
+		icon = mission_build_up_to_force_limit
+		position = 8
+		required_missions = { RTOE_Normandy_innvest_in_paris }
+		trigger = { }
+		effect = { }
+	}
+	RTOE_Normandy_sell_wine_to_the_chinese = {
+		icon = mission_chinese_wine
+		position = 13
+		required_missions = { RTOE_Normandy_occitan_wine RTOE_Normandy_discover_japan }
+		trigger = { }
+		effect = { }
+	}
+	RTOE_Normandy_the_wine_wars = {
+		icon = mission_wine_wars
+		position = 14
+		required_missions = { RTOE_Normandy_sell_wine_to_the_chinese }
+		trigger = { }
+		effect = { }
+	}
+}

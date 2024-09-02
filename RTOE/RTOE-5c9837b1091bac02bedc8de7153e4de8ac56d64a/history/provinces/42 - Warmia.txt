@@ -1,0 +1,29 @@
+#42 - Warmia
+owner = PRU
+controller = PRU
+capital = "Allenstein"
+culture = prussian
+religion = baltic_pagan_reformed
+trade_goods = naval_supplies
+base_tax = 2
+base_production = 2
+base_manpower = 2
+is_city = yes
+discovered_by = eastern
+discovered_by = western
+discovered_by = muslim
+1454.3.6 = { add_core = POL }
+1466.10.19 = { 
+	controller = POL
+	add_core = PRU
+}
+1569.7.1 = { 
+	controller = PLC
+	add_core = PLC
+}
+1588.1.1 = { controller = REB revolt = { type = revolutionary_rebels size = 0 } }
+1589.1.1 = { controller = PLC revolt = { size = 1 } }
+1655.8.1 = { controller = SWE }
+1660.1.1 = { controller = PLC }
+1772.9.22 = { controller = PRU religion = Protestant }
+add_core = PRU

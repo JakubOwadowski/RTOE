@@ -1,0 +1,26 @@
+#467 - Borisoglebsk
+owner = CRI
+controller = CRI
+culture = crimean
+religion = orthodox
+capital = "Borisoglebsk"
+trade_goods = livestock
+base_tax = 2
+base_production = 2
+base_manpower = 2
+is_city = yes
+discovered_by = muslim
+discovered_by = ottoman
+discovered_by = eastern
+discovered_by = nomad_group
+discovered_by = western
+1502.6.1 = { controller = CRI add_core = CRI }
+1572.8.2 = { 
+	controller = RUS
+	add_core = RUS
+}
+1600.1.1 = { culture = russian }
+1650.1.1 = { religion = Orthodox }
+1773.9.13 = { controller = REB revolt = { type = anti_tax_rebels name = "Yemelyan Pugachev" size = 1 } }
+1775.2.1 = { controller = RUS revolt = { size = 1 } }
+add_core = CRI

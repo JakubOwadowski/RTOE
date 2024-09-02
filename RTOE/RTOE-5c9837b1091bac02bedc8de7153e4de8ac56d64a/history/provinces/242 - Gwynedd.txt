@@ -1,0 +1,17 @@
+#242 - Gwynedd
+owner = GWY
+controller = GWY
+culture = welsh
+religion = ofbrit
+base_tax = 1
+base_production = 1
+trade_goods = livestock
+base_manpower = 1
+capital = "Caernarvon"
+is_city = yes
+add_core = GWY
+discovered_by = western
+discovered_by = muslim
+discovered_by = ottoman
+discovered_by = eastern
+discovered_by = western

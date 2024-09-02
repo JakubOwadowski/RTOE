@@ -1,0 +1,6 @@
+# Normandy
+NRM = {
+    color1= { 189 43 43  }
+    color2= { 175 76 76  }
+    color3= { 131 101 85  }
+}

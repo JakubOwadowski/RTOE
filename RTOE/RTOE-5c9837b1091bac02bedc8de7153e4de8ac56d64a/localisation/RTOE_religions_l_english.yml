@@ -1,0 +1,34 @@
+﻿l_english:
+ ###Christianity###
+ cathar: "Cathar"
+ arian: "Heteroousian"
+ ofbrit: "Brittonic" #Insular
+ ofeast: "Nestorian"
+ calvinist: "Calvinist"
+ iconoclast: "Iconoclast"
+ varelist: "Varelist"
+ 
+ ###Pagans###
+ slavic_pagan_reformed: "Rodnovery"
+ finnish_pagan_reformed: "Uomenusko"
+ baltic_pagan_reformed: "Romuva"
+ zun_pagan_reformed: "Zunist"
+ CRAZED_SHAMANS: "Crazed Shamans"
+ 
+ ###Zoroastrian###
+ #zoroastrian -> Mazdayan
+ zurvani: "Zurvani"
+ 
+ ###Chaos###
+ chaos_worship: "Chaotic"
+ khorne: "Blood Cult"
+ khorne_religion_desc: "Ahura Mazda is dead and we killed him. Blood for the Blood God, skulls for the Skull Throne!\nThis is a joke religion. Have fun :)"
+ TZEENTCHEAN: "Tzeentchean"
+ NURGLITE: "Nurglite"
+ SLANEESHAN: "Slaneeshan"
+ MALALITE: "Malalite"
+ EVIL: "Black Crusade" 
+ 
+ ###Muslim###
+ yazidi: "Yazidi"
+ 

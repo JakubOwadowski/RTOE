@@ -1,0 +1,30 @@
+#1971 - Tsaritsyn
+owner = CRI
+controller = CRI
+culture = crimean
+religion = orthodox
+base_tax = 3
+base_production = 3
+trade_goods = livestock
+base_manpower = 2
+capital = "Sary-Su"
+is_city = yes
+discovered_by = eastern
+discovered_by = western
+discovered_by = nomad_group
+discovered_by = ottoman
+discovered_by = muslim
+1502.6.1 = { 
+	controller = AST
+}
+1556.6.2 = { 
+	controller = RUS
+	add_core = RUS
+}
+1589.1.1 = { capital = "Tsaritsyn" }
+1600.1.1 = { culture = russian religion = Orthodox }
+1670.3.1 = { controller = REB revolt = { type = anti_tax_rebels name = "Stepan Razin" size = 2 } }
+1671.4.14 = { controller = RUS revolt = { size = 1 } }
+1773.9.13 = { controller = REB revolt = { type = anti_tax_rebels name = "Yemelyan Pugachev" size = 2 } }
+1775.2.1 = { controller = RUS revolt = { size = 1 } }
+add_core = CRI

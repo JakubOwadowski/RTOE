@@ -1,0 +1,31 @@
+government = monarchy
+add_government_reform = feudalism_reform
+primary_culture = leonese
+religion = orthodox
+religious_school = see_of_rome
+technology_group = western
+capital = 207 #Asturias
+government_rank = 1
+
+1444.1.1 = {
+        monarch = {
+                name = "Fernando II"
+                dynasty = "de Asturias"
+                birth_date = 1406.7.24
+                death_date = 1450.6.23
+                adm = 0
+                dip = 3
+                mil = 0
+        }
+        heir = {
+                name = "Alfonso"
+                monarch_name = "Alfonso VI"
+                dynasty = "de Asturias"
+                birth_date = 1414.12.12
+                death_date = 1454.9.2
+                claim = 90
+                adm = 1
+                dip = 4
+                mil = 1
+        }
+}

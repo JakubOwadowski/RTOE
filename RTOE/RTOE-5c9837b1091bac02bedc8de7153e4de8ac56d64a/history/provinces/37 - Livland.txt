@@ -1,0 +1,37 @@
+#273 - Livland
+owner = EST
+controller = EST
+culture = estonian
+religion = finnish_pagan_reformed
+capital = "Fellin"
+trade_goods = livestock
+base_tax = 1
+base_production = 1
+base_manpower = 1
+is_city = yes
+add_core = LTG
+discovered_by = western
+discovered_by = eastern
+1542.1.1 = { religion = Protestant }
+1561.1.1 = { 
+	controller = LIT
+	add_core = LIT
+}
+1569.7.1 = { 
+	controller = PLC
+	add_core = PLC
+}
+1575.7.1 = { controller = RUS }
+1582.1.15 = { controller = PLC }
+1600.12.31 = { controller = SWE }
+1603.4.5 = { controller = PLC }
+1625.8.21 = { controller = SWE }
+1629.9.16 = { 
+	controller = SWE
+	add_core = SWE
+}
+1721.8.30 = { 
+	controller = RUS
+	add_core = RUS
+}
+add_core = EST

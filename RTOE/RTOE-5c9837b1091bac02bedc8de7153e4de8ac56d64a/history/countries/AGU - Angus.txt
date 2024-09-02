@@ -1,0 +1,20 @@
+#Red Douglases
+government = monarchy
+add_government_reform = feudalism_reform
+government_rank = 1
+technology_group = western
+primary_culture = scottish
+add_accepted_culture = highland_scottish
+religion = ofbrit
+capital = 4381
+1444.1.1 = { 
+	monarch = { 
+		name = "George II"
+		dynasty = "Douglas"
+		birth_date = 1427.1.1
+		death_date = 1463.3.12
+		adm = 2
+		dip = 4
+		mil = 5
+	}
+}

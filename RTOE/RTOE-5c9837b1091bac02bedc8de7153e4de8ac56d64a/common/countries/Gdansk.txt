@@ -1,0 +1,93 @@
+#Country Name: Please see filename.
+
+graphical_culture = easterngfx
+
+color = { 106  137  170 }
+
+historical_idea_groups = {
+	trade_ideas
+	defensive_ideas
+	innovativeness_ideas
+	offensive_ideas
+	economic_ideas
+	maritime_ideas
+	quality_ideas
+	administrative_ideas
+}
+
+historical_units = {
+	western_medieval_infantry
+	western_medieval_knights
+	western_men_at_arms
+	dutch_maurician
+	swedish_gallop
+	swedish_gustavian
+	swedish_caroline
+	swedish_arme_blanche
+	prussian_frederickian
+	prussian_uhlan
+	mixed_order_infantry
+	open_order_cavalry
+	napoleonic_square
+	napoleonic_lancers
+}
+
+monarch_names = {
+        "Kazimierz #5" = 55
+        "Czyrzniech #2" = 20
+        "Goszczon #2" = 20
+        "Spytko #2" = 20
+        "Jan #1" = 15
+        "Olbracht #1" = 15
+        "Andrzej #1" = 15
+        "Milobrat #1" = 15
+        "Aleksander #0" = 10
+        "Wladyslaw #1" = 20
+        "Wit #0" = 10
+        "Premysl #0" = 10
+        "Lech #0" = 10
+        "Karol #0" = 10
+        "Lukasz #0" = 10
+        "Bogumil #0" = 10
+        "Przybor #0" = 10
+        "Siedziej #0" = 10
+        "Stefan #0" = 10
+        "Budziwuj #0" = 10
+        "Trojden #0" = 10
+
+        "Grzymislawa #0" = -1
+        "Anastasia #0" = -1
+        "Wislawa #0" = -1
+}
+
+leader_names = {
+	Piast Gryf Sobieski Leszczynski 
+			Poniatowski Radziwill Zamoyski Lubomirski 
+			Przemyslid Podebrad 
+			Chodkiewicz Czartoryski Lanckoronski Oginski
+			Ostrogski Ostrorog Pac Sapieha Sanguszko Tarnowski Teczynski
+			Kurnatowski Taczanowski Gosiewski
+			Swierczynski
+			Lubicz Rawicz Goluchowski Grzymala Odachowski Teczynski Rzewuski Kosciuszko
+			Szyszkowski Lempicki Dabrowski Tarlo Wezyk Niezabitowski
+			Kossakowski Potocki Lubienski Malachowski Kmita Morsztyn Poninski
+			Owadowski Maklowicz
+}
+
+ship_names = {
+	"Arka Noego"
+        "Bialy Orzel" Burza "Bialy Lew" "Brzesko-Kujawskie" Belzkie Braclawskie
+        Charitas "Czarny Orzel" "Czarny Kruk" Chelminskie Czernichowskie
+        Fortuna
+        Gryf Gwiazda Gnieznienskie
+	Inowroclawskie
+	"Król Dawid" Kaliskie Krakowskie Kijowskie Kraków
+        Lublin "Latajacy Jelen" Lwów Leczyckie Lubelskie
+        "Maly Bialy Orzel" Malborskie Mazowieckie
+        Niewrazliwy "Nowy Czarny Orzel"
+        "Prorok Samuel" "Panna Wodna" Plomien Poznanskie Plockie Podlaskie Podolskie
+	"Rycerz Swiety Jerzy" Rawskie Ruskie
+        Strzelec Suwerenny "Swiety Piotr" Sieradzkie Sandomierskie "Swiety Kazimierz"
+        "Wielkie Slonce" Wodnik Warminskie Wolynskie Warszawa
+        Zwyciestwo "Zólty Lew"
+}

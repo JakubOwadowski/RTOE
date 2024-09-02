@@ -1,0 +1,39 @@
+government = monarchy
+add_government_reform = feudalism_reform
+primary_culture = tarragonese
+religion = orthodox
+religious_school = see_of_rome
+technology_group = western
+capital = 2989#Rioja
+1444.1.1 = { 
+	monarch = { 
+		name = "Jofro"
+		dynasty = "de la Rioja"
+		birth_date = 1397.6.5
+		death_date = 1457.5.18
+		adm = 2
+		dip = 3
+		mil = 2
+	}
+	heir = { 
+		name = "Jofro"
+		monarch_name = "Jofro II"
+		dynasty = "de la Rioja"
+		birth_date = 1437.11.22
+		death_date = 1456.10.24
+		claim = 75
+		adm = 3
+		dip = 0
+		mil = 1
+	}
+	queen = { 
+		name = "Adelaida"
+		dynasty = "de Cueva"
+		birth_date = 1392.4.13
+		death_date = 1452.8.19
+		female = yes
+		adm = 2
+		dip = 6
+		mil = 1
+	}
+}

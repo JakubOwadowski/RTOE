@@ -1,0 +1,18 @@
+government = monarchy
+add_government_reform = feudalism_reform
+primary_culture = saxon
+religion = orthodox
+religious_school = see_of_rome
+technology_group = eastern
+capital = 1758 # Hanover
+
+1428.1.4 = {
+	monarch = {
+		name = "Albrecht"
+		dynasty = "von Wolf"
+		birth_date = 1412.8.22
+		dip = 3
+		adm = 4
+		mil = 0
+	}
+}

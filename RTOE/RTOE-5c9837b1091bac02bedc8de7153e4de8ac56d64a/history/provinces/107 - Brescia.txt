@@ -1,0 +1,15 @@
+#107 - Brescia
+owner = BRC
+controller = BRC
+culture = cisalpine
+religion = orthodox
+hre = yes
+base_tax = 5
+base_production = 5
+trade_goods = cloth
+base_manpower = 3
+capital = "Brescia"
+is_city = yes
+discovered_by = western
+discovered_by = eastern
+discovered_by = muslim

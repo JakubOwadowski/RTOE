@@ -1,0 +1,8 @@
+government = monarchy
+add_government_reform = autocracy_reform
+primary_culture = khorasani
+add_accepted_culture = persian
+religion = zoroastrian
+technology_group = muslim
+capital = 4326
+government_rank = 1

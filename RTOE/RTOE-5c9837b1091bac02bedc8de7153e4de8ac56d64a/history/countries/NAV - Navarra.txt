@@ -1,0 +1,30 @@
+government = monarchy
+add_government_reform = feudalism_reform
+government_rank = 2
+primary_culture = basque
+religion = orthodox
+religious_school = see_of_rome
+technology_group = western
+capital = 210	# Pamplona
+
+1444.1.1 = {
+        monarch = {
+                name = "Gonzalo II"
+                dynasty = "Jimeno"
+                birth_date = 1418.4.10
+                death_date = 1478.4.26
+                adm = 5
+                dip = 3
+                mil = 5
+        }
+        queen = {
+                name = "Maria"
+                dynasty = "de Uribe"
+                birth_date = 1405.3.5
+                death_date = 1465.1.13
+                female = yes
+                adm = 2
+                dip = 1
+                mil = 6
+        }
+}

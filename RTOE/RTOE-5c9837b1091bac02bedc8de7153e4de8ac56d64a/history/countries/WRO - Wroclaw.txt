@@ -1,0 +1,17 @@
+government = monarchy
+add_government_reform = feudalism_reform
+government_rank = 1
+technology_group = eastern
+primary_culture = polish
+religion = orthodox
+religious_school = see_of_constantinople
+capital = 264
+1438.1.1 = { 
+	monarch = { 
+		name = "Henryk VIII"
+		dynasty = "Piast"
+		adm = 2
+		dip = 5
+		mil = 6
+	}
+}

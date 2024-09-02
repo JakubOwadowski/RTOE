@@ -1,0 +1,60 @@
+country_decisions = {
+	reform_the_feudal_system = {
+		major = yes
+		potential = {
+			OR = {
+				has_subject_of_type = feudal_vassal
+				has_subject_of_type = irish_fief_vassal
+			}
+			NOT = { has_country_flag = reformed_the_feudal_system_flag }
+		}
+
+		allow = {
+			is_at_war = no
+			adm_tech = 12
+			stability = 1
+			if = {
+				limit = {
+					has_subject_of_type = feudal_vassal
+				}
+				NOT = {
+					any_subject_country = {
+						is_subject_of_type = feudal_vassal
+						liberty_desire = 50
+					}
+				}
+			}
+			if = {
+				limit = {
+					has_subject_of_type = irish_fief_vassal
+				}
+				NOT = {
+					any_subject_country = {
+						is_subject_of_type = irish_fief_vassal
+						liberty_desire = 50
+					}
+				}
+			}
+		}
+
+		effect = {
+			set_country_flag = reformed_the_feudal_system_flag
+			if = {
+				limit = {
+					has_subject_of_type = feudal_vassal
+				}
+				custom_tooltip = reform_the_feudal_system.tooltip
+			}
+			if = {
+				limit = {
+					has_subject_of_type = irish_fief_vassal
+				}
+				custom_tooltip = reform_the_feudal_system.tooltip.b
+			}
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+	}
+}

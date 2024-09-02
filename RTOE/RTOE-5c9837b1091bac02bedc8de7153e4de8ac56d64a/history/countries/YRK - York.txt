@@ -1,0 +1,28 @@
+government = monarchy
+add_government_reform = feudalism_reform
+technology_group = western
+primary_culture = northumbrian
+religion = ofbrit
+capital = 245# York
+1444.1.1 = { 
+	monarch = { 
+		name = "William II"
+		dynasty = "York"
+		birth_date = 1408.7.4
+		death_date = 1457.10.27
+		adm = 4
+		dip = 4
+		mil = 5
+	}
+	heir = { 
+		name = "Edward"
+		monarch_name = "Edward III"
+		dynasty = "York"
+		birth_date = 1409.10.13
+		death_date = 1460.4.15
+		claim = 85
+		adm = 0
+		dip = 0
+		mil = 2
+	}
+}
