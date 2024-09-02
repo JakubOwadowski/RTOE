@@ -2,7 +2,7 @@
 owner = ARM
 controller = ARM
 culture = turkish
-religion = shiite
+religion = alevi
 capital = "Erzindjan"
 trade_goods = copper
 base_tax = 3

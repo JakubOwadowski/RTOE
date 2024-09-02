@@ -1,6 +1,6 @@
 #296 - Kaluga
-owner = POL
-controller = POL
+owner = WRO
+controller = WRO
 culture = polish
 religion = orthodox
 base_tax = 3
@@ -20,5 +20,5 @@ discovered_by = nomad_group
 1613.1.1 = { controller = RUS }
 1711.1.1 = { base_tax = 6 base_production = 6 }
 1767.1.1 = { base_tax = 7 base_production = 7 }
-add_core = POL
 add_core = SWD
+add_core = WRO

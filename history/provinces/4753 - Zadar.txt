@@ -1,6 +1,6 @@
 # 4753 - Zadar
 owner = DAL
-controller = VEN
+controller = DAL
 culture = dalmatian
 religion = orthodox
 capital = "Zadar"

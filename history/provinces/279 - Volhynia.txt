@@ -9,7 +9,6 @@ trade_goods = livestock
 base_manpower = 2
 capital = "Volodymyr"
 is_city = yes
-add_core = VOL
 discovered_by = western
 discovered_by = eastern
 discovered_by = muslim

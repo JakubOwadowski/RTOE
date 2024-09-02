@@ -67,7 +67,6 @@
 148 = "Makedonie"
 149 = "Drinopol"
 151 = "Carihrad"
-154 = "Nové Zámky"
 158 = "Maruse"
 160 = "Oltenie"
 161 = "Trhoviste"

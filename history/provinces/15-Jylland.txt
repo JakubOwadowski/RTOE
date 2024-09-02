@@ -2,7 +2,7 @@
 owner = DAN
 controller = DAN
 add_core = DAN
-culture = juttish
+culture = danish
 religion = orthodox
 base_tax = 2
 base_production = 2

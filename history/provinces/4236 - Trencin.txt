@@ -1,6 +1,6 @@
 #4236 - Trencin
-owner = MVA
-controller = MVA
+owner = BOH
+controller = BOH
 culture = slovak
 religion = orthodox
 capital = "Trencin"
@@ -33,5 +33,6 @@ discovered_by = QAS
 1703.1.1 = { controller = REB revolt = { type = nationalist_rebels size = 2 } }
 1710.1.1 = { revolt = { size = 1 } }
 1711.1.1 = { controller = HAB }
+add_core = BOH
 add_core = MVA
 fort_15th = yes

@@ -1,11 +1,10 @@
 #143 - Vlorë - Southern Albania
-
 owner = ROM
 controller = ROM
-culture = greek
+culture = albanian
 religion = orthodox
 capital = "Avlónas"
-trade_goods = wool #or salt
+trade_goods = wool#or salt
 hre = yes
 base_tax = 2
 base_production = 1

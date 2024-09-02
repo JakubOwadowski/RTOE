@@ -6,9 +6,8 @@ primary_culture = polish
 religion = orthodox
 religious_school = see_of_constantinople
 capital = 1
-
-1438.1.1 = {
-	monarch = {
+1438.1.1 = { 
+	monarch = { 
 		name = "Jerzy Ernest I"
 		dynasty = "Piast"
 		adm = 4

@@ -4,3 +4,4 @@ government_rank = 1
 technology_group = muslim
 religion = arian
 primary_culture = tuareg
+capital = 1127

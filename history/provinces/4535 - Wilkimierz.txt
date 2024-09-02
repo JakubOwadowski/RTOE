@@ -25,4 +25,3 @@ discovered_by = nomad_group
 1812.6.28 = { controller = FRA }
 1812.12.10 = { controller = RUS }
 add_core = UKR
-add_core = VOL

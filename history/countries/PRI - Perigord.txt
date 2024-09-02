@@ -5,4 +5,4 @@ technology_group = western
 primary_culture = occitain
 religion = orthodox
 religious_school = see_of_rome
-capital = 194	# Perigeux
+capital = 194

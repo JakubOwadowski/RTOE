@@ -1,13 +1,10 @@
-government = monarchy
-add_government_reform = confucian_bureaucracy
+government = theocracy
+add_government_reform = holy_state_reform
 government_rank = 3
 technology_group = muslim
 religion = sunni
 primary_culture = hejazi_culture
-capital = 384# Medina
-#Emirs of the Sharifate of Medina
-#Generally which son inherits is decided by the Mamluk Sultans
-#Sometimes picked by the citizens of Medina.
+capital = 384#Sometimes picked by the citizens of Medina.
 1427.10.1 = { 
 	monarch = { 
 		name = "Mani bin Ali"

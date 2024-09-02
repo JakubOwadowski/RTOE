@@ -1,0 +1,28 @@
+#Written with Eu4 Easy Province Creator by emiroercn
+#Naplis
+owner = CTE
+controller = CTE
+culture = carthgean
+religion = orthodox
+hre = yes
+base_tax = 3
+base_production = 3
+trade_goods = naval_supplies
+base_manpower = 2
+capital = "Naplis"
+is_city = yes
+extra_cost = 26
+center_of_trade = 2
+discovered_by = eastern
+discovered_by = muslim
+discovered_by = western
+discovered_by = eastern
+discovered_by = muslim
+discovered_by = western
+discovered_by = eastern
+discovered_by = muslim
+discovered_by = western
+discovered_by = eastern
+discovered_by = muslim
+discovered_by = western
+add_core = CTE

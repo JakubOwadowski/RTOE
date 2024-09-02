@@ -1,6 +1,8 @@
 #Country Name: Please see filename.
 graphical_culture = westerngfx
-color = { 149 45 102 }
+color = { 
+	205 48 131 
+}
 revolutionary_colors = { 2 3 2 } #purple \o/
 historical_idea_groups = { 
 	maritime_ideas
@@ -187,8 +189,4 @@ army_names = {
 }
 fleet_names = { 
 	"Thema Cibyrraeoton" "Thema Cypriakon" "Thema Aigaeou Pelagous" "Thema Sicelias" 
-}
-graphical_culture = westerngfx
-color = { 
-	205 48 131 
 }

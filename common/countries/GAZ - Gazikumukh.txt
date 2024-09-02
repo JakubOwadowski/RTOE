@@ -1,5 +1,5 @@
 #Country Name: Please see filename.
-graphical_culture = easterngfx
+graphical_culture = muslimgfx
 color = { 162 93 31 }
 revolutionary_colors = { 15 8 0 }
 historical_idea_groups = { 
@@ -16,7 +16,7 @@ historical_units = {
 	persian_footsoldier
 	persian_cavalry_charge
 	persian_shamshir
-	qizilbash_cavalry
+	qizilbash_cavalry_unit
 	tofongchis_musketeer
 	topchis_artillery
 	afsharid_reformed

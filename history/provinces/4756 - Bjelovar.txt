@@ -1,6 +1,6 @@
 # 4756 - Bjelovar
-owner = SZL
-controller = SZL
+owner = BUL
+controller = BUL
 culture = croatian
 religion = orthodox
 capital = "Bjelovar"
@@ -24,3 +24,4 @@ discovered_by = ottoman
 	add_core = HAB
 }
 add_core = SZL
+add_core = BUL

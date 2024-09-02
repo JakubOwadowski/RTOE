@@ -4,5 +4,5 @@ government_rank = 1
 primary_culture = visigo
 religion = orthodox
 technology_group = western
-capital = 229 #Beja
+capital = 229#Beja
 fixed_capital = 229

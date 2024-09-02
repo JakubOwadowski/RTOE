@@ -27,4 +27,3 @@ discovered_by = nomad_group
 	add_core = RUS
 }
 add_core = UKR
-add_core = VOL

@@ -4,10 +4,9 @@ technology_group = western
 primary_culture = northumbrian
 religion = orthodox
 religious_school = see_of_rome
-capital = 1	# Durham
-
-1444.1.1 = {
-	monarch = {
+capital = 1# Durham
+1444.1.1 = { 
+	monarch = { 
 		name = "Robert"
 		birth_date = 1404.1.1
 		death_date = 1457.7.8

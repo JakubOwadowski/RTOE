@@ -3,10 +3,9 @@ add_government_reform = feudalism_reform
 technology_group = western
 primary_culture = northumbrian
 religion = ofbrit
-capital = 245	# York
-
-1444.1.1 = {
-	monarch = {
+capital = 245# York
+1444.1.1 = { 
+	monarch = { 
 		name = "William II"
 		dynasty = "York"
 		birth_date = 1408.7.4
@@ -15,7 +14,7 @@ capital = 245	# York
 		dip = 4
 		mil = 5
 	}
-	heir = {
+	heir = { 
 		name = "Edward"
 		monarch_name = "Edward III"
 		dynasty = "York"

@@ -1,5 +1,5 @@
 #4553 - Zamora
-owner = AUT
+owner = HAI
 culture = wallonian
 religion = orthodox
 base_tax = 3
@@ -12,5 +12,5 @@ discovered_by = eastern
 discovered_by = western
 discovered_by = muslim
 discovered_by = ottoman
-controller = AUT
-add_core = AUT
+controller = HAI
+add_core = HAI

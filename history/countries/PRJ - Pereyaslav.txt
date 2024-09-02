@@ -5,5 +5,5 @@ technology_group = eastern
 religion = orthodox
 religious_school = see_of_constantinople
 primary_culture = ruthenian
-capital = 2407	# Pereyaslav
-fixed_capital = 2407 # Cannot move capital away from this province & no power cost to move to it
+capital = 2407# Pereyaslav
+fixed_capital = 2407

@@ -5,5 +5,5 @@ primary_culture = visigo
 religion = orthodox
 religious_school = see_of_rome
 technology_group = western
-capital = 4549 #Xativa
+capital = 4549#Xativa
 fixed_capital = 4549

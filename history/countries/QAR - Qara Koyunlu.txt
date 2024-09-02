@@ -3,12 +3,11 @@ add_government_reform = tribal_federation
 primary_culture = azerbaijani
 #add_accepted_culture = armenian
 add_accepted_culture = kurdish
-religion = shiite
+religion = alevi
 technology_group = muslim
-capital = 416 # Tabriz
-
-1390.1.1 = {
-	monarch = {
+capital = 5088# Tabriz
+1390.1.1 = { 
+	monarch = { 
 		name = "Qara Yusuf"
 		dynasty = "Qara Qoyunlu"
 		adm = 2
@@ -16,9 +15,8 @@ capital = 416 # Tabriz
 		mil = 3
 	}
 }
-
-1390.1.1 = {
-	heir = {
+1390.1.1 = { 
+	heir = { 
 		name = "Iskander"
 		monarch_name = "Iskander"
 		dynasty = "Qara Qoyunlu"
@@ -30,9 +28,8 @@ capital = 416 # Tabriz
 		mil = 2
 	}
 }
-
-1420.1.1 = {
-	monarch = {
+1420.1.1 = { 
+	monarch = { 
 		name = "Iskander"
 		dynasty = "Qara Qoyunlu"
 		adm = 2
@@ -40,9 +37,8 @@ capital = 416 # Tabriz
 		mil = 2
 	}
 }
-
-1420.1.1 = {
-	heir = {
+1420.1.1 = { 
+	heir = { 
 		name = "Jahân"
 		monarch_name = "Jahân Shâh"
 		dynasty = "Qara Qoyunlu"
@@ -54,9 +50,8 @@ capital = 416 # Tabriz
 		mil = 5
 	}
 }
-
-1438.4.22 = {
-	monarch = {
+1438.4.22 = { 
+	monarch = { 
 		name = "Jahân Shâh"
 		dynasty = "Qara Qoyunlu"
 		birth_date = 1420.1.1
@@ -68,9 +63,8 @@ capital = 416 # Tabriz
 	add_ruler_personality = bold_fighter_personality
 	add_piety = -0.6
 }
-
-1438.4.22 = {
-	heir = {
+1438.4.22 = { 
+	heir = { 
 		name = "Hasan 'Ali"
 		monarch_name = "Hasan 'Ali"
 		dynasty = "Qara Qoyunlu"
@@ -82,9 +76,8 @@ capital = 416 # Tabriz
 		mil = 0
 	}
 }
-
-1467.11.11 = {
-	monarch = {
+1467.11.11 = { 
+	monarch = { 
 		name = "Hasan 'Ali"
 		dynasty = "Qara Qoyunlu"
 		adm = 2
@@ -92,3 +85,4 @@ capital = 416 # Tabriz
 		mil = 0
 	}
 }
+government_rank = 1

@@ -2,7 +2,7 @@
 owner = SYP
 controller = SYP
 culture = syriac
-religion = ofeast
+religion = alawite
 capital = "Homs"
 trade_goods = cotton
 base_tax = 2

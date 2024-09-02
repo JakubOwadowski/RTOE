@@ -39,7 +39,7 @@
 133 = "Linec"
 134 = "Wieden"
 151 = "Konstantynopol"
-162 = "Zemplin"
+162 = "Szarysz"
 165 = "Berno"
 262 = "Kraków"
 263 = "Racibórz"
@@ -244,3 +244,4 @@
 126 = "Motta"
 341 = "Kartagina"
 340 = "Konstancja"
+4971 = "Orawa"

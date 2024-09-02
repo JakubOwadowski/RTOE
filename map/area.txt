@@ -254,7 +254,7 @@ upper_brittany_area = {
 }
 normandy_area = {  #4
 
-	167 168 1879 4985 
+	167 168 4985 4988 
 }
 provence_area = {  #5
 
@@ -283,7 +283,6 @@ bourgogne_area = {  #3
 }
 west_burgundy_area = {  #3
 
-	185 191 4392 
 }
 massif_central_area = {  #3
 
@@ -302,27 +301,27 @@ savoy_dauphine_area = {  #3 Savoy and Dauphiné, Upper Burgundy
 }
 lorraine_area = {  #4
 
-	187 188 189 4766 
+	187 188 189 
 }
 picardy_area = {  #4
 
-	87 88 89 1743 
+	87 88 89 1743 182 
 }
 ile_de_france_area = {  #4
 
-	182 183 1865 4388 
+	183 1865 4388 1879 
 }
 champagne_area = {  #3
 
-	181 186 4390 
+	181 186 4390 4766 185 
 }
 loire_area = {  #5
 
 	color = { 231 143 5 }
-	177 178 4389 4988 4989 
+	177 178 4389 4989 4776 
 }
 orleans_area = { 
-	184 179 4776 
+	184 179 4392 191 
 }
 ########################################
 # Low Countries				 		   #
@@ -667,7 +666,7 @@ greenland_area = {  #2
 ########################################
 estonia_ingria_area = {  #3
 
-	36 1834 1842 37 
+	36 1834 1842 37 5104 
 }
 livonia_area = {  #4
 
@@ -695,18 +694,19 @@ malopolska_area = {  #5
 }
 red_ruthenia_area = {  #5 
 
-	261 1940 2424 2961 281 
+	261 1940 2424 2961 5097 
 }
 podolia_volhynia_area = {  #3
 
+	281 5098 1943 5103 
 }
 volhynia_area = {  # 4
 
-	279 2962 4538 
+	279 4538 278 2962 
 }
 pripyat_area = {  #4
 
-	278 1941 4537 4545 
+	1941 4545 4115 4537 
 }
 podlasie_area = { 
 	269 277 1937 4535 
@@ -728,19 +728,19 @@ samogitia_area = {  #4
 
 	270 271 1936 4534 40 
 }
-lithuania_area = {  #5
-
-	272 770 4536 
+lithuania_area = { 
+	5095 5094 272 770 4536 
 }
 west_dniepr_area = {  #4 Right Bank Ukraine
 
-	280 1942 1944 1943 
+	280 1942 5096 5101 
 }
 east_dniepr_area = {  #4 Left bank Ukraine
 
-	290 2407 289 4543 1945 
+	290 2407 5099 
 }
 chernigov_area = { 
+	289 1945 4543 
 }
 sloboda_ukraine_area = {  #4
 
@@ -752,7 +752,7 @@ yedisan_area = {  #3
 }
 zaporizhia_area = {  #3
 
-	283 2411 2412 
+	283 2411 2412 5107 1944 
 }
 azov_area = {  #4
 
@@ -764,7 +764,7 @@ crimea_area = {  #4
 }
 white_ruthenia_area = {  #3
 
-	292 771 4242 276 4115 
+	771 4242 276 275 
 }
 minsk_area = {  #4
 
@@ -796,7 +796,7 @@ suzdal_area = {  #3
 }
 smolensk_area = {  #4
 
-	293 297 4244 
+	293 297 4244 292 
 }
 oka_area = {  #3
 
@@ -804,11 +804,11 @@ oka_area = {  #3
 }
 novgorod_area = {  #5
 
-	310 311 1959 2749 4260 
+	310 1959 2749 4260 
 }
 pskov_area = {  #4
 
-	274 275 1960 4148 
+	274 1960 4148 311 
 }
 vologda_area = {  #3
 
@@ -1057,7 +1057,7 @@ northern_greece_area = {  #3 #Epirus
 	142 144 4699 4698 
 }
 thrace_area = { 
-	149 4779 4705 
+	151 149 4779 4705 
 }
 upper_thrace_area = { 
 	1764 2750 5072 5073 
@@ -1086,7 +1086,7 @@ wallachia_area = {  #5
 }
 moldavia_area = {  #5
 
-	268 4529 4530 
+	268 4529 4530 5100 5102 
 }
 transylvania_area = {  #4 #Northern Transylvania
 
@@ -1197,7 +1197,7 @@ aydin_area = {  #5
 ankara_area = {  #3
 
 	color = { 57 154 172 }
-	326 4312 4313 
+	326 4312 4313 2299 
 }
 aegean_archipelago_area = {  #5
 
@@ -1205,7 +1205,7 @@ aegean_archipelago_area = {  #5
 }
 kastamonu_area = {  #4
 
-	325 328 2299 2304 
+	325 328 2304 
 }
 karaman_area = {  #4
 
@@ -1387,15 +1387,15 @@ fezzan_area = {  #4
 }
 tunisia_area = {  #5
 
-	341 2454 2455 2473 4566 
+	341 2454 2455 4566 5105 
 }
 djerba_area = {  #3
 
-	353 2453 2954 
+	353 2453 2954 2473 
 }
 algiers_area = {  #3
 
-	336 4562 2465 
+	336 4562 2465 343 
 }
 barbary_coast_area = {  #3
 
@@ -1403,7 +1403,7 @@ barbary_coast_area = {  #3
 }
 kabylia_area = {  #3
 
-	339 340 1882 
+	339 340 1882 5106 
 }
 hautes_plaines_area = {  #3
 
@@ -1439,7 +1439,7 @@ marrekesh_area = {  #3
 }
 northern_morocco_area = {  #5
 
-	334 335 1751 4563 4561 343 
+	334 335 1751 4563 4561 
 }
 ########################################
 # East Africa					       #
@@ -3705,7 +3705,7 @@ upper_silesia_Area = {
 	4723 263 4542 
 }
 nitra_area = { 
-	4236 154 1772 
+	4236 154 1772 4971 
 }
 banate_area = { 
 	156 1954 4544 
@@ -3717,7 +3717,7 @@ dyfed_area = {
 	5083 4369 4717 
 }
 besarabia_area = { 
-	2405 4540 1756 
+	2405 4540 1756 5094 
 }
 trebizond_area = { 
 	330 5086 5008 

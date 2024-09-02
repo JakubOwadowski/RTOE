@@ -2,7 +2,7 @@
 owner = FRS
 controller = FRS
 culture = azerbaijani
-religion = shiite
+religion = alevi
 capital = "Lar"
 trade_goods = iron
 base_tax = 2

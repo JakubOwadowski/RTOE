@@ -1,7 +1,7 @@
 #1951 - Hunyad
 owner = BUL
 controller = BUL
-culture = transylvanian#Transylvanian Saxons
+culture = vlach#Transylvanian Saxons
 religion = orthodox
 capital = "Sibiu"
 trade_goods = cloth

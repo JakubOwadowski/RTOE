@@ -2,3 +2,6 @@ technology_group = eastern
 government = monarchy
 add_government_reform = feudalism_reform
 government_rank = 1
+religion = orthodox
+capital = 4116
+primary_culture = ryazanian

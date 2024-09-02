@@ -1,7 +1,7 @@
 #4126 - Bács (Bacs + Bodrog + parts of Csongrad and Kiskunság)
 owner = SZL
 controller = SZL
-culture = serbian
+culture = bulgarian
 religion = orthodox
 capital = "Bács"
 trade_goods = livestock

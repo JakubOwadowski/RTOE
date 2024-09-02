@@ -1,6 +1,6 @@
 #136 - Split
 owner = DAL
-controller = VEN
+controller = DAL
 culture = croatian
 religion = orthodox
 capital = "Split"
@@ -20,3 +20,4 @@ discovered_by = western
 discovered_by = eastern
 discovered_by = muslim
 discovered_by = ottoman
+hre = yes

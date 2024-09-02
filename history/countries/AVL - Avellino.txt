@@ -5,6 +5,5 @@ religion = orthodox
 religious_school = see_of_constantinople
 government_rank = 1
 primary_culture = neapolitan
-capital = 4734 # Avellino
+capital = 4734# Avellino
 fixed_capital = 4734
-

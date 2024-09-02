@@ -26,3 +26,4 @@ discovered_by = north_american
 discovered_by = mesoamerican
 add_core = BUL
 add_core = SLO
+add_core = MVA

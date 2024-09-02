@@ -2,7 +2,7 @@
 owner = NOG
 controller = NOG
 culture = nogaybak
-religion = shiite
+religion = alevi
 capital = "Ryn"
 trade_goods = fish
 base_tax = 1

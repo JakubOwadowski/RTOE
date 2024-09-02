@@ -5,9 +5,8 @@ technology_group = muslim
 religion = sunni
 primary_culture = hejazi_culture
 capital = 2330
-
-1438.1.1 = {
-	monarch = {
+1438.1.1 = { 
+	monarch = { 
 		name = "'Abul Muhsin I"
 		dynasty = "al-'As"
 		adm = 5

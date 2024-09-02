@@ -1,7 +1,7 @@
 #Sönderjylland-Slesvig, incl. Slesvig, Haderslev and Flensborg
 owner = DAN
 controller = DAN
-culture = juttish
+culture = danish
 religion = orthodox
 base_tax = 4
 base_production = 4

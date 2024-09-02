@@ -4,3 +4,4 @@ government_rank = 1
 technology_group = eastern
 religion = orthodox
 primary_culture = polish
+capital = 263

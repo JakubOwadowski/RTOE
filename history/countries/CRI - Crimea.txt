@@ -1,9 +1,9 @@
 government = monarchy
 add_government_reform = feudalism_reform
-technology_group = nomad_group
+technology_group = eastern
 religion = orthodox
 primary_culture = crimean
-capital = 284# Crimea
+capital = 1974# Crimea
 1441.1.1 = { 
 	monarch = { 
 		name = "Haji I"

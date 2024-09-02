@@ -1,6 +1,6 @@
 #1859 - Torun
-owner = MAZ
-controller = MAZ
+owner = PRU
+controller = PRU
 capital = "Torun"
 is_city = yes
 culture = polish
@@ -33,4 +33,4 @@ center_of_trade = 1
 1814.4.11 = { 
 	controller = PRU
 }
-add_core = MAZ
+add_core = PRU

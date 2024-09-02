@@ -5,12 +5,11 @@ religion = orthodox
 religious_school = see_of_rome
 primary_culture = saxon
 add_accepted_culture = frisian
-capital = 1 # Helgoland
-fixed_capital = 1 # Cannot move capital away from this province & no power cost to move to it
+capital = 1# Helgoland
+fixed_capital = 1# Cannot move capital away from this province & no power cost to move to it
 government_rank = 1
-
-1399.1.1 = {
-	monarch = {
+1399.1.1 = { 
+	monarch = { 
 		name = "Vitalienbrüder"
 		adm = 3
 		dip = 3
@@ -18,4 +17,3 @@ government_rank = 1
 		regent = yes
 	}
 }
-

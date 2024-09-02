@@ -2,8 +2,8 @@
 latent_trade_goods = { 
 	coal 
 }
-owner = AUT
-controller = AUT
+owner = HAI
+controller = HAI
 capital = "Cambray"
 is_city = yes
 culture = wallonian
@@ -23,5 +23,3 @@ discovered_by = ottoman
 1677.4.19 = { controller = FRA }
 1789.5.5 = { base_tax = 6 base_production = 6 }
 1806.7.12 = { hre = no }
-add_core = AUT
-add_core = WLN

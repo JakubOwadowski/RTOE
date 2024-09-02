@@ -1,8 +1,8 @@
 #322 - Küthaya
-owner = ROM
-controller = ROM
+owner = TUR
+controller = TUR
 culture = turkish
-religion = orthodox
+religion = alevi
 capital = "Kütahya"
 trade_goods = cloth
 hre = yes
@@ -32,4 +32,4 @@ discovered_by = nomad_group
 1659.1.1 = { controller = TUR revolt = { size = 1 } }
 1690.1.1 = { base_tax = 4 base_production = 4 }
 1718.1.1 = { base_tax = 8 base_production = 8 }
-add_core = ROM
+add_core = TUR

@@ -5,9 +5,8 @@ technology_group = western
 primary_culture = welsh
 religion = ofbrit
 capital = 4366
-
-1444.1.1 = {
-	monarch = {
+1444.1.1 = { 
+	monarch = { 
 		name = "Owain IV"
 		dynasty = "Glyndwr"
 		birth_date = 1417.4.10
@@ -16,7 +15,7 @@ capital = 4366
 		dip = 2
 		mil = 5
 	}
-	heir = {
+	heir = { 
 		name = "Owain"
 		monarch_name = "Owain V"
 		dynasty = "Glyndwr"

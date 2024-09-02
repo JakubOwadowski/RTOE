@@ -1,6 +1,6 @@
 #2222 - Ardakan
-owner = TBR
-controller = TBR
+owner = YZD
+controller = YZD
 culture = persian
 religion = shiite
 capital = "Ardakan"
@@ -15,7 +15,6 @@ discovered_by = indian
 discovered_by = nomad_group
 1447.3.13 = { 
 	controller = QOM
-	add_core = QOM
 }
 1451.1.1 = { 
 	controller = KHO
@@ -47,5 +46,5 @@ discovered_by = nomad_group
 }
 1802.1.1 = { controller = REB revolt = { type = revolutionary_rebels size = 2 } }
 1803.4.1 = { controller = PER revolt = { size = 1 } }
-add_core = TBR
 add_core = QOM
+add_core = YZD

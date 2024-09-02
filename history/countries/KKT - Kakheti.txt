@@ -3,4 +3,4 @@ add_government_reform = autocracy_reform
 primary_culture = georgian
 religion = orthodox
 technology_group = eastern
-capital = 2203 # Kakheti
+capital = 2203

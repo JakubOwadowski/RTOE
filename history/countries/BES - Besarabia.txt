@@ -5,4 +5,4 @@ primary_culture = moldavian
 religion = orthodox
 religious_school = see_of_constantinople
 technology_group = eastern
-capital = 2405
+capital = 1756

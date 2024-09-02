@@ -40,3 +40,10 @@ NRM_conquest_of_ireland = {
 	trade_efficiency = 0.15 
 	promote_culture_cost = -0.1
 }
+
+NRM_rule_normandia = {
+	reduced_liberty_desire_on_other_continent = -10
+	trade_steering = 0.25
+	ship_trade_power_modifier = 0.25
+	global_sailors_modifier = 0.25
+}

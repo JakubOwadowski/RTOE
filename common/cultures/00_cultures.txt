@@ -1,16 +1,7 @@
-# Do not change tags in here without changing every other reference to them.
-# If adding new groups or cultures, make sure they are unique.
-#
-# Union tags do not suffer from the 'same_culture_group' tax penalty.
-# Primary tags are the first choice for rebel factions seeking cultural independence.
-#
-# graphical_culture = westerngfx
-# second_graphical_culture = muslimgfx (fallback if the first does not exist)
-
 germanic = {
+
 	graphical_culture = westerngfx
 
-	male_names = { Gunther Rolf }
 	longbard = {
 		primary = LOM
 		male_names = {
@@ -342,6 +333,9 @@ germanic = {
 			Sirksena Syrtsema "fan Thabor" Vitringa Walles Wiarda Zelle
 		}
 	}
+	male_names = { 
+		Gunther Rolf 
+	}
 	female_names = {
 		Adele Adelgunde Adelheid Adolfine Agatha Agnes Alexandra Alice Alina Aline Alma Alwina Alwine Amalia Amalie Amanda 
 		Amelie Andrea Angela Angelika Angelina Anika Anita Anja Anke Ann-Katrin Anna Anne Annegret Anneli Annelie Anneliese 
@@ -453,7 +447,7 @@ germanic = {
 	}
 }
 
-scandinavian = { #Nordic
+scandinavian = {
 	graphical_culture = westerngfx
 
 	#country = { land_forcelimit_modifier = 0.25}
@@ -545,42 +539,6 @@ scandinavian = { #Nordic
 	}
 	danish = {
 		primary = DAN
-		male_names = {
-			Anders Andrew Anund Asger Balder Benedikt Benedict Bj�rn Beorn Bo Christopher Edvard Edward 
-			Einar Ernest Fredrik Frederick Frej Glum Gorm Gotfred Godfrey Gregers Gregory Grim H�rik 
-			Halfdan Halvor Harold Helge Hemming Henry Hjalmar Ingolf J�rn Jakob Jacob Jens Joakim Johann
-			John Charles Knut Kristian Leif Lennart Ludvig Louis Malthe Mads Matthew Mikkel Michael 
-			Mogens Nicholas Odd Olav Olaf Peder Pridbj�rn Ragnar Ragnvald Rolf Rune R�rik Rurik Severin 
-			Sigfred Sigtryg Sigurd Sivard Steen Svend Sven S�mund Thorolf Thorvald Torben Torbj�rn
-			Torbj�rn Tord Torfinn Torgils Torkel Ture Ubbe Uffe Ulf Vladimir Valentin Yngvar Ingvar
-			Christian Frederik Erik Christoffer Adolf Niels Karl Magnus Maximilian Ulrik Abel Vilhelm 
-			Knud Valdemar Harald Oluf Alfred Anton Bent Emanuel Esben Fritjof Frode Gunnar Hans Henrik 
-			Holger J�rgen Kasper Peter Poul Rudolf Stefan Tobias Torbald Viktor Vilfred Joachim Ernst
-			Frans Gnupa
-		}
-		female_names = {
-			Sophie Dorothe Margrete Sigrun
-			Agnethe Anna Asta Benedikte Benedicta Birgitta Brigid Bodil Cecilie Cecilia Christina Dagmar 
-			Dorothea Dorothy Elisabeth Ellinor Eleanor Emilie Emily Erika Ester Estrid Astrid Frederikke 
-			Frederique Freja Grethe Gudrun Gunhild Gyda Gytha Helena Helen Ida Ingeborg Ingegerd Ingrid 
-			Johanne Jutta Karin Karoline Katarina Katrine Catherine Kirsten Klara Lise Luitgard Lykke
-			Magdalene Magdalena Maren Margrethe Margaret Maria Martha Ragnfrid Ragnhild Rikissa Runa 
-			Sanna Signe Sigrid Silje Sofie Sophia Svanhild Thyra Tora Thora Thordis �se �sa
-		}
-		dynasty_names = {
-			"Hvide" "Galen" "Due" "Saltensee" "Urup" "Neb" "Brahe" "G�ye" "Trolle" "Rantzau"
-			"Friis" "Gyllenstierna" #Gyldenstierne
-			"Bille" "Adeler" "Arenstorff" "Brockenhuus"
-			"Beck" "Brock" "Grubbe" "Holck" "Huitfeldt" "Juel" "Kaas" "Krabbe"
-			"Lindenov" "Lykke" "Marsvin" "Mule" "Munk" "Oxe" "Reedtz" "Rodsteen"
-			"Rosenkrantz" "Skeel" "Skram" "Urne" "Vind" "Ahlefeldt"
-			"Frille" "R�nnow"
-			# CKII
-			"Porse" "Glysing" "Banner" "Thott" "Ulfstand" "Gr�n" "Daa"
-			"Reventlow" "Juul" "Ulfeldt" "Bang"
-		}
-	}
-	juttish = {
 		male_names = {
 			Anders Andrew Anund Asger Balder Benedikt Benedict Bj�rn Beorn Bo Christopher Edvard Edward 
 			Einar Ernest Fredrik Frederick Frej Glum Gorm Gotfred Godfrey Gregers Gregory Grim H�rik 
@@ -750,6 +708,26 @@ scandinavian = { #Nordic
 			Inkeri Ilmatar Irene Irene Ilona Helen Kristiina Christina Loviisa
 			Elisabet Elisabeth Sohvi Sofia Auni Agnes Liekko Helen Kivutar Lemmikki Lyylikki Salme 
 			Tuulitar Talvikki
+		}
+	}
+	ingrian = {
+		male_names = {
+			Kahru Kahrulemb G�ktu Henes J�rre Jeansa Juvven John L�gon L�vrrohas Leamm� Mellet Mihka Igalemb Ihameel Ihar 
+			Ihat�iv Ihavald Illimar Ilmalemb Ilmar Ilvelemb Jaolemb Kaalep L�ttelemb Manivald Mart Maru Mati Mats Meelis Mehis 
+			Ohet�iv Ohevald Olev Onni Otelemb Ott Arnaz Arti Artis Arvo Aymort Azeg Biur Biyar Burmort Chichayka Chuga Dergun 
+			Deryab Pakstyan Paksyay Paksyut Parush Pivtsay Pokshayka Putyayka Pyera Rateg Rayda Sarin Sektev Dobrinya Dokya 
+			Dondy Gazheg Hulyen Inzhay Irter Lyneg Lysko Kezhapa Kezhay Kezhedey Setyamka Shindyay Shypicha Shyrpuzh Spira Syrka 
+			Tikshayka Tuhan Tyueykezhut Tyutyuk Meltsayka Mordvinko Moksha Nalka Nuyaksha Nuyanza Nuyat Ovtay Pakstyan Paksyay 
+			Paksyut 
+		}
+		female_names = {
+			Aasa Ahma Aime Aimo Aita Aldi Ann Anni Annika Are Auli Aune Eha Elo Ere Helbe Hele Helgi Tiiu Tuuli Urve Viire Vilja 
+			Virge Virve V�rvu �ie �nne �lane �lle Anava Ashava Asrava Avya Azra-Va Chechama Chenksa Cherava Chichayka Chindyapa 
+			Chindyayka Chinzhay Chitska Mel'shay Nezayka Nulzyava Nyal'ka Nyayka Nyumina Nyv Olota Ordava Oshama �shkam�shka 
+			Tetyava Tikshayka Toyaksha Tundava Tundya Unzhutka Upurga Utyayka Valdava Vergava Vezhav Vidyava Virtyava Yalgava 
+			Yug�rka Anava Ashava Asrava Azra-Va Chechama Chenksa Cherava Chichayka Chindyapa Chindyayka Chinzhay Chitska Elyuva 
+			Inyava Kanyava Kanyuva Kirdyava Kunava Kunyavka Litava Liyava Mazava Megurka Mel'shay Nezayka Nulzyava Nuyanza 
+			Nyal'ka 
 		}
 	}
 	sapmi = {
@@ -1959,26 +1937,6 @@ finno_ugric = { #Ugric
 			Kunava Kunyavka Litava 
 		}
 	}
-	ingrian = {
-		male_names = {
-			Kahru Kahrulemb G�ktu Henes J�rre Jeansa Juvven John L�gon L�vrrohas Leamm� Mellet Mihka Igalemb Ihameel Ihar 
-			Ihat�iv Ihavald Illimar Ilmalemb Ilmar Ilvelemb Jaolemb Kaalep L�ttelemb Manivald Mart Maru Mati Mats Meelis Mehis 
-			Ohet�iv Ohevald Olev Onni Otelemb Ott Arnaz Arti Artis Arvo Aymort Azeg Biur Biyar Burmort Chichayka Chuga Dergun 
-			Deryab Pakstyan Paksyay Paksyut Parush Pivtsay Pokshayka Putyayka Pyera Rateg Rayda Sarin Sektev Dobrinya Dokya 
-			Dondy Gazheg Hulyen Inzhay Irter Lyneg Lysko Kezhapa Kezhay Kezhedey Setyamka Shindyay Shypicha Shyrpuzh Spira Syrka 
-			Tikshayka Tuhan Tyueykezhut Tyutyuk Meltsayka Mordvinko Moksha Nalka Nuyaksha Nuyanza Nuyat Ovtay Pakstyan Paksyay 
-			Paksyut 
-		}
-		female_names = {
-			Aasa Ahma Aime Aimo Aita Aldi Ann Anni Annika Are Auli Aune Eha Elo Ere Helbe Hele Helgi Tiiu Tuuli Urve Viire Vilja 
-			Virge Virve V�rvu �ie �nne �lane �lle Anava Ashava Asrava Avya Azra-Va Chechama Chenksa Cherava Chichayka Chindyapa 
-			Chindyayka Chinzhay Chitska Mel'shay Nezayka Nulzyava Nyal'ka Nyayka Nyumina Nyv Olota Ordava Oshama �shkam�shka 
-			Tetyava Tikshayka Toyaksha Tundava Tundya Unzhutka Upurga Utyayka Valdava Vergava Vezhav Vidyava Virtyava Yalgava 
-			Yug�rka Anava Ashava Asrava Azra-Va Chechama Chenksa Cherava Chichayka Chindyapa Chindyayka Chinzhay Chitska Elyuva 
-			Inyava Kanyava Kanyuva Kirdyava Kunava Kunyavka Litava Liyava Mazava Megurka Mel'shay Nezayka Nulzyava Nuyanza 
-			Nyal'ka 
-		}
-	}
 	dynasty_names = {
 		# CKII - Lappish
 		"Ubmeje" "Nuor�ne" "G�jka" "Kaise" "Saiva" "Keite" "Sapmi" "Magga" "Guol�dat"
@@ -2780,20 +2738,46 @@ baltic	= {
 			�nnela �lle
 		}
 	}
-	
-	prussian = {
-		primary = PRU
+
+	livonian = {
+		primary = LVA
 		male_names = {
-			Fridrikas Augustas Emilas Karolas Antonas
-			Benjamin Denis Diederick Eckbert Erwin Florian Franz Gebhard Gottfried Hartmann Heinrich Helmut 
-			Horst Joachim Kaspar Kurt Leo Ludwig Lukas Manfred Michael Nikolaus Oskar Otto Philipp Reiner Rudolf 
-			Rupprecht Siegfried Siegmund Thomas Urs Viktor Werner Alvydas Arelis Auctune Bajoras Beidras Budo Dagonis 
-			Ekkelis Galindas Galindo Gauronas Gerdautas Glande Golding Jauguttis Karatas Klukis Kugis Milzas Nomedas 
-			Prusas Sergonis Ulinniks Ulitis
+			Alo Asso Caupo Dabrel Gerweder Ilmedous Ilo Imme Kike Kovals Layanus Lembewalde Musts Paimis Peite Pi�ke Sula Uldenago Usis Valke Vesiki Vietso Waldeko Ylo Ymaut
 		}
 		female_names = {
-			Raphaela Sabine Vera Betten Dagas Gelennis Gerkus Grasus Gulbis Mila Milyuns Weslikan Ziedas
+			Elmede Use Valata Vasara
 		}
+		dynasty_names = {
+			"Karasi" "Ingrija" "Saaremaa" "Revala" "Virumaa" "L��nemaa" "Vaiga" "Ingeri" "Ingeri" "Livo" "Harjumaa" "Virumaa" 
+			"Ridala" "Saaremaa" "Vaiga" "Turaida"
+		}
+	}
+	
+	prussian = {
+		male_names = {
+			Algirdas Antanas Antavas Aras Arunas Azuolas Budrys Bukantas Butavas Butigeidis Butvydas 
+			Daugvilas Daumantas Dausprungas Dravenis Erdenis Erdvilas Gedigaudas
+			Gediminas Gedivilas Gintaras Gintautas Girdenis Irmantas Jaunutis Jogaila Jovirdas Kantibutas 
+			Karijotas Kesgaila Kestutis Korigaila Korybutas
+			Lasukas Lingvenis Liudas Lubartas Lutuveras Merkelis Mindaugas Minigaila Mantvydas Movkoldas 
+			Narimantas Povilas Pukuveras Rimantas 
+			Rimgaila Rimvydas Ringaudas Sarunas Skirgaila Songaila Svarnas Svitrigaila Tarvydas Tovtivilas 
+			Traidenis Treniotas Vainius Vaisvilkas Valimantas Zygimantas
+			Vidmantas Vingoldas Virmantas Visvaldis Vizgirdas Vykintas Vytautas Vytenis Zivinbudas 
+			}
+			female_names = {
+				Aldona Anele Audra Ausra Birute Dannila Danute Evalda Gaudimante Giedre Gintare Jevna Kenna 
+				Mikova Roze Saule Svajone Vida Laima
+			}
+			dynasty_names = {
+				Ugandi Gediminai Radziwill Gostautas Astikas Kesgaila Chodkiewicz Olshanski Chartoryski Giedraiciai Pac Plater Tyzenhaus Sapieha Ostrogski Oginski
+				# CKII
+				"Wilks" "Klakis" "Luks" "Kuilis" "Kalabijjan"
+				"Jankowskie" "Konopacki" "Penikis" "Tontegode" "Vidins" "Draguns" "Sirkants"
+				# Ugric Baltic
+				"Karasi" "Ingrija" "Revala" "Virumaa" "L��nemaa" "Ingeri" "Livo" "Harjumaa"
+				"Ridala" "Saaremaa" "Vaiga" "Turaida"
+			}
 	}
 	scalovovian = {
 		primary = SKL
@@ -2812,16 +2796,29 @@ baltic	= {
 	galindian = {
 		primary = GLA
 		male_names = {
-			Fridrikas Augustas Emilas Karolas Antonas
-			Benjamin Denis Diederick Eckbert Erwin Florian Franz Gebhard Gottfried Hartmann Heinrich Helmut 
-			Horst Joachim Kaspar Kurt Leo Ludwig Lukas Manfred Michael Nikolaus Oskar Otto Philipp Reiner Rudolf 
-			Rupprecht Siegfried Siegmund Thomas Urs Viktor Werner Alvydas Arelis Auctune Bajoras Beidras Budo Dagonis 
-			Ekkelis Galindas Galindo Gauronas Gerdautas Glande Golding Jauguttis Karatas Klukis Kugis Milzas Nomedas 
-			Prusas Sergonis Ulinniks Ulitis
-		}
-		female_names = {
-			Raphaela Sabine Vera Betten Dagas Gelennis Gerkus Grasus Gulbis Mila Milyuns Weslikan Ziedas
-		}
+			Algirdas Antanas Antavas Aras Arunas Azuolas Budrys Bukantas Butavas Butigeidis Butvydas 
+			Daugvilas Daumantas Dausprungas Dravenis Erdenis Erdvilas Gedigaudas
+			Gediminas Gedivilas Gintaras Gintautas Girdenis Irmantas Jaunutis Jogaila Jovirdas Kantibutas 
+			Karijotas Kesgaila Kestutis Korigaila Korybutas
+			Lasukas Lingvenis Liudas Lubartas Lutuveras Merkelis Mindaugas Minigaila Mantvydas Movkoldas 
+			Narimantas Povilas Pukuveras Rimantas 
+			Rimgaila Rimvydas Ringaudas Sarunas Skirgaila Songaila Svarnas Svitrigaila Tarvydas Tovtivilas 
+			Traidenis Treniotas Vainius Vaisvilkas Valimantas Zygimantas
+			Vidmantas Vingoldas Virmantas Visvaldis Vizgirdas Vykintas Vytautas Vytenis Zivinbudas 
+			}
+			female_names = {
+				Aldona Anele Audra Ausra Birute Dannila Danute Evalda Gaudimante Giedre Gintare Jevna Kenna 
+				Mikova Roze Saule Svajone Vida Laima
+			}
+			dynasty_names = {
+				Ugandi Gediminai Radziwill Gostautas Astikas Kesgaila Chodkiewicz Olshanski Chartoryski Giedraiciai Pac Plater Tyzenhaus Sapieha Ostrogski Oginski
+				# CKII
+				"Wilks" "Klakis" "Luks" "Kuilis" "Kalabijjan"
+				"Jankowskie" "Konopacki" "Penikis" "Tontegode" "Vidins" "Draguns" "Sirkants"
+				# Ugric Baltic
+				"Karasi" "Ingrija" "Revala" "Virumaa" "L��nemaa" "Ingeri" "Livo" "Harjumaa"
+				"Ridala" "Saaremaa" "Vaiga" "Turaida"
+			}
 	}
 	semigallian = {
 		primary = SEM
@@ -9824,18 +9821,7 @@ lost_cultures_group = {
 			Amage Ghadani Opoin Polemakratia
 		}
 	}
-	livonian = {
-		male_names = {
-			Alo Asso Caupo Dabrel Gerweder Ilmedous Ilo Imme Kike Kovals Layanus Lembewalde Musts Paimis Peite Pi�ke Sula Uldenago Usis Valke Vesiki Vietso Waldeko Ylo Ymaut
-		}
-		female_names = {
-			Elmede Use Valata Vasara
-		}
-		dynasty_names = {
-			"Karasi" "Ingrija" "Saaremaa" "Revala" "Virumaa" "L��nemaa" "Vaiga" "Ingeri" "Ingeri" "Livo" "Harjumaa" "Virumaa" 
-			"Ridala" "Saaremaa" "Vaiga" "Turaida"
-		}
-	}
+
 }
 
 aramaic = {
@@ -10158,7 +10144,6 @@ armenian_group = {
 		Sirvart Srpouhi Shoushanig Takouhi Tamar Tamar Vartanoush Vartouhi Vosgi Yeva Zabel Elizabeth 
 	}
 }
-
 
 african_romance = {
 	graphical_culture = muslimgfx

@@ -5,4 +5,4 @@ primary_culture = uralic
 religion = orthodox
 religious_school = see_of_constantinople
 technology_group = eastern
-capital = 4129	# Vym
+capital = 4129# Vym

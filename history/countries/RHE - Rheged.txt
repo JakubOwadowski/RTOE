@@ -5,9 +5,8 @@ technology_group = western
 primary_culture = cumbrian
 religion = ofbrit
 capital = 247
-
-1444.1.1 = {
-	monarch = {
+1444.1.1 = { 
+	monarch = { 
 		name = "Calum I"
 		dynasty = "Gutraidh"
 		birth_date = 1408.4.13
@@ -16,7 +15,7 @@ capital = 247
 		dip = 2
 		mil = 5
 	}
-	heir = {
+	heir = { 
 		name = "Seumas"
 		monarch_name = "Seumas I"
 		dynasty = "Gutraidh"

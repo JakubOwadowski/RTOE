@@ -4,4 +4,4 @@ primary_culture = cosmopolitan_french
 religion = orthodox
 religious_school = see_of_rome
 technology_group = western
-capital = 180 # Poitiers
+capital = 180

@@ -13,8 +13,6 @@
 148 = "Selanik"
 150 = "Nigbolu"
 151 = "Kostantinibolu"
-153 = "Budin"
-154 = "Uyvar"
 155 = "Göle"
 156 = "Timishvar" #Modern Turkish Name: Temesvar
 157 = "Varad"

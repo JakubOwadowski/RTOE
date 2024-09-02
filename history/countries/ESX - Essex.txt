@@ -4,4 +4,4 @@ government_rank = 1
 technology_group = western
 primary_culture = english
 religion = ofbrit
-capital = 236	# London
+capital = 236# London

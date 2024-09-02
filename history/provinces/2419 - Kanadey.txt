@@ -2,7 +2,7 @@
 owner = KAZ
 controller = KAZ
 culture = kazani
-religion = shiite
+religion = alevi
 base_tax = 2
 base_production = 2
 trade_goods = livestock

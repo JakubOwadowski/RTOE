@@ -5,5 +5,5 @@ technology_group = eastern
 religion = orthodox
 religious_school = see_of_constantinople
 primary_culture = carpat
-capital = 2424	# Przemyśl
+capital = 2424# Przemyśl
 fixed_capital = 2424

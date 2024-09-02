@@ -1,19 +1,18 @@
 government = monarchy
-add_government_reform = feudalism_reform
+add_government_reform = autocracy_reform
 government_rank = 1
 primary_culture = pomorzan
 religion = slavic_pagan_reformed
 technology_group = eastern
-capital = 1858	# Stettin
-
-1444.1.1 = {
-        monarch = {
-                name = "Rëdgòsz"
-                dynasty = "Kosobudzë"
-                birth_date = 1421.6.18
-                death_date = 1453.6.23
-                adm = 5
-                dip = 3
-                mil = 2
-        }
+capital = 1858# Stettin
+1444.1.1 = { 
+	monarch = { 
+		name = "Rëdgòsz"
+		dynasty = "Kosobudzë"
+		birth_date = 1421.6.18
+		death_date = 1453.6.23
+		adm = 5
+		dip = 3
+		mil = 2
+	}
 }

@@ -1,7 +1,7 @@
 #155 - Békés
 owner = BUL
 controller = BUL
-culture = transylvanian
+culture = bulgarian
 religion = orthodox
 capital = "Gyula"
 trade_goods = wine

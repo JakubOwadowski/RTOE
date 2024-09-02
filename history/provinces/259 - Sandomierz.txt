@@ -1,6 +1,6 @@
 #259 - Sandomierz
-owner = POL
-controller = POL
+owner = UKR
+controller = UKR
 capital = "Sandomierz"
 culture = polish
 religion = orthodox
@@ -40,3 +40,4 @@ discovered_by = ottoman
 1814.4.11 = { 
 	add_core = RUS
 }
+add_core = UKR

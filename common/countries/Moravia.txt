@@ -1,6 +1,6 @@
 #Country Name: Please see filename.
 graphical_culture = easterngfx
-color = { 7 82 148 }
+color = { 222 126 49 }
 revolutionary_colors = { 5 13 0 }
 preferred_religion = protestant
 historical_idea_groups = { 

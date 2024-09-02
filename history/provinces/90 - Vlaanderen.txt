@@ -1,5 +1,4 @@
 # 90 Vlaanderen - Principal cities: Brugge
-
 owner = NRM
 controller = NRM
 add_core = NRM
@@ -7,7 +6,6 @@ is_city = yes
 capital = "Brugge"
 culture = dutch
 religion = orthodox
-hre = no
 base_tax = 7
 base_production = 7
 trade_goods = cloth
@@ -18,3 +16,4 @@ discovered_by = muslim
 discovered_by = ottoman
 extra_cost = 8
 center_of_trade = 2
+add_core = FLA

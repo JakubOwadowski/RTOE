@@ -5,9 +5,8 @@ technology_group = western
 primary_culture = irish
 religion = ofbrit
 capital = 4954
-
-1433.1.1 = {
-	monarch = {
+1433.1.1 = { 
+	monarch = { 
 		name = "Odhrán"
 		dynasty = "Ó Cearbhaill"
 		adm = 5
@@ -15,4 +14,3 @@ capital = 4954
 		mil = 5
 	}
 }
-
