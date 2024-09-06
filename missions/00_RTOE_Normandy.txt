@@ -7,7 +7,7 @@ RTOE_Normandy_1 = {
 		NOT = { map_setup = map_setup_random }
 		OR = {
 			tag = NRM
-			#tag = UKN
+			tag = UKN
 		}
 	}
 
@@ -411,7 +411,7 @@ RTOE_Normandy_2 = {
 		NOT = { map_setup = map_setup_random }
 		OR = {
 			tag = NRM
-			#tag = UKN
+			tag = UKN
 		}
 	}
 
@@ -639,8 +639,34 @@ RTOE_Normandy_2 = {
 		icon = mission_expand_york
 		position = 5
 		required_missions = { RTOE_Normandy_develop_mercia }
-		trigger = { }
-		effect = { }
+		trigger = { 
+			245 = {
+				development = 40
+				OR = {
+					has_building = marketplace
+					has_building = trade_depot
+					has_building = stock_exchange
+				}
+				OR = {
+					has_building = workshop
+					has_building = counting_house
+				}
+				num_of_buildings_in_province = 6
+			}
+		}
+		effect = { 
+			4367 = {
+				add_random_development = 8
+			}
+			4368 = {
+				add_random_development = 8
+			}
+			define_advisor = {
+				type = natural_scientist
+				skill = 3
+				cost_multiplier = 0.25
+			}
+		}
 	}
 	RTOE_Normandy_welsh_industry = {
 		icon = mission_pol_develop_countryside
@@ -695,7 +721,7 @@ RTOE_Normandy_3 = {
 		NOT = { map_setup = map_setup_random }
 		OR = {
 			tag = NRM
-			#tag = UKN
+			tag = UKN
 		}
 	}
 
@@ -780,7 +806,7 @@ RTOE_Normandy_4 = {
 		NOT = { map_setup = map_setup_random }
 		OR = {
 			tag = NRM
-			#tag = UKN
+			tag = UKN
 		}
 	}
 
@@ -872,7 +898,7 @@ RTOE_Normandy_5 = {
 		NOT = { map_setup = map_setup_random }
 		OR = {
 			tag = NRM
-			#tag = UKN
+			tag = UKN
 		}
 	}
 

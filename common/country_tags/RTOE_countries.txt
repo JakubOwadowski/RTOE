@@ -27,6 +27,7 @@ KNT = "countries/Kent.txt"
 SSX = "countries/Sussex.txt"
 WSX = "countries/Wessex.txt"
 LNC = "countries/Lancaster.txt"
+UKN = "countries/UnitedKingdoms.txt"
 #Spain
 SLM = "countries/Salamanca.txt"
 BGC = "countries/Braganca.txt"
