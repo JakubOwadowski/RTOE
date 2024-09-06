@@ -1290,14 +1290,6 @@ christian = {
 			advisor_cost = -0.1
 		}
 
-		will_get_center = { #Refered to even for initial CoR Spawn
-			any_owned_province = {
-				can_have_center_of_reformation_trigger = {
-					RELIGION = calvinist
-				}
-			}
-		}
-		
 		on_convert = {
 			change_religion = calvinist
 			add_prestige = -100
@@ -1340,14 +1332,6 @@ christian = {
 		country_as_secondary = {
 			global_unrest = -1
 			advisor_cost = -0.1
-		}
-
-		will_get_center = { #Refered to even for initial CoR Spawn
-			any_owned_province = {
-				can_have_center_of_reformation_trigger = {
-					RELIGION = iconoclast
-				}
-			}
 		}
 		
 		on_convert = {
@@ -1393,14 +1377,6 @@ christian = {
 			global_unrest = -1
 			advisor_cost = -0.1
 		}
-
-		will_get_center = { #Refered to even for initial CoR Spawn
-			any_owned_province = {
-				can_have_center_of_reformation_trigger = {
-					RELIGION = anabaptist
-				}
-			}
-		}
 		
 		on_convert = {
 			change_religion = anabaptist
@@ -1444,14 +1420,6 @@ christian = {
 		country_as_secondary = {
 			global_unrest = -1
 			advisor_cost = -0.1
-		}
-
-		will_get_center = { #Refered to even for initial CoR Spawn
-			any_owned_province = {
-				can_have_center_of_reformation_trigger = {
-					RELIGION = varelist
-				}
-			}
 		}
 		
 		on_convert = {

@@ -70,18 +70,6 @@ country_event = {
 				id = RTOE_reformation.2
 			}
 		}
-		every_country = {
-			limit = {
-				religion = orthodox
-				religious_school = {
-					group = christian
-					school = see_of_rome
-				}
-			}
-			country_event = {
-				id = RTOE_reformation.3
-			}
-		}
 		random_province = { limit = { region = italy_region religion = orthodox } change_religion = reformed add_province_modifier = { name = religious_zeal_at_conv duration = 10950 } }
 		random_province = { limit = { region = italy_region religion = orthodox } change_religion = reformed add_province_modifier = { name = religious_zeal_at_conv duration = 10950 } }
 		random_province = { limit = { region = italy_region religion = orthodox } change_religion = reformed add_province_modifier = { name = religious_zeal_at_conv duration = 10950 } }
@@ -114,6 +102,71 @@ country_event = {
 	option = {
 		name = RTOE_reformation.2.a
 		add_stability = -1
+		if = {
+			limit = {
+				religion = orthodox
+				religious_school = {
+					group = christian
+					school = see_of_rome
+				}
+			}
+			country_event = {
+				id = RTOE_reformation.3
+			}
+		}
+	}
+
+	#So be it! Down with the Patriarchate!
+	option = {
+		name = RTOE_reformation.2.b
+		trigger = {
+			AND = {
+				religion = orthodox
+				religious_school = {
+					group = christian
+					school = see_of_rome
+				}
+			}
+		}
+
+		ai_chance = {
+			factor = 1
+			modifier = {
+				factor = 20
+				religion = orthodox
+				religious_school = {
+					group = christian
+					school = see_of_rome
+				}
+			}
+			modifier = {
+				factor = 3
+				OR = {
+					capital_scope = {
+						region = italy_region
+						region = iberia_region
+					}
+				}
+			}
+			modifier = {
+				factor = 2
+				is_rival = emperor
+			}
+			modifier = {
+				factor = 1.5
+				tag = BUL
+			}
+			modifier = {
+				factor = 0.5
+				capital_scope = {
+					region = british_isles_region
+				}
+			}
+		}
+		change_religion = reformed
+		capital_scope = {
+			change_religion = reformed
+		}
 	}
 }
 
@@ -230,9 +283,6 @@ country_event = {
 			random_owned_province = {
 				limit = {
 					is_in_capital_area = yes
-					can_have_center_of_reformation_trigger = {
-						RELIGION = calvinist
-					}
 				}
 				change_religion = calvinist
 				add_reform_center = calvinist
@@ -246,11 +296,6 @@ country_event = {
 			region = france_region
 		}
 		is_religion_enabled = reformed
-		any_owned_province ={
-			can_have_center_of_reformation_trigger = {
-				RELIGION = calvinist
-			}
-		}
 	}
 
 	mean_time_to_happen = {
@@ -325,9 +370,6 @@ country_event = {
 						region = anatolia_region
 						region = balkan_region
 					}
-					can_have_center_of_reformation_trigger = {
-						RELIGION = iconoclast
-					}
 				}
 				change_religion = iconoclast
 				add_reform_center = iconoclast
@@ -342,9 +384,6 @@ country_event = {
 			OR = {
 				region = anatolia_region
 				region = balkan_region
-			}
-			can_have_center_of_reformation_trigger = {
-				RELIGION = iconoclast
 			}
 		}
 		is_religion_enabled = calvinist
@@ -419,9 +458,6 @@ country_event = {
 						area = romandie_area
 						area = raetia_area
 					}
-					can_have_center_of_reformation_trigger = {
-						RELIGION = anabaptist
-					}
 				}
 				change_religion = anabaptist
 				add_reform_center = anabaptist
@@ -437,9 +473,6 @@ country_event = {
 				area = switzerland_area
 				area = romandie_area
 				area = raetia_area
-			}
-			can_have_center_of_reformation_trigger = {
-				RELIGION = anabaptist
 			}
 		}
 	}
@@ -506,12 +539,6 @@ country_event = {
 		hidden_effect = {
 			enable_religion = varelist
 			random_owned_province = {
-				limit = {
-					is_in_capital_area = yes
-					can_have_center_of_reformation_trigger = {
-						RELIGION = varelist
-					}
-				}
 				change_religion = varelist
 				add_reform_center = varelist
 				add_province_modifier = { name = religious_zeal_at_conv duration = 10950 } 
@@ -526,9 +553,6 @@ country_event = {
 				area = galicia_area
 				area = asturias_area
 				area = beieras_area
-			}
-			can_have_center_of_reformation_trigger = {
-				RELIGION = varelist
 			}
 		}
 	}
