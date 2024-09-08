@@ -815,13 +815,6 @@ ethiopia_trade_slot = {
 				}
 				add_permanent_claim = ROOT
 			}
-			dongola_area = {
-				limit = {
-					NOT = { is_permanent_claim = ROOT }
-					NOT = { is_core = ROOT }
-				}
-				add_permanent_claim = ROOT
-			}
 			lower_nubia_area = {
 				limit = {
 					NOT = { is_permanent_claim = ROOT }
@@ -844,7 +837,6 @@ ethiopia_trade_slot = {
 			OR = {
 				area = sennar_area
 				area = upper_nubia_area
-				area = dongola_area
 				area = lower_nubia_area
 			}
 			NOT = { country_or_non_sovereign_subject_holds = ROOT }
@@ -854,7 +846,6 @@ ethiopia_trade_slot = {
 				OR = {
 					area = sennar_area
 					area = upper_nubia_area
-					area = dongola_area
 					area = lower_nubia_area
 				}
 				value = 8

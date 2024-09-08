@@ -497,22 +497,27 @@ RTOE_Normandy_2 = {
 					limit = {
 						owned_by = ROOT
 					}
-					change_culture = normand
+					change_culture = ROOT
 				}
 			}
 			hidden_effect = {
-				every_province = {
+				every_owned_province = {
 					limit = {
 						culture_group = british
-						NOT = { culture = normand }
+						NOT = { culture = ROOT }
 						development = 30
 					}
-					change_culture = normand
+					change_culture = ROOT
 				}
 			}
 			custom_tooltip = RTOE_Normandy_promote_norman_identity.tooltip
-			capital = {
-				add_random_development = 10
+			for = {
+				amount = 10
+				effect = "
+					random_list = {
+					1 = { capital = { add_random_development = 1 } }
+					}
+				"
 			}
 			add_adm_power = 100
 			add_dip_power = 100
@@ -523,8 +528,21 @@ RTOE_Normandy_2 = {
 		icon = mission_early_game_buildings
 		position = 4
 		required_missions = { RTOE_Normandy_frisian_conquest }
+		provinces_to_highlight = {
+			OR = {
+				province_id = 168
+				province_id = 167
+				province_id = 89
+				province_id = 87
+				province_id = 235
+				province_id = 168
+				province_id = 4371
+				province_id = 234
+			}
+		}
 		trigger = { 
 			168 = {
+				owned_by = ROOT
 				development = 15
 				OR = {
 					has_building = marketplace
@@ -537,6 +555,7 @@ RTOE_Normandy_2 = {
 				}
 			}
 			167 = {
+				owned_by = ROOT
 				development = 15
 				OR = {
 					has_building = marketplace
@@ -549,6 +568,7 @@ RTOE_Normandy_2 = {
 				}
 			}
 			89 = {
+				owned_by = ROOT
 				development = 15
 				OR = {
 					has_building = marketplace
@@ -561,6 +581,7 @@ RTOE_Normandy_2 = {
 				}
 			}
 			87 = {
+				owned_by = ROOT
 				development = 15
 				OR = {
 					has_building = marketplace
@@ -573,6 +594,7 @@ RTOE_Normandy_2 = {
 				}
 			}
 			235 = {
+				owned_by = ROOT
 				development = 15
 				OR = {
 					has_building = marketplace
@@ -585,6 +607,7 @@ RTOE_Normandy_2 = {
 				}
 			}
 			168 = {
+				owned_by = ROOT
 				development = 15
 				OR = {
 					has_building = marketplace
@@ -597,18 +620,7 @@ RTOE_Normandy_2 = {
 				}
 			}
 			4371 = {
-				development = 15
-				OR = {
-					has_building = marketplace
-					has_building = trade_depot
-					has_building = stock_exchange
-				}
-				OR = {
-					has_building = shipyard
-					has_building = grand_shipyard
-				}
-			}
-			168 = {
+				owned_by = ROOT
 				development = 15
 				OR = {
 					has_building = marketplace
@@ -621,6 +633,7 @@ RTOE_Normandy_2 = {
 				}
 			}
 			234 = {
+				owned_by = ROOT
 				development = 15
 				OR = {
 					has_building = marketplace
@@ -633,12 +646,28 @@ RTOE_Normandy_2 = {
 				}
 			}
 		}
-		effect = { }
+		effect = { 
+			every_owned_province = {
+				limit = {
+					OR = {
+						has_building = shipyard
+						has_building = grand_shipyard
+					}
+					trade_company_region = trade_company_english_channel
+				}
+				add_base_production = 1
+				add_province_triggered_modifier = NRM_channel_supremacy
+			}
+			add_years_of_income = 1
+		}
 	}
 	RTOE_Normandy_expand_york = {
 		icon = mission_expand_york
 		position = 5
 		required_missions = { RTOE_Normandy_develop_mercia }
+		provinces_to_highlight = {
+			province_id = 245
+		}
 		trigger = { 
 			245 = {
 				development = 40
@@ -655,11 +684,23 @@ RTOE_Normandy_2 = {
 			}
 		}
 		effect = { 
-			4367 = {
-				add_random_development = 8
+			hidden_effect = {
+				custom_tooltip = RTOE_Normandy_expand_york.tooltip
+				for = {
+					amount = 10
+					effect = "
+						random_list = {
+						1 = { 4367 = { add_random_development = 1 } }
+						1 = { 4368 = { add_random_development = 1 } }
+						}
+					"
+				}
 			}
-			4368 = {
-				add_random_development = 8
+			yorkshire_area = {
+				add_province_modifier = {
+					name = NRM_northern_metropolis
+					duration = -1
+				}
 			}
 			define_advisor = {
 				type = natural_scientist
@@ -729,8 +770,20 @@ RTOE_Normandy_3 = {
 		icon = mission_abolish_feudalism
 		position = 2
 		required_missions = { RTOE_Normandy_coutrail_the_english_lords }
-		trigger = { }
-		effect = { }
+		trigger = { 
+			NOT = {
+				any_subject_country = {
+					is_subject_of_type = feudal_vassal
+				}
+			}
+			crown_land_share = 50
+		}
+		effect = { 
+			add_casus_belli = {
+				type = cb_restore_personal_union
+				target = SCO
+			}
+		}
 	}
 	RTOE_Normandy_enact_the_land_reforms = {
 		icon = mission_land_reform
@@ -764,7 +817,12 @@ RTOE_Normandy_3 = {
 		icon = mission_rb_prospect_for_coal
 		position = 8
 		required_missions = { RTOE_industrialise_the_isle RTOE_Normandy_industrialise_the_mainland }
-		trigger = { }
+		trigger = { 
+			OR = {
+				is_hegemon_of_type = economic_hegemon
+				monthly_income = 1000
+			}
+		}
 		effect = { }
 	}
 	RTOE_Normandy_discover_the_new_world = {
@@ -828,7 +886,20 @@ RTOE_Normandy_4 = {
 		icon = mission_rb_conquer_scotland
 		position = 3
 		required_missions = { RTOE_Normandy_abolish_feudalism }
-		trigger = { }
+		trigger = { 
+			lowlands_area = {
+				owned_by = ROOT
+			}
+			central_scotland_area = {
+				owned_by = ROOT
+			}
+			east_scotland_area = {
+				owned_by = ROOT
+			}
+			highlands_area = {
+				owned_by = ROOT
+			}
+		}
 		effect = { }
 	}
 	RTOE_Normandy_control_the_north_sea = {
@@ -913,14 +984,40 @@ RTOE_Normandy_5 = {
 		icon = mission_build_up_to_force_limit
 		position = 2
 		required_missions = { RTOE_Normandy_address_the_religious_divide }
-		trigger = { }
-		effect = { }
+		trigger = { 
+			num_of_owned_provinces_with = {
+				value = 15
+				OR = {
+					has_building = temple
+					has_building = cathedral
+				}
+			}
+		}
+		effect = { 
+			every_owned_province = {
+				limit = {
+					OR = {
+						has_building = temple
+						has_building = cathedral
+					}
+				}
+				add_base_tax = 1
+			}
+			add_estate_loyalty = {
+				estate = estate_church
+				loyalty = 25
+			}
+		}
 	}
 	RTOE_Normandy_fall_of_france = {
 		icon = mission_build_up_to_force_limit
 		position = 3
 		required_missions = {  }
-		trigger = { }
+		trigger = { 
+			orleans_area = {
+				owned_by = ROOT
+			}
+		}
 		effect = { }
 	}
 	RTOE_Normandy_push_into_auvergne = {
@@ -941,8 +1038,16 @@ RTOE_Normandy_5 = {
 		icon = mission_act_of_union
 		position = 6
 		required_missions = { RTOE_Normandy_estinguish_french_resistance }
-		trigger = { }
-		effect = { }
+		trigger = { 
+			num_of_owned_provinces_with = {
+				value = 25
+				region = france_region
+			}
+			NOT = { exists = FRA }
+		}
+		effect = { 
+			change_tag = UKN
+		}
 	}
 	RTOE_Normandy_innvest_in_paris = {
 		icon = mission_build_up_to_force_limit

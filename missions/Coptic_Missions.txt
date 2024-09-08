@@ -119,12 +119,6 @@ coptic_missions = {
 						duration = 3650
 					}
 				}
-				dongola_area = {
-					add_province_modifier = {
-						name = the_faithful_liberated
-						duration = 3650
-					}
-				}
 			}
 			hidden_effect = {
 				country_event = { id = coptic_flavor.9 }

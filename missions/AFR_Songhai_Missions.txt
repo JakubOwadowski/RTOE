@@ -1392,17 +1392,6 @@ songhai_jihad_slot = {
 			}
 			OR = {
 				AND = {
-					has_dlc = "Cradle of Civilization"
-					owner = {
-						NOT = {
-							religious_school = {
-								group = muslim
-								school = maliki_school
-							}
-						}
-					}
-				}
-				AND = {
 					NOT = { has_dlc = "Cradle of Civilization" }
 					owner = {
 						NOT = { alliance_with = ROOT }

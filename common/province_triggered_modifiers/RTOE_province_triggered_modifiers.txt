@@ -1,0 +1,14 @@
+NRM_channel_supremacy = {
+	potential = {
+		always = yes
+	}
+
+	trigger = {
+		OR = {
+			owned_by = NRM
+			owned_by = UKN
+		}
+	}
+
+	province_trade_power_modifier = 0.05
+}

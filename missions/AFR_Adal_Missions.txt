@@ -78,13 +78,6 @@ adal_conquest_missions_slot = {
 				}
 				add_permanent_claim = ROOT
 			}
-			dongola_area = {
-				limit = {
-					NOT = { is_core = ROOT }
-					NOT = { is_permanent_claim = ROOT }
-				}
-				add_permanent_claim = ROOT
-			}
 			red_sea_coast_area = {
 				limit = {
 					NOT = { is_core = ROOT }
@@ -108,7 +101,6 @@ adal_conquest_missions_slot = {
 				NOT = { religion = ROOT }
 			}
 			OR = {
-				area = dongola_area
 				area = upper_nubia_area
 				area = sennar_area
 			}
@@ -117,15 +109,6 @@ adal_conquest_missions_slot = {
 		trigger = {
 			custom_trigger_tooltip = {
 				tooltip = ada_push_further_north_ct
-				dongola_area = {
-					owner = {
-						OR = {
-							religion = ROOT
-							is_subject_of = ROOT
-						}
-					}
-					type = all
-				}
 				upper_nubia_area = {
 					owner = {
 						OR = {
