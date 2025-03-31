@@ -1,17 +1,30 @@
-owner = NRM
-controller = NRM
-add_core = NRM
-capital = "Umben"
-is_city = yes
-culture = normand
-religion = orthodox
+### Modified 11.03.2025 18:46:23 ###
+# Umben
+# 89 Umben - 11.03.2025 18:46:23 
+ 
+add_core = PIC
+owner = PIC
+controller = PIC
 base_tax = 6
 base_production = 6
-trade_goods = grain
 base_manpower = 5
+
+trade_goods = grain
+
+culture = cosmopolitan_french
+religion = orthodox
+capital = "Umben"
+
+is_city = yes
+fort_15th = yes
+
 discovered_by = eastern
 discovered_by = western
 discovered_by = muslim
 discovered_by = ottoman
-add_core = FLA
-fort_15th = yes
+
+
+
+
+
+

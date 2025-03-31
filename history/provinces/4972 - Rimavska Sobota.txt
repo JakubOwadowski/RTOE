@@ -1,15 +1,23 @@
-#Written with Eu4 Easy Province Creator by emiroercn
-#Rimavska Sobota
+### Modified 23.03.2025 15:17:59 ###
+# Gemer
+# 4972 Gemer - 23.03.2025 15:17:59 
+ 
+add_core = BUL
+add_core = SLO
 owner = BUL
 controller = BUL
-culture = slovak
-religion = orthodox
 base_tax = 1
 base_production = 1
-trade_goods = grain
 base_manpower = 1
+
+trade_goods = grain
+
+culture = slovak
+religion = orthodox
 capital = "Rimavska Sobota"
+
 is_city = yes
+
 discovered_by = eastern
 discovered_by = ottoman
 discovered_by = muslim
@@ -24,6 +32,9 @@ discovered_by = andean
 discovered_by = south_american
 discovered_by = north_american
 discovered_by = mesoamerican
-add_core = BUL
-add_core = SLO
-add_core = MVA
+
+
+
+
+
+

@@ -1,16 +1,13 @@
 #249 - Ayrshire
-
-latent_trade_goods = {
-	coal
+latent_trade_goods = { 
+	coal 
 }
-
 owner = SCO
 controller = SCO
-culture = scottish
+culture = highland_scottish
 religion = ofbrit
-hre = no
 base_tax = 3
-base_production = 3
+base_production = 2
 trade_goods = wool
 base_manpower = 2
 capital = "Inbhir Air"

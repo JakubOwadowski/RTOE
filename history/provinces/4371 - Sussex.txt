@@ -1,20 +1,31 @@
-#4371 - Sussex
-
-owner = NRM
-controller = NRM
-culture = normand
-religion = orthodox
-hre = no
-base_tax = 4
-base_production = 4
-trade_goods = grain
-base_manpower = 2
-capital = "Hastings"
-is_city = yes
+### Modified 11.03.2025 18:00:37 ###
+# Sussex
+# 4371 Sussex - 11.03.2025 18:00:37 
+ 
 add_core = NRM
 add_core = SSX
+owner = NRM
+controller = NRM
+base_tax = 4
+base_production = 4
+base_manpower = 2
+
+trade_goods = grain
+
+culture = english
+religion = orthodox
+capital = "Hastings"
+
+is_city = yes
+
 discovered_by = western
 discovered_by = muslim
 discovered_by = ottoman
 discovered_by = eastern
 discovered_by = western
+
+
+
+
+
+

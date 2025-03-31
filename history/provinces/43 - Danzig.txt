@@ -1,26 +1,36 @@
-#43 - Danzig
-
-owner = GDA
-controller = GDA
-add_core = SLU
+### Modified 11.03.2025 18:00:37 ###
+# Gdunsk
+# 43 Gdunsk - 11.03.2025 18:00:37 
+ 
 add_core = GDA
-capital = "Gdunsk"
-culture = pomorzan
-religion = orthodox
-trade_goods = gems
-hre = no
+add_core = POL
+owner = POL
+controller = POL
 base_tax = 4
 base_production = 4
 base_manpower = 2
+
+center_of_trade = 2
+trade_goods = gems
+extra_cost = 26
+
+culture = pomorzan
+religion = orthodox
+capital = "Gdunsk"
+
 is_city = yes
+
 discovered_by = eastern
 discovered_by = western
 discovered_by = muslim
 discovered_by = ottoman
-extra_cost = 26
+
+
 
 add_permanent_province_modifier = {
 	name = vistula_estuary_modifier
 	duration = -1
 }
-center_of_trade = 2
+
+
+

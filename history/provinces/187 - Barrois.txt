@@ -1,16 +1,29 @@
-# 187 Barrois - Principal cities: Verdun
+### Modified 11.03.2025 18:46:23 ###
+# Barrois
+# 187 Barrois - 11.03.2025 18:46:23 
+ 
+add_core = LOR
+add_core = AUT
 owner = LOR
 controller = LOR
-capital = "Bar-le-Duc"
-is_city = yes
-culture = lieunnois
-religion = orthodox
 base_tax = 3
 base_production = 4
-trade_goods = cloth
 base_manpower = 3
+
+trade_goods = cloth
+
+culture = lieunnois
+religion = orthodox
+capital = "Bar-le-Duc"
+
+is_city = yes
+
 discovered_by = eastern
 discovered_by = western
 discovered_by = muslim
-add_core = LOR
-add_core = AUT
+
+
+
+
+
+

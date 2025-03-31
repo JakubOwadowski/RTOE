@@ -1,6 +1,6 @@
 #4324 - Ghuriyan
-owner = TIM
-controller = TIM
+owner = KHO
+controller = KHO
 culture = turkmeni
 religion = shiite
 capital = "Ghuriyan"
@@ -35,4 +35,3 @@ discovered_by = nomad_group
 	add_core = AFG
 	fort_15th = yes
 }
-add_core = TIM

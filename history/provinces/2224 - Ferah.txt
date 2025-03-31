@@ -1,6 +1,6 @@
 #2224 - Ferah
-owner = TIM
-controller = TIM
+owner = SIS
+controller = SIS
 culture = persian
 religion = shiite
 capital = "Ferah"
@@ -34,4 +34,3 @@ discovered_by = nomad_group
 1750.1.1 = { 
 	controller = AFG
 }
-add_core = TIM

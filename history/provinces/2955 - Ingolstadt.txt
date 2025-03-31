@@ -1,15 +1,14 @@
 #4981Alnwick
-owner = NRM
-controller = NRM
+owner = NOL
+controller = NOL
 culture = scottish
 religion = ofbrit
-base_tax = 1
-base_production = 1
+base_tax = 2
+base_production = 2
 trade_goods = wool
 base_manpower = 1
 capital = "Alnwick"
 is_city = yes
-add_core = NRM
 add_core = NOL
 discovered_by = western
 discovered_by = muslim

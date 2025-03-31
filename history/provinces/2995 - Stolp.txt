@@ -1,17 +1,30 @@
-# - Stolp
-owner = SLU
-controller = SLU
-add_core = SLU
+### Modified 11.03.2025 18:00:37 ###
+# Slëpsk
+# 2995 Slëpsk - 11.03.2025 18:00:37 
+ 
 add_core = GDA
-culture = pomorzan
-religion = slavic_pagan_reformed
+add_core = POL
+owner = POL
+controller = POL
 base_tax = 2
 base_production = 2
-trade_goods = fish
 base_manpower = 1
+
+trade_goods = fish
+
+culture = pomorzan
+religion = slavic_pagan_reformed
 capital = "Slëpsk"
+
 is_city = yes
+
 discovered_by = eastern
 discovered_by = western
 discovered_by = muslim
 discovered_by = ottoman
+
+
+
+
+
+

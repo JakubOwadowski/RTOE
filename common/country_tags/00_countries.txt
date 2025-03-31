@@ -114,7 +114,7 @@ KIE = "countries/Kiev.txt"
 CHR = "countries/Chernigov.txt"
 OKA = "countries/Oka.txt"
 #France 
-#ALE = "countries/Alencon.txt"
+ALE = "countries/Alencon.txt"
 ALS = "countries/Alsace.txt"
 #AMG	= "countries/Armagnac.txt"
 AUV = "countries/Auvergne.txt"

@@ -1,3 +1,4 @@
 ﻿l_english:
  NO_MISSIONARY_IRO: "You need to unlock Missionaries through Ideas."
  APH_ONLY_EUROPE: "Only provinces within the historical boundaries of the Roman Empire can join."
+ estate_nobles_strong_duchies_trigger_tooltip: "§Y[Root.GetName]§! has at least 2 vassals, feudal vassals, marches or personal unions."

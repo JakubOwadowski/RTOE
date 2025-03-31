@@ -4,4 +4,5 @@ government_rank = 1
 technology_group = western
 primary_culture = northumbrian
 religion = ofbrit
-capital = 244# Lancaster
+religious_school = hetero
+capital = 4375# Lancaster

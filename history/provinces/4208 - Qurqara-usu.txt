@@ -1,7 +1,6 @@
 #4208 - Qurqara-usu
-owner = CHG# ruled by a Chagataiid 
-controller = CHG
-add_core = CHG
+owner = ZUN# ruled by a Chagataiid 
+controller = ZUN
 culture = uyghur
 religion = shiite
 capital = "Balikul"
@@ -26,3 +25,4 @@ discovered_by = ottoman
 	controller = QNG
 	add_core = QNG
 }
+add_core = ZUN

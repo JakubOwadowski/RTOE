@@ -78,13 +78,6 @@ adal_conquest_missions_slot = {
 				}
 				add_permanent_claim = ROOT
 			}
-			red_sea_coast_area = {
-				limit = {
-					NOT = { is_core = ROOT }
-					NOT = { is_permanent_claim = ROOT }
-				}
-				add_permanent_claim = ROOT
-			}
 		}
 		ai_weight = {
 			factor = 500

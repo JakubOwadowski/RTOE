@@ -8,15 +8,17 @@ war_goal = {
 1440.1.1 = {
 	add_attacker = NAR
 	add_defender = FRA
-	add_defender = POI
-	add_defender = GUY
-	add_defender = ANJ
+	add_defender = ORL
+	add_defender = BER
+	add_defender = PIC
+	add_defender = BOU
 }
 
-1446.1.1 = {
+2000.1.1 = {
 	rem_attacker = NAR
 	rem_defender = FRA
-	rem_defender = POI
-	rem_defender = GUY
-	rem_defender = ANJ
+	rem_defender = ORL
+	rem_defender = BER
+	rem_defender = PIC
+	rem_defender = BOU
 }

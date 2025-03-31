@@ -1,6 +1,6 @@
 #2441 - Iglino
-owner = SHY
-controller = SHY
+owner = KZH
+controller = KZH
 capital = "Iglino"
 culture = siberian
 religion = tengri_pagan_reformed
@@ -21,4 +21,4 @@ unrest = 15
 1773.9.13 = { controller = REB revolt = { type = anti_tax_rebels name = "Yemelyan Pugachev" size = 1 } }
 1775.2.1 = { controller = RUS revolt = { size = 1 } }
 add_core = BSH
-add_core = SHY
+add_core = KZH

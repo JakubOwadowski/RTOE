@@ -1,6 +1,6 @@
 #449 - Ghor
-owner = TIM
-controller = TIM
+owner = CHG
+controller = CHG
 culture = afghani
 religion = shiite
 capital = "Ahangaran"
@@ -9,7 +9,6 @@ base_tax = 2
 base_production = 2
 base_manpower = 4
 is_city = yes
-add_core = TIM
 add_core = AFG
 discovered_by = KAS
 discovered_by = muslim
@@ -40,3 +39,4 @@ discovered_by = nomad_group
 1747.6.1 = { 
 	controller = AFG
 }
+add_core = CHG

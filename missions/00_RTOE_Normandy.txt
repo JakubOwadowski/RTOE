@@ -537,10 +537,12 @@ RTOE_Normandy_2 = {
 				province_id = 235
 				province_id = 168
 				province_id = 4371
-				province_id = 234
 			}
 		}
 		trigger = { 
+			custom_trigger_tooltip = {
+				tooltip = RTOE_Normandy_expand_channel_ports.tooltip
+			}
 			168 = {
 				owned_by = ROOT
 				development = 15
@@ -632,19 +634,6 @@ RTOE_Normandy_2 = {
 					has_building = grand_shipyard
 				}
 			}
-			234 = {
-				owned_by = ROOT
-				development = 15
-				OR = {
-					has_building = marketplace
-					has_building = trade_depot
-					has_building = stock_exchange
-				}
-				OR = {
-					has_building = shipyard
-					has_building = grand_shipyard
-				}
-			}
 		}
 		effect = { 
 			every_owned_province = {
@@ -661,51 +650,51 @@ RTOE_Normandy_2 = {
 			add_years_of_income = 1
 		}
 	}
-	RTOE_Normandy_expand_york = {
-		icon = mission_expand_york
+	RTOE_Normandy_annex_northumbria = {
+		icon = mission_impaled_soldies
 		position = 5
 		required_missions = { RTOE_Normandy_develop_mercia }
 		provinces_to_highlight = {
-			province_id = 245
+			OR = {
+				AND = {
+					NOT = { owned_by = ROOT }
+					area = yorkshire_area
+				}
+				owned_by = NOL
+			}
 		}
 		trigger = { 
-			245 = {
-				development = 40
-				OR = {
-					has_building = marketplace
-					has_building = trade_depot
-					has_building = stock_exchange
-				}
-				OR = {
-					has_building = workshop
-					has_building = counting_house
-				}
-				num_of_buildings_in_province = 6
+			owns_all_provinces = {
+				area = yorkshire_area
 			}
+			NOT = { exists = NOL }
 		}
 		effect = { 
-			hidden_effect = {
-				custom_tooltip = RTOE_Normandy_expand_york.tooltip
-				for = {
-					amount = 10
-					effect = "
-						random_list = {
-						1 = { 4367 = { add_random_development = 1 } }
-						1 = { 4368 = { add_random_development = 1 } }
+			country_event = {
+				id = RTOE_flavour_NRM.2
+			}
+			if = {
+				limit = {
+					exists = SCO
+				}
+				add_casus_belli = {
+					type = cb_restore_personal_union
+					target = SCO
+				}
+			}
+			else = {
+				every_province = {
+					limit = {
+						OR = {
+							area = highlands_area
+							area = lowlands_area
+							area = central_scotland_area
+							area = east_scotland_area
+							area = kingdom_of_the_isles_area
 						}
-					"
+					}
+					add_claim = ROOT
 				}
-			}
-			yorkshire_area = {
-				add_province_modifier = {
-					name = NRM_northern_metropolis
-					duration = -1
-				}
-			}
-			define_advisor = {
-				type = natural_scientist
-				skill = 3
-				cost_multiplier = 0.25
 			}
 		}
 	}
@@ -713,8 +702,42 @@ RTOE_Normandy_2 = {
 		icon = mission_pol_develop_countryside
 		position = 6
 		required_missions = { RTOE_Normandy_fate_of_wales }
-		trigger = { }
-		effect = { }
+		provinces_to_highlight = {
+			OR = {
+				area = wales_area
+				area = south_wales_area
+				area = dyfed_area
+			}
+		}
+		trigger = { 
+			num_of_owned_provinces_with = {
+				value = 6
+				OR = {
+					area = wales_area
+					area = south_wales_area
+					area = dyfed_area
+				}
+				OR = {
+					has_building = workshop
+					has_building = counting_house
+				}
+			}
+			num_of_owned_provinces_with = {
+				value = 2
+				OR = {
+					area = wales_area
+					area = south_wales_area
+					area = dyfed_area
+				}
+				trade_goods = coal
+				OR = {
+					has_building = furnace
+				}
+			}
+		}
+		effect = { 
+			
+		}
 	}
 	RTOE_industrialise_the_isle = {
 		icon = mission_rb_build_furnaces

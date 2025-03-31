@@ -20,13 +20,11 @@ MRG = "countries/Morgannwg.txt"
 #England
 MRC = "countries/Mercia.txt"
 ANG = "countries/Anglia.txt"
-YRK = "countries/York.txt"
-DRH = "countries/Durham.txt"
 ESX = "countries/Essex.txt"
 KNT = "countries/Kent.txt"
 SSX = "countries/Sussex.txt"
 WSX = "countries/Wessex.txt"
-LNC = "countries/Lancaster.txt"
+LNC = "countries/Lancaster.txt" #Chester
 UKN = "countries/UnitedKingdoms.txt"
 #Spain
 SLM = "countries/Salamanca.txt"

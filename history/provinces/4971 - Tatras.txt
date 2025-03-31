@@ -1,18 +1,31 @@
-#Written with Eu4 Easy Province Creator by emiroercan
-#Tatras
+### Modified 23.03.2025 15:17:59 ###
+# Orava
+# 4971 Orava - 23.03.2025 15:17:59 
+ 
+add_core = BOH
+add_core = SLO
+owner = BOH
+controller = BOH
+base_tax = 2
+base_production = 2
+base_manpower = 1
+
+trade_goods = livestock
+
+culture = slovak
+religion = orthodox
+capital = "Dolný Kubín"
+
+is_city = yes
+
 discovered_by = eastern
 discovered_by = muslim
 discovered_by = western
 discovered_by = KAZ
 discovered_by = CRI
-owner = BOH
-base_tax = 2
-base_manpower = 1
-base_production = 2
-culture = slovak
-trade_goods = livestock
-religion = orthodox
-controller = BOH
-is_city = yes
-capital = "Dolný Kubín"
-add_core = BOH
+
+
+
+
+
+

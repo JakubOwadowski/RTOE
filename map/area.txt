@@ -293,7 +293,7 @@ la_marche_area = {
 	195 4697 4990 
 }
 central_occitania_area = { 
-	194 198 4112 5043 
+	194 198 4112 
 }
 savoy_dauphine_area = {  #3 Savoy and Dauphiné, Upper Burgundy 
 

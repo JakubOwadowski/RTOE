@@ -1,20 +1,30 @@
-# 184 Orléannais + Blois - Principal cities: Orléans
-
-owner = FRA
-controller = FRA
-capital = "Orléans"
-is_city = yes
-culture = cosmopolitan_french
-religion = orthodox
-hre = no
+### Modified 11.03.2025 18:46:23 ###
+# Orleanais
+# 184 Orleanais - 11.03.2025 18:46:23 
+ 
+add_core = ORL
+owner = ORL
+controller = ORL
 base_tax = 6
 base_production = 6
-trade_goods = grain
 base_manpower = 5
-add_core = FRA
-add_core = ORL
+
+center_of_trade = 1
+trade_goods = grain
+
+culture = cosmopolitan_french
+religion = orthodox
+capital = "Orléans"
+
+is_city = yes
+
 discovered_by = eastern
 discovered_by = western
 discovered_by = muslim
 discovered_by = ottoman
-center_of_trade = 1
+
+
+
+
+
+

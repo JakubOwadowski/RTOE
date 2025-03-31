@@ -7373,6 +7373,7 @@ estate_nobles_strong_duchies = {
 				is_march = yes
 			}
 			vassal = 1
+			has_subject_of_type = feudal_vassal
 		}
 		NOT = { has_estate_privilege = estate_nobles_french_strong_duchies }
 		NOT = {
@@ -7395,6 +7396,7 @@ estate_nobles_strong_duchies = {
 						OR = {
 							is_march = yes
 							is_vassal = yes
+							is_subject_of_type = feudal_vassal
 						}
 					}
 				}

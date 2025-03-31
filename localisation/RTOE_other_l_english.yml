@@ -1,6 +1,6 @@
 ﻿l_english:
- FEUDAL_ANNEX: "To annex Feudal Vassals you first need to take the decision §YReform the Feudal System§! first."
- IRISH_FIEF_ANNEX: "To annex Irish Fiefs you first need to take the decision §YReform the Feudal System§! first."
+ FEUDAL_ANNEX: "To annex Feudal Vassals you first need to take the decision §YReform the Feudal System§!."
+ IRISH_FIEF_ANNEX: "To annex Irish Fiefs you first need to take the decision §YReform the Feudal System§!."
  EMPEROR_CANT_CLAIM: "All land in the Roman Empire already de jure belongs to the Emperor. There's nothing to claim."
  PROVINCES_ONLY_VIA_EVENTS: "Provinces can be established only via events."
  reform_the_feudal_system_title: "Reform the Feudal System"

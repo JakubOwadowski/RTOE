@@ -1,7 +1,0 @@
-government = monarchy
-add_government_reform = autocracy_reform
-primary_culture = bashkir
-religion = shiite
-technology_group = nomad_group
-capital = 475
-government_rank = 1
