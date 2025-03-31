@@ -1,6 +1,6 @@
 # 203 Lyonnais - Principal cities: Lyon
-owner = PRO
-controller = PRO
+owner = BUR
+controller = BUR
 capital = "Lyon"
 is_city = yes
 culture = burgundian
@@ -16,5 +16,5 @@ discovered_by = muslim
 discovered_by = ottoman
 extra_cost = 16
 center_of_trade = 2
-add_core = PRO
+add_core = BUR
 fort_15th = yes
