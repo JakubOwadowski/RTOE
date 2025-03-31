@@ -51,3 +51,7 @@ NRM_rule_normandia = {
 	ship_trade_power_modifier = 0.25
 	global_sailors_modifier = 0.25
 }
+
+NRM_fires_of_welsh_industry = {
+	local_production_efficiency = 0.1
+}

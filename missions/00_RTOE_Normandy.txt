@@ -736,7 +736,43 @@ RTOE_Normandy_2 = {
 			}
 		}
 		effect = { 
-			
+			every_owned_province = {
+				limit = {
+					OR = {
+						area = wales_area
+						area = south_wales_area
+						area = dyfed_area
+					}
+					OR = {
+						has_building = workshop
+						has_building = counting_house
+						has_building = manufactory
+						has_building = furnace
+					}
+				}
+				add_base_production = 3
+			}
+			every_owned_province = {
+				limit = {
+					OR = {
+						area = wales_area
+						area = south_wales_area
+						area = dyfed_area
+					}
+				}
+				add_province_modifier = {
+					name = NRM_fires_of_welsh_industry
+					duration = -1
+				}
+			}
+			if = {
+				limit = {
+					owns = 86
+				}
+				country_event = {
+					id = RTOE_flavour_NRM.3
+				}
+			}
 		}
 	}
 	RTOE_industrialise_the_isle = {

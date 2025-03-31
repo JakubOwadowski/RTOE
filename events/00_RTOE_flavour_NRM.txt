@@ -111,11 +111,30 @@ country_event = {
 				NOT = { accepted_culture = northumbrian }
 			}
 			add_country_modifier = {
-				name = NRM_rule_normandia
+				name = NRM_accepted_northumbrians
 				duration = -1
 			}
 			custom_tooltip = RTOE_flavour_NRM.2.tooltip
 			add_accepted_culture = northumbrian
+		}
+	}
+}
+
+#The Black County
+country_event = {
+	id = RTOE_flavour_NRM.3
+	title = RTOE_flavour_NRM.3.t
+	desc = RTOE_flavour_NRM.3.d
+	picture = INDUSTRIALIZATION_eventPicture
+
+	#The smoke isn't unhealthy... *cough* *cough*
+	option = {
+		86 = {
+			change_trade_goods = coal
+			add_building = furnace
+			add_base_production = 5
+			change_province_name = "Birmingham"
+			rename_capital = "Birmingham"
 		}
 	}
 }
