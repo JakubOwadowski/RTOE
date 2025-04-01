@@ -1,7 +1,6 @@
 # 90 Vlaanderen - Principal cities: Brugge
-owner = NRM
-controller = NRM
-add_core = NRM
+owner = FLA
+controller = FLA
 is_city = yes
 capital = "Brugge"
 culture = dutch

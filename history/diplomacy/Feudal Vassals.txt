@@ -262,15 +262,7 @@ dependency = {
 	second = LEO
 	start_date = 1444.1.1
 	end_date = 2000.1.1
-}	
-
-dependency = {
-	subject_type = "feudal_vassal"
-	first = BRI
-	second = LAV
-	start_date = 1444.1.1
-	end_date = 2000.1.1
-}	
+}		
 
 dependency = {
 	subject_type = "feudal_vassal"
@@ -323,6 +315,14 @@ dependency = {
 dependency = {
 	subject_type = "feudal_vassal"
 	first = NRM
+	second = ALE
+	start_date = 1444.1.1
+	end_date = 2000.1.1
+}
+
+dependency = {
+	subject_type = "feudal_vassal"
+	first = NRM
 	second = MRC
 	start_date = 1444.1.1
 	end_date = 2000.1.1
@@ -330,16 +330,17 @@ dependency = {
 
 dependency = {
 	subject_type = "feudal_vassal"
-	first = NOL
-	second = LNC
+	first = NRM
+	second = FLA
 	start_date = 1444.1.1
 	end_date = 2000.1.1
 }
 
+
 dependency = {
 	subject_type = "feudal_vassal"
 	first = NOL
-	second = DRH
+	second = LNC
 	start_date = 1444.1.1
 	end_date = 2000.1.1
 }

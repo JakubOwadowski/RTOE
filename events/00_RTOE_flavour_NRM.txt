@@ -103,7 +103,7 @@ country_event = {
 		}
 	}
 
-	option = { #Try to integrate it
+	option = { #This is too cruel. There must be another way.
 		name = RTOE_flavour_NRM.2.b
 		add_adm_power = 200
 		if = {
@@ -120,7 +120,7 @@ country_event = {
 	}
 }
 
-#The Black County
+#The Black Country
 country_event = {
 	id = RTOE_flavour_NRM.3
 	title = RTOE_flavour_NRM.3.t

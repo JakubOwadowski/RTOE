@@ -254,7 +254,7 @@ upper_brittany_area = {
 }
 normandy_area = {  #4
 
-	167 168 4985 4988 1865 
+	167 168 4985 4988 1865 1879 
 }
 provence_area = {  #5
 
@@ -305,11 +305,11 @@ lorraine_area = {  #4
 }
 picardy_area = {  #4
 
-	87 88 89 1743 182 
+	87 88 89 1743 
 }
 ile_de_france_area = {  #4
 
-	183 4388 1879 
+	183 4388 182 
 }
 champagne_area = {  #3
 

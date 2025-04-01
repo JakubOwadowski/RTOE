@@ -12,6 +12,8 @@ war_goal = {
 	add_defender = BER
 	add_defender = PIC
 	add_defender = BOU
+	add_defender = ARS
+	add_defender = NEV
 }
 
 2000.1.1 = {
@@ -21,4 +23,6 @@ war_goal = {
 	rem_defender = BER
 	rem_defender = PIC
 	rem_defender = BOU
+	rem_defender = ARS
+	rem_defender = NEV
 }

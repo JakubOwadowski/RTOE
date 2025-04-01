@@ -3,7 +3,7 @@
 france_region = { 
 	areas = { 
 		brittany_area upper_brittany_area normandy_area provence_area guyenne_area languedoc_area massif_central_area savoy_dauphine_area lorraine_area picardy_area
-		champagne_area ile_de_france_area loire_area bourgogne_area west_burgundy_area pyrenees_area poitou_area orleans_area la_marche_area central_occitania_area
+		champagne_area loire_area bourgogne_area west_burgundy_area pyrenees_area poitou_area orleans_area la_marche_area central_occitania_area ile_de_france_area
 	}
 }
 scandinavia_region = { 

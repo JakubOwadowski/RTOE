@@ -23,7 +23,8 @@ union = {
 	end_date = 2000.1.1
 }
 
-union = {
+dependency = {
+	subject_type = "feudal_vassal"
 	first = GUY
 	second = PRI
 	start_date = 1444.1.1
@@ -59,6 +60,22 @@ dependency = {
 	subject_type = "feudal_vassal"
 	first = FRA
 	second = PIC
+	start_date = 1444.1.1
+	end_date = 2000.1.1
+}
+
+dependency = {
+	subject_type = "feudal_vassal"
+	first = FRA
+	second = ARS
+	start_date = 1444.1.1
+	end_date = 2000.1.1
+}
+
+dependency = {
+	subject_type = "feudal_vassal"
+	first = FRA
+	second = NEV
 	start_date = 1444.1.1
 	end_date = 2000.1.1
 }
