@@ -257,7 +257,10 @@ annexationaction = {
 		tooltip = FEUDAL_ANNEX
 		potential = { 
 			FROM = {
-				is_subject_of_type = feudal_vassal
+				OR = {
+					is_subject_of_type = feudal_vassal
+					is_subject_of_type = indep_vassal
+				}
 			}
 		}
 		allow = { 

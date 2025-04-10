@@ -1,30 +1,19 @@
 ### Modified 11.03.2025 18:46:23 ###
 # Rethel
 # 181 Rethel - 11.03.2025 18:46:23 
- 
 add_core = CHP
-add_core = FRA
-owner = FRA
-controller = FRA
+owner = NEV
+controller = NEV
 base_tax = 6
 base_production = 6
 base_manpower = 2
-
 trade_goods = cloth
-
 culture = wallonian
 religion = orthodox
 capital = "Rethel"
-
 is_city = yes
-
 discovered_by = eastern
 discovered_by = western
 discovered_by = muslim
 discovered_by = ottoman
-
-
-
-
-
-
+add_core = NEV

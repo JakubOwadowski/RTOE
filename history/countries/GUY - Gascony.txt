@@ -8,10 +8,13 @@ religion = orthodox
 religious_school = see_of_rome
 capital = 174 	# Bordeaux
 
+historical_rival = FRA
+
 1429.11.6 = {
 	monarch = {
 		name = "Henri VI"
 		dynasty = "Plantagenet"
+		culture = cosmopolitan_french
 		birth_date = 1421.12.6
 		adm = 0
 		dip = 0

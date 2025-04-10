@@ -26,11 +26,26 @@ union = {
 dependency = {
 	subject_type = "feudal_vassal"
 	first = GUY
-	second = PRI
+	second = ABR
 	start_date = 1444.1.1
 	end_date = 2000.1.1
 }
 
+dependency = {
+	subject_type = "feudal_vassal"
+	first = GUY
+	second = TOS
+	start_date = 1444.1.1
+	end_date = 2000.1.1
+}
+
+dependency = {
+	subject_type = "feudal_vassal"
+	first = GUY
+	second = FOI
+	start_date = 1444.1.1
+	end_date = 2000.1.1
+}
 
 dependency = {
 	subject_type = "feudal_vassal"
@@ -76,6 +91,71 @@ dependency = {
 	subject_type = "feudal_vassal"
 	first = FRA
 	second = NEV
+	start_date = 1444.1.1
+	end_date = 2000.1.1
+}
+
+dependency = {
+	subject_type = "feudal_vassal"
+	first = FRA
+	second = BAR
+	start_date = 1444.1.1
+	end_date = 2000.1.1
+}
+
+
+dependency = {
+	subject_type = "feudal_vassal"
+	first = NRM
+	second = ANG
+	start_date = 1444.1.1
+	end_date = 2000.1.1
+}
+
+dependency = {
+	subject_type = "feudal_vassal"
+	first = NRM
+	second = ALE
+	start_date = 1444.1.1
+	end_date = 2000.1.1
+}
+
+dependency = {
+	subject_type = "feudal_vassal"
+	first = NRM
+	second = MRC
+	start_date = 1444.1.1
+	end_date = 2000.1.1
+}
+
+dependency = {
+	subject_type = "feudal_vassal"
+	first = NRM
+	second = FLA
+	start_date = 1444.1.1
+	end_date = 2000.1.1
+}
+
+dependency = {
+	subject_type = "indep_vassal"
+	first = FRA
+	second = NRM
+	start_date = 1444.1.1
+	end_date = 2000.1.1
+}
+
+dependency = {
+	subject_type = "indep_vassal"
+	first = FRA
+	second = GUY
+	start_date = 1444.1.1
+	end_date = 2000.1.1
+}
+
+dependency = {
+	subject_type = "indep_vassal"
+	first = FRA
+	second = BRI
 	start_date = 1444.1.1
 	end_date = 2000.1.1
 }

@@ -127,6 +127,9 @@ country_event = {
 	desc = RTOE_flavour_NRM.3.d
 	picture = INDUSTRIALIZATION_eventPicture
 
+	is_triggered_only = yes
+	fire_only_once = yes
+
 	#The smoke isn't unhealthy... *cough* *cough*
 	option = {
 		86 = {

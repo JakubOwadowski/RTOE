@@ -1,5 +1,5 @@
-owner = MEI
-controller = MEI
+owner = BOH
+controller = BOH
 capital = "Görlitz"
 is_city = yes
 culture = czech
@@ -15,14 +15,12 @@ discovered_by = muslim
 discovered_by = ottoman
 1453.1.1 = { add_core = POL }
 1466.1.1 = { 
-	controller = HUN
 	add_core = HUN
 }
 1490.4.26 = { 
 	controller = BOH
 }
 1526.8.30 = { 
-	controller = HAB
 	add_core = HAB
 }
 1531.1.1 = { religion = Protestant }
@@ -38,4 +36,4 @@ discovered_by = ottoman
 	controller = PRU
 	add_core = PRU
 }
-add_core = MEI
+add_core = BOH

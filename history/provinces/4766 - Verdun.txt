@@ -1,28 +1,17 @@
 ### Modified 11.03.2025 18:46:23 ###
 # Verdun
 # 4766 Verdun - 11.03.2025 18:46:23 
- 
-add_core = FRA
-owner = FRA
-controller = FRA
+owner = LOR
+controller = LOR
 base_tax = 3
 base_production = 3
 base_manpower = 3
-
 trade_goods = grain
-
 culture = lieunnois
 religion = orthodox
 capital = "Verdun"
-
 is_city = yes
-
 discovered_by = eastern
 discovered_by = western
 discovered_by = muslim
-
-
-
-
-
-
+add_core = LOR

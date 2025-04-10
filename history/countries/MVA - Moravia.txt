@@ -3,5 +3,5 @@ add_government_reform = feudalism_reform
 primary_culture = czech
 religion = orthodox
 government_rank = 1
-capital = 1772# Olomouc
+capital = 265# Olomouc
 technology_group = eastern

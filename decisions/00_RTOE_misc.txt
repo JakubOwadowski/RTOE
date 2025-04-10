@@ -4,6 +4,7 @@ country_decisions = {
 		potential = {
 			OR = {
 				has_subject_of_type = feudal_vassal
+				has_subject_of_type = indep_vassal
 				has_subject_of_type = irish_fief_vassal
 			}
 			NOT = { has_country_flag = reformed_the_feudal_system_flag }
@@ -31,6 +32,17 @@ country_decisions = {
 				NOT = {
 					any_subject_country = {
 						is_subject_of_type = irish_fief_vassal
+						liberty_desire = 50
+					}
+				}
+			}
+			if = {
+				limit = {
+					has_subject_of_type = indep_vassal
+				}
+				NOT = {
+					any_subject_country = {
+						is_subject_of_type = indep_vassal
 						liberty_desire = 50
 					}
 				}

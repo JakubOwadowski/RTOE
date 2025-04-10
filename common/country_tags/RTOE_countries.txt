@@ -53,7 +53,7 @@ NAR = "countries/Narbonne.txt"
 ARS = "countries/Artois.txt"
 VED = "countries/Vendome.txt"
 TOS = "countries/Tours.txt"
-PRI = "countries/Perigord.txt"
+ABR = "countries/Albret.txt"
 #Italy
 RAV = "countries/Ravenna.txt"
 ANC = "countries/Ancona.txt"

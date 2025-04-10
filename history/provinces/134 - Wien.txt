@@ -1,6 +1,6 @@
 #134 - Wien
-owner = BAV
-controller = BAV
+owner = BUL
+controller = BUL
 culture = bavarian
 religion = orthodox
 base_tax = 6
@@ -24,6 +24,6 @@ center_of_trade = 2
 1650.1.1 = { base_manpower = 4 }
 1700.1.1 = { base_manpower = 6 }
 1806.7.12 = { hre = no }
-add_core = BAV
 add_core = WIE
+add_core = BUL
 fort_15th = yes

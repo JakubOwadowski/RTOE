@@ -2,7 +2,7 @@
 # Cruesa
 # 4697 Cruesa - 11.03.2025 19:08:37 
  
-add_core = PRI
+add_core = ABR
 add_core = GUY
 owner = GUY
 controller = GUY

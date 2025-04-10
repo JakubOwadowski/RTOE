@@ -1,6 +1,6 @@
 #1772 - Pozsony
-owner = MVA
-controller = MVA
+owner = BUL
+controller = BUL
 culture = slovak
 religion = orthodox
 capital = "Pressburg"
@@ -20,18 +20,14 @@ discovered_by = AST
 discovered_by = QAS
 extra_cost = 8
 center_of_trade = 1
-1490.1.1 = { controller = HAB }
-1491.11.7 = { controller = HUN }
 1526.8.30 = { 
-	controller = HAB
 	add_core = HAB
 }
 1545.1.1 = { religion = Protestant }
 1604.1.1 = { controller = REB revolt = { type = nationalist_rebels size = 0 } }
-1606.1.1 = { controller = HAB religion = Reformed revolt = { size = 1 } }
+1606.1.1 = { religion = Reformed revolt = { size = 1 } }
 1619.1.1 = { controller = REB revolt = { type = nationalist_rebels size = 0 } }
-1626.1.1 = { controller = HAB revolt = { size = 1 } }
+1626.1.1 = { revolt = { size = 1 } }
 1703.1.1 = { controller = REB revolt = { type = nationalist_rebels size = 0 } }
 1710.1.1 = { revolt = { size = 1 } }
-1711.1.1 = { controller = HAB }
-add_core = MVA
+add_core = BUL

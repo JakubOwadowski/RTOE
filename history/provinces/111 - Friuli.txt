@@ -1,6 +1,6 @@
 #111 - Friuli
-owner = VRN
-controller = VRN
+owner = LOM
+controller = LOM
 culture = friulian
 religion = orthodox
 hre = yes
@@ -10,7 +10,7 @@ trade_goods = wine
 base_manpower = 2
 capital = "Udine"
 is_city = yes# Estimated
-add_core = VRN
 discovered_by = western
 discovered_by = eastern
 discovered_by = muslim
+add_core = LOM
