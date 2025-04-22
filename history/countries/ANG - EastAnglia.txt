@@ -1,13 +1,12 @@
 government = monarchy
 add_government_reform = feudalism_reform
 technology_group = western
-primary_culture = english
+primary_culture = east_anglian
 religion = orthodox
 religious_school = see_of_rome
-capital = 1860	# Norfolk
-
-1444.1.1 = {
-	monarch = {
+capital = 1860# Norfolk
+1444.1.1 = { 
+	monarch = { 
 		name = "Henry I"
 		dynasty = "Wyche"
 		birth_date = 1388.9.22
@@ -16,7 +15,7 @@ capital = 1860	# Norfolk
 		dip = 4
 		mil = 3
 	}
-	heir = {
+	heir = { 
 		name = "Thomas"
 		monarch_name = "Thomas I"
 		dynasty = "Wyche"
@@ -28,3 +27,4 @@ capital = 1860	# Norfolk
 		mil = 3
 	}
 }
+government_rank = 1

@@ -82,7 +82,15 @@ dependency = {
 dependency = {
 	subject_type = "feudal_vassal"
 	first = BUL
-	second = OLT
+	second = CRS
+	start_date = 1444.1.1
+	end_date = 2000.1.1
+}
+
+dependency = {
+	subject_type = "feudal_vassal"
+	first = BUL
+	second = TRA
 	start_date = 1444.1.1
 	end_date = 2000.1.1
 }
@@ -122,7 +130,7 @@ dependency = {
 dependency = {
 	subject_type = "feudal_vassal"
 	first = POL
-	second = STE
+	second = POM
 	start_date = 1444.1.1
 	end_date = 2000.1.1
 }

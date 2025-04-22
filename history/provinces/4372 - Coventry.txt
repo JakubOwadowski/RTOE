@@ -1,14 +1,12 @@
 #4372 - Coventry
 #Staffordshire, Warwickshire
-
-latent_trade_goods = {
-	coal
+latent_trade_goods = { 
+	coal 
 }
 owner = MRC
 controller = MRC
-culture = english
+culture = mercian
 religion = orthodox
-hre = no
 base_tax = 2
 base_production = 2
 trade_goods = iron

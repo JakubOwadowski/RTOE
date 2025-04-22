@@ -2,8 +2,8 @@
 latent_trade_goods = { 
 	coal 
 }
-owner = BUL
-controller = BUL
+owner = SZL
+controller = SZL
 culture = bulgarian
 religion = orthodox
 capital = "Kaposvár"
@@ -22,23 +22,17 @@ discovered_by = eastern
 discovered_by = muslim
 discovered_by = ottoman
 1506.1.1 = { controller = REB revolt = { type = anti_tax_rebels size = 2 } }
-1507.1.1 = { controller = HUN revolt = { size = 1 } }
+1507.1.1 = { revolt = { size = 1 } }
 1514.4.1 = { controller = REB revolt = { type = anti_tax_rebels size = 2 } }
-1515.1.1 = { controller = HUN revolt = { size = 1 } }
+1515.1.1 = { revolt = { size = 1 } }
 1526.8.30 = { 
-	controller = HAB
 	add_core = HAB
 }
 1529.9.1 = { controller = TUR }
 1533.6.22 = { controller = TRA add_core = TRA }
 1542.1.1 = { 
-	controller = HAB
 	add_core = TUR
 }
 1543.6.1 = { controller = TUR }
 1567.1.1 = { religion = Reformed }
-1685.1.1 = { 
-	controller = HAB
-}
 add_core = SZL
-add_core = BUL

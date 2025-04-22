@@ -1,10 +1,8 @@
 #4130 - Somerset
-
 owner = NRM
 controller = NRM
-culture = english
+culture = wessexian
 religion = orthodox
-hre = no
 base_tax = 2
 base_production = 2
 trade_goods = wool

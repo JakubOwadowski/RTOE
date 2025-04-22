@@ -1,0 +1,31 @@
+government = monarchy
+add_government_reform = feudalism_reform
+government_rank = 1
+primary_culture = pomorzan
+religion = orthodox
+technology_group = eastern
+capital = 1858
+
+1444.1.1 = {
+	monarch = {
+		name = "Tomôsz I"
+		dynasty = "Grëf"
+		birth_date = 1434.4.5
+		death_date = 1454.4.7
+		ADM = 2
+		DIP = 3
+		MIL = 1
+	}
+	heir = {
+		name = "Michôl"
+		monarch_name = "Michôl IV"
+		dynasty = "Grëf"
+		birth_date = 1437.2.10
+		death_date = 1477.10.25
+		claim = 95
+		ADM = 6
+		DIP = 5
+		MIL = 3
+	}
+}
+

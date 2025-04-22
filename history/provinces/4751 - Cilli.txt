@@ -1,6 +1,6 @@
 # 4751 - Cilli
-owner = LOM
-controller = LOM
+owner = CTN
+controller = CTN
 add_core = CLI
 culture = slovene
 religion = orthodox
@@ -19,12 +19,8 @@ discovered_by = CRI
 discovered_by = GOL
 discovered_by = AST
 discovered_by = QAS
-1452.1.1 = { 
-	controller = STY
-}
 1456.11.9 = { 
-	controller = HAB
 	add_core = HAB
 }
 1806.7.12 = { hre = no }
-add_core = LOM
+add_core = CTN

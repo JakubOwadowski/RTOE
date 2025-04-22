@@ -1,8 +1,8 @@
 #128 - Kärnten
-owner = LOM
-controller = LOM
+owner = CTN
+controller = CTN
 add_core = STY
-culture = longbard
+culture = slovene
 religion = orthodox
 base_tax = 4
 base_production = 3
@@ -14,5 +14,5 @@ discovered_by = western
 discovered_by = eastern
 discovered_by = muslim
 1806.7.12 = { hre = no }
-add_core = LOM
+add_core = CTN
 fort_15th = yes

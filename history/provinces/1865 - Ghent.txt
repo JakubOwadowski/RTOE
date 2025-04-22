@@ -1,6 +1,3 @@
-### Modified 23.03.2025 16:04:52 ###
-# Dreux
-# 1865 Dreux - 23.03.2025 16:04:52 
 owner = NRM
 controller = NRM
 base_tax = 3
@@ -9,7 +6,7 @@ base_manpower = 3
 trade_goods = cloth
 culture = normand
 religion = orthodox
-capital = "Dreux"
+capital = "Cherbourg"
 is_city = yes
 discovered_by = eastern
 discovered_by = western

@@ -1,7 +1,7 @@
 #4365 - Mann
 owner = DUB
 controller = DUB
-culture = highland_scottish
+culture = lowland_scottish
 religion = ofbrit
 base_tax = 1
 base_production = 1

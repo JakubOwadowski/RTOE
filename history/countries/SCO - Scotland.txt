@@ -7,7 +7,7 @@ add_accepted_culture = scottish
 religion = ofbrit
 historical_friend = CNN
 historical_rival = NRM
-capital = 250
+capital = 1857
 set_estate_privilege = estate_nobles_strong_duchies
 add_truce_with = NOL
 add_truce_with = GBH
@@ -15,7 +15,6 @@ add_truce_with = CBH
 add_truce_with = LOI
 add_truce_with = GLW
 add_truce_with = AGU
-
 1437.2.20 = { 
 	monarch = { 
 		name = "Seumas II"

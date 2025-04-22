@@ -1,6 +1,6 @@
 owner = NRM
 controller = NRM 
-capital = "Hathen"
+capital = "Caen"
 is_city = yes
 culture = normand
 religion = orthodox

@@ -1,7 +1,7 @@
 #1863 - Graz
-owner = LOM
-controller = LOM
-culture = longbard
+owner = CTN
+controller = CTN
+culture = slovene
 religion = orthodox
 base_tax = 5
 base_production = 5
@@ -17,11 +17,5 @@ discovered_by = QAS
 discovered_by = western
 discovered_by = eastern
 discovered_by = muslim
-1452.1.1 = { 
-	controller = STY
-}
-1457.11.24 = { 
-	controller = HAB
-}
 1806.7.12 = { hre = no }
-add_core = LOM
+add_core = CTN

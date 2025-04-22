@@ -1,7 +1,7 @@
 #Suffolk
 owner = ANG
 controller = ANG
-culture = english
+culture = east_anglian
 religion = orthodox
 base_tax = 3
 base_production = 3

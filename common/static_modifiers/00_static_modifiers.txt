@@ -1488,9 +1488,6 @@ all_nations = {
 }
 
 subject_nation = {
-	global_tax_income = -4
-	land_forcelimit	= -4
-	naval_forcelimit = -6
 }
 
 vassal_nation = {

@@ -1,11 +1,9 @@
 #240 - Marches
 #Shropshire, Worcestershire
-
 owner = MRC
 controller = MRC
-culture = english
+culture = mercian
 religion = ofbrit
-hre = no
 base_tax = 2
 base_production = 2
 trade_goods = wool

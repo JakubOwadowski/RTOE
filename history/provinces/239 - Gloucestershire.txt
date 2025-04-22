@@ -1,10 +1,8 @@
 #239 - Gloucestershire
-
 owner = NRM
 controller = NRM
-culture = english
+culture = wessexian
 religion = ofbrit
-hre = no
 base_tax = 2
 base_production = 2
 trade_goods = naval_supplies

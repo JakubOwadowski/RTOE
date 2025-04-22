@@ -1,7 +1,6 @@
 ### Modified 11.03.2025 18:00:37 ###
 # Kent
 # 235 Kent - 11.03.2025 18:00:37 
- 
 add_core = NRM
 add_core = KNT
 owner = NRM
@@ -9,23 +8,13 @@ controller = NRM
 base_tax = 5
 base_production = 5
 base_manpower = 2
-
 trade_goods = cloth
-
-culture = english
+culture = kentish
 religion = orthodox
 capital = "Kanterburry"
-
 is_city = yes
-
 discovered_by = western
 discovered_by = muslim
 discovered_by = ottoman
 discovered_by = eastern
 discovered_by = western
-
-
-
-
-
-

@@ -1,7 +1,7 @@
-#Laval
+#Le Havre
 owner = NRM
 controller = NRM
-capital = "Laval"
+capital = "Le Havre"
 is_city = yes
 culture = normand
 religion = orthodox
@@ -9,7 +9,6 @@ base_tax = 2
 base_production = 2
 trade_goods = cloth
 base_manpower = 1
-add_core = ANJ
 discovered_by = eastern
 discovered_by = western
 discovered_by = muslim

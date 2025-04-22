@@ -1,7 +1,7 @@
 #Angus
 owner = AGU
 controller = AGU
-culture = highland_scottish
+culture = lowland_scottish
 religion = ofbrit
 base_tax = 2
 base_production = 2

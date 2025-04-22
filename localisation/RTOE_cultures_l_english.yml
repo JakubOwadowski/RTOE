@@ -41,6 +41,10 @@
  #Scottish -> Scots
  northumbrian: "Northumbrian"
  anglo_irish: "Anglo-Irish"
+ kentish: "Kentish"
+ wessexian: "Wessexian"
+ east_anglian: "East Anglian"
+ mercian: "Mercian"
   
  ###Celts###
  #Irish
@@ -49,6 +53,8 @@
  #Welsh
  #Cornish
  #Breton
+
+ brythonic: "Brythonic"
  
  ###Latin Megagroup###
  

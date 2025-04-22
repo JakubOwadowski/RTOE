@@ -253,7 +253,11 @@
  ECU_ADJ: "Patriarchal"
  SRC: "Soroca"
  SRC_ADJ: "Sorocan"
- 
+ CTN: "Carantania"
+ CTN_ADJ: "Carantanian"
+ CRS: "Crisana"
+ CRS_ADJ: "Crisanan"
+
  #Finland
  TAV: "Tavastaland"
  TAV_ADJ: "Tavastian"

@@ -1,6 +1,3 @@
-### Modified 11.03.2025 18:46:23 ###
-# Halse
-# 87 Halse - 11.03.2025 18:46:23 
 add_core = PIC
 owner = PIC
 controller = PIC
@@ -12,7 +9,7 @@ trade_goods = fish
 extra_cost = 8
 culture = wallonian
 religion = orthodox
-capital = "Halse"
+capital = "Calais"
 is_city = yes
 discovered_by = eastern
 discovered_by = western

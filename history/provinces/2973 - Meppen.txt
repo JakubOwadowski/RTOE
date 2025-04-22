@@ -1,7 +1,7 @@
 #Buckinghamshire + Hertfordshire
 owner = ANG
 controller = ANG
-culture = english
+culture = kentish
 religion = orthodox
 base_tax = 2
 base_production = 2

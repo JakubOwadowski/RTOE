@@ -1,0 +1,4 @@
+broke_vassalage = {
+	opinion = -100
+	yearly_decay = 2
+}

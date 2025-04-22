@@ -1,7 +1,7 @@
 #Fife
 owner = SCO
 controller = SCO
-culture = scottish
+culture = lowland_scottish
 religion = ofbrit
 base_tax = 2
 base_production = 2

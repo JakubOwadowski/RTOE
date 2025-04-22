@@ -1,11 +1,9 @@
 #237 - Oxfordshire
 #Oxfordshire+Bukinghamshire+
-
 owner = MRC
 controller = MRC
-culture = english
+culture = kentish
 religion = orthodox
-hre = no
 base_tax = 2
 base_production = 2
 trade_goods = livestock

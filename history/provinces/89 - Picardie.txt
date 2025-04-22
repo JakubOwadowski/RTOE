@@ -13,7 +13,7 @@ trade_goods = grain
 
 culture = cosmopolitan_french
 religion = orthodox
-capital = "Umben"
+capital = "Amiens"
 
 is_city = yes
 fort_15th = yes

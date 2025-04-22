@@ -1,6 +1,6 @@
 # 4756 - Bjelovar
-owner = BUL
-controller = BUL
+owner = SZL
+controller = SZL
 culture = croatian
 religion = orthodox
 capital = "Bjelovar"
@@ -20,8 +20,6 @@ discovered_by = eastern
 discovered_by = muslim
 discovered_by = ottoman
 1526.8.30 = { 
-	controller = HAB
 	add_core = HAB
 }
 add_core = SZL
-add_core = BUL

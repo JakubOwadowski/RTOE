@@ -1,6 +1,6 @@
 # 4757 - Kolubara
-owner = BUL
-controller = BUL
+owner = CRS
+controller = CRS
 culture = bulgarian
 religion = orthodox
 capital = "Valjevo"
@@ -23,13 +23,11 @@ discovered_by = ottoman
 	add_core = TUR
 }
 1717.8.22 = { 
-	controller = HAB
 	add_core = HAB
 }
 1739.9.18 = { 
 	controller = TUR
 }
-1788.3.1 = { controller = HAB }
 1791.1.1 = { controller = TUR }
 1804.2.14 = { controller = REB revolt = { type = nationalist_rebels size = 2 } }
 1813.1.1 = { controller = TUR revolt = { size = 1 } }
@@ -38,4 +36,4 @@ discovered_by = ottoman
 	controller = SER
 	revolt = { size = 1 }
 }
-add_core = BUL
+add_core = CRS

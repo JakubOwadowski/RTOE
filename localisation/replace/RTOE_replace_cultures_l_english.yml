@@ -1,9 +1,7 @@
 ﻿l_english:
  byzantine: "Hellenic"
  greek: "Rhomanian"
- highland_scottish: "Gaelic"
  maghrebi: "Imazigh"
- scottish: "Scots"
  iberian: "Hispanic"
  british: "English"
  tartar: "Turkic"
@@ -26,8 +24,8 @@
  sorbian: "Polabian"
  dutch: "Low Franconian"
  franconian: "High Franconian"
- slovak: "Moravian"
  neapolitan: "Sannian"
  azerbaijani: "Qashqai"
  ruthenian: "Ukrainian"
- 
+ slovene: "Carantanian"
+ gaelic: "Gaelic"

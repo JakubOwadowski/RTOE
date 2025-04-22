@@ -79,7 +79,6 @@ SEB = "countries/Seborga.txt"
 MSS = "countries/Massa.txt"
 #Germany
 BRN = "countries/Bern.txt"
-LOM = "countries/Longobardi.txt"
 WIE = "countries/Wien.txt"
 OST = "countries/Ostphalia.txt"
 AGR = "countries/Angria.txt"
@@ -106,6 +105,8 @@ BEL = "countries/Belgrade.txt"
 SLJ = "countries/Solj.txt"
 SZL = "countries/Slavonia.txt"
 DKR = "countries/DonjiKraji.txt"
+CTN = "countries/Carantania.txt"
+CRS = "countries/Crisana.txt"
 #Middle East
 SYP = "countries/SyriaPalestine.txt"
 #Finland

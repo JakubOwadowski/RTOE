@@ -1,6 +1,6 @@
 #111 - Friuli
-owner = LOM
-controller = LOM
+owner = CTN
+controller = CTN
 culture = friulian
 religion = orthodox
 hre = yes
@@ -13,4 +13,5 @@ is_city = yes# Estimated
 discovered_by = western
 discovered_by = eastern
 discovered_by = muslim
-add_core = LOM
+add_core = CTN
+add_core = AQU

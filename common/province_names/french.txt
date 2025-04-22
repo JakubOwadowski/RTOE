@@ -350,11 +350,7 @@
 4720 = "Genève"
 4721 = "Fribourg"
 
-4385 = "Cherbourg"
-168 = "Houen"
-167 = "Rouen"
-89 = "Umbien"
-1879 = "Alençon"
+1865 = "Cherbourg"
 
 174 = "Bordeaux"
 5044 = "Andorre"

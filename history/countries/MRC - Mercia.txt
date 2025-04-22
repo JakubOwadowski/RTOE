@@ -1,7 +1,7 @@
 government = monarchy
 add_government_reform = feudalism_reform
 technology_group = western
-primary_culture = english
+primary_culture = mercian
 religion = orthodox
 religious_school = see_of_rome
 capital = 4372# Coventry
@@ -27,3 +27,4 @@ capital = 4372# Coventry
 		mil = 6
 	}
 }
+government_rank = 1

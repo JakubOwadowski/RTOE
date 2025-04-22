@@ -738,16 +738,18 @@ RTOE_Normandy_2 = {
 		effect = { 
 			every_owned_province = {
 				limit = {
-					OR = {
-						area = wales_area
-						area = south_wales_area
-						area = dyfed_area
-					}
-					OR = {
-						has_building = workshop
-						has_building = counting_house
-						has_building = manufactory
-						has_building = furnace
+					AND = {
+						OR = {
+							area = wales_area
+							area = south_wales_area
+							area = dyfed_area
+						}
+						OR = {
+							has_building = workshop
+							has_building = counting_house
+							has_building = manufactory
+							has_building = furnace
+						}
 					}
 				}
 				add_base_production = 3
