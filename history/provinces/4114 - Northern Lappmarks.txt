@@ -1,5 +1,5 @@
 capital = "Aoste"
-culture = burgundian
+culture = savoyard
 add_core = TRN
 owner = TRN
 controller = TRN

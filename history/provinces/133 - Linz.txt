@@ -1,7 +1,7 @@
 #133 - Linz
 owner = WIE
 controller = WIE
-culture = bavarian
+culture = austrian
 religion = orthodox
 base_tax = 4
 base_production = 4

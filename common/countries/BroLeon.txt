@@ -94,10 +94,9 @@ monarch_names = {
 }
 leader_names = { 
 	Akropolites Angelos Aoinos Apokaukos Argyros Basileous Batatzes Botaneiates Boumbalis Choniates
-	Choumnos Diasorenos Diogenes Doukas Gabras Iagaris
-	Kantakuzenos Kaukadenos Komnenos Laskaris Melissinos Melisurgos Mikrulakes Monomakos Mouzalon Nestongos
-	Palaiologos Paraspondylos Phocas Phouskarnaki Phrangopoulos Psellos Rhadinos Rhangabe Rhodocanakis Romanos
-	Syropoulos
+	Choumnos Diasorenos Diogenes Doukas Gabras Iagaris Kantakuzenos Kaukadenos Komnenos Laskaris
+	Melissinos Melisurgos Mikrulakes Monomakos Mouzalon Nestongos Palaiologos Paraspondylos Phocas Phouskarnaki
+	Phrangopoulos Psellos Rhadinos Rhangabe Rhodocanakis Romanos Syropoulos
 	Tornikes
 	Zarides Zimisces 
 }

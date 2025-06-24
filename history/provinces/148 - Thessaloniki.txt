@@ -1,7 +1,7 @@
 #148 - Macedonia
 owner = ROM
 controller = ROM
-culture = greek
+culture = macedonian
 religion = orthodox
 capital = "Thessaloniki"
 trade_goods = cloth

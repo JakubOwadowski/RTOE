@@ -1,7 +1,7 @@
 #2296 - Biga
 owner = ROM
 controller = ROM
-culture = greek
+culture = bithynian
 religion = orthodox
 capital = "Biga"
 trade_goods = naval_supplies

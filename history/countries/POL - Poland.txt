@@ -1,6 +1,6 @@
 government = monarchy
 add_government_reform = feudalism_reform
-primary_culture = polish
+primary_culture = greater_polish
 religion = orthodox
 technology_group = eastern
 historical_friend = LIT

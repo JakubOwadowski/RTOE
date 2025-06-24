@@ -2,7 +2,7 @@
 add_core = ANJ
 owner = ANJ
 controller = ANJ
-culture = cosmopolitan_french
+culture = angevin
 religion = orthodox
 base_tax = 2
 base_production = 2

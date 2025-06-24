@@ -1,7 +1,7 @@
 #1875 - Cuneo (can't change filename)
 owner = CNO
 controller = CNO
-culture = cisalpine
+culture = piedmontese
 religion = orthodox
 hre = yes
 base_tax = 4
@@ -24,13 +24,9 @@ discovered_by = muslim
 }
 1715.1.1 = { fort_17th = no fort_18th = yes }
 1720.1.1 = { 
-	controller = SPI
 	add_core = SPI
 }
 1792.9.1 = { controller = FRA }
 1806.7.12 = { hre = no }
-1814.4.11 = { 
-	controller = SPI
-}
 add_core = CNO
 fort_15th = yes

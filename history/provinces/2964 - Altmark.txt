@@ -1,7 +1,7 @@
 #52 - Altmark
 owner = SAX
 controller = SAX
-culture = saxon
+culture = estphalian
 religion = orthodox
 base_tax = 4
 base_production = 4

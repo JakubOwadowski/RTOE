@@ -1,6 +1,6 @@
 # 4767 - Zweibrücken
 capital = "Zweibrücken"
-culture = hessian
+culture = rhenish
 religion = orthodox
 trade_goods = cloth
 owner = LOR
@@ -17,9 +17,8 @@ discovered_by = ottoman
 1557.1.1 = { religion = Protestant }
 1588.1.1 = { religion = Reformed }
 1680.1.1 = { controller = FRA add_core = FRA }
-1697.4.19 = { controller = PAL add_core = SWE }
+1697.4.19 = { add_core = SWE }
 1697.12.14 = { controller = SWE }
-1718.12.11 = { controller = PAL }
 1777.12.30 = { 
 	controller = BAV
 	add_core = BAV

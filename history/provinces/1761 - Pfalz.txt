@@ -1,6 +1,6 @@
 #1761 - Pfalz
 capital = "Worms"
-culture = hessian
+culture = rhenish
 religion = orthodox
 trade_goods = wine
 owner = RHI
@@ -19,7 +19,6 @@ discovered_by = ottoman
 	base_production = 5
 	controller = FRA
 }
-1697.4.19 = { controller = PAL }
 1777.12.30 = { 
 	controller = BAV
 	add_core = BAV

@@ -1,6 +1,6 @@
 #Estland, incl. Reval, Hapsal, Weissenstein, Wesenberg and Pernau.
-owner = EST
-controller = EST
+owner = DAN
+controller = DAN
 add_core = EST
 culture = estonian
 religion = finnish_pagan_reformed
@@ -22,3 +22,4 @@ discovered_by = eastern
 1721.8.30 = { 
 	add_core = RUS
 }
+add_core = DAN

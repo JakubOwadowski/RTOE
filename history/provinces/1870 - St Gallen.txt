@@ -1,7 +1,7 @@
 #1870 - St Gallen
 owner = AUG
 controller = AUG
-culture = swabian
+culture = alemannic
 religion = orthodox
 capital = "St Gallen"
 trade_goods = livestock

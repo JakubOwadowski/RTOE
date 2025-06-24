@@ -1,7 +1,7 @@
 #4727 - Saluzzo
 owner = SZO
 controller = SZO
-culture = cisalpine
+culture = piedmontese
 religion = orthodox
 hre = yes
 base_tax = 3
@@ -23,11 +23,7 @@ discovered_by = ottoman
 	add_core = SIC
 }
 1720.1.1 = { 
-	controller = SPI
 	add_core = SPI
 }
 1792.9.1 = { controller = FRA }
 1806.7.12 = { hre = no }
-1814.4.11 = { 
-	controller = SPI
-}

@@ -1,12 +1,10 @@
 # 4391 Vivarais
-
 owner = FRA
 controller = FRA
 capital = "Vivièrs"
 is_city = yes
-culture = occitain
+culture = auvernhat
 religion = cathar
-hre = no
 base_tax = 4
 base_production = 4
 trade_goods = wine

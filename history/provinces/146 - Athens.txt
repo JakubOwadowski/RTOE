@@ -1,7 +1,7 @@
 #146 - Athens
 owner = ROM
 controller = ROM
-culture = greek
+culture = peloponnese
 religion = orthodox
 capital = "Athens"
 trade_goods = grain

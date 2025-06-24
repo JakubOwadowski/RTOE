@@ -3,7 +3,7 @@ owner = AUT
 controller = AUT
 is_city = yes
 capital = "Loon"
-culture = dutch
+culture = brabantian
 religion = orthodox
 base_tax = 5
 base_production = 5
@@ -17,7 +17,7 @@ discovered_by = ottoman
 1467.1.1 = { controller = BUR }
 1468.9.1 = { controller = REB revolt = { type = nationalist_rebels size = 2 } }
 1468.9.4 = { controller = BUR revolt = { size = 1 } }
-1477.1.5 = { controller = LIE add_core = HAB }
+1477.1.5 = { add_core = HAB }
 1797.12.26 = { 
 	controller = FRA
 	add_core = FRA

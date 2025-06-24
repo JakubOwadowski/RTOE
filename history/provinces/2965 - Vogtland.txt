@@ -1,7 +1,7 @@
 # - Vogtland
 owner = SAX
 controller = SAX
-culture = czech
+culture = misnian
 religion = orthodox
 capital = "Plawno"
 trade_goods = wool

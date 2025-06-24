@@ -2,7 +2,7 @@
 owner = WIE
 controller = WIE
 add_core = STY
-culture = bavarian
+culture = austrian
 religion = orthodox
 base_tax = 2
 base_production = 4

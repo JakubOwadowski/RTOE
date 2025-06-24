@@ -160,38 +160,6 @@ RTOE_Normandy_1 = {
 			if = {
 				limit = { 
 					has_country_flag = nrm_fate_of_wales_flag
-					GWY = {
-						is_subject_of = ROOT
-					}
-				}
-				GWY = {
-					override_country_name = WLS
-					change_country_color = {
-						color = { 255 77 77 }
-					}
-					every_province = {
-						limit = {
-							OR = {
-								area = wales_area
-								area = dyfed_area
-							}
-						}
-						add_core = ROOT
-					}
-				}
-				every_province = {
-					limit = {
-						owned_by = ROOT
-						OR = {
-							area = wales_area
-							area = dyfed_area
-						}
-					}
-					cede_province = GWY
-				}
-				create_subject = {
-					subject_type = feudal_vassal
-					who = GWY
 				}
 				add_country_modifier = {
 					name = NRM_welsh_march
@@ -291,6 +259,7 @@ RTOE_Normandy_1 = {
 					}
 				}
 				add_permanent_claim = DUB
+				add_permanent_claim = ROOT
 			}
 			373 = {
 				add_random_development = 3

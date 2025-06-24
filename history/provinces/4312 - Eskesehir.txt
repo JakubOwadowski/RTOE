@@ -1,7 +1,7 @@
 #4312 - Eskisehir
 owner = ROM
 controller = ROM
-culture = greek
+culture = bithynian
 religion = orthodox
 capital = "Eskisehir"
 trade_goods = cloth

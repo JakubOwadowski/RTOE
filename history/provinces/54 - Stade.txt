@@ -1,7 +1,7 @@
 #54 - Stade
 owner = SAX
 controller = SAX
-culture = frisian
+culture = lower_saxon
 religion = orthodox
 capital = "Stade"
 trade_goods = fish
@@ -16,7 +16,6 @@ discovered_by = ottoman
 1529.1.1 = { religion = Protestant }
 1648.10.24 = { controller = SWE add_core = SWE }
 1719.9.30 = { 
-	controller = HAN
 	add_core = HAN
 }
 1803.7.5 = { controller = FRA }
@@ -32,9 +31,6 @@ discovered_by = ottoman
 1810.12.13 = { 
 	controller = FRA
 	add_core = FRA
-}
-1814.4.11 = { 
-	controller = HAN
 }
 add_core = SAX
 add_core = AGR

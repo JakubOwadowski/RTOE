@@ -1,7 +1,7 @@
 # 4749 - Stargard
 owner = VEL
 controller = VEL
-culture = sorbian
+culture = obodrite
 religion = orthodox
 base_tax = 3
 base_production = 3

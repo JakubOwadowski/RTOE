@@ -1,6 +1,6 @@
 #40 - Memel
-owner = SKL
-controller = SKL
+owner = LIT
+controller = LIT
 culture = scalovovian
 religion = baltic_pagan_reformed
 capital = "Memel"
@@ -20,7 +20,6 @@ add_permanent_province_modifier = {
 }
 1454.2.10 = { add_core = POL controller = REB revolt = { type = revolutionary_rebels size = 0 } }
 1466.10.19 = { 
-	controller = TEU
 	add_core = PRU
 	revolt = { size = 1 }
 }
@@ -29,7 +28,6 @@ add_permanent_province_modifier = {
 	religion = Protestant
 }
 1618.8.28 = { 
-	controller = BRA
 	add_core = BRA
 }
 1701.1.18 = { 
@@ -40,3 +38,4 @@ add_permanent_province_modifier = {
 1757.9.1 = { controller = RUS }
 1762.1.5 = { controller = PRU }
 add_core = SKL
+add_core = LIT

@@ -1,7 +1,6 @@
 #Närke
-add_core = SWE
-owner = SWE
-controller = SWE
+owner = GOT
+controller = GOT
 culture = swedish
 religion = orthodox
 base_tax = 2
@@ -19,3 +18,4 @@ discovered_by = ottoman
 1501.8.1 = { controller = DAN }
 1502.3.15 = { controller = SWE }
 1527.6.1 = { religion = Protestant }
+add_core = GOT

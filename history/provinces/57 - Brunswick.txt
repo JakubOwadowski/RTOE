@@ -1,7 +1,7 @@
 #57 - Brunswick
 owner = SAX
 controller = SAX
-culture = saxon
+culture = estphalian
 religion = orthodox
 capital = "Braunschweig"
 trade_goods = iron
@@ -17,7 +17,6 @@ discovered_by = ottoman
 1583.1.1 = { fort_15th = no fort_16th = yes }
 1640.1.1 = { fort_16th = no fort_17th = yes }
 1757.7.26 = { controller = FRA }
-1757.11.5 = { controller = BRU }
 1765.1.1 = { fort_17th = no fort_18th = yes }
 1803.7.5 = { controller = FRA }
 1805.12.15 = { 
@@ -28,9 +27,6 @@ discovered_by = ottoman
 1807.7.9 = { 
 	controller = WES
 	add_core = WES
-}
-1813.10.13 = { 
-	controller = BRU
 }
 add_core = SAX
 add_core = AGR

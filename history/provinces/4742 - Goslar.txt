@@ -1,7 +1,7 @@
 # 4742 - Goslar
 owner = SAX
 controller = SAX
-culture = saxon
+culture = estphalian
 religion = orthodox
 base_tax = 5
 base_production = 5
@@ -24,7 +24,6 @@ discovered_by = ottoman
 	add_core = WES
 }
 1813.10.13 = { 
-	controller = HAN
 	add_core = HAN
 }
 add_core = SAX

@@ -1,7 +1,7 @@
 #Vólos 
 owner = ROM
 controller = ROM
-culture = greek
+culture = central_greek
 religion = orthodox
 capital = "Vólos"
 trade_goods = wine

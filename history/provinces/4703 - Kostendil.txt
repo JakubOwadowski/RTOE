@@ -1,6 +1,6 @@
 owner = ROM
 controller = ROM
-culture = greek
+culture = macedonian
 religion = orthodox
 capital = "Velbázd"
 trade_goods = copper

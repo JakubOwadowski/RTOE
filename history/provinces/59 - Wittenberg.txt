@@ -1,7 +1,7 @@
 #59 - Wittenberg
 owner = MEI
 controller = MEI
-culture = sorbian
+culture = misnian
 religion = orthodox
 capital = "Bela Hora"
 trade_goods = wool

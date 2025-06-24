@@ -1,30 +1,19 @@
 ### Modified 11.03.2025 18:46:23 ###
 # Umben
 # 89 Umben - 11.03.2025 18:46:23 
- 
 add_core = PIC
 owner = PIC
 controller = PIC
 base_tax = 6
 base_production = 6
 base_manpower = 5
-
 trade_goods = grain
-
-culture = cosmopolitan_french
+culture = picard
 religion = orthodox
 capital = "Amiens"
-
 is_city = yes
-fort_15th = yes
-
 discovered_by = eastern
 discovered_by = western
 discovered_by = muslim
 discovered_by = ottoman
-
-
-
-
-
-
+fort_15th = yes

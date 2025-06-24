@@ -1,7 +1,6 @@
 ### Modified 11.03.2025 18:46:23 ###
 # Troyes
 # 4390 Troyes - 11.03.2025 18:46:23 
- 
 add_core = CHP
 add_core = FRA
 owner = FRA
@@ -9,22 +8,12 @@ controller = FRA
 base_tax = 4
 base_production = 4
 base_manpower = 2
-
 trade_goods = iron
-
-culture = cosmopolitan_french
+culture = champenois
 religion = orthodox
 capital = "Troyes"
-
 is_city = yes
-
 discovered_by = eastern
 discovered_by = western
 discovered_by = muslim
 discovered_by = ottoman
-
-
-
-
-
-

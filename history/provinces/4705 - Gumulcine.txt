@@ -1,6 +1,6 @@
 owner = ROM
 controller = ROM
-culture = greek
+culture = thracian
 religion = orthodox
 capital = "Gumulcine"
 trade_goods = livestock

@@ -1,6 +1,6 @@
 #4553 - Zamora
 owner = HAI
-culture = wallonian
+culture = picard
 religion = orthodox
 base_tax = 3
 base_production = 3

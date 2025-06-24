@@ -1,7 +1,7 @@
 # - Skopje
 owner = ROM
 controller = ROM
-culture = greek
+culture = macedonian
 religion = orthodox
 capital = "Skópia"
 trade_goods = copper

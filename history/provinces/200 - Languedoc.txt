@@ -1,12 +1,10 @@
 # 200 Languedoc - Principal cities: Montpellier
-
 owner = FRA
 controller = FRA
 capital = "Monspelano"
 is_city = yes
-culture = occitain
+culture = languedocien
 religion = cathar
-hre = no
 base_tax = 6
 base_production = 5
 trade_goods = cloth

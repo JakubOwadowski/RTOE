@@ -1,7 +1,7 @@
 #2348 - Chios
 owner = ROM
 controller = ROM
-culture = greek
+culture = bithynian
 religion = orthodox
 capital = "Mytilene"
 trade_goods = fish

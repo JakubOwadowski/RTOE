@@ -1,7 +1,6 @@
 #Gotland- Visby etc
-owner = GOT
-controller = GOT
-add_core = GOT
+owner = DAN
+controller = DAN
 add_core = DAN
 add_core = SWE
 culture = gotalander

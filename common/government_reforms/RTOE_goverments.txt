@@ -110,3 +110,19 @@ imperial_bishopric_reform = {
 	}
 	free_city = yes
 }
+
+declining_roman_empire = {
+	allow_normal_conversion = no
+	potential = {
+		has_reform = declining_roman_empire
+	}
+	icon = "declining_roman_empire"
+	valid_for_nation_designer = no
+	modifiers = {
+		land_forcelimit_modifier = -0.25
+		global_tax_income = -0.1
+	}
+	custom_attributes = {
+		declining_roman_empire_diplomacy_ban = yes
+	}
+}

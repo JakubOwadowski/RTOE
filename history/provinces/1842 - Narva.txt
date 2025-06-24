@@ -1,6 +1,6 @@
 #Narva
-owner = EST
-controller = EST
+owner = DAN
+controller = DAN
 add_core = EST
 culture = estonian
 religion = finnish_pagan_reformed
@@ -27,3 +27,4 @@ discovered_by = eastern
 	add_core = SWE
 }
 1704.8.9 = { controller = RUS }
+add_core = DAN

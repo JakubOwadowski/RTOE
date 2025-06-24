@@ -1,7 +1,7 @@
 #45 - Lübeck
 owner = MKL
 controller = MKL
-culture = sorbian
+culture = obodrite
 religion = orthodox
 base_tax = 6
 base_production = 6
@@ -35,9 +35,6 @@ center_of_trade = 2
 1810.12.13 = { 
 	controller = FRA
 	add_core = FRA
-}
-1814.4.11 = { 
-	controller = HSA
 }
 add_core = MKL
 fort_15th = yes

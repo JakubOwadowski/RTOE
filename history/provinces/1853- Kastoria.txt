@@ -1,7 +1,7 @@
 #1853 - Kastoria
 owner = ROM
 controller = ROM
-culture = greek
+culture = central_greek
 religion = orthodox
 capital = "Kastoria"
 trade_goods = wine

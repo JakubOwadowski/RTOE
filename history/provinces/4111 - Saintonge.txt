@@ -1,7 +1,6 @@
 ### Modified 11.03.2025 18:00:37 ###
 # Saintonge
 # 4111 Saintonge - 11.03.2025 18:00:37 
- 
 add_core = POI
 add_core = GUY
 owner = GUY
@@ -9,22 +8,12 @@ controller = GUY
 base_tax = 4
 base_production = 4
 base_manpower = 2
-
 trade_goods = grain
-
-culture = cosmopolitan_french
+culture = poitevin
 religion = orthodox
 capital = "Saintes"
-
 is_city = yes
-
 discovered_by = eastern
 discovered_by = western
 discovered_by = muslim
 discovered_by = ottoman
-
-
-
-
-
-

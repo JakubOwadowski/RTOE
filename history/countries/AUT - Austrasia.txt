@@ -1,7 +1,8 @@
 government = monarchy
 add_government_reform = feudalism_reform
-primary_culture = austrasien
+primary_culture = wallonian
 religion = orthodox
 religious_school = see_of_rome
 technology_group = western
 capital = 1878
+government_rank = 1

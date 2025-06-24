@@ -1,6 +1,6 @@
 #Halland, contains Halmstad, Varberg.
-owner = GOT
-controller = GOT
+owner = DAN
+controller = DAN
 culture = gotalander
 religion = orthodox
 base_tax = 3
@@ -20,4 +20,4 @@ discovered_by = ottoman
 1569.12.4 = { controller = DAN }
 1645.8.13 = { add_core = SWE }
 1680.1.1 = { culture = swedish }
-add_core = GOT
+add_core = DAN

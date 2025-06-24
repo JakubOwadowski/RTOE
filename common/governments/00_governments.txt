@@ -65,6 +65,7 @@ monarchy = {
 				#RTOE
 				irish_fiefdom_reform
 				high_kingdom_reform
+				declining_roman_empire
 			}
 		}
 		hereditary_vs_nobility = {

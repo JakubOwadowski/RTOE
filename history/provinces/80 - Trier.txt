@@ -1,6 +1,6 @@
 owner = LOR
 controller = LOR
-culture = hessian
+culture = rhenish
 religion = orthodox
 trade_goods = grain
 capital = "Trier"

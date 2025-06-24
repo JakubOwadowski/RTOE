@@ -2,7 +2,7 @@
 owner = MKL
 controller = MKL
 add_core = MKL
-culture = sorbian
+culture = obodrite
 religion = orthodox
 base_tax = 2
 base_production = 2

@@ -1,34 +1,23 @@
 ### Modified 11.03.2025 18:46:23 ###
 # Clermont
 # 199 Clermont - 11.03.2025 18:46:23 
- 
 add_core = AUV
 owner = AUV
 controller = AUV
 base_tax = 4
 base_production = 4
 base_manpower = 2
-
 trade_goods = iron
-
-culture = occitain
+culture = auvernhat
 religion = orthodox
 capital = "Clermont"
-
 is_city = yes
-fort_15th = yes
-
 discovered_by = eastern
 discovered_by = western
 discovered_by = western
 discovered_by = muslim
 discovered_by = ottoman
-
-
-
-latent_trade_goods = {
-   coal
+latent_trade_goods = { 
+	coal 
 }
-
-
-
+fort_15th = yes

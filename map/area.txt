@@ -250,11 +250,11 @@ brittany_area = {  #5
 	169 170 171 4986 5080 
 }
 upper_brittany_area = { 
-	172 4384 4987 
+	172 4384 4987 4985 
 }
 normandy_area = {  #4
 
-	167 168 4985 4988 1865 1879 
+	167 168 4988 1865 1879 
 }
 provence_area = {  #5
 
@@ -301,7 +301,7 @@ savoy_dauphine_area = {  #3 Savoy and Dauphiné, Upper Burgundy
 }
 lorraine_area = {  #4
 
-	187 188 189 
+	188 189 4766 
 }
 picardy_area = {  #4
 
@@ -313,7 +313,7 @@ ile_de_france_area = {  #4
 }
 champagne_area = {  #3
 
-	181 186 4390 4766 185 
+	181 186 4390 185 187 
 }
 loire_area = {  #5
 
@@ -686,7 +686,7 @@ west_prussia_area = {  #3 (South West Prussia)
 }
 wielkopolska_area = {  #5
 
-	254 4526 255 2963 49 
+	254 4526 2963 49 4542 
 }
 malopolska_area = {  #5
 
@@ -716,7 +716,7 @@ mazovia_area = {  #4
 	256 257 1938 4525 
 }
 central_poland_area = { 
-	258 1939 4533 
+	258 1939 4533 255 
 }
 sandomierz_area = { 
 	260 2959 259 
@@ -883,7 +883,7 @@ saratov_area = {  #3
 ########################################
 silesia_area = {  #4
 
-	264 2966 4238 2969 296 
+	2966 4238 2969 296 
 }
 bohemia_area = {  #5
 
@@ -898,7 +898,7 @@ lusatia_area = {  #3
 	60 1763 4778 
 }
 moravia_area = { 
-	265 4237 4726 1770 
+	265 4237 4726 
 }
 south_saxony_area = {  #4
 
@@ -966,7 +966,7 @@ tirol_area = {  #5
 austria_proper_area = {  #5
 
 	color = { 213 40 40 }
-	133 134 4762 
+	133 134 4762 1770 
 }
 inner_austria_area = {  #4
 
@@ -3702,7 +3702,7 @@ south_laos_area = { }
 vostani_area = { }
 patagonian_andes = { }
 upper_silesia_Area = { 
-	4723 263 4542 
+	4723 263 264 
 }
 nitra_area = { 
 	4236 154 1772 4971 

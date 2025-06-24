@@ -1,7 +1,7 @@
 #Galata 
 owner = ECU
 controller = ECU
-culture = greek
+culture = constantionople_greek
 religion = orthodox
 hre = yes
 base_tax = 3

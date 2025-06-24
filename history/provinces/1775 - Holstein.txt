@@ -1,7 +1,7 @@
 #1775 - Holstein
 owner = MKL
 controller = MKL
-culture = saxon
+culture = holsteiner
 religion = orthodox
 base_tax = 4
 base_production = 4
@@ -22,7 +22,6 @@ center_of_trade = 1
 	base_tax = 5
 	base_production = 5
 }
-1627.5.1 = { controller = HAB }
 1629.5.22 = { controller = SHL }
 1773.1.1 = { controller = DAN }
 1806.7.12 = { hre = no }

@@ -2,7 +2,7 @@ owner = FRA
 controller = FRA
 capital = "Carcassonna"
 is_city = yes
-culture = occitain
+culture = languedocien
 religion = cathar
 hre = yes
 base_tax = 3
@@ -13,9 +13,6 @@ add_core = NAR
 add_core = FRA
 add_core = FOI
 add_core = TOU
-
-
-
 discovered_by = eastern
 discovered_by = western
 discovered_by = western

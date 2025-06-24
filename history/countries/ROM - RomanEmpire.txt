@@ -1,16 +1,14 @@
 government = monarchy
 #add_government_reform = roman_empire_reform
-primary_culture = greek
+primary_culture = constantionople_greek
 religion = orthodox
 religious_school = see_of_constantinople
 technology_group = western
 government_rank = 3
-capital = 151 # Constantinople
-
-elector = yes #Rome itself. Triple Ave!
-
-1434.1.1 = {
-	monarch = {
+capital = 151# Constantinople
+elector = yes#Rome itself. Triple Ave!
+1434.1.1 = { 
+	monarch = { 
 		name = "Konstantinos"
 		dynasty = "Makedon"
 		adm = 1
@@ -18,3 +16,4 @@ elector = yes #Rome itself. Triple Ave!
 		mil = 1
 	}
 }
+add_government_reform = declining_roman_empire

@@ -221,6 +221,42 @@ allianceaction = {
 			}
 		}
 	}
+	condition = {
+		tooltip = FROM_ROME_DENIED_ALLIANCE
+		potential = {
+			OR = {
+				ROOT = {
+					has_government_attribute = declining_roman_empire_diplomacy_ban
+				}
+				FROM = {
+					has_government_attribute = declining_roman_empire_diplomacy_ban
+				}
+			}
+
+		}
+		allow = {
+			always = no
+		}
+	}
+}
+
+support_independence_action = {
+	condition = {
+		tooltip = FROM_ROME_DENIED_SUPPORT_INDEPENDENCE
+		potential = {
+			OR = {
+				ROOT = {
+					has_government_attribute = declining_roman_empire_diplomacy_ban
+				}
+				FROM = {
+					has_government_attribute = declining_roman_empire_diplomacy_ban
+				}
+			}
+		}
+		allow = {
+			always = no
+		}
+	}
 }
 
 enforce_peace = {}

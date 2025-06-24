@@ -1,7 +1,7 @@
 # 4744 - Zwickau
 owner = MEI
 controller = MEI
-culture = sorbian
+culture = misnian
 religion = orthodox
 base_tax = 2
 base_production = 3

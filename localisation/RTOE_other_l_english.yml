@@ -22,3 +22,5 @@
  irish_fief_vassal_title_plural: "Irish Fiefs"
  irish_fief_vassal_long_desc: "The island of Ireland is traditionally divided into five kingdoms, but the actual number of kingdoms has often changed over the course of history. At the beginning of the 15th century there were, in fact, many semi-independent Irish states, but almost all of them recognized the authority of the High King of Ireland."
  irish_fief_vassal_is_our: "$NAME|Y$ is our Irish Fief."
+ FROM_ROME_DENIED_ALLIANCE: "[From.GetName]'s government reform does not allow for alliances."
+ FROM_ROME_DENIED_SUPPORT_INDEPENDENCE: "[From.GetName]'s government reform does not allow for supporting independence."

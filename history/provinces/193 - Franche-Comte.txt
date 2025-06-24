@@ -3,7 +3,7 @@ owner = BUR
 controller = BUR
 capital = "Besançon"
 is_city = yes
-culture = burgundian
+culture = lieunnois
 religion = orthodox
 base_tax = 3
 base_production = 4
@@ -15,7 +15,7 @@ discovered_by = western
 discovered_by = muslim
 discovered_by = ottoman
 1477.1.5 = { controller = FRA add_core = FRA }
-1493.8.19 = { controller = HAB add_core = HAB }
+1493.8.19 = { add_core = HAB }
 1519.1.12 = { controller = SPA add_core = SPA }
 1665.9.17 = { add_claim = FRA }
 1668.2.20 = { controller = FRA }

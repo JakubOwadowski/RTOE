@@ -4,7 +4,7 @@ latent_trade_goods = {
 }
 owner = BOH
 controller = BOH
-culture = polish
+culture = lesser_polish
 religion = orthodox
 capital = "Kraków"
 base_tax = 7
@@ -25,14 +25,13 @@ discovered_by = ottoman
 extra_cost = 16
 center_of_trade = 2
 1569.7.1 = { 
-	controller = PLC
 	add_core = PLC
 }
 1588.1.1 = { controller = REB revolt = { type = revolutionary_rebels size = 3 } }
-1589.1.1 = { controller = PLC revolt = { size = 1 } }
+1589.1.1 = { revolt = { size = 1 } }
 1733.1.1 = { controller = REB revolt = { type = revolutionary_rebels size = 2 } }
-1735.1.1 = { controller = PLC revolt = { size = 1 } }
-1795.10.24 = { controller = HAB add_core = HAB }
+1735.1.1 = { revolt = { size = 1 } }
+1795.10.24 = { add_core = HAB }
 1807.7.9 = { 
 	controller = POL
 }

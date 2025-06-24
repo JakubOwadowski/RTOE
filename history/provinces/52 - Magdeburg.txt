@@ -1,7 +1,7 @@
 #52 - Altmark
 owner = SAX
 controller = SAX
-culture = saxon
+culture = estphalian
 religion = orthodox
 base_tax = 4
 base_production = 4
@@ -18,7 +18,6 @@ center_of_trade = 2
 1524.1.1 = { religion = Protestant }
 1650.1.1 = { culture = prussian }
 1680.10.4 = { 
-	controller = BRA
 	add_core = BRA
 }
 1701.1.18 = { 

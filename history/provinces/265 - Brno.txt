@@ -1,7 +1,6 @@
 ### Modified 06.03.2025 17:55:09 ###
 # Brno
 # 265 Brno - 06.03.2025 17:55:09 
- 
 add_core = MVA
 add_core = BOH
 owner = MVA
@@ -9,14 +8,10 @@ controller = MVA
 base_tax = 3
 base_production = 3
 base_manpower = 2
-
 trade_goods = wine
-
-culture = czech
+culture = moravian
 religion = orthodox
 capital = "Brünn"
-
-
 discovered_by = KAZ
 discovered_by = CRI
 discovered_by = GOL
@@ -26,9 +21,4 @@ discovered_by = western
 discovered_by = eastern
 discovered_by = muslim
 discovered_by = ottoman
-
-
-
-
-
-
+is_city = no

@@ -1,7 +1,7 @@
 #58 - Anhalt
 owner = SAX
 controller = SAX
-culture = saxon
+culture = estphalian
 religion = orthodox
 capital = "Dessau"
 trade_goods = wool

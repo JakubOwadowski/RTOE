@@ -1,7 +1,7 @@
 #2299 - Bolu
 owner = ROM
 controller = ROM
-culture = greek
+culture = pontic_greek
 religion = orthodox
 capital = "Bolu"
 trade_goods = fish

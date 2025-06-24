@@ -1,7 +1,7 @@
 #319 - Mentese
 owner = ROM
 controller = ROM
-culture = greek
+culture = lycian
 religion = orthodox
 capital = "Mughla"
 trade_goods = salt

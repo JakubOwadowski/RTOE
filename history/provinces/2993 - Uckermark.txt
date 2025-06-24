@@ -1,7 +1,7 @@
 #50 - Uckermark + Stargard, etc
 owner = VEL
 controller = VEL
-culture = sorbian
+culture = lutitian
 religion = orthodox
 base_tax = 4
 base_production = 3

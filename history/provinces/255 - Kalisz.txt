@@ -1,7 +1,7 @@
 #255 - Kalisz
 owner = POL
 controller = POL
-culture = polish
+culture = greater_polish
 religion = orthodox
 capital = "Kalisz"
 trade_goods = cloth
@@ -21,15 +21,13 @@ discovered_by = muslim
 discovered_by = ottoman
 1569.7.1 = { 
 	add_core = LIT
-	controller = PLC
 	add_core = PLC
 }
 1588.1.1 = { controller = REB revolt = { type = revolutionary_rebels size = 3 } }
-1589.1.1 = { controller = PLC revolt = { size = 1 } }
+1589.1.1 = { revolt = { size = 1 } }
 1655.1.1 = { controller = SWE }
-1660.1.1 = { controller = PLC }
 1733.1.1 = { controller = REB revolt = { type = revolutionary_rebels size = 0 } }
-1735.1.1 = { controller = PLC revolt = { size = 1 } }
+1735.1.1 = { revolt = { size = 1 } }
 1793.1.23 = { 
 	controller = PRU
 	add_core = PRU

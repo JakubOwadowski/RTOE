@@ -2,7 +2,7 @@
 #50 - Brandenburg
 owner = SAX
 controller = SAX
-culture = sorbian
+culture = lutitian
 religion = orthodox
 base_tax = 4
 base_production = 4

@@ -1,6 +1,6 @@
 #Östergötland, contains Norrköping, Linköping etc.
-owner = GOT
-controller = GOT
+owner = SWE
+controller = SWE
 culture = gotalander
 religion = orthodox
 base_tax = 2
@@ -22,3 +22,4 @@ discovered_by = ottoman
 1527.6.1 = { religion = Protestant }
 1690.1.1 = { capital = "Norrköping" }
 add_core = GOT
+add_core = SWE

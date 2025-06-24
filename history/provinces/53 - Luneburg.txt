@@ -1,7 +1,7 @@
 #53 - Lüneburg
 owner = SAX
 controller = SAX
-culture = saxon
+culture = lower_saxon
 religion = orthodox
 capital = "Lüneburg"
 trade_goods = salt
@@ -16,16 +16,12 @@ discovered_by = ottoman
 1529.1.1 = { religion = Protestant }
 1550.1.1 = { base_tax = 4 base_production = 4 }
 1705.8.28 = { 
-	controller = HAN
 	add_core = HAN
 }
 1806.7.12 = { hre = no }
 1807.7.9 = { 
 	controller = WES
 	add_core = WES
-}
-1813.10.13 = { 
-	controller = HAN
 }
 add_core = SAX
 add_core = AGR

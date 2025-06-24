@@ -1,7 +1,7 @@
 #85 - Köln
 owner = RHI
 controller = RHI
-culture = hessian
+culture = rhenish
 religion = orthodox
 trade_goods = paper
 capital = "Köln"

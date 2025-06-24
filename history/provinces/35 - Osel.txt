@@ -1,6 +1,6 @@
 #Ösel and Dagö, incl. Sonnenburg and Arensburg.
-owner = GOT
-controller = GOT
+owner = DAN
+controller = DAN
 add_core = EST
 culture = livonian
 religion = finnish_pagan_reformed
@@ -27,4 +27,4 @@ discovered_by = eastern
 1721.8.30 = { 
 	add_core = RUS
 }
-add_core = GOT
+add_core = DAN

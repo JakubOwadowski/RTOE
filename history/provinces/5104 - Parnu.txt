@@ -1,7 +1,7 @@
 #Written with Eu4 Easy Province Creator by emiroercn
 #Parnu
-owner = LVA
-controller = LVA
+owner = DAN
+controller = DAN
 culture = livonian
 religion = finnish_pagan_reformed
 base_tax = 2
@@ -17,4 +17,5 @@ discovered_by = eastern
 discovered_by = western
 discovered_by = eastern
 discovered_by = western
-add_core = LVA
+add_core = DAN
+add_core = EST

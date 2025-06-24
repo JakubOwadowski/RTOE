@@ -2,7 +2,7 @@
 owner = ROM
 controller = ROM
 add_core = ROM
-culture = greek
+culture = epirote
 religion = orthodox
 capital = "Ioannina"
 trade_goods = wool

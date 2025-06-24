@@ -1,0 +1,61 @@
+namespace = RTOE_flavour_WLS
+
+#The utter ruin of the Welsh
+country_event = {
+	id = RTOE_flavour_WLS.1
+	title = RTOE_flavour_WLS.1.t
+	desc = RTOE_flavour_WLS.1.d
+	picture = VILLAGE_BURNING_eventPicture
+	
+	fire_only_once = yes
+
+	trigger = {
+		tag = GWY
+	}
+
+	mean_time_to_happen = {
+		years = 1
+	}
+
+	option = { #We're done fighting for now.
+		name = RTOE_flavour_WLS.1.a
+		custom_tooltip = RTOE_flavour_WLS.1.a.tooltip
+		ai_chance = {
+			factor = 75
+		}
+		NRM = {
+			country_event = {
+				id = RTOE_flavour_NRM.4
+			}
+		}
+	}
+	
+	option = { #There's life in us yet! 
+		name = RTOE_flavour_WLS.1.b
+		custom_tooltip = RTOE_flavour_WLS.1.b.tooltip
+		ai_chance = {
+			factor = 25
+		}
+		every_province = {
+			limit = {
+				OR = {
+					area = wales_area
+					area = south_wales_area
+					area = dyfed_area
+				}
+				NOT = { owned_by = ROOT }
+			}
+			add_permanent_claim = ROOT
+		}
+		every_province = {
+			limit = {
+				area = west_midlands_area
+			}
+			add_claim = ROOT
+		}
+		add_country_modifier = {
+			name = WLS_last_stand_of_the_celts
+			duration = 3650
+		}
+	}
+}

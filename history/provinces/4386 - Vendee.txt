@@ -1,12 +1,10 @@
 # 4111 - Vendée
-
 owner = POI
 controller = POI
 capital = "Luçon"
 is_city = yes
-culture = cosmopolitan_french
-religion = orthodox 
-hre = no
+culture = poitevin
+religion = orthodox
 base_tax = 3
 base_production = 3
 trade_goods = salt

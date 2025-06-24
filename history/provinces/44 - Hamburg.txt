@@ -1,7 +1,7 @@
 #44 - Hamburg
 owner = MKL
 controller = MKL
-culture = saxon
+culture = holsteiner
 religion = orthodox
 base_tax = 4
 base_production = 4
@@ -26,9 +26,6 @@ center_of_trade = 2
 1810.12.13 = { 
 	controller = FRA
 	add_core = FRA
-}
-1814.4.11 = { 
-	controller = HAM
 }
 add_core = AGR
 add_core = MKL

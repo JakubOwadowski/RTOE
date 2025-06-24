@@ -1,7 +1,7 @@
 #Larissa 
 owner = ROM
 controller = ROM
-culture = greek
+culture = central_greek
 religion = orthodox
 capital = "Lárisa"
 trade_goods = wine

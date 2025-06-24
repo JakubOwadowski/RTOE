@@ -2,7 +2,7 @@ owner = HES
 controller = HES
 capital = "Wiesbaden"
 trade_goods = copper
-culture = hessian
+culture = rhenish
 religion = orthodox
 base_tax = 3
 base_production = 3
@@ -21,8 +21,5 @@ discovered_by = ottoman
 1807.7.9 = { 
 	controller = WES
 	add_core = WES
-}
-1813.10.13 = { 
-	controller = NSA
 }
 add_core = HES

@@ -2,7 +2,7 @@
 #Seleukia
 owner = ROM
 controller = ROM
-culture = greek
+culture = cilician
 religion = orthodox
 hre = yes
 base_tax = 9

@@ -1,7 +1,7 @@
 # 4739 - Davos
 owner = DAV
 controller = DAV
-culture = swabian
+culture = alemannic
 religion = orthodox
 hre = yes
 base_tax = 2

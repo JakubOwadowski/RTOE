@@ -76,8 +76,7 @@ monarch_names = {
 leader_names = { 
 	Aller
 	Detmold
-	Hamelm Hildesheim Kapp
-	Minden
+	Hamelm Hildesheim Kapp Minden
 	Oldenburg
 	Salzgitter
 	Werden Wernigerode 

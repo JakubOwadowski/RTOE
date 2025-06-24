@@ -1,6 +1,6 @@
 owner = ROM
 controller = ROM
-culture = greek
+culture = macedonian
 religion = orthodox
 capital = "Siroz"
 trade_goods = grain

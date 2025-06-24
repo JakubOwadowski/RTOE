@@ -1,7 +1,6 @@
 ### Modified 11.03.2025 18:00:37 ###
 # Auxerrois
 # 4392 Auxerrois - 11.03.2025 18:00:37 
- 
 add_core = CHP
 add_core = FRA
 owner = FRA
@@ -9,23 +8,13 @@ controller = FRA
 base_tax = 4
 base_production = 4
 base_manpower = 3
-
 trade_goods = wine
-
-culture = cosmopolitan_french
+culture = champenois
 religion = orthodox
 capital = "Semur"
-
 is_city = yes
-fort_15th = yes
-
 discovered_by = eastern
 discovered_by = western
 discovered_by = muslim
 discovered_by = ottoman
-
-
-
-
-
-
+fort_15th = yes

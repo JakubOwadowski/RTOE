@@ -1,29 +1,18 @@
 ### Modified 11.03.2025 18:11:46 ###
 # Touraine
 # 4389 Touraine - 11.03.2025 18:11:46 
- 
 add_core = TOS
 owner = TOS
 controller = TOS
 base_tax = 4
 base_production = 4
 base_manpower = 3
-
 trade_goods = cloth
-
-culture = cosmopolitan_french
+culture = angevin
 religion = orthodox
 capital = "Tours"
-
 is_city = yes
-
 discovered_by = eastern
 discovered_by = western
 discovered_by = muslim
 discovered_by = ottoman
-
-
-
-
-
-

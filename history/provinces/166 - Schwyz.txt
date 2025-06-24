@@ -1,7 +1,7 @@
 #166 - Schwyz
 owner = BRN
 controller = BRN
-culture = swabian
+culture = alemannic
 religion = orthodox
 capital = "Schwyz"
 trade_goods = iron

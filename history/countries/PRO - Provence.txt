@@ -1,14 +1,13 @@
 government = monarchy
 add_government_reform = feudalism_reform
 government_rank = 1
-primary_culture = occitain
+primary_culture = provencal
 religion = orthodox
 religious_school = see_of_rome
 technology_group = western
-capital = 201 # Aix-en-Provence
-
-1434.11.16 = {
-	monarch = {
+capital = 201# Aix-en-Provence
+1434.11.16 = { 
+	monarch = { 
 		name = "Renato I"
 		dynasty = "de Axtia"
 		birth_date = 1409.1.16

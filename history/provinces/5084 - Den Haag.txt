@@ -2,7 +2,7 @@
 #Den Haag
 owner = HOL
 controller = HOL
-culture = dutch
+culture = hollander
 religion = orthodox
 base_tax = 3
 base_production = 3

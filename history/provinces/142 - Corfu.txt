@@ -1,7 +1,7 @@
 #142 - Corfu
 owner = CEP
 controller = CEP
-culture = greek
+culture = epirote
 religion = orthodox
 capital = "Corfu"
 trade_goods = fish
@@ -33,6 +33,3 @@ discovered_by = ottoman
 	add_core = GBR
 }
 fort_15th = yes
-1444.11.11 = { 
-	remove_core = VEN
-}

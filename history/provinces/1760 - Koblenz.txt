@@ -1,6 +1,6 @@
 owner = RHI
 controller = RHI
-culture = hessian
+culture = rhenish
 religion = orthodox
 trade_goods = grain
 capital = "Koblenz"

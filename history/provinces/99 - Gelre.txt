@@ -3,7 +3,7 @@ owner = SAX
 controller = SAX
 capital = "Arnhem"
 is_city = yes
-culture = saxon
+culture = hannoverian
 religion = orthodox
 base_tax = 3
 base_production = 3
@@ -18,11 +18,7 @@ discovered_by = ottoman
 	add_core = BUR
 }
 1477.1.5 = { 
-	controller = HAB
 	add_core = HAB
-}
-1492.1.1 = { 
-	controller = GEL
 }
 1543.9.7 = { controller = SPA add_core = SPA }
 1549.11.4 = { controller = NED add_core = NED }

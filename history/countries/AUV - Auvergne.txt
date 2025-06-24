@@ -2,13 +2,12 @@ government = monarchy
 add_government_reform = feudalism_reform
 government_rank = 1
 technology_group = western
-primary_culture = occitain
+primary_culture = auvernhat
 religion = orthodox
 religious_school = see_of_rome
-capital = 199	# Clermont
-
-1437.8.7 = {
-	monarch = {
+capital = 199# Clermont
+1437.8.7 = { 
+	monarch = { 
 		name = "Bertrand II"
 		dynasty = "de la Tour"
 		birth_date = 1390.1.1
@@ -17,9 +16,8 @@ capital = 199	# Clermont
 		mil = 1
 	}
 }
-
-1437.8.7 = {
-	heir = {
+1437.8.7 = { 
+	heir = { 
 		name = "Bertrand"
 		monarch_name = "Bertrand III"
 		dynasty = "de la Tour"

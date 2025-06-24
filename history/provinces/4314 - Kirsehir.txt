@@ -1,7 +1,7 @@
 #4314 - Kirsehir
 owner = ROM
 controller = ROM
-culture = greek
+culture = constantionople_greek
 religion = orthodox
 capital = "Kirshehir"
 trade_goods = wool

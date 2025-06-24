@@ -2,7 +2,7 @@
 owner = POL
 controller = POL
 add_core = POL
-culture = polish
+culture = greater_polish
 religion = orthodox
 base_tax = 2
 base_production = 2

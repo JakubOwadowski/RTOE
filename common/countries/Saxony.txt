@@ -1,16 +1,11 @@
 #Country Name: Please see filename.
-
 graphical_culture = westerngfx
 preferred_religion = reformed
-
-color = { 58  174  61 }
+color = { 58 174 61 }
 revolutionary_colors = { 0 9 0 }
-
 historical_score = 300
-
 preferred_religion = protestant
-
-historical_idea_groups = {
+historical_idea_groups = { 
 	diplomatic_ideas
 	defensive_ideas
 	innovativeness_ideas
@@ -20,8 +15,7 @@ historical_idea_groups = {
 	quality_ideas
 	administrative_ideas
 }
-
-historical_units = {
+historical_units = { 
 	western_medieval_infantry
 	western_medieval_knights
 	western_men_at_arms
@@ -38,8 +32,7 @@ historical_units = {
 	napoleonic_square
 	napoleonic_lancers
 }
-
-monarch_names = {
+monarch_names = { 
 	"Johann Georg #0" = 80
 	"Friedrich #0" = 60
 	"Friedrich August #0" = 60
@@ -80,31 +73,22 @@ monarch_names = {
 	"Ulrich #0" = 0
 	"Wilfried #0" = 0
 	"Wolfram #0" = 0
-	
 	"Amalia #0" = -1
 	"Bianka #0" = -1
 	"Eleonora #0" = -1
 }
-
-leader_names = {
-	Hergesell Oelssner Rank Teichmann Taut
-	Harzer Dietze Tellig Pilz Winkler Uhlich
-	Uebigau Kranke Bieber "von Rath" Arnim
-	Hamann Kirbach Gödel Oertel Schönfeld
-	Deitz Kuhn Sehm Fischer Bretfeld Rabs
+leader_names = { 
+	Hergesell Oelssner Rank Teichmann Taut Harzer Dietze Tellig Pilz Winkler
+	Uhlich Uebigau Kranke Bieber "von Rath" Arnim Hamann Kirbach Gödel Oertel
+	Schönfeld Deitz Kuhn Sehm Fischer Bretfeld Rabs 
 }
-
-ship_names = {
-	Widukind Edberg Wichman Billing Liedolf
-	Brun "Otto I" "Heinrich I" "Bernhard I"
-	Ordulf Manus Lothar "Heinrich II"
+ship_names = { 
+	Widukind Edberg Wichman Billing Liedolf Brun "Otto I" "Heinrich I" "Bernhard I" Ordulf
+	Manus Lothar "Heinrich II" 
 }
-
-
-army_names = {
+army_names = { 
 	"Kurfürstliche Garde" "Armee von $PROVINCE$" 
 }
-
-fleet_names = {
-	"Kurfürstliche Flotte"
+fleet_names = { 
+	"Kurfürstliche Flotte" 
 }

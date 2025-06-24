@@ -2,7 +2,7 @@
 owner = KUY
 controller = KUY
 capital = "Sieradz"
-culture = polish
+culture = greater_polish
 religion = orthodox
 trade_goods = grain
 base_tax = 3
@@ -19,17 +19,15 @@ discovered_by = eastern
 discovered_by = muslim
 discovered_by = ottoman
 1569.7.1 = { 
-	controller = PLC
 	add_core = PLC
 }
 1588.1.1 = { controller = REB revolt = { type = revolutionary_rebels size = 0 } }
-1589.1.1 = { controller = PLC revolt = { size = 1 } }
+1589.1.1 = { revolt = { size = 1 } }
 1606.1.1 = { controller = REB revolt = { type = revolutionary_rebels size = 0 } }
-1608.1.1 = { controller = PLC revolt = { size = 1 } }
+1608.1.1 = { revolt = { size = 1 } }
 1655.1.1 = { controller = SWE }
-1660.1.1 = { controller = PLC }
 1733.1.1 = { controller = REB revolt = { type = revolutionary_rebels size = 0 } }
-1735.1.1 = { controller = PLC revolt = { size = 1 } }
+1735.1.1 = { revolt = { size = 1 } }
 1793.1.2 = { 
 	controller = PRU
 	add_core = PRU

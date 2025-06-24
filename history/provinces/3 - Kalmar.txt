@@ -1,6 +1,6 @@
 #Eastern and Northern Småland - Includes parts under Östgötalag
-owner = GOT
-controller = GOT
+owner = DAN
+controller = DAN
 culture = gotalander
 religion = orthodox
 base_tax = 2
@@ -24,10 +24,10 @@ discovered_by = ottoman
 1520.3.6 = { controller = DAN }
 1523.6.4 = { controller = SWE }
 1527.6.1 = { religion = Protestant }
-1598.8.1 = { controller = PLC }
 1599.5.12 = { controller = SWE }
 1611.8.3 = { controller = DAN }
 1613.1.20 = { controller = SWE }
 1623.1.1 = { base_manpower = 4 }
 add_core = GOT
+add_core = DAN
 fort_15th = yes

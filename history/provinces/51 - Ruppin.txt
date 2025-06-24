@@ -1,7 +1,7 @@
 #51 - Ruppin
 owner = SAX
 controller = SAX
-culture = sorbian
+culture = lutitian
 religion = orthodox
 base_tax = 2
 base_production = 2

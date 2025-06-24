@@ -1,31 +1,20 @@
 ### Modified 11.03.2025 18:11:46 ###
 # Roergue
 # 198 Roergue - 11.03.2025 18:11:46 
- 
 add_core = GUY
 owner = GUY
 controller = GUY
 base_tax = 3
 base_production = 3
 base_manpower = 2
-
 trade_goods = livestock
-
-culture = occitain
+culture = languedocien
 religion = cathar
 capital = "Rodés"
-
 is_city = yes
 add_local_autonomy = 25
-
 discovered_by = eastern
 discovered_by = western
 discovered_by = western
 discovered_by = muslim
 discovered_by = ottoman
-
-
-
-
-
-

@@ -2,8 +2,8 @@
  #for changed names see replace/RTOE_replace_cultures_l_english.txt
  
  ###Greeks###
- #Byzantine -> Hellenic
- #Greek -> Rhomanian
+ #Byzantine -> Greek
+ #Greek
  pontic_greek: "Pontic"
  cilician_greek: "Cilician"
  cretean_greek: "Cretan"
@@ -11,28 +11,51 @@
  tsakonian: "Tsakonian"
  hellenoafrican: "Hellenoafrican"
  capp_greek: "Cappadocian"
+ constantionople_greek: "Rhomanian"
+ macedonian: "Macedonian"
+ peloponnese: "Peloponnese"
+ central_greek: "Sterean"
+ epirote: "Epirote"
+ thracian: "Thracian"
+ bithynian: "Bithynian"
+ ionian: "Ionian"
+ lycian: "Lycian"
 
  ###Scandinavia###
- icelandic: "Icelandic"
- vinlander: "Vinlander"
+ #Icelandic
  #Swedish
  #Danish
  #Norwegian
- gotalander: "Gottish"
- jutlander: "Jutish"
+ gotalander: "Gotalander"
+ gutnish: "Gutnish"
+ scanian: "Scanian"
  jamtlander: "Jamtlander"
 
- ###Germans###
- #Saxon
+ ###Upper German###
  #Swabian
+ alemannic: "Alemannic"
  #Bavarian
- longbard: "Langbardian"
  #Frankonian
- #Dutch
- #Frisian
  #Hessian
+ rhenish: "Rhenish"
  thuringian: "Thuringian"
+
+ ###Saxon###
+ saxon_g: "Saxon"
+ #Saxon
+ estphalian: "Estphalian"
+ #Low Saxon
+ #Westphalian
+ holsteiner: "Holsteiner"
  
+
+ ###Dutch###
+ dutch_g: "Dutch"
+ #Dutch
+ hollander: "Hollander"
+ #Flemish 
+ brabantian: "Brabantian"
+ #Frisian
  
  ###Anglo-Norman###
 
@@ -56,8 +79,6 @@
 
  brythonic: "Brythonic"
  
- ###Latin Megagroup###
- 
  ###Italian###
  #Umbrian -> Central Italian
  #Neapolitan
@@ -72,12 +93,14 @@
  istrian: "Istriot"
  
  ###Occitain###
- occitain_group: "Langues d'oc"
+ occitain_group: "Occitan"
  balearese: "Balearese"
  #Occitain
  gascon: "Gascon"
  pyrenean: "Pyrenean"
-  
+ languedocien: "Languedocien"
+ provencal: "Provencal"
+ auvernhat: "Auvernhat"
  ###Hispanic###
  #Leonese
  #Galician
@@ -98,6 +121,11 @@
  gallo: "Gallo"
  #Wallon
  #Burgundian
+ picard: "Picard"
+ poitevin: "Poitevin"
+ angevin: "Angevin"
+ champenois: "Champenois"
+ savoyard: "Savoyard"
  
  ###Daco-Romance###
  dacish: "Daco-Romance"
@@ -149,12 +177,20 @@
  moravian: "Moravian"
  pomorzan: "Pomeranian"
  #Polish
- #Czech
- #Slovak
- #Sorbian -> Lusitan
+ greater_polish: "Greater Polish"
+ lesser_polish: "Lesser Polish"
+ kashubian: "Kashubian"
  masovian: "Masovian"
+ obodrite: "Obodrite"
  silesian: "Silesian"
  lutitian: "Lutitian"
+ 
+ czechoslovak: "Czechoslovak"
+ #Czech
+ #Slovak
+ #Sorbian
+ misnian: "Misnian"
+ moravian: "Moravian"
  
  #East Slavs
  #Ruthenian -> Kyivan

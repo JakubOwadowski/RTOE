@@ -1,7 +1,7 @@
 #2981 - Montferrat
 owner = MFA
 controller = MFA
-culture = cisalpine
+culture = piedmontese
 religion = orthodox
 hre = yes
 base_tax = 5
@@ -33,13 +33,9 @@ discovered_by = ottoman
 	add_core = SIC
 }
 1720.1.1 = { 
-	controller = SPI
 	add_core = SPI
 }
 1792.9.1 = { controller = FRA }
 1792.11.27 = { 
 	add_core = FRA
-}
-1814.4.11 = { 
-	controller = SPI
 }

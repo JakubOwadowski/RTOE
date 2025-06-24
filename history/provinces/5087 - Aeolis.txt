@@ -2,7 +2,7 @@
 #Aeolis
 owner = ROM
 controller = ROM
-culture = greek
+culture = ionian
 religion = orthodox
 hre = yes
 base_tax = 9

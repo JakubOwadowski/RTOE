@@ -3,9 +3,8 @@ add_government_reform = feudalism_reform
 government_rank = 1
 technology_group = eastern
 religion = orthodox
-primary_culture = polish
-capital = 257# Warsaw
-# Mazovian Dukes# (in fact the dukes of Warsaw as Mazovia had more duchies)
+primary_culture = masovian
+capital = 257# Mazovian Dukes# (in fact the dukes of Warsaw as Mazovia had more duchies)
 1373.1.1 = { 
 	monarch = { 
 		name = "Janusz I"

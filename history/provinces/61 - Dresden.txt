@@ -1,7 +1,7 @@
 #61 - Saxony
 owner = MEI
 controller = MEI
-culture = sorbian
+culture = misnian
 religion = orthodox
 capital = "Drjezdzany"
 trade_goods = iron

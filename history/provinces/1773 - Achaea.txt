@@ -2,7 +2,7 @@
 owner = ROM
 controller = ROM
 add_core = ROM
-culture = greek
+culture = peloponnese
 religion = orthodox
 capital = "Nafplio"
 trade_goods = wine

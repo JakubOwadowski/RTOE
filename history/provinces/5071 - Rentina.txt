@@ -2,7 +2,7 @@
 add_core = ROM
 owner = ROM
 controller = ROM
-culture = greek
+culture = macedonian
 religion = orthodox
 hre = yes
 base_tax = 2

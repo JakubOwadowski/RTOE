@@ -1,7 +1,7 @@
 #1758 - Hannover
 owner = SAX
 controller = SAX
-culture = saxon
+culture = estphalian
 religion = orthodox
 capital = "Hannover"
 trade_goods = cloth
@@ -15,11 +15,9 @@ discovered_by = muslim
 discovered_by = ottoman
 1529.1.1 = { religion = Protestant }
 1692.1.1 = { 
-	controller = HAN
 	add_core = HAN
 }
 1757.7.26 = { controller = FRA }
-1757.11.5 = { controller = HAN }
 1803.7.5 = { controller = FRA }
 1805.12.15 = { 
 	controller = PRU
@@ -29,9 +27,6 @@ discovered_by = ottoman
 1807.7.9 = { 
 	controller = WES
 	add_core = WES
-}
-1813.10.13 = { 
-	controller = HAN
 }
 add_core = SAX
 add_core = AGR

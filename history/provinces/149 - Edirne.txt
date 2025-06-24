@@ -1,7 +1,7 @@
 #149 - Edirne
 owner = ROM
 controller = ROM
-culture = greek
+culture = thracian
 religion = orthodox
 capital = "Edirne"
 trade_goods = cloth

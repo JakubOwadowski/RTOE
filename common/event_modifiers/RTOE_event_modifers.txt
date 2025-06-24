@@ -55,3 +55,9 @@ NRM_rule_normandia = {
 NRM_fires_of_welsh_industry = {
 	local_production_efficiency = 0.1
 }
+
+WLS_last_stand_of_the_celts = {
+	land_morale = 0.15
+	land_forcelimit = 5
+	land_maintenance_modifier = -0.5
+}

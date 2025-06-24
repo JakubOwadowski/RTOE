@@ -1,7 +1,7 @@
 #1869 - Zurich
 owner = BRN
 controller = BRN
-culture = swabian
+culture = alemannic
 religion = orthodox
 capital = "Züri"
 trade_goods = wool

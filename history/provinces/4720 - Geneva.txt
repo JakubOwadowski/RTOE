@@ -1,10 +1,9 @@
 owner = BUR
 controller = BUR
-culture = burgundian
+culture = savoyard
 religion = orthodox
 capital = "Geneva"
 trade_goods = cloth
-hre = no
 base_tax = 6
 base_production = 4
 base_manpower = 3
